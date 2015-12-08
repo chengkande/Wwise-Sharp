@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="633894631" Name="play_ambience_bathroom"/>
+				<Event Id="204269822" Name="play_ambience_cave"/>
+				<Event Id="958760703" Name="play_ambience_ethereal"/>
+				<Event Id="3101533470" Name="play_ambience_far_side"/>
+				<Event Id="2315477407" Name="play_ambience_fort_battle"/>
+				<Event Id="1843622139" Name="play_ambience_furnace"/>
+				<Event Id="3970406781" Name="play_ambience_janitor_snoring"/>
+				<Event Id="2627729421" Name="play_ambience_outdoors_night"/>
+				<Event Id="2491648586" Name="play_ambience_party_gross"/>
+				<Event Id="146788224" Name="play_ambience_quad"/>
+				<Event Id="1766136016" Name="play_ambience_quad_blend"/>
+				<Event Id="2742584415" Name="play_ambience_school_empty"/>
+				<Event Id="2960840773" Name="play_ambience_school_people"/>
+				<Event Id="4222821503" Name="play_ambience_vent_puzzle_room"/>
+				<Event Id="3787724411" Name="play_ambience_vents"/>
+				<Event Id="1829370938" Name="play_ambience_wasteland"/>
+				<Event Id="3753095473" Name="stop_ambience_bathroom"/>
+				<Event Id="3666445064" Name="stop_ambience_cave"/>
+				<Event Id="212975933" Name="stop_ambience_ethereal"/>
+				<Event Id="2370638344" Name="stop_ambience_far_side"/>
+				<Event Id="2426191017" Name="stop_ambience_fort_battle"/>
+				<Event Id="972456049" Name="stop_ambience_furnace"/>
+				<Event Id="1186124223" Name="stop_ambience_janitor_snoring"/>
+				<Event Id="742796567" Name="stop_ambience_outdoors_night"/>
+				<Event Id="4251959004" Name="stop_ambience_party_gross"/>
+				<Event Id="3153384442" Name="stop_ambience_quad"/>
+				<Event Id="3795441542" Name="stop_ambience_quad_blend"/>
+				<Event Id="2718042301" Name="stop_ambience_school_empty"/>
+				<Event Id="591125179" Name="stop_ambience_school_people"/>
+				<Event Id="1209173157" Name="stop_ambience_vent_puzzle_room"/>
+				<Event Id="1868465901" Name="stop_ambience_vents"/>
+				<Event Id="589919364" Name="stop_ambience_wasteland"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="5215782" Language="SFX">
+					<ShortName>ambience_wasteland.wav</ShortName>
+					<Path>SFX\ambience_wasteland_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="91118028" Language="SFX">
+					<ShortName>ambience_school_people.wav</ShortName>
+					<Path>SFX\ambience_school_people_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="146021818" Language="SFX">
+					<ShortName>ambience_bathroom.wav</ShortName>
+					<Path>SFX\ambience_bathroom_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="146258339" Language="SFX">
+					<ShortName>ambience_far_side.wav</ShortName>
+					<Path>SFX\ambience_far_side_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="155480348" Language="SFX">
+					<ShortName>ambience_vents.wav</ShortName>
+					<Path>SFX\ambience_vents_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="268596333" Language="SFX">
+					<ShortName>ambience_quad.wav</ShortName>
+					<Path>SFX\ambience_quad_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="350747320" Language="SFX">
+					<ShortName>ambience_cave.wav</ShortName>
+					<Path>SFX\ambience_cave_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="400368641" Language="SFX">
+					<ShortName>ambience_fort_battle.wav</ShortName>
+					<Path>SFX\ambience_fort_battle_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="768154047" Language="SFX">
+					<ShortName>ambience_party_gross.wav</ShortName>
+					<Path>SFX\ambience_party_gross_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="822078946" Language="SFX">
+					<ShortName>ambience_furnace.wav</ShortName>
+					<Path>SFX\ambience_furnace_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="825799538" Language="SFX">
+					<ShortName>ambience_school_empty.wav</ShortName>
+					<Path>SFX\ambience_school_empty_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="909069808" Language="SFX">
+					<ShortName>ambience_janitor_snoring.wav</ShortName>
+					<Path>SFX\ambience_janitor_snoring_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="967240221" Language="SFX">
+					<ShortName>ambience_vent_puzzle_room.wav</ShortName>
+					<Path>SFX\ambience_vent_puzzle_room_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1034548613" Language="SFX">
+					<ShortName>ambience_outdoors_night.wav</ShortName>
+					<Path>SFX\ambience_outdoors_night_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1057112445" Language="SFX">
+					<ShortName>ambience_ethereal.wav</ShortName>
+					<Path>SFX\ambience_ethereal_4B8CC0C5.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1465331116" Language="SFX">
+			<ShortName>Global</ShortName>
+			<Path>Global.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2122636165" Name="captain_sax_stop"/>
+				<Event Id="779278001" Name="Death"/>
+				<Event Id="2767947223" Name="Enable_Reverb"/>
+				<Event Id="3327684401" Name="Mute_Reverb"/>
+				<Event Id="2447949490" Name="mx_test_play"/>
+				<Event Id="1038116897" Name="mxtest2_play"/>
+				<Event Id="2791324974" Name="Pause_All_Except_Ambience"/>
+				<Event Id="2735935537" Name="Pause_Music"/>
+				<Event Id="118184574" Name="popup_social_rank_up"/>
+				<Event Id="3679762312" Name="Resume_All"/>
+				<Event Id="2940177080" Name="Resume_Music"/>
+				<Event Id="617027363" Name="set_tempo_180"/>
+				<Event Id="641730168" Name="set_tempo_64"/>
+				<Event Id="3198162129" Name="Stop_All_Object_Loops"/>
+				<Event Id="2837384057" Name="stop_music"/>
+				<Event Id="2683338233" Name="test_music_01"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="99992371" Language="SFX">
+					<ShortName>ui_general_enter.wav</ShortName>
+					<Path>SFX\ui_general_enter_9E69E797.wem</Path>
+				</File>
+				<File Id="264886559" Language="SFX">
+					<ShortName>Dashing Through The Weed.wav</ShortName>
+					<Path>SFX\Dashing Through The Weed_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="518465406" Language="SFX">
+					<ShortName>Building Something New loop.wav</ShortName>
+					<Path>SFX\Building Something New loop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="601432981" Language="SFX">
+					<ShortName>midi_export.mid</ShortName>
+					<Path>SFX\midi_export_00000000.wem</Path>
+				</File>
+				<File Id="645702017" Language="SFX">
+					<ShortName>ui_general_back.wav</ShortName>
+					<Path>SFX\ui_general_back_9E69E797.wem</Path>
+				</File>
+				<File Id="701812890" Language="SFX">
+					<ShortName>ui_general_tab.wav</ShortName>
+					<Path>SFX\ui_general_tab_9E69E797.wem</Path>
+				</File>
+				<File Id="779143215" Language="SFX">
+					<ShortName>popup_social_rank_up.wav</ShortName>
+					<Path>SFX\popup_social_rank_up_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1467963052" Language="SFX">
+			<ShortName>Weapons</ShortName>
+			<Path>Weapons.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4143636684" Name="weapon_blinding_logic_a"/>
+				<Event Id="2646083688" Name="weapon_dash_a"/>
+				<Event Id="1037903799" Name="weapon_discuss_differences_a"/>
+				<Event Id="1037903796" Name="weapon_discuss_differences_b"/>
+				<Event Id="1037903797" Name="weapon_discuss_differences_c"/>
+				<Event Id="650333709" Name="weapon_fire_punch"/>
+				<Event Id="460628221" Name="weapon_flash_bomb_cast"/>
+				<Event Id="3066279679" Name="weapon_flash_bomb_explode"/>
+				<Event Id="2058437552" Name="weapon_fowl_mouth"/>
+				<Event Id="2299537414" Name="weapon_fowl_mouth_hit"/>
+				<Event Id="2496266296" Name="weapon_hammer_01"/>
+				<Event Id="298025152" Name="weapon_lightning_bolt"/>
+				<Event Id="121394414" Name="weapon_mop_01"/>
+				<Event Id="1589326583" Name="weapon_sword_01"/>
+				<Event Id="16662234" Name="weapon_sword_barrage_lvl1"/>
+				<Event Id="16662233" Name="weapon_sword_barrage_lvl2"/>
+				<Event Id="16662232" Name="weapon_sword_barrage_lvl3"/>
+				<Event Id="16662239" Name="weapon_sword_barrage_lvl4"/>
+				<Event Id="3774400077" Name="weapon_zap"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="31719368" Language="SFX">
+					<ShortName>weapon_flash_bomb_cast_01.wav</ShortName>
+					<Path>SFX\weapon_flash_bomb_cast_01_9E69E797.wem</Path>
+				</File>
+				<File Id="44664852" Language="SFX">
+					<ShortName>weapon_sword_01.wav</ShortName>
+					<Path>SFX\weapon_sword_01_9E69E797.wem</Path>
+				</File>
+				<File Id="51909961" Language="SFX">
+					<ShortName>weapon_fowl_mouth_02.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_02_9E69E797.wem</Path>
+				</File>
+				<File Id="90061977" Language="SFX">
+					<ShortName>weapon_discuss_differences_a_02.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_a_02_9E69E797.wem</Path>
+				</File>
+				<File Id="110376722" Language="SFX">
+					<ShortName>weapon_fowl_mouth_hit_05.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_hit_05_9E69E797.wem</Path>
+				</File>
+				<File Id="125435323" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl3_c_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl3_c_01_9E69E797.wem</Path>
+				</File>
+				<File Id="129916489" Language="SFX">
+					<ShortName>weapon_flash_bomb_explode_01.wav</ShortName>
+					<Path>SFX\weapon_flash_bomb_explode_01_9E69E797.wem</Path>
+				</File>
+				<File Id="151454191" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl4_b_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl4_b_01_9E69E797.wem</Path>
+				</File>
+				<File Id="228240976" Language="SFX">
+					<ShortName>weapon_discuss_differences_a_01.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_a_01_9E69E797.wem</Path>
+				</File>
+				<File Id="318817036" Language="SFX">
+					<ShortName>weapon_discuss_differences_c_02.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_c_02_9E69E797.wem</Path>
+				</File>
+				<File Id="321448468" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl4_a_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl4_a_01_9E69E797.wem</Path>
+				</File>
+				<File Id="326671004" Language="SFX">
+					<ShortName>weapon_blinding_logic_a_01.wav</ShortName>
+					<Path>SFX\weapon_blinding_logic_a_01_9E69E797.wem</Path>
+				</File>
+				<File Id="335138278" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl3_d_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl3_d_01_9E69E797.wem</Path>
+				</File>
+				<File Id="363673862" Language="SFX">
+					<ShortName>weapon_discuss_differences_b_04.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_b_04_9E69E797.wem</Path>
+				</File>
+				<File Id="392549764" Language="SFX">
+					<ShortName>weapon_discuss_differences_c_05.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_c_05_9E69E797.wem</Path>
+				</File>
+				<File Id="402421603" Language="SFX">
+					<ShortName>weapon_discuss_differences_a_03.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_a_03_9E69E797.wem</Path>
+				</File>
+				<File Id="417755711" Language="SFX">
+					<ShortName>weapon_fowl_mouth_05.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_05_9E69E797.wem</Path>
+				</File>
+				<File Id="502383794" Language="SFX">
+					<ShortName>weapon_discuss_differences_c_03.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_c_03_9E69E797.wem</Path>
+				</File>
+				<File Id="509195348" Language="SFX">
+					<ShortName>weapon_zap_a_02.wav</ShortName>
+					<Path>SFX\weapon_zap_a_02_9E69E797.wem</Path>
+				</File>
+				<File Id="509569862" Language="SFX">
+					<ShortName>weapon_discuss_differences_a_04.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_a_04_9E69E797.wem</Path>
+				</File>
+				<File Id="538219484" Language="SFX">
+					<ShortName>weapon_dash_a_01.wav</ShortName>
+					<Path>SFX\weapon_dash_a_01_9E69E797.wem</Path>
+				</File>
+				<File Id="575319096" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl1_c_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl1_c_01_9E69E797.wem</Path>
+				</File>
+				<File Id="585285852" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl4_d_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl4_d_01_9E69E797.wem</Path>
+				</File>
+				<File Id="621445956" Language="SFX">
+					<ShortName>weapon_fowl_mouth_hit_04.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_hit_04_9E69E797.wem</Path>
+				</File>
+				<File Id="635462383" Language="SFX">
+					<ShortName>weapon_discuss_differences_a_05.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_a_05_9E69E797.wem</Path>
+				</File>
+				<File Id="638863363" Language="SFX">
+					<ShortName>weapon_discuss_differences_b_03.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_b_03_9E69E797.wem</Path>
+				</File>
+				<File Id="730958013" Language="SFX">
+					<ShortName>weapon_discuss_differences_b_05.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_b_05_9E69E797.wem</Path>
+				</File>
+				<File Id="749546551" Language="SFX">
+					<ShortName>weapon_mop_01.wav</ShortName>
+					<Path>SFX\weapon_mop_01_9E69E797.wem</Path>
+				</File>
+				<File Id="751964594" Language="SFX">
+					<ShortName>weapon_discuss_differences_b_01.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_b_01_9E69E797.wem</Path>
+				</File>
+				<File Id="756391493" Language="SFX">
+					<ShortName>weapon_fire_punch_a_02.wav</ShortName>
+					<Path>SFX\weapon_fire_punch_a_02_9E69E797.wem</Path>
+				</File>
+				<File Id="773012228" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl2_c_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl2_c_01_9E69E797.wem</Path>
+				</File>
+				<File Id="783614087" Language="SFX">
+					<ShortName>weapon_zap_a_01.wav</ShortName>
+					<Path>SFX\weapon_zap_a_01_9E69E797.wem</Path>
+				</File>
+				<File Id="784927111" Language="SFX">
+					<ShortName>weapon_lightning_bolt_a_03.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_a_03_9E69E797.wem</Path>
+				</File>
+				<File Id="790283218" Language="SFX">
+					<ShortName>weapon_flash_bomb_loop.wav</ShortName>
+					<Path>SFX\weapon_flash_bomb_loop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="806239289" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl3_a_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl3_a_01_9E69E797.wem</Path>
+				</File>
+				<File Id="807949423" Language="SFX">
+					<ShortName>weapon_fowl_mouth_hit_02.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_hit_02_9E69E797.wem</Path>
+				</File>
+				<File Id="820967242" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl1_a_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl1_a_01_9E69E797.wem</Path>
+				</File>
+				<File Id="829751204" Language="SFX">
+					<ShortName>weapon_discuss_differences_c_01.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_c_01_9E69E797.wem</Path>
+				</File>
+				<File Id="859997864" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl4_c_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl4_c_01_9E69E797.wem</Path>
+				</File>
+				<File Id="868598505" Language="SFX">
+					<ShortName>weapon_fire_punch_a_01.wav</ShortName>
+					<Path>SFX\weapon_fire_punch_a_01_9E69E797.wem</Path>
+				</File>
+				<File Id="899331217" Language="SFX">
+					<ShortName>weapon_fowl_mouth_04.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_04_9E69E797.wem</Path>
+				</File>
+				<File Id="901155037" Language="SFX">
+					<ShortName>weapon_lightning_bolt_a_01.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_a_01_9E69E797.wem</Path>
+				</File>
+				<File Id="907744810" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl1_b_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl1_b_01_9E69E797.wem</Path>
+				</File>
+				<File Id="913390813" Language="SFX">
+					<ShortName>weapon_fowl_mouth_hit_03.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_hit_03_9E69E797.wem</Path>
+				</File>
+				<File Id="918525327" Language="SFX">
+					<ShortName>weapon_fowl_mouth_hit_01.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_hit_01_9E69E797.wem</Path>
+				</File>
+				<File Id="927116255" Language="SFX">
+					<ShortName>weapon_fire_punch_a_03.wav</ShortName>
+					<Path>SFX\weapon_fire_punch_a_03_9E69E797.wem</Path>
+				</File>
+				<File Id="928912859" Language="SFX">
+					<ShortName>weapon_discuss_differences_b_02.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_b_02_9E69E797.wem</Path>
+				</File>
+				<File Id="952077757" Language="SFX">
+					<ShortName>weapon_discuss_differences_c_04.wav</ShortName>
+					<Path>SFX\weapon_discuss_differences_c_04_9E69E797.wem</Path>
+				</File>
+				<File Id="956451963" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl3_b_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl3_b_01_9E69E797.wem</Path>
+				</File>
+				<File Id="973867933" Language="SFX">
+					<ShortName>weapon_hammer_01.wav</ShortName>
+					<Path>SFX\weapon_hammer_01_9E69E797.wem</Path>
+				</File>
+				<File Id="994045258" Language="SFX">
+					<ShortName>weapon_fowl_mouth_03.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_03_9E69E797.wem</Path>
+				</File>
+				<File Id="1022730957" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl2_a_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl2_a_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1029844265" Language="SFX">
+					<ShortName>weapon_fowl_mouth_01.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1047294325" Language="SFX">
+					<ShortName>weapon_lightning_bolt_a_02.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_a_02_9E69E797.wem</Path>
+				</File>
+				<File Id="1057258551" Language="SFX">
+					<ShortName>weapon_sword_barrage_lvl2_b_01.wav</ShortName>
+					<Path>SFX\weapon_sword_barrage_lvl2_b_01_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1695690031" Language="SFX">
+			<ShortName>Objects</ShortName>
+			<Path>Objects.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3489963256" Name="object_barrel_metal_destroy"/>
+				<Event Id="4277131229" Name="object_barrel_metal_hit"/>
+				<Event Id="2146372163" Name="object_barrel_science_destroy"/>
+				<Event Id="3389587138" Name="object_barrel_science_hit"/>
+				<Event Id="2379064502" Name="object_barrel_wood_destroy"/>
+				<Event Id="3889609359" Name="object_barrel_wood_hit"/>
+				<Event Id="3231815477" Name="object_bomb_horse_move_loop_start"/>
+				<Event Id="950003607" Name="object_bomb_horse_move_loop_stop"/>
+				<Event Id="2637548363" Name="object_button_large"/>
+				<Event Id="139566457" Name="object_chest_open"/>
+				<Event Id="607690133" Name="object_chest_unlock"/>
+				<Event Id="417369426" Name="object_coal_break"/>
+				<Event Id="1245247142" Name="object_coal_damage"/>
+				<Event Id="344650103" Name="object_fire_trap"/>
+				<Event Id="2172612084" Name="object_ghost_sucker_damage"/>
+				<Event Id="1417365428" Name="object_ghost_sucker_loop_start"/>
+				<Event Id="1622373416" Name="object_ghost_sucker_loop_stop"/>
+				<Event Id="3733473207" Name="object_giant_flask_trap_destroy"/>
+				<Event Id="2848384629" Name="object_giant_flask_trap_start"/>
+				<Event Id="1638932804" Name="object_goblin_hut_damage"/>
+				<Event Id="3291599859" Name="object_goblin_hut_destroy"/>
+				<Event Id="1523419505" Name="object_goblin_hut_fire_loop_start"/>
+				<Event Id="484658667" Name="object_goblin_hut_fire_loop_stop"/>
+				<Event Id="1121409554" Name="object_horse_damage"/>
+				<Event Id="1522951853" Name="object_lock_open"/>
+				<Event Id="861682655" Name="object_locker_crash"/>
+				<Event Id="3927166585" Name="object_locker_hit"/>
+				<Event Id="4283575905" Name="object_pickup_coin"/>
+				<Event Id="1129603612" Name="object_pickup_combo"/>
+				<Event Id="959494480" Name="object_pickup_health"/>
+				<Event Id="3077159772" Name="object_pickup_loot"/>
+				<Event Id="273025638" Name="object_pickup_misc"/>
+				<Event Id="2427994668" Name="object_pickup_textbook"/>
+				<Event Id="3445544080" Name="object_platform_end"/>
+				<Event Id="4020122411" Name="object_platform_start"/>
+				<Event Id="1153978322" Name="object_portal_loop"/>
+				<Event Id="1726241635" Name="object_portal_pulse"/>
+				<Event Id="3910530431" Name="object_prologue_rat_die"/>
+				<Event Id="1813839388" Name="object_steam_vent_start"/>
+				<Event Id="2860618480" Name="object_steam_vent_stop"/>
+				<Event Id="3734059916" Name="object_tim_fight_barrel_destroy"/>
+				<Event Id="1783553065" Name="object_tim_fight_barrel_hit"/>
+				<Event Id="616300807" Name="object_tim_fight_platforms_appear"/>
+				<Event Id="80441969" Name="object_tim_fight_platforms_break"/>
+				<Event Id="1869853499" Name="object_vents_platform_fall"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="24716759" Language="SFX">
+					<ShortName>object_horse_damage_02.wav</ShortName>
+					<Path>SFX\object_horse_damage_02_9E69E797.wem</Path>
+				</File>
+				<File Id="36338803" Language="SFX">
+					<ShortName>object_goblin_hut_fire_loop.wav</ShortName>
+					<Path>SFX\object_goblin_hut_fire_loop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="44397900" Language="SFX">
+					<ShortName>object_barrel_metal_destroy_02.wav</ShortName>
+					<Path>SFX\object_barrel_metal_destroy_02_9E69E797.wem</Path>
+				</File>
+				<File Id="66861835" Language="SFX">
+					<ShortName>object_ghost_sucker_damage_01.wav</ShortName>
+					<Path>SFX\object_ghost_sucker_damage_01_9E69E797.wem</Path>
+				</File>
+				<File Id="72837111" Language="SFX">
+					<ShortName>object_coal_damage_01.wav</ShortName>
+					<Path>SFX\object_coal_damage_01_9E69E797.wem</Path>
+				</File>
+				<File Id="95000677" Language="SFX">
+					<ShortName>object_steam_vent_stop.wav</ShortName>
+					<Path>SFX\object_steam_vent_stop_9E69E797.wem</Path>
+				</File>
+				<File Id="99929452" Language="SFX">
+					<ShortName>object_portal_loop.wav</ShortName>
+					<Path>SFX\object_portal_loop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="112332347" Language="SFX">
+					<ShortName>object_barrel_wood_hit_03.wav</ShortName>
+					<Path>SFX\object_barrel_wood_hit_03_9E69E797.wem</Path>
+				</File>
+				<File Id="118476583" Language="SFX">
+					<ShortName>object_barrel_wood_hit_01.wav</ShortName>
+					<Path>SFX\object_barrel_wood_hit_01_9E69E797.wem</Path>
+				</File>
+				<File Id="123088860" Language="SFX">
+					<ShortName>object_tim_fight_barrel_hit.wav</ShortName>
+					<Path>SFX\object_tim_fight_barrel_hit_9E69E797.wem</Path>
+				</File>
+				<File Id="126037475" Language="SFX">
+					<ShortName>object_giant_flask_trap_destroy.wav</ShortName>
+					<Path>SFX\object_giant_flask_trap_destroy_9E69E797.wem</Path>
+				</File>
+				<File Id="139162179" Language="SFX">
+					<ShortName>object_barrel_wood_destroy_01.wav</ShortName>
+					<Path>SFX\object_barrel_wood_destroy_01_9E69E797.wem</Path>
+				</File>
+				<File Id="180170831" Language="SFX">
+					<ShortName>object_pickup_coin_04.wav</ShortName>
+					<Path>SFX\object_pickup_coin_04_9E69E797.wem</Path>
+				</File>
+				<File Id="180750169" Language="SFX">
+					<ShortName>object_barrel_wood_hit_02.wav</ShortName>
+					<Path>SFX\object_barrel_wood_hit_02_9E69E797.wem</Path>
+				</File>
+				<File Id="223192334" Language="SFX">
+					<ShortName>object_pickup_coin_01.wav</ShortName>
+					<Path>SFX\object_pickup_coin_01_9E69E797.wem</Path>
+				</File>
+				<File Id="229887647" Language="SFX">
+					<ShortName>object_barrel_science_destroy_01.wav</ShortName>
+					<Path>SFX\object_barrel_science_destroy_01_9E69E797.wem</Path>
+				</File>
+				<File Id="245237797" Language="SFX">
+					<ShortName>object_horse_damage_03.wav</ShortName>
+					<Path>SFX\object_horse_damage_03_9E69E797.wem</Path>
+				</File>
+				<File Id="250691801" Language="SFX">
+					<ShortName>object_prologue_rat_die.wav</ShortName>
+					<Path>SFX\object_prologue_rat_die_9E69E797.wem</Path>
+				</File>
+				<File Id="266484649" Language="SFX">
+					<ShortName>object_chest_open.wav</ShortName>
+					<Path>SFX\object_chest_open_9E69E797.wem</Path>
+				</File>
+				<File Id="279215626" Language="SFX">
+					<ShortName>object_barrel_metal_hit_03.wav</ShortName>
+					<Path>SFX\object_barrel_metal_hit_03_9E69E797.wem</Path>
+				</File>
+				<File Id="284644986" Language="SFX">
+					<ShortName>object_pickup_loot.wav</ShortName>
+					<Path>SFX\object_pickup_loot_9E69E797.wem</Path>
+				</File>
+				<File Id="292593900" Language="SFX">
+					<ShortName>object_coal_break_02.wav</ShortName>
+					<Path>SFX\object_coal_break_02_9E69E797.wem</Path>
+				</File>
+				<File Id="327863418" Language="SFX">
+					<ShortName>object_vents_platform_fall.wav</ShortName>
+					<Path>SFX\object_vents_platform_fall_9E69E797.wem</Path>
+				</File>
+				<File Id="332698090" Language="SFX">
+					<ShortName>object_ghost_sucker_loop.wav</ShortName>
+					<Path>SFX\object_ghost_sucker_loop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="349496360" Language="SFX">
+					<ShortName>object_barrel_science_destroy_02.wav</ShortName>
+					<Path>SFX\object_barrel_science_destroy_02_9E69E797.wem</Path>
+				</File>
+				<File Id="351371970" Language="SFX">
+					<ShortName>object_steam_vent_loop.wav</ShortName>
+					<Path>SFX\object_steam_vent_loop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="390815055" Language="SFX">
+					<ShortName>object_barrel_metal_destroy_03.wav</ShortName>
+					<Path>SFX\object_barrel_metal_destroy_03_9E69E797.wem</Path>
+				</File>
+				<File Id="390921670" Language="SFX">
+					<ShortName>object_portal_pulse.wav</ShortName>
+					<Path>SFX\object_portal_pulse_9E69E797.wem</Path>
+				</File>
+				<File Id="436196109" Language="SFX">
+					<ShortName>object_pickup_combo.wav</ShortName>
+					<Path>SFX\object_pickup_combo_9E69E797.wem</Path>
+				</File>
+				<File Id="445532519" Language="SFX">
+					<ShortName>object_lock_open.wav</ShortName>
+					<Path>SFX\object_lock_open_9E69E797.wem</Path>
+				</File>
+				<File Id="448077811" Language="SFX">
+					<ShortName>object_barrel_wood_destroy_02.wav</ShortName>
+					<Path>SFX\object_barrel_wood_destroy_02_9E69E797.wem</Path>
+				</File>
+				<File Id="466120898" Language="SFX">
+					<ShortName>object_coal_damage_02.wav</ShortName>
+					<Path>SFX\object_coal_damage_02_9E69E797.wem</Path>
+				</File>
+				<File Id="467945992" Language="SFX">
+					<ShortName>object_bomb_horse_move_loop.wav</ShortName>
+					<Path>SFX\object_bomb_horse_move_loop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="509838067" Language="SFX">
+					<ShortName>object_giant_flask_trap_start.wav</ShortName>
+					<Path>SFX\object_giant_flask_trap_start_9E69E797.wem</Path>
+				</File>
+				<File Id="543355819" Language="SFX">
+					<ShortName>object_pickup_coin_05.wav</ShortName>
+					<Path>SFX\object_pickup_coin_05_9E69E797.wem</Path>
+				</File>
+				<File Id="555485371" Language="SFX">
+					<ShortName>object_platform_loop.wav</ShortName>
+					<Path>SFX\object_platform_loop_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="610248327" Language="SFX">
+					<ShortName>object_pickup_coin_03.wav</ShortName>
+					<Path>SFX\object_pickup_coin_03_9E69E797.wem</Path>
+				</File>
+				<File Id="616031018" Language="SFX">
+					<ShortName>object_tim_fight_platforms_appear.wav</ShortName>
+					<Path>SFX\object_tim_fight_platforms_appear_9E69E797.wem</Path>
+				</File>
+				<File Id="617356778" Language="SFX">
+					<ShortName>object_tim_fight_platforms_break.wav</ShortName>
+					<Path>SFX\object_tim_fight_platforms_break_9E69E797.wem</Path>
+				</File>
+				<File Id="628292486" Language="SFX">
+					<ShortName>object_horse_damage_01.wav</ShortName>
+					<Path>SFX\object_horse_damage_01_9E69E797.wem</Path>
+				</File>
+				<File Id="636349257" Language="SFX">
+					<ShortName>object_goblin_hut_damage.wav</ShortName>
+					<Path>SFX\object_goblin_hut_damage_9E69E797.wem</Path>
+				</File>
+				<File Id="649752723" Language="SFX">
+					<ShortName>object_steam_vent_start.wav</ShortName>
+					<Path>SFX\object_steam_vent_start_9E69E797.wem</Path>
+				</File>
+				<File Id="682921533" Language="SFX">
+					<ShortName>object_pickup_textbook.wav</ShortName>
+					<Path>SFX\object_pickup_textbook_9E69E797.wem</Path>
+				</File>
+				<File Id="690144131" Language="SFX">
+					<ShortName>object_coal_break_01.wav</ShortName>
+					<Path>SFX\object_coal_break_01_9E69E797.wem</Path>
+				</File>
+				<File Id="746833307" Language="SFX">
+					<ShortName>object_barrel_metal_hit_02.wav</ShortName>
+					<Path>SFX\object_barrel_metal_hit_02_9E69E797.wem</Path>
+				</File>
+				<File Id="763699175" Language="SFX">
+					<ShortName>object_button_large.wav</ShortName>
+					<Path>SFX\object_button_large_9E69E797.wem</Path>
+				</File>
+				<File Id="763772102" Language="SFX">
+					<ShortName>object_platform_start.wav</ShortName>
+					<Path>SFX\object_platform_start_9E69E797.wem</Path>
+				</File>
+				<File Id="790978497" Language="SFX">
+					<ShortName>object_coal_damage_03.wav</ShortName>
+					<Path>SFX\object_coal_damage_03_9E69E797.wem</Path>
+				</File>
+				<File Id="793897608" Language="SFX">
+					<ShortName>object_pickup_health_2.wav</ShortName>
+					<Path>SFX\object_pickup_health_2_9E69E797.wem</Path>
+				</File>
+				<File Id="810233916" Language="SFX">
+					<ShortName>object_pickup_coin_02.wav</ShortName>
+					<Path>SFX\object_pickup_coin_02_9E69E797.wem</Path>
+				</File>
+				<File Id="826928056" Language="SFX">
+					<ShortName>object_barrel_science_destroy_03.wav</ShortName>
+					<Path>SFX\object_barrel_science_destroy_03_9E69E797.wem</Path>
+				</File>
+				<File Id="836652653" Language="SFX">
+					<ShortName>object_platform_end.wav</ShortName>
+					<Path>SFX\object_platform_end_9E69E797.wem</Path>
+				</File>
+				<File Id="849236864" Language="SFX">
+					<ShortName>object_tim_fight_barrel_destroy.wav</ShortName>
+					<Path>SFX\object_tim_fight_barrel_destroy_9E69E797.wem</Path>
+				</File>
+				<File Id="858389682" Language="SFX">
+					<ShortName>object_chest_unlock.wav</ShortName>
+					<Path>SFX\object_chest_unlock_9E69E797.wem</Path>
+				</File>
+				<File Id="902296621" Language="SFX">
+					<ShortName>object_barrel_metal_destroy_01.wav</ShortName>
+					<Path>SFX\object_barrel_metal_destroy_01_9E69E797.wem</Path>
+				</File>
+				<File Id="915546877" Language="SFX">
+					<ShortName>object_barrel_wood_destroy_03.wav</ShortName>
+					<Path>SFX\object_barrel_wood_destroy_03_9E69E797.wem</Path>
+				</File>
+				<File Id="934650014" Language="SFX">
+					<ShortName>object_fire_trap_01.wav</ShortName>
+					<Path>SFX\object_fire_trap_01_9E69E797.wem</Path>
+				</File>
+				<File Id="938093457" Language="SFX">
+					<ShortName>object_barrel_science_hit_02.wav</ShortName>
+					<Path>SFX\object_barrel_science_hit_02_9E69E797.wem</Path>
+				</File>
+				<File Id="979148409" Language="SFX">
+					<ShortName>object_goblin_hut_destroy.wav</ShortName>
+					<Path>SFX\object_goblin_hut_destroy_9E69E797.wem</Path>
+				</File>
+				<File Id="982785639" Language="SFX">
+					<ShortName>object_barrel_science_hit_03.wav</ShortName>
+					<Path>SFX\object_barrel_science_hit_03_9E69E797.wem</Path>
+				</File>
+				<File Id="987142050" Language="SFX">
+					<ShortName>object_ghost_sucker_damage_02.wav</ShortName>
+					<Path>SFX\object_ghost_sucker_damage_02_9E69E797.wem</Path>
+				</File>
+				<File Id="1002170629" Language="SFX">
+					<ShortName>object_fire_trap_02.wav</ShortName>
+					<Path>SFX\object_fire_trap_02_9E69E797.wem</Path>
+				</File>
+				<File Id="1034723544" Language="SFX">
+					<ShortName>object_barrel_science_hit_01.wav</ShortName>
+					<Path>SFX\object_barrel_science_hit_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1036736257" Language="SFX">
+					<ShortName>object_barrel_metal_hit_01.wav</ShortName>
+					<Path>SFX\object_barrel_metal_hit_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1047045587" Language="SFX">
+					<ShortName>object_pickup_misc.wav</ShortName>
+					<Path>SFX\object_pickup_misc_9E69E797.wem</Path>
+				</File>
+				<File Id="1051683334" Language="SFX">
+					<ShortName>object_locker_crash.wav</ShortName>
+					<Path>SFX\object_locker_crash_9E69E797.wem</Path>
+				</File>
+				<File Id="1054524985" Language="SFX">
+					<ShortName>object_locker_hit.wav</ShortName>
+					<Path>SFX\object_locker_hit_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2129636626" Language="SFX">
+			<ShortName>Movement</ShortName>
+			<Path>Movement.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2820657510" Name="movement_door_locked"/>
+				<Event Id="2079139690" Name="movement_duck"/>
+				<Event Id="4277956123" Name="movement_footstep"/>
+				<Event Id="2237898973" Name="movement_jump"/>
+				<Event Id="4025078146" Name="movement_land"/>
+				<Event Id="3479214307" Name="movement_portal"/>
+				<Event Id="449381383" Name="movement_unduck"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="2785662" Language="SFX">
+					<ShortName>movement_jump_science_01.wav</ShortName>
+					<Path>SFX\movement_jump_science_01_9E69E797.wem</Path>
+				</File>
+				<File Id="13472031" Language="SFX">
+					<ShortName>movement_jump_hallway_01.wav</ShortName>
+					<Path>SFX\movement_jump_hallway_01_9E69E797.wem</Path>
+				</File>
+				<File Id="28591124" Language="SFX">
+					<ShortName>movement_footstep_walk_vent_05.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_vent_05_9E69E797.wem</Path>
+				</File>
+				<File Id="33698172" Language="SFX">
+					<ShortName>movement_footstep_walk_science_02.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_science_02_9E69E797.wem</Path>
+				</File>
+				<File Id="49521777" Language="SFX">
+					<ShortName>movement_footstep_walk_hallway_04.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_hallway_04_9E69E797.wem</Path>
+				</File>
+				<File Id="65668566" Language="SFX">
+					<ShortName>movement_footstep_walk_room_03.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_room_03_9E69E797.wem</Path>
+				</File>
+				<File Id="75652572" Language="SFX">
+					<ShortName>movement_land_hallway_02.wav</ShortName>
+					<Path>SFX\movement_land_hallway_02_9E69E797.wem</Path>
+				</File>
+				<File Id="86183594" Language="SFX">
+					<ShortName>movement_footstep_walk_vent_03.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_vent_03_9E69E797.wem</Path>
+				</File>
+				<File Id="106924608" Language="SFX">
+					<ShortName>movement_land_science_01.wav</ShortName>
+					<Path>SFX\movement_land_science_01_9E69E797.wem</Path>
+				</File>
+				<File Id="150590894" Language="SFX">
+					<ShortName>movement_jump_room_01.wav</ShortName>
+					<Path>SFX\movement_jump_room_01_9E69E797.wem</Path>
+				</File>
+				<File Id="152563503" Language="SFX">
+					<ShortName>movement_footstep_walk_vent_06.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_vent_06_9E69E797.wem</Path>
+				</File>
+				<File Id="166480715" Language="SFX">
+					<ShortName>movement_unduck.wav</ShortName>
+					<Path>SFX\movement_unduck_9E69E797.wem</Path>
+				</File>
+				<File Id="171165779" Language="SFX">
+					<ShortName>movement_land_room_01.wav</ShortName>
+					<Path>SFX\movement_land_room_01_9E69E797.wem</Path>
+				</File>
+				<File Id="187009570" Language="SFX">
+					<ShortName>movement_land_vent_02.wav</ShortName>
+					<Path>SFX\movement_land_vent_02_9E69E797.wem</Path>
+				</File>
+				<File Id="202922288" Language="SFX">
+					<ShortName>movement_door_locked.wav</ShortName>
+					<Path>SFX\movement_door_locked_9E69E797.wem</Path>
+				</File>
+				<File Id="210760701" Language="SFX">
+					<ShortName>movement_footstep_walk_science_04.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_science_04_9E69E797.wem</Path>
+				</File>
+				<File Id="308226498" Language="SFX">
+					<ShortName>movement_jump_outside_02.wav</ShortName>
+					<Path>SFX\movement_jump_outside_02_9E69E797.wem</Path>
+				</File>
+				<File Id="311712698" Language="SFX">
+					<ShortName>movement_stairs.wav</ShortName>
+					<Path>SFX\movement_stairs_9E69E797.wem</Path>
+				</File>
+				<File Id="315855122" Language="SFX">
+					<ShortName>movement_footstep_walk_outside_03.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_outside_03_9E69E797.wem</Path>
+				</File>
+				<File Id="338415879" Language="SFX">
+					<ShortName>movement_land_vent_01.wav</ShortName>
+					<Path>SFX\movement_land_vent_01_9E69E797.wem</Path>
+				</File>
+				<File Id="390902691" Language="SFX">
+					<ShortName>movement_footstep_walk_science_03.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_science_03_9E69E797.wem</Path>
+				</File>
+				<File Id="401185449" Language="SFX">
+					<ShortName>movement_jump_room_02.wav</ShortName>
+					<Path>SFX\movement_jump_room_02_9E69E797.wem</Path>
+				</File>
+				<File Id="417040582" Language="SFX">
+					<ShortName>movement_footstep_walk_room_06.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_room_06_9E69E797.wem</Path>
+				</File>
+				<File Id="432463268" Language="SFX">
+					<ShortName>movement_jump_vent_02.wav</ShortName>
+					<Path>SFX\movement_jump_vent_02_9E69E797.wem</Path>
+				</File>
+				<File Id="480419391" Language="SFX">
+					<ShortName>movement_footstep_walk_hallway_01.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_hallway_01_9E69E797.wem</Path>
+				</File>
+				<File Id="514174404" Language="SFX">
+					<ShortName>movement_door_open.wav</ShortName>
+					<Path>SFX\movement_door_open_9E69E797.wem</Path>
+				</File>
+				<File Id="530008874" Language="SFX">
+					<ShortName>movement_footstep_walk_outside_01.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_outside_01_9E69E797.wem</Path>
+				</File>
+				<File Id="548768604" Language="SFX">
+					<ShortName>movement_footstep_walk_outside_05.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_outside_05_9E69E797.wem</Path>
+				</File>
+				<File Id="591160730" Language="SFX">
+					<ShortName>movement_footstep_walk_hallway_02.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_hallway_02_9E69E797.wem</Path>
+				</File>
+				<File Id="629353408" Language="SFX">
+					<ShortName>movement_footstep_walk_vent_02.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_vent_02_9E69E797.wem</Path>
+				</File>
+				<File Id="629651822" Language="SFX">
+					<ShortName>movement_footstep_walk_science_05.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_science_05_9E69E797.wem</Path>
+				</File>
+				<File Id="657561151" Language="SFX">
+					<ShortName>movement_land_outside_01.wav</ShortName>
+					<Path>SFX\movement_land_outside_01_9E69E797.wem</Path>
+				</File>
+				<File Id="669153714" Language="SFX">
+					<ShortName>movement_footstep_walk_outside_06.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_outside_06_9E69E797.wem</Path>
+				</File>
+				<File Id="689147296" Language="SFX">
+					<ShortName>movement_footstep_walk_room_01.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_room_01_9E69E797.wem</Path>
+				</File>
+				<File Id="689292818" Language="SFX">
+					<ShortName>movement_footstep_walk_hallway_03.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_hallway_03_9E69E797.wem</Path>
+				</File>
+				<File Id="736931763" Language="SFX">
+					<ShortName>movement_land_science_02.wav</ShortName>
+					<Path>SFX\movement_land_science_02_9E69E797.wem</Path>
+				</File>
+				<File Id="752096052" Language="SFX">
+					<ShortName>movement_portal_enter.wav</ShortName>
+					<Path>SFX\movement_portal_enter_9E69E797.wem</Path>
+				</File>
+				<File Id="764619556" Language="SFX">
+					<ShortName>movement_footstep_walk_outside_02.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_outside_02_9E69E797.wem</Path>
+				</File>
+				<File Id="814477897" Language="SFX">
+					<ShortName>movement_jump_outside_01.wav</ShortName>
+					<Path>SFX\movement_jump_outside_01_9E69E797.wem</Path>
+				</File>
+				<File Id="822092441" Language="SFX">
+					<ShortName>movement_land_outside_02.wav</ShortName>
+					<Path>SFX\movement_land_outside_02_9E69E797.wem</Path>
+				</File>
+				<File Id="822269741" Language="SFX">
+					<ShortName>movement_footstep_walk_science_01.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_science_01_9E69E797.wem</Path>
+				</File>
+				<File Id="836648718" Language="SFX">
+					<ShortName>movement_land_hallway_01.wav</ShortName>
+					<Path>SFX\movement_land_hallway_01_9E69E797.wem</Path>
+				</File>
+				<File Id="837026750" Language="SFX">
+					<ShortName>movement_footstep_walk_vent_04.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_vent_04_9E69E797.wem</Path>
+				</File>
+				<File Id="848202896" Language="SFX">
+					<ShortName>movement_footstep_walk_room_04.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_room_04_9E69E797.wem</Path>
+				</File>
+				<File Id="860480927" Language="SFX">
+					<ShortName>movement_duck.wav</ShortName>
+					<Path>SFX\movement_duck_9E69E797.wem</Path>
+				</File>
+				<File Id="919658197" Language="SFX">
+					<ShortName>movement_land_room_02.wav</ShortName>
+					<Path>SFX\movement_land_room_02_9E69E797.wem</Path>
+				</File>
+				<File Id="920811120" Language="SFX">
+					<ShortName>movement_jump_science_02.wav</ShortName>
+					<Path>SFX\movement_jump_science_02_9E69E797.wem</Path>
+				</File>
+				<File Id="957332764" Language="SFX">
+					<ShortName>movement_footstep_walk_hallway_06.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_hallway_06_9E69E797.wem</Path>
+				</File>
+				<File Id="980542856" Language="SFX">
+					<ShortName>movement_footstep_walk_room_02.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_room_02_9E69E797.wem</Path>
+				</File>
+				<File Id="1002772761" Language="SFX">
+					<ShortName>movement_jump_vent_01.wav</ShortName>
+					<Path>SFX\movement_jump_vent_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1008274286" Language="SFX">
+					<ShortName>movement_footstep_walk_room_05.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_room_05_9E69E797.wem</Path>
+				</File>
+				<File Id="1022464875" Language="SFX">
+					<ShortName>movement_footstep_walk_vent_01.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_vent_01_9E69E797.wem</Path>
+				</File>
+				<File Id="1024086453" Language="SFX">
+					<ShortName>movement_footstep_walk_science_06.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_science_06_9E69E797.wem</Path>
+				</File>
+				<File Id="1050439771" Language="SFX">
+					<ShortName>movement_footstep_walk_outside_04.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_outside_04_9E69E797.wem</Path>
+				</File>
+				<File Id="1063267813" Language="SFX">
+					<ShortName>movement_jump_hallway_02.wav</ShortName>
+					<Path>SFX\movement_jump_hallway_02_9E69E797.wem</Path>
+				</File>
+				<File Id="1068882798" Language="SFX">
+					<ShortName>movement_footstep_walk_hallway_05.wav</ShortName>
+					<Path>SFX\movement_footstep_walk_hallway_05_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
