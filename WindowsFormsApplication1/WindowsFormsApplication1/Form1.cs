@@ -23,7 +23,7 @@ namespace WindowsFormsApplication1
         private bool cptSaxCanStart = false;
         long timer = 0;
         long time = 0;
-        long latency = 200;
+        long latency = 0;
         uint musicPlayingID = 0;
         WwiseSharpMusicInfo musicInfo;
         System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
@@ -243,10 +243,15 @@ namespace WindowsFormsApplication1
             cptSaxCanStart = false;
             cptSaxHasStarted = false;
         }
-        //blank button
+        //attack
         private void button16_Click(object sender, EventArgs e)
         {
-            Console.WriteLine(stopwatch.ElapsedMilliseconds);
+            WwiseObject.PostEvent("enemy_captain_sax_attack_enable");
+        }
+        //un-attack
+        private void button18_Click(object sender, EventArgs e)
+        {
+            WwiseObject.PostEvent("enemy_captain_sax_attack_disable");
         }
     }
 }

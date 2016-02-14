@@ -42,6 +42,9 @@ namespace WwiseWrapper
 		void SetBasePath(const wchar_t* basePath);
 		void SetLangSpecificDirName(const wchar_t* specificDirName);
 		void LoadBank(const wchar_t* bankName);
+		void PrepareBank(const char * bankName);
+		void LoadEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent);
+		void UnloadPreparedEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent);
 		void RegisterGameObject(AkGameObjectID akId, const char* gameObjectLabel);
 		void UnregisterGameObject(AkGameObjectID akId);
 		void UnregisterAllGameObject();

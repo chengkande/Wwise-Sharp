@@ -206,6 +206,20 @@ void WwiseEngine::LoadBank(const wchar_t *bankName)
 		throw std::exception("Failed at loading soundbank.");
 }
 
+void WwiseEngine::PrepareBank(const char * bankName)
+{
+	AK::SoundEngine::PrepareBank(AK::SoundEngine::PreparationType::Preparation_Load, bankName, AK::SoundEngine::AkBankContent::AkBankContent_StructureOnly);
+}
+//takes array of strings, # of things in the array
+void WwiseEngine::LoadEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent)
+{
+	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Load, in_ppszString, in_uNumEvent);
+}
+void WwiseEngine::UnloadPreparedEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent)
+{
+	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Unload, in_ppszString, in_uNumEvent);
+}
+
 void WwiseEngine::RegisterGameObject(AkGameObjectID akId, const char* gameObjectLabel)
 {
 	AK::SoundEngine::RegisterGameObj(akId, gameObjectLabel);

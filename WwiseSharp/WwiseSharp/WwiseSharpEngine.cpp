@@ -47,7 +47,55 @@ void WwiseSharpEngine::LoadBank(System::String^ bankName)
 	akengine->LoadBank(static_cast<LPCWSTR>(static_cast<void *>(p)));
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }
+/*
+void WwiseEngine::PrepareBank(const char * bankName)
+{
+	AK::SoundEngine::PrepareBank(AK::SoundEngine::PreparationType::Preparation_Load, bankName, AK::SoundEngine::AkBankContent::AkBankContent_StructureOnly);
+}
+//takes array of strings, # of things in the array
+void WwiseEngine::LoadEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent)
+{
+	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Load, in_ppszString, in_uNumEvent);
+}
+void WwiseEngine::UnloadPreparedEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent)
+{
+	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Unload, in_ppszString, in_uNumEvent);
+}
+*/
 
+void WwiseSharpEngine::PrepareBank(System::String^ bankName)
+{
+	System::IntPtr p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(bankName);
+	akengine->PrepareBank(static_cast<LPCSTR>(static_cast<void *>(p)));
+	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
+}
+
+void WwiseSharpEngine::LoadEvents(array<System::String^>^ eventNames, unsigned short numEvents)
+{
+
+	LPCSTR * eventArray = new LPCSTR[numEvents];
+
+	for(unsigned short x = 0; x < numEvents; x++)
+	{
+		System::IntPtr p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventNames[x]);
+		eventArray[x] = static_cast<LPCSTR>(static_cast<void *>(p));
+		System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
+	}
+	akengine->LoadEvent(eventArray, numEvents);
+}
+void WwiseSharpEngine::UnloadPreparedEvents(array<System::String^>^ eventNames, unsigned short numEvents)
+{
+
+	LPCSTR * eventArray = new LPCSTR[numEvents];
+
+	for (unsigned short x = 0; x < numEvents; x++)
+	{
+		System::IntPtr p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventNames[x]);
+		eventArray[x] = static_cast<LPCSTR>(static_cast<void *>(p));
+		System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
+	}
+	akengine->UnloadPreparedEvent(eventArray, numEvents);
+}
 WwiseSharpGameObject^ WwiseSharpEngine::RegisterGameObject(unsigned int objectId, System::String^ gameObjectLabel)
 {
 	WwiseSharpGameObject^ wgo = gcnew WwiseSharpGameObject(objectId, gameObjectLabel, akengine);
