@@ -324,6 +324,11 @@ void WwiseEngine::RegisterReverb()
 		AKEFFECTID_ROOMVERB,
 		CreateRoomVerbFX,
 		CreateRoomVerbFXParams);
+	AK::SoundEngine::RegisterPlugin(AkPluginTypeEffect,
+		AKCOMPANYID_AUDIOKINETIC,
+		AKEFFECTID_PEAKLIMITER,
+		CreatePeakLimiterFX,
+		CreatePeakLimiterFXParams);
 }
 void WwiseEngine::GetSourcePlayPosition(AkPlayingID g_markersPlayingID, AkTimeMs* out_puPostition)
 {

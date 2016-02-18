@@ -11,19 +11,20 @@
 #include <windows.h> //for DWORD & others.
 #include <exception>
 
-#include <AK/SoundEngine/Common/AkMemoryMgr.h>                  // Memory Manager
-#include <AK/SoundEngine/Common/AkModule.h>                     // Default memory and stream managers
-#include <AK/SoundEngine/Common/IAkStreamMgr.h>                 // Streaming Manager
-#include <AK/Tools/Common/AkPlatformFuncs.h>                    // Thread defines
-#include "AkFilePackageLowLevelIOBlocking.h"					// Sample low-level I/O implementation (in $(WWISESDK)/samples/SoundEngine/Win32).
-#include <AK/SoundEngine/Common/AkSoundEngine.h>                // Sound engine
-#include <AK/MusicEngine/Common/AkMusicEngine.h>                // Music Engine
-#include <AK/Plugin/AkRoomVerbFXFactory.h>						// Room Verb
+#include "SDK/include/AK/SoundEngine/Common/AkMemoryMgr.h"                  // Memory Manager
+#include "SDK/include/AK/SoundEngine/Common/AkModule.h"                     // Default memory and stream managers
+#include "SDK/include/AK/SoundEngine/Common/IAkStreamMgr.h"                 // Streaming Manager
+#include "SDK/include/AK/Tools/Common/AkPlatformFuncs.h"                    // Thread defines
+#include "SDK/samples/SoundEngine/Win32/AkFilePackageLowLevelIOBlocking.h"								// Sample low-level I/O implementation (in $(WWISESDK)/samples/SoundEngine/Win32).
+#include "SDK/include/AK/SoundEngine/Common/AkSoundEngine.h"                // Sound engine
+#include "SDK/include/AK/MusicEngine/Common/AkMusicEngine.h"                // Music Engine
+#include "SDK/include/AK/Plugin/AkRoomVerbFXFactory.h"						// Room Verb
+#include "SDK/include/AK/Plugin/AkPeakLimiterFXFactory.h"					//Limiter
 #ifdef WWISESHARP_VORBIS
-	#include <AK/Plugin/AkVorbisFactory.h>						// Vorbis Plugin.
+	#include "SDK/include/AK/Plugin/AkVorbisFactory.h"						// Vorbis Plugin.
 #endif
 #ifdef DEBUG
-	#include <AK/Comm/AkCommunication.h>						// Communication (is the component which allow Wwise editor to track Game Instance).
+	#include "SDk/include/AK/Comm/AkCommunication.h"						// Communication (is the component which allow Wwise editor to track Game Instance).
 #endif
 
 namespace WwiseWrapper

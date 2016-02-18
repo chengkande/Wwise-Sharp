@@ -35,7 +35,7 @@
     <ClInclude Include="AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AKAdditions\SampleLowLevelIO\Windows\AkFileHelpers.h">
+    <ClInclude Include="SDK\samples\SoundEngine\Win32\AkFileHelpers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

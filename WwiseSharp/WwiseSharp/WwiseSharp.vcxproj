@@ -31,8 +31,12 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets" />
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="PropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="PropertySheet.props" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
@@ -56,7 +60,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)/WwiseWrapper;$(WWISESDK)/include;$(WWISESDK)/samples/SoundEngine/Win32;$(WWISESDK)/samples/SoundEngine/Common;C:\Program Files %28x86%29\Audiokinetic\Wwise v2015.1.1 build 5434\SDK\Win32_vc120\Debug\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)/WwiseWrapper;$(SolutionDir)/WwiseWrapper/SDK/include;$(SolutionDir)/WwiseWrapper/SDK/samples/SoundEngine/Win32;$(SolutionDir)/WwiseWrapper/SDK/samples/SoundEngine/Common;$(SolutionDir)/WwiseWrapper/SDK/Win32_vc120\Debug\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;WWISESHARP_VORBIS;_ITERATOR_DEBUG_LEVEL=2;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -75,7 +79,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>$(SolutionDir)/WwiseWrapper;$(WWISESDK)/include;$(WWISESDK)/samples/SoundEngine/Win32;$(WWISESDK)/samples/SoundEngine/Common;C:\Program Files %28x86%29\Audiokinetic\Wwise v2015.1.1 build 5434\SDK\Win32_vc120\Debug\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)/WwiseWrapper;$(WWISE5533)/include;$(WWISE5533)/samples/SoundEngine/Win32;$(WWISE5533)/samples/SoundEngine/Common;$(WWISE5533)Win32_vc120\Debug\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;WWISESHARP_VORBIS;_ITERATOR_DEBUG_LEVEL=2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
