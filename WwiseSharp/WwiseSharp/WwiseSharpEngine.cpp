@@ -47,21 +47,12 @@ void WwiseSharpEngine::LoadBank(System::String^ bankName)
 	akengine->LoadBank(static_cast<LPCWSTR>(static_cast<void *>(p)));
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }
-/*
-void WwiseEngine::PrepareBank(const char * bankName)
+void WwiseSharpEngine::UnloadBank(System::String^ bankName)
 {
-	AK::SoundEngine::PrepareBank(AK::SoundEngine::PreparationType::Preparation_Load, bankName, AK::SoundEngine::AkBankContent::AkBankContent_StructureOnly);
+	System::IntPtr p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(bankName);
+	akengine->UnloadBank(static_cast<LPCWSTR>(static_cast<void *>(p)));
+	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }
-//takes array of strings, # of things in the array
-void WwiseEngine::LoadEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent)
-{
-	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Load, in_ppszString, in_uNumEvent);
-}
-void WwiseEngine::UnloadPreparedEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent)
-{
-	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Unload, in_ppszString, in_uNumEvent);
-}
-*/
 
 void WwiseSharpEngine::PrepareBank(System::String^ bankName)
 {

@@ -89,6 +89,7 @@ Class WwiseSharp.WwiseSharpEngine: AutoLayout, AnsiClass, Class, Public, BeforeF
     Init(): PrivateScope, Public, HideBySig
     SetBasePath(String): PrivateScope, Public, HideBySig
     LoadBank(String): PrivateScope, Public, HideBySig
+    UnloadBank(String): PrivateScope, Public, HideBySig
     PrepareBank(String): PrivateScope, Public, HideBySig
     LoadEvents(String[], UInt16): PrivateScope, Public, HideBySig
     UnloadPreparedEvents(String[], UInt16): PrivateScope, Public, HideBySig

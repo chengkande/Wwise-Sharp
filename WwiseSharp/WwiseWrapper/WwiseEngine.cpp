@@ -206,6 +206,11 @@ void WwiseEngine::LoadBank(const wchar_t *bankName)
 		throw std::exception("Failed at loading soundbank.");
 }
 
+void WwiseEngine::UnloadBank(const wchar_t *bankName)
+{
+	if (AK::SoundEngine::UnloadBank(bankName, NULL) != AK_Success)
+		throw std::exception("Failed at loading soundbank.");
+}
 void WwiseEngine::PrepareBank(const char * bankName)
 {
 	AK::SoundEngine::PrepareBank(AK::SoundEngine::PreparationType::Preparation_Load, bankName, AK::SoundEngine::AkBankContent::AkBankContent_StructureOnly);

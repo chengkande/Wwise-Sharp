@@ -32,6 +32,7 @@ namespace WwiseSharp
 		bool Init();
 		void SetBasePath(System::String^ basePath);
 		void LoadBank(System::String^ bankName);
+		void UnloadBank(System::String^ bankName);
 		void PrepareBank(System::String^ bankName);
 		void LoadEvents(array<System::String^>^ eventNames, unsigned short numEvents);
 		void UnloadPreparedEvents(array<System::String^>^ eventNames, unsigned short numEvents);
