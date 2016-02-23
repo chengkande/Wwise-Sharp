@@ -220,6 +220,10 @@ void WwiseEngine::LoadEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent)
 {
 	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Load, in_ppszString, in_uNumEvent);
 }
+void WwiseEngine::ClearBanks()
+{
+	AK::SoundEngine::ClearBanks();
+}
 void WwiseEngine::UnloadPreparedEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent)
 {
 	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Unload, in_ppszString, in_uNumEvent);

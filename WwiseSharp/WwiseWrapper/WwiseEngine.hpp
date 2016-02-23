@@ -46,6 +46,7 @@ namespace WwiseWrapper
 		void UnloadBank(const wchar_t* bankName);
 		void PrepareBank(const char * bankName);
 		void LoadEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent);
+		void ClearBanks();
 		void UnloadPreparedEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent);
 		void RegisterGameObject(AkGameObjectID akId, const char* gameObjectLabel);
 		void UnregisterGameObject(AkGameObjectID akId);

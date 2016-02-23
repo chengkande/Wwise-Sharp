@@ -74,6 +74,10 @@ void WwiseSharpEngine::LoadEvents(array<System::String^>^ eventNames, unsigned s
 	}
 	akengine->LoadEvent(eventArray, numEvents);
 }
+void WwiseSharpEngine::ClearBanks()
+{
+	akengine->ClearBanks();
+}
 void WwiseSharpEngine::UnloadPreparedEvents(array<System::String^>^ eventNames, unsigned short numEvents)
 {
 

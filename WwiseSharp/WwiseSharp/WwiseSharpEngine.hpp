@@ -35,6 +35,7 @@ namespace WwiseSharp
 		void UnloadBank(System::String^ bankName);
 		void PrepareBank(System::String^ bankName);
 		void LoadEvents(array<System::String^>^ eventNames, unsigned short numEvents);
+		void ClearBanks();
 		void UnloadPreparedEvents(array<System::String^>^ eventNames, unsigned short numEvents);
 		WwiseSharpGameObject^ RegisterGameObject(unsigned int objectId, System::String^ gameObjectLabel);
 
