@@ -31,13 +31,12 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
             Wwise.Init();
-            Wwise.SetBasePath("C:/Users/Miles/Documents/Visual Studio 2013/Projects/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/");
+            Wwise.SetBasePath("C:/Users/Miles/Documents/GitHub/WwiseSharp/wwisesharp/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/");
+            Wwise.SetAudioSrcPath("C:/Users/Miles/Documents/GitHub/WwiseSharp/wwisesharp/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/");
             Wwise.InitReverb();
             Wwise.LoadBank("Init.bnk");
-            Wwise.LoadBank("Global.bnk");
+            Wwise.LoadBank("global.bnk");
            
-            Wwise.LoadBank("Movement");
-            Wwise.LoadBank("Weapons");
             WwiseObject = Wwise.RegisterGameObject(globalObjectID, "global");
             WwiseObject2 = Wwise.RegisterGameObject((uint)1, "local");
             WwiseObject.PostEvent("Enable_Reverb");
@@ -252,6 +251,29 @@ namespace WindowsFormsApplication1
         private void button18_Click(object sender, EventArgs e)
         {
             WwiseObject.PostEvent("enemy_captain_sax_attack_disable");
+        }
+
+        //LoadBanks
+        private void button19_Click(object sender, EventArgs e)
+        {
+            WwiseObject2.PostEvent("ambience_bathroom_play");
+             
+        }
+
+        //test banks
+        private void button20_Click(object sender, EventArgs e)
+        {
+            String msg;
+            msg = Wwise.LoadEvents(new String[2] { "ambience_bathroom_play", "ambience_bathroom_stop" }, 2);
+            Console.WriteLine("Prepared " + msg);
+            //WwiseObject2.PostEvent("ambience_bathroom_play");
+        }
+
+        //prepare
+        private void button21_Click(object sender, EventArgs e)
+        {
+            Wwise.LoadBank("ambience.bnk");
+            
         }
     }
 }

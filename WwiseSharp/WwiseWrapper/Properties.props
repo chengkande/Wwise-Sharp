@@ -7,7 +7,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\WwiseWrapper\SDK\include;$(WWISE5533)\samples\SoundEngine\Common;$(WWISE5533)\samples\SoundEngine\Win32;$(WWISE5533)\Win32_vc120\Debug\lib;$(WWISE5533)\include\AK\Plugin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>SDK\include;$(WWISE5533)\samples\SoundEngine\Common;$(WWISE5533)\samples\SoundEngine\Win32;$(WWISE5533)\Win32_vc120\Release\lib;$(WWISE5533)\include\AK\Plugin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>

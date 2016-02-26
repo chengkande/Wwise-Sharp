@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15948784	ui_d_and_d_reward_stop			\Default Work Unit\UI\DandD\ui_d_and_d_reward_stop	
+	700526099	popup_d_and_d_countdown			\Default Work Unit\UI\DandD\popup_d_and_d_countdown	
+	995323385	ui_d_and_d_quest_accept			\Default Work Unit\UI\DandD\ui_d_and_d_quest_accept	
+	1818455295	ui_d_and_d_reward_hit			\Default Work Unit\UI\DandD\ui_d_and_d_reward_hit	
+	2168219932	ui_d_and_d_reward_start			\Default Work Unit\UI\DandD\ui_d_and_d_reward_start	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	17968953	ui_DandD_Begin	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_Begin_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_DandD_Begin		123535
+	258397620	ui_DandD_Reward_Drum_loop	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_Reward_Drum_loop_8D34B564.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_DandD_Reward_Drum_loop		281887
+	318639940	popup_DandD_countdown	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\popup_DandD_countdown_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\popup_DandD_countdown		283163
+	528362630	ui_DandD_Reward_Drum_start	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_Reward_Drum_start_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_DandD_Reward_Drum_start		36629
+	899145388	ui_DandD_Reward_Drum_End	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_Reward_Drum_End_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_DandD_Reward_Drum_End		56110
+

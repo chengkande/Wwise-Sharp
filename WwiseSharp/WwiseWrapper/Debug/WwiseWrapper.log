@@ -1,3 +1,8 @@
 ﻿  WwiseEngine.cpp
+  AkFilePackageLUT.cpp
+  AkFilePackage.cpp
+  AkFileLocationBase.cpp
+  AkDefaultIOHookBlocking.cpp
+  Generating Code...
 AkSoundEngine.lib(AkActiveParent.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
   WwiseWrapper.vcxproj -> C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Debug\WwiseWrapper.lib

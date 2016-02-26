@@ -26,12 +26,12 @@ WwiseSharpGameObject::WwiseSharpGameObject(unsigned int wwiseObjectId, System::S
 	musicGridOffset = 0;
 
 	pDCallbackFunc = gcnew DCallbackFunc(this, &WwiseSharpGameObject::MusicSyncCallback);
-	System::Runtime::InteropServices::GCHandle gch = System::Runtime::InteropServices::GCHandle::Alloc(pDCallbackFunc);
+	gch = System::Runtime::InteropServices::GCHandle::Alloc(pDCallbackFunc);
 	System::IntPtr ip = System::Runtime::InteropServices::Marshal::GetFunctionPointerForDelegate(pDCallbackFunc);
 	mCallback = static_cast<AkCallbackFunc>(ip.ToPointer());
 	thisPtr = System::Runtime::InteropServices::GCHandle::ToIntPtr(System::Runtime::InteropServices::GCHandle::Alloc(this)).ToPointer();
 	this->engine = engine;
-	gch.Free();
+	
 }
 
 WwiseSharpGameObject::~WwiseSharpGameObject()
@@ -39,6 +39,7 @@ WwiseSharpGameObject::~WwiseSharpGameObject()
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(safe_cast<System::IntPtr>(label));
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(safe_cast<System::IntPtr>(thisPtr));
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(safe_cast<System::IntPtr>(mCallback));
+	gch.Free();
 }
 
 AkGameObjectID WwiseSharpGameObject::GetAkObjectId()

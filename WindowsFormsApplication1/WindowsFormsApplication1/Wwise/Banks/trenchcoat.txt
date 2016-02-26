@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	37218988	ui_trenchcoat_open			\Default Work Unit\UI\trenchcoat\ui_trenchcoat_open	
+	549600600	ui_trenchcoat_sell			\Default Work Unit\UI\trenchcoat\ui_trenchcoat_sell	
+	1902345564	ui_trenchcoat_buy			\Default Work Unit\UI\trenchcoat\ui_trenchcoat_buy	
+	3733344980	ui_trenchcoat_select			\Default Work Unit\UI\trenchcoat\ui_trenchcoat_select	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	31934	ui_trenchcoat_buy	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_trenchcoat_buy_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_trenchcoat_buy		40561
+	112126806	ui_trenchcoat_select	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_trenchcoat_select_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_trenchcoat_select		8899
+	295220256	ui_trenchcoat_sell	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_trenchcoat_sell_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_trenchcoat_sell		13468
+	437785491	ui_trenchcoat_open	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_trenchcoat_open_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\ui_trenchcoat_open		210966
+

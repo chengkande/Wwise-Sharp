@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	613084528	ride_the_tide_hit			\Default Work Unit\Weapons\ride_the_tide_hit	
+	1052303682	ride_the_tide_use			\Default Work Unit\Weapons\ride_the_tide_use	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	115578932	weapon_fire_hit_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_01		74150
+	160719000	ride_the_tide_lvl1	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ride_the_tide_lvl1_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\ride_the_tide_lvl1		54270
+	366302747	weapon_fire_hit_04	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_04_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_04		53290
+	593231295	weapon_fire_hit_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_02		65794
+	688230459	weapon_fire_hit_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_03_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_03		53554
+

@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1384571436	twisted_thinking_use			\Default Work Unit\Weapons\twisted_thinking_use	
+	1422805246	twisted_thinking_hit			\Default Work Unit\Weapons\twisted_thinking_hit	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1485069336	twisted_thinking			\Default Work Unit\Skills\twisted_thinking	
+
+Switch	ID	Name	Switch Group			Notes
+	141331488	lvl3	twisted_thinking			
+	141331489	lvl2	twisted_thinking			
+	141331490	lvl1	twisted_thinking			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	115578932	weapon_fire_hit_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_01		74150
+	222980483	twisted_thinking_mono	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\twisted_thinking_mono_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\twisted_thinking\twisted_thinking_mono		160103
+	366302747	weapon_fire_hit_04	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_04_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_04		53290
+	593231295	weapon_fire_hit_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_02		65794
+	688230459	weapon_fire_hit_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_03_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_03		53554
+	885936519	twisted_thinking_stereo	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\twisted_thinking_stereo_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\twisted_thinking\twisted_thinking_stereo		152664
+

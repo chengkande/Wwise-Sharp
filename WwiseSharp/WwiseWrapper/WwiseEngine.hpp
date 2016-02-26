@@ -10,6 +10,8 @@
 #include <stdlib.h> //for malloc & free
 #include <windows.h> //for DWORD & others.
 #include <exception>
+#include <string>
+#include <mbstring.h>
 
 #include "SDK/include/AK/SoundEngine/Common/AkMemoryMgr.h"                  // Memory Manager
 #include "SDK/include/AK/SoundEngine/Common/AkModule.h"                     // Default memory and stream managers
@@ -41,13 +43,14 @@ namespace WwiseWrapper
 		void Term();
 
 		void SetBasePath(const wchar_t* basePath);
-		void SetLangSpecificDirName(const wchar_t* specificDirName);
+		void SetLooseMediaBasePath(const wchar_t* basepath);
 		void LoadBank(const wchar_t* bankName);
 		void UnloadBank(const wchar_t* bankName);
-		void PrepareBank(const char * bankName);
-		void LoadEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent);
+		void PrepareBank(const wchar_t * bankName);
+		const char* LoadEvent(const wchar_t ** in_ppszString, AkUInt32 in_uNumEvent);
 		void ClearBanks();
-		void UnloadPreparedEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent);
+		void UnloadPreparedEvent(const wchar_t ** in_ppszString, AkUInt32 in_uNumEvent);
+		void ClearPreparedEvents();
 		void RegisterGameObject(AkGameObjectID akId, const char* gameObjectLabel);
 		void UnregisterGameObject(AkGameObjectID akId);
 		void UnregisterAllGameObject();

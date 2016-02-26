@@ -88,7 +88,7 @@
     </ClCompile>
     <Lib>
       <AdditionalDependencies>AkSoundEngine.lib;AkMusicEngine.lib;AkStreamMgr.lib;AkMemoryMgr.lib;AkVorbisDecoder.lib;dxguid.lib;AkRoomVerbFX.lib;AkPeakLimiterFX.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(WWISESDK)\Win32_vc90\Debug\lib;$(DXSDK_DIR)\lib\x86;C:\Program Files %28x86%29\Audiokinetic\Wwise v2015.1.1 build 5434\SDK\Win32_vc120\Debug\lib;C:\Program Files %28x86%29\Audiokinetic\Wwise v2015.1.1 build 5434\SDK\Win32_vc120\Profile\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(WWISE5533)\Win32_vc90\Debug\lib;$(DXSDK_DIR)\lib\x86;SDK\Win32_vc120\Debug\lib;SDK\Win32_vc120\Profile\lib;SDK\Win32_vc120\Release\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Lib>
   </ItemDefinitionGroup>

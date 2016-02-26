@@ -31,12 +31,14 @@ namespace WwiseSharp
 
 		bool Init();
 		void SetBasePath(System::String^ basePath);
+		void SetAudioSrcPath(System::String^ basePath);
 		void LoadBank(System::String^ bankName);
 		void UnloadBank(System::String^ bankName);
 		void PrepareBank(System::String^ bankName);
-		void LoadEvents(array<System::String^>^ eventNames, unsigned short numEvents);
+		System::String^ LoadEvents(array<System::String^>^ eventNames, unsigned short numEvents);
 		void ClearBanks();
 		void UnloadPreparedEvents(array<System::String^>^ eventNames, unsigned short numEvents);
+		void ClearPreparedEvents();
 		WwiseSharpGameObject^ RegisterGameObject(unsigned int objectId, System::String^ gameObjectLabel);
 
 		void SetState(unsigned long stateGroupId, unsigned long stateId);

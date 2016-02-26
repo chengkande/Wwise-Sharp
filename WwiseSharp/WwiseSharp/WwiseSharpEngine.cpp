@@ -40,6 +40,14 @@ void WwiseSharpEngine::SetBasePath(System::String^ basePath)
 	akengine->SetBasePath(static_cast<LPCWSTR>(static_cast<void *>(p)));
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }
+void WwiseSharpEngine::SetAudioSrcPath(System::String^ basePath)
+{
+	if (basePath->default[basePath->Length - 1] != static_cast<wchar_t>('/'))
+		basePath += "/";
+	System::IntPtr p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(basePath);
+	akengine->SetLooseMediaBasePath(static_cast<LPCWSTR>(static_cast<void *>(p)));
+	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
+}
 
 void WwiseSharpEngine::LoadBank(System::String^ bankName)
 {
@@ -57,22 +65,25 @@ void WwiseSharpEngine::UnloadBank(System::String^ bankName)
 void WwiseSharpEngine::PrepareBank(System::String^ bankName)
 {
 	System::IntPtr p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(bankName);
-	akengine->PrepareBank(static_cast<LPCSTR>(static_cast<void *>(p)));
+	akengine->PrepareBank(static_cast<LPCWSTR>(static_cast<void *>(p)));
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }
 
-void WwiseSharpEngine::LoadEvents(array<System::String^>^ eventNames, unsigned short numEvents)
+System::String^ WwiseSharpEngine::LoadEvents(array<System::String^>^ eventNames, unsigned short numEvents)
 {
 
-	LPCSTR * eventArray = new LPCSTR[numEvents];
-
+	LPCWSTR * eventArray = new LPCWSTR[numEvents];
+	System::IntPtr p;
 	for(unsigned short x = 0; x < numEvents; x++)
 	{
-		System::IntPtr p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventNames[x]);
-		eventArray[x] = static_cast<LPCSTR>(static_cast<void *>(p));
-		System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
+		p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventNames[x]);
+		eventArray[x] = static_cast<LPCWSTR>(static_cast<void *>(p));
+		
 	}
-	akengine->LoadEvent(eventArray, numEvents);
+	pin_ptr<LPCWSTR> pp = &eventArray[0];
+	System::String^ msg = gcnew System::String(akengine->LoadEvent(pp, numEvents));
+	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
+	return msg;
 }
 void WwiseSharpEngine::ClearBanks()
 {
@@ -81,15 +92,20 @@ void WwiseSharpEngine::ClearBanks()
 void WwiseSharpEngine::UnloadPreparedEvents(array<System::String^>^ eventNames, unsigned short numEvents)
 {
 
-	LPCSTR * eventArray = new LPCSTR[numEvents];
-
+	LPCWSTR * eventArray = new LPCWSTR[numEvents];
+	System::IntPtr p;
 	for (unsigned short x = 0; x < numEvents; x++)
 	{
-		System::IntPtr p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventNames[x]);
-		eventArray[x] = static_cast<LPCSTR>(static_cast<void *>(p));
-		System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
+		p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventNames[x]);
+		eventArray[x] = static_cast<LPCWSTR>(static_cast<void *>(p));
+		
 	}
+	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 	akengine->UnloadPreparedEvent(eventArray, numEvents);
+}
+void WwiseSharpEngine::ClearPreparedEvents()
+{
+	akengine->ClearPreparedEvents();
 }
 WwiseSharpGameObject^ WwiseSharpEngine::RegisterGameObject(unsigned int objectId, System::String^ gameObjectLabel)
 {

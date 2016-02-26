@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	84694883	object_steam_vent_start_soft			\Default Work Unit\Object\object_steam_vent_start_soft	
+	417369426	object_coal_break			\Default Work Unit\Object\object_coal_break	
+	1245247142	object_coal_damage			\Default Work Unit\Object\object_coal_damage	
+	1813839388	object_steam_vent_start			\Default Work Unit\Object\object_steam_vent_start	
+	1869853499	object_vents_platform_fall			\Default Work Unit\Object\object_vents_platform_fall	
+	2860618480	object_steam_vent_stop			\Default Work Unit\Object\object_steam_vent_stop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	72837111	object_coal_damage_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_coal_damage_01_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_coal_damage\object_coal_damage_01		14501
+	95000677	object_steam_vent_stop	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_steam_vent_stop_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_steam_vent_stop		16612
+	292593900	object_coal_break_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_coal_break_02_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_coal_break\object_coal_break_02		21166
+	327863418	object_vents_platform_fall	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_vents_platform_fall_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_vents_platform_fall		184827
+	351371970	object_steam_vent_loop	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_steam_vent_loop_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_steam_vent_loop		263699
+	466120898	object_coal_damage_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_coal_damage_02_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_coal_damage\object_coal_damage_02		16239
+	649752723	object_steam_vent_start	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_steam_vent_start_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_steam_vent_start		32413
+	690144131	object_coal_break_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_coal_break_01_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_coal_break\object_coal_break_01		20152
+	790978497	object_coal_damage_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_coal_damage_03_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_coal_damage\object_coal_damage_03		14889
+

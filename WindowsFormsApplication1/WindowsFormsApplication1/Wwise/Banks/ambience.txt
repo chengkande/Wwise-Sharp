@@ -1,0 +1,37 @@
+Event	ID	Name			Wwise Object Path	Notes
+	61970451	ambience_ethereal_play			\Default Work Unit\Ambiences\ambience_ethereal_play	
+	302525619	ambience_janitor_snoring_play			\Default Work Unit\Ambiences\ambience_janitor_snoring_play	
+	476958511	ambience_bathroom_play			\Default Work Unit\Ambiences\ambience_bathroom_play	
+	631004224	ambience_quad_blend_stop			\Default Work Unit\Ambiences\ambience_quad_blend_stop	
+	669703963	ambience_school_people_play			\Default Work Unit\Ambiences\ambience_school_people_play	
+	692750145	ambience_school_empty_stop			\Default Work Unit\Ambiences\ambience_school_empty_stop	
+	1028837515	ambience_outdoors_night_stop			\Default Work Unit\Ambiences\ambience_outdoors_night_stop	
+	1160136561	ambience_furnace_play			\Default Work Unit\Ambiences\ambience_furnace_play	
+	1252782098	ambience_far_side_stop			\Default Work Unit\Ambiences\ambience_far_side_stop	
+	1372625965	ambience_vent_puzzle_room_stop			\Default Work Unit\Ambiences\ambience_vent_puzzle_room_stop	
+	1776492829	ambience_fort_battle_play			\Default Work Unit\Ambiences\ambience_fort_battle_play	
+	1870086827	ambience_school_empty_play			\Default Work Unit\Ambiences\ambience_school_empty_play	
+	2104457236	ambience_cave_play			\Default Work Unit\Ambiences\ambience_cave_play	
+	2453128231	ambience_furnace_stop			\Default Work Unit\Ambiences\ambience_furnace_stop	
+	2457855633	ambience_vents_play			\Default Work Unit\Ambiences\ambience_vents_play	
+	2574845226	ambience_quad_play			\Default Work Unit\Ambiences\ambience_quad_play	
+	2908385839	ambience_vent_puzzle_room_play			\Default Work Unit\Ambiences\ambience_vent_puzzle_room_play	
+	2945877104	ambience_far_side_play			\Default Work Unit\Ambiences\ambience_far_side_play	
+	3067707886	ambience_wasteland_play			\Default Work Unit\Ambiences\ambience_wasteland_play	
+	3137962781	ambience_outdoors_night_play			\Default Work Unit\Ambiences\ambience_outdoors_night_play	
+	3219232470	ambience_party_gross_play			\Default Work Unit\Ambiences\ambience_party_gross_play	
+	3236165933	ambience_bathroom_stop			\Default Work Unit\Ambiences\ambience_bathroom_stop	
+	3487059961	ambience_ethereal_stop			\Default Work Unit\Ambiences\ambience_ethereal_stop	
+	3685935001	ambience_janitor_snoring_stop			\Default Work Unit\Ambiences\ambience_janitor_snoring_stop	
+	3709270855	ambience_vents_stop			\Default Work Unit\Ambiences\ambience_vents_stop	
+	3792557521	ambience_school_people_stop			\Default Work Unit\Ambiences\ambience_school_people_stop	
+	3808359918	ambience_cave_stop			\Default Work Unit\Ambiences\ambience_cave_stop	
+	3888078718	ambience_quad_blend_play			\Default Work Unit\Ambiences\ambience_quad_blend_play	
+	3962334859	ambience_fort_battle_stop			\Default Work Unit\Ambiences\ambience_fort_battle_stop	
+	3979047252	ambience_quad_stop			\Default Work Unit\Ambiences\ambience_quad_stop	
+	3991243368	ambience_party_gross_stop			\Default Work Unit\Ambiences\ambience_party_gross_stop	
+	4069246928	ambience_wasteland_stop			\Default Work Unit\Ambiences\ambience_wasteland_stop	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3651499055	Quad_Ambience_Blend			\Default Work Unit\Quad_Ambience_Blend	Based on Y-location - get min + max
+

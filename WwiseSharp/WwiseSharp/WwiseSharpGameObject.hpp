@@ -37,6 +37,7 @@ namespace WwiseSharp
 		delegate void DCallbackFunc(AkCallbackType in_eType, AkCallbackInfo* in_pCallbackInfo);
 		static DCallbackFunc^ pDCallbackFunc;
 		AkCallbackFunc mCallback;
+		System::Runtime::InteropServices::GCHandle gch;
 		void* thisPtr;
 		WwiseSharpGameObject(unsigned int objectId, System::String^ label, WwiseEngine* engine);
 		virtual ~WwiseSharpGameObject();

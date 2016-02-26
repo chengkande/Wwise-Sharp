@@ -53,7 +53,7 @@ bool WwiseEngine::Init()
 	//
 
 	AkMemSettings memSettings;
-	memSettings.uMaxNumPools = 20;
+	memSettings.uMaxNumPools = 32;
 
 	if ( AK::MemoryMgr::Init( &memSettings ) != AK_Success )
 	{
@@ -105,6 +105,9 @@ bool WwiseEngine::Init()
 	AkPlatformInitSettings platformInitSettings;
 	AK::SoundEngine::GetDefaultInitSettings( initSettings );
 	AK::SoundEngine::GetDefaultPlatformInitSettings( platformInitSettings );
+
+	initSettings.uPrepareEventMemoryPoolID = AK::MemoryMgr::CreatePool(NULL, 16 * 1024 * 1024, 1024, AkMalloc);
+	AK::MemoryMgr::SetPoolName(initSettings.uPrepareEventMemoryPoolID, L"PrepareEventPool");
 
 	if ( AK::SoundEngine::Init( &initSettings, &platformInitSettings ) != AK_Success )
 	{
@@ -194,11 +197,13 @@ void WwiseEngine::SetBasePath(const wchar_t* basePath)
 	g_lowLevelIO.SetBasePath(basePath);
 }
 
-//void WwiseEngine::SetLangSpecificDirName(const wchar_t* specificDirName)
-//{
-//	g_lowLevelIO.SetLangSpecificDirName(specificDirName);
-//}
+void WwiseEngine::SetLooseMediaBasePath(const wchar_t* basepath)
+{
+	g_lowLevelIO.SetAudioSrcPath(basepath);
+}
 
+
+//won't load media for banks with loose media. Use PrepareBank for that
 void WwiseEngine::LoadBank(const wchar_t *bankName)
 {
 	AkBankID bankID; // Not used. These banks can be unloaded with their file name.
@@ -211,22 +216,52 @@ void WwiseEngine::UnloadBank(const wchar_t *bankName)
 	if (AK::SoundEngine::UnloadBank(bankName, NULL) != AK_Success)
 		throw std::exception("Failed at loading soundbank.");
 }
-void WwiseEngine::PrepareBank(const char * bankName)
+//loads everything related to a bank, use for banks with loose media
+void WwiseEngine::PrepareBank(const wchar_t * bankName)
 {
-	AK::SoundEngine::PrepareBank(AK::SoundEngine::PreparationType::Preparation_Load, bankName, AK::SoundEngine::AkBankContent::AkBankContent_StructureOnly);
+	AK::SoundEngine::PrepareBank(AK::SoundEngine::PreparationType::Preparation_Load, bankName, AK::SoundEngine::AkBankContent::AkBankContent_All);
 }
 //takes array of strings, # of things in the array
-void WwiseEngine::LoadEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent)
+const char* WwiseEngine::LoadEvent(const wchar_t ** in_ppszString, AkUInt32 in_uNumEvent)
 {
-	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Load, in_ppszString, in_uNumEvent);
+	const char ** pEventNameArray = new const char *[in_uNumEvent];
+	
+	for (unsigned int x = 0; x < 2; x++)
+	{
+		size_t origsize = wcslen(in_ppszString[0]) + 1;
+		size_t convertedChars = 0;
+		const size_t newsize = origsize * 2;
+		char* nstring = new char[newsize];
+		wcstombs_s(&convertedChars, nstring, newsize, in_ppszString[0], _TRUNCATE);
+		pEventNameArray[x] = nstring;
+	}
+	
+	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Load, pEventNameArray, in_uNumEvent);
+	return pEventNameArray[0];
 }
 void WwiseEngine::ClearBanks()
 {
 	AK::SoundEngine::ClearBanks();
 }
-void WwiseEngine::UnloadPreparedEvent(const char ** in_ppszString, AkUInt32 in_uNumEvent)
+void WwiseEngine::UnloadPreparedEvent(const wchar_t ** in_ppszString, AkUInt32 in_uNumEvent)
 {
-	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Unload, in_ppszString, in_uNumEvent);
+	const char ** pEventNameArray = new const char *[in_uNumEvent];
+
+	for (unsigned int x = 0; x < 2; x++)
+	{
+		size_t origsize = wcslen(in_ppszString[0]) + 1;
+		size_t convertedChars = 0;
+		const size_t newsize = origsize * 2;
+		char* nstring = new char[newsize];
+		wcstombs_s(&convertedChars, nstring, newsize, in_ppszString[0], _TRUNCATE);
+		pEventNameArray[x] = nstring;
+	}
+	
+	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Unload, pEventNameArray, in_uNumEvent);
+}
+void WwiseEngine::ClearPreparedEvents()
+{
+	AK::SoundEngine::ClearPreparedEvents();
 }
 
 void WwiseEngine::RegisterGameObject(AkGameObjectID akId, const char* gameObjectLabel)
