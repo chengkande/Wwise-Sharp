@@ -1,4 +1,11 @@
-﻿WwiseWrapper.lib(WwiseEngine.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+﻿  WwiseSharpEngine.cpp
+  WwiseSharpGameObject.cpp
+  WwiseSharpListenerPosition.cpp
+  WwiseSharpMusicInfo.cpp
+  WwiseSharpSoundPosition.cpp
+  Generating Code...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+WwiseWrapper.lib(WwiseEngine.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
      Creating library C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Debug\WwiseSharp.lib and object C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Debug\WwiseSharp.exp
 WwiseWrapper.lib(Serializer.obj) : warning LNK4099: PDB 'communicationcentral.pdb' was not found with 'WwiseWrapper.lib(Serializer.obj)' or at 'C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Debug\communicationcentral.pdb'; linking object as if no debug info
 WwiseWrapper.lib(ConsoleDiscoveryMessage.obj) : warning LNK4099: PDB 'communicationcentral.pdb' was not found with 'WwiseWrapper.lib(ConsoleDiscoveryMessage.obj)' or at 'C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Debug\communicationcentral.pdb'; linking object as if no debug info

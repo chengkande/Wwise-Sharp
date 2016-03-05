@@ -79,9 +79,9 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>$(SolutionDir)/WwiseWrapper;$(WWISE5533)/include;$(WWISE5533)/samples/SoundEngine/Win32;$(WWISE5533)/samples/SoundEngine/Common;$(WWISE5533)Win32_vc120\Release\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;WWISESHARP_VORBIS;_ITERATOR_DEBUG_LEVEL=2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)/WwiseWrapper;$(SolutionDir)/WwiseWrapper/SDK/include;$(SolutionDir)/WwiseWrapper/SDK/samples/SoundEngine/Win32;$(SolutionDir)/WwiseWrapper/SDK/samples/SoundEngine/Common;$(SolutionDir)/WwiseWrapper/SDK/Win32_vc120\Release\lib;$(WWISE5533)Win32_vc120\Release\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;WWISESHARP_VORBIS;_ITERATOR_DEBUG_LEVEL=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>

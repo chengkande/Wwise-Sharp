@@ -32,7 +32,7 @@ namespace WindowsFormsApplication1
             InitializeComponent();
             Wwise.Init();
             Wwise.SetBasePath("C:/Users/Miles/Documents/GitHub/WwiseSharp/wwisesharp/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/");
-            Wwise.SetAudioSrcPath("C:/Users/Miles/Documents/GitHub/WwiseSharp/wwisesharp/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/");
+            //Wwise.SetAudioSrcPath("C:/Users/Miles/Documents/GitHub/WwiseSharp/wwisesharp/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/");
             Wwise.InitReverb();
             Wwise.LoadBank("Init.bnk");
             Wwise.LoadBank("global.bnk");
