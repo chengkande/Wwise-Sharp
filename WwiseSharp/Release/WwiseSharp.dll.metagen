@@ -1,0 +1,112 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly WwiseSharp, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class WwiseSharp.WwiseSharpSoundPosition: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single Xposition : Public
+    Single Yposition : Public
+    Single Zposition : Public
+    Single Xorientation : Public
+    Single Yorientation : Public
+    Single Zorientation : Public
+Class WwiseSharp.WwiseSharpMusicInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    UInt32 currentPosition IsLong : Public
+    UInt32 preEntryDuration IsLong : Public
+    UInt32 activeDuration IsLong : Public
+    UInt32 postExitDuration IsLong : Public
+    UInt32 remainingLookAheadTime IsLong : Public
+    UInt32 playingID IsLong : Public
+    UInt32 beatDuration IsLong : Public
+    UInt32 barDuration IsLong : Public
+    UInt32 gridDuration IsLong : Public
+    UInt32 gridOffset IsLong : Public
+Class WwiseSharp.WwiseSharpGameObject: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(UInt32, System.String, WwiseWrapper.WwiseEngine*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Int32* out_puPosition : Public
+    UInt32 syncPlayingID IsLong : Public
+    UInt32 musicPlayingID IsLong : Public
+    UInt32 musicBeatDuration IsLong : Public
+    UInt32 musicBarDuration IsLong : Public
+    UInt32 musicGridDuration IsLong : Public
+    UInt32 musicGridOffset IsLong : Public
+    IntPtr mCallback : Public
+    System.Runtime.InteropServices.GCHandle gch : Public
+    Void* thisPtr : Public
+    DCallbackFunc pDCallbackFunc : Public, Static
+  Methods:
+    GetAkObjectId(): PrivateScope, Public, HideBySig
+    GetLabelChar(): PrivateScope, Public, HideBySig
+    ActivateMarker(): PrivateScope, Public, HideBySig
+    GetMarkerStatus(): PrivateScope, Public, HideBySig
+    SetActiveListeners(UInt32 IsLong): PrivateScope, Public, HideBySig
+    PostEvent(UInt32 IsLong): PrivateScope, Public, HideBySig
+    PostEvent(String): PrivateScope, Public, HideBySig
+    MusicSyncCallback(AkCallbackType, AkCallbackInfo*): PrivateScope, Public, HideBySig
+    PostMusicSyncEvent_Cue(String): PrivateScope, Public, HideBySig
+    PostMusicSyncEvent_Bar(String): PrivateScope, Public, HideBySig
+    SetSinglePosition(WwiseSharpSoundPosition): PrivateScope, Public, HideBySig
+    SetMultiplePositions(WwiseSharpSoundPosition[], UInt16): PrivateScope, Public, HideBySig
+    SetObjectRTPCValue(String, Single): PrivateScope, Public, HideBySig
+    SetObjectRTPCValue(UInt32 IsLong, Single): PrivateScope, Public, HideBySig
+    SetSwitch(String, String): PrivateScope, Public, HideBySig
+    SetSwitch(UInt32 IsLong, UInt32 IsLong): PrivateScope, Public, HideBySig
+    GetSourcePlayPosition(UInt32 IsLong): PrivateScope, Public, HideBySig
+    GetPlayingSegmentInfo(UInt32 IsLong): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class WwiseSharp.WwiseSharpGameObject+DCallbackFunc: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(AkCallbackType, AkCallbackInfo*): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(AkCallbackType, AkCallbackInfo*, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class WwiseSharp.WwiseSharpListenerPosition: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Single Xposition : Public
+    Single Yposition : Public
+    Single Zposition : Public
+    Single XorientationFront : Public
+    Single YorientationFront : Public
+    Single ZorientationFront : Public
+    Single XorientationTop : Public
+    Single YorientationTop : Public
+    Single ZorientationTop : Public
+Class WwiseSharp.WwiseSharpEngine: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Init(): PrivateScope, Public, HideBySig
+    SetBasePath(String): PrivateScope, Public, HideBySig
+    SetAudioSrcPath(String): PrivateScope, Public, HideBySig
+    LoadBank(String): PrivateScope, Public, HideBySig
+    UnloadBank(String): PrivateScope, Public, HideBySig
+    PrepareBank(String): PrivateScope, Public, HideBySig
+    LoadEvents(String[], UInt16): PrivateScope, Public, HideBySig
+    ClearBanks(): PrivateScope, Public, HideBySig
+    UnloadPreparedEvents(String[], UInt16): PrivateScope, Public, HideBySig
+    ClearPreparedEvents(): PrivateScope, Public, HideBySig
+    RegisterGameObject(UInt32, String): PrivateScope, Public, HideBySig
+    SetState(String, String): PrivateScope, Public, HideBySig
+    SetState(UInt32 IsLong, UInt32 IsLong): PrivateScope, Public, HideBySig
+    SetGlobalRTPCValue(UInt32 IsLong, Single): PrivateScope, Public, HideBySig
+    SetGlobalRTPCValue(String, Single): PrivateScope, Public, HideBySig
+    SetListenerPosition(Int32, WwiseSharpListenerPosition): PrivateScope, Public, HideBySig
+    SetListenerPosition(WwiseSharpListenerPosition): PrivateScope, Public, HideBySig
+    SetPanType(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    SetBusEffect(UInt32): PrivateScope, Public, HideBySig
+    InitReverb(): PrivateScope, Public, HideBySig
+    Update(): PrivateScope, Public, HideBySig
+    UnregisterGameObject(WwiseSharpGameObject): PrivateScope, Public, HideBySig
+    UnregisterAllGameObject(): PrivateScope, Public, HideBySig
+    Term(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig

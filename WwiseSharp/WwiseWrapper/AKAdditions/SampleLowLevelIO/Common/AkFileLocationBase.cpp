@@ -28,6 +28,7 @@
 #include <AK/Tools/Common/AkAssert.h>
 
 #include "AkFileHelpers.h"
+#include <assert.h>
 
 
 #define MAX_NUMBER_STRING_SIZE      (10)    // 4G

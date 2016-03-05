@@ -5,6 +5,7 @@
 //////////////////////////////////////////////////////////////////////
 
 #include "WwiseEngine.hpp"
+#include <assert.h>
 using namespace WwiseWrapper;
 
 // Custom alloc/free functions. These are declared as "extern" in AkMemoryMgr.h

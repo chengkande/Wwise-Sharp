@@ -33,7 +33,7 @@
 #include "stdafx.h"
 #include "AkDefaultIOHookBlocking.h"
 #include "AkFileHelpers.h"
-
+#include <assert.h>
 
 #define WIN32_BLOCKING_DEVICE_NAME		(L"Win32 Blocking")	// Default blocking device name.
 
