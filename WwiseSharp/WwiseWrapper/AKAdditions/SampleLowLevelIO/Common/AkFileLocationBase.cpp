@@ -34,6 +34,7 @@
 #define MAX_NUMBER_STRING_SIZE      (10)    // 4G
 #define ID_TO_STRING_FORMAT_BANK    AKTEXT("%u.bnk")
 #define ID_TO_STRING_FORMAT_WAV     AKTEXT("%u.wav")
+#define ID_TO_STRING_FORMAT_WEM		AKTEXT("%u.wem")
 #define ID_TO_STRING_FORMAT_XMA     AKTEXT("%u.xma")
 #define ID_TO_STRING_FORMAT_VORBIS  AKTEXT("%u.ogg")
 #define MAX_EXTENSION_SIZE          (4)     // .xxx
@@ -244,10 +245,10 @@ AKRESULT CAkFileLocationBase::GetFullFilePath(
 			AK_OSPRINTF( pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_BANK, (unsigned int)in_fileID );
 		else if ( in_pFlags->uCodecID == AKCODECID_XMA )
 			AK_OSPRINTF( pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_XMA, (unsigned int)in_fileID );
-		else if ( in_pFlags->uCodecID == AKCODECID_VORBIS )
-			AK_OSPRINTF( pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_VORBIS, (unsigned int)in_fileID );
+		else if (in_pFlags->uCodecID == AKCODECID_VORBIS)
+			AK_OSPRINTF(pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_VORBIS, (unsigned int)in_fileID);
 		else
-			AK_OSPRINTF( pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_WAV, (unsigned int)in_fileID );
+			AK_OSPRINTF(pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_WEM, (unsigned int)in_fileID);
 	}
 	else
 	{
@@ -303,16 +304,4 @@ AKRESULT CAkFileLocationBase::SetAudioSrcPath(
 	AKPLATFORM::SafeStrCpy( m_szAudioSrcPath, in_pszAudioSrcPath, AK_MAX_PATH );
 	return AK_Success;
 }
-
-/*AKRESULT CAkFileLocationBase::SetLangSpecificDirName(
-    const AkOSChar*   in_pszDirName
-    )
-{
-    if ( AKPLATFORM::OsStrLen( m_szBasePath ) + AkTemplMax( AKPLATFORM::OsStrLen( m_szBankPath ), AKPLATFORM::OsStrLen( m_szAudioSrcPath ) ) + AKPLATFORM::OsStrLen( in_pszDirName ) >= AK_MAX_PATH )
-	{
-		return AK_InvalidParameter;
-	}
-	AKPLATFORM::SafeStrCpy( m_szLangSpecificDirName, in_pszDirName, AK_MAX_PATH );
-	return AK_Success;
-}*/
 

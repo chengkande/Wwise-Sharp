@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="4039775574" Language="SFX">
+			<ShortName>captain_sax</ShortName>
+			<Path>captain_sax.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3883430244" Name="captain_sax_attack_disable"/>
+				<Event Id="2587606421" Name="captain_sax_attack_enable"/>
+				<Event Id="2043198665" Name="captain_sax_boombox_land"/>
+				<Event Id="4178323474" Name="captain_sax_full_loop_start"/>
+				<Event Id="4078085648" Name="captain_sax_loop_intro"/>
+				<Event Id="2122636165" Name="captain_sax_stop"/>
+				<Event Id="1305421707" Name="captain_throw_boombox"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="27681910" Language="SFX">
+					<ShortName>Hat real 2 - 2.wav</ShortName>
+					<Path>SFX\Hat real 2 - 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="44392907" Language="SFX">
+					<ShortName>Sweep Rev 1 - 2.wav</ShortName>
+					<Path>SFX\Sweep Rev 1 - 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="130711528" Language="SFX">
+					<ShortName>snare fill 2 - 2.wav</ShortName>
+					<Path>SFX\snare fill 2 - 2_AFC0A911.wem</Path>
+				</File>
+				<File Id="151835743" Language="SFX">
+					<ShortName>Snare Heavy 2.wav</ShortName>
+					<Path>SFX\Snare Heavy 2_11B53779.wem</Path>
+				</File>
+				<File Id="152632393" Language="SFX">
+					<ShortName>snare fill 3 - 2.wav</ShortName>
+					<Path>SFX\snare fill 3 - 2_FDA9A3B6.wem</Path>
+				</File>
+				<File Id="167676866" Language="SFX">
+					<ShortName>Kick 1 - 2.wav</ShortName>
+					<Path>SFX\Kick 1 - 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="188722740" Language="SFX">
+					<ShortName>Snare 1 - 3.wav</ShortName>
+					<Path>SFX\Snare 1 - 3_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="197938321" Language="SFX">
+					<ShortName>Clap 2.wav</ShortName>
+					<Path>SFX\Clap 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="244927625" Language="SFX">
+					<ShortName>Kick real 2 - 2.wav</ShortName>
+					<Path>SFX\Kick real 2 - 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="302303845" Language="SFX">
+					<ShortName>cpt_sax_edit_3.MID</ShortName>
+					<Path>SFX\cpt_sax_edit_3_00000000.wem</Path>
+				</File>
+				<File Id="304173217" Language="SFX">
+					<ShortName>enemy_captain_sax_loop_intro.wav</ShortName>
+					<Path>SFX\enemy_captain_sax_loop_intro_3314988A.wem</Path>
+				</File>
+				<File Id="385188332" Language="SFX">
+					<ShortName>Kick 2 - 2.wav</ShortName>
+					<Path>SFX\Kick 2 - 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="389227109" Language="SFX">
+					<ShortName>Snare Heavy 1.wav</ShortName>
+					<Path>SFX\Snare Heavy 1_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="416109787" Language="SFX">
+					<ShortName>Clap 1.wav</ShortName>
+					<Path>SFX\Clap 1_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="419584094" Language="SFX">
+					<ShortName>Snare real 1 - 2.wav</ShortName>
+					<Path>SFX\Snare real 1 - 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="431978659" Language="SFX">
+					<ShortName>Sweep 2 - 2.wav</ShortName>
+					<Path>SFX\Sweep 2 - 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="452482063" Language="SFX">
+					<ShortName>Snare 2 - 2.wav</ShortName>
+					<Path>SFX\Snare 2 - 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="570128268" Language="SFX">
+					<ShortName>Splash.wav</ShortName>
+					<Path>SFX\Splash_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="641135672" Language="SFX">
+					<ShortName>Hat open 2.wav</ShortName>
+					<Path>SFX\Hat open 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="797456820" Language="SFX">
+					<ShortName>enemy_captain_boombox_land.wav</ShortName>
+					<Path>SFX\enemy_captain_boombox_land_3314988A.wem</Path>
+				</File>
+				<File Id="814289478" Language="SFX">
+					<ShortName>snare roll 2.wav</ShortName>
+					<Path>SFX\snare roll 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="816551546" Language="SFX">
+					<ShortName>Crash 3.wav</ShortName>
+					<Path>SFX\Crash 3_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="845169896" Language="SFX">
+					<ShortName>Hat Heavy 1.wav</ShortName>
+					<Path>SFX\Hat Heavy 1_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="887891749" Language="SFX">
+					<ShortName>Bass.wav</ShortName>
+					<Path>SFX\Bass_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="897943310" Language="SFX">
+					<ShortName>Sweep 1 - 2.wav</ShortName>
+					<Path>SFX\Sweep 1 - 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="943840724" Language="SFX">
+					<ShortName>Kick real 1 - 2.wav</ShortName>
+					<Path>SFX\Kick real 1 - 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="963931026" Language="SFX">
+					<ShortName>enemy_captain_throw_boombox.wav</ShortName>
+					<Path>SFX\enemy_captain_throw_boombox_3314988A.wem</Path>
+				</File>
+				<File Id="1023311823" Language="SFX">
+					<ShortName>Hat Heavy 2.wav</ShortName>
+					<Path>SFX\Hat Heavy 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="1051106691" Language="SFX">
+					<ShortName>Hat real 1 - 2.wav</ShortName>
+					<Path>SFX\Hat real 1 - 2_4C2B0FFC.wem</Path>
+				</File>
+				<File Id="1066211018" Language="SFX">
+					<ShortName>Captain Sax Layer 2.mid</ShortName>
+					<Path>SFX\Captain Sax Layer 2_00000000.wem</Path>
+				</File>
+				<File Id="1071846242" Language="SFX">
+					<ShortName>Sweep Rev 2 - 2.wav</ShortName>
+					<Path>SFX\Sweep Rev 2 - 2_4C2B0FFC.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

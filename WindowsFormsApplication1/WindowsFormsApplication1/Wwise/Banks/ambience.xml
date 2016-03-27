@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ShortName>ambience</ShortName>
+			<Path>ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="476958511" Name="ambience_bathroom_play"/>
+				<Event Id="3236165933" Name="ambience_bathroom_stop"/>
+				<Event Id="2104457236" Name="ambience_cave_play"/>
+				<Event Id="3808359918" Name="ambience_cave_stop"/>
+				<Event Id="61970451" Name="ambience_ethereal_play"/>
+				<Event Id="3487059961" Name="ambience_ethereal_stop"/>
+				<Event Id="2945877104" Name="ambience_far_side_play"/>
+				<Event Id="1252782098" Name="ambience_far_side_stop"/>
+				<Event Id="1776492829" Name="ambience_fort_battle_play"/>
+				<Event Id="3962334859" Name="ambience_fort_battle_stop"/>
+				<Event Id="1160136561" Name="ambience_furnace_play"/>
+				<Event Id="2453128231" Name="ambience_furnace_stop"/>
+				<Event Id="302525619" Name="ambience_janitor_snoring_play"/>
+				<Event Id="3685935001" Name="ambience_janitor_snoring_stop"/>
+				<Event Id="4204973168" Name="ambience_military_camp_play"/>
+				<Event Id="2511878162" Name="ambience_military_camp_stop"/>
+				<Event Id="3137962781" Name="ambience_outdoors_night_play"/>
+				<Event Id="1028837515" Name="ambience_outdoors_night_stop"/>
+				<Event Id="3219232470" Name="ambience_party_gross_play"/>
+				<Event Id="3991243368" Name="ambience_party_gross_stop"/>
+				<Event Id="3888078718" Name="ambience_quad_blend_play"/>
+				<Event Id="631004224" Name="ambience_quad_blend_stop"/>
+				<Event Id="2574845226" Name="ambience_quad_play"/>
+				<Event Id="3979047252" Name="ambience_quad_stop"/>
+				<Event Id="1870086827" Name="ambience_school_empty_play"/>
+				<Event Id="692750145" Name="ambience_school_empty_stop"/>
+				<Event Id="669703963" Name="ambience_school_people_play"/>
+				<Event Id="3792557521" Name="ambience_school_people_stop"/>
+				<Event Id="2908385839" Name="ambience_vent_puzzle_room_play"/>
+				<Event Id="1372625965" Name="ambience_vent_puzzle_room_stop"/>
+				<Event Id="2457855633" Name="ambience_vents_play"/>
+				<Event Id="3709270855" Name="ambience_vents_stop"/>
+				<Event Id="3067707886" Name="ambience_wasteland_play"/>
+				<Event Id="4069246928" Name="ambience_wasteland_stop"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="5215782" Language="SFX">
+					<ShortName>ambience_wasteland.wav</ShortName>
+					<Path>SFX\ambience_wasteland_66878FFD.wem</Path>
+				</File>
+				<File Id="91118028" Language="SFX">
+					<ShortName>ambience_school_people.wav</ShortName>
+					<Path>SFX\ambience_school_people_66878FFD.wem</Path>
+				</File>
+				<File Id="146021818" Language="SFX">
+					<ShortName>ambience_bathroom.wav</ShortName>
+					<Path>SFX\ambience_bathroom_66878FFD.wem</Path>
+				</File>
+				<File Id="146258339" Language="SFX">
+					<ShortName>ambience_far_side.wav</ShortName>
+					<Path>SFX\ambience_far_side_66878FFD.wem</Path>
+				</File>
+				<File Id="155480348" Language="SFX">
+					<ShortName>ambience_vents.wav</ShortName>
+					<Path>SFX\ambience_vents_66878FFD.wem</Path>
+				</File>
+				<File Id="268596333" Language="SFX">
+					<ShortName>ambience_quad.wav</ShortName>
+					<Path>SFX\ambience_quad_66878FFD.wem</Path>
+				</File>
+				<File Id="328456620" Language="SFX">
+					<ShortName>ambience_military_camp.wav</ShortName>
+					<Path>SFX\ambience_military_camp_21545B0F.wem</Path>
+				</File>
+				<File Id="350747320" Language="SFX">
+					<ShortName>ambience_cave.wav</ShortName>
+					<Path>SFX\ambience_cave_66878FFD.wem</Path>
+				</File>
+				<File Id="400368641" Language="SFX">
+					<ShortName>ambience_fort_battle.wav</ShortName>
+					<Path>SFX\ambience_fort_battle_66878FFD.wem</Path>
+				</File>
+				<File Id="768154047" Language="SFX">
+					<ShortName>ambience_party_gross.wav</ShortName>
+					<Path>SFX\ambience_party_gross_66878FFD.wem</Path>
+				</File>
+				<File Id="825799538" Language="SFX">
+					<ShortName>ambience_school_empty.wav</ShortName>
+					<Path>SFX\ambience_school_empty_66878FFD.wem</Path>
+				</File>
+				<File Id="909069808" Language="SFX">
+					<ShortName>ambience_janitor_snoring.wav</ShortName>
+					<Path>SFX\ambience_janitor_snoring_66878FFD.wem</Path>
+				</File>
+				<File Id="967240221" Language="SFX">
+					<ShortName>ambience_vent_puzzle_room.wav</ShortName>
+					<Path>SFX\ambience_vent_puzzle_room_66878FFD.wem</Path>
+				</File>
+				<File Id="1034548613" Language="SFX">
+					<ShortName>ambience_outdoors_night.wav</ShortName>
+					<Path>SFX\ambience_outdoors_night_66878FFD.wem</Path>
+				</File>
+				<File Id="1057112445" Language="SFX">
+					<ShortName>ambience_ethereal.wav</ShortName>
+					<Path>SFX\ambience_ethereal_66878FFD.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="822078946" Language="SFX">
+					<ShortName>ambience_furnace.wav</ShortName>
+					<Path>SFX\ambience_furnace_66878FFD.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

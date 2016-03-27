@@ -31,11 +31,12 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
             Wwise.Init();
-            Wwise.SetBasePath("C:/Users/Miles/Documents/GitHub/WwiseSharp/wwisesharp/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/");
+            Wwise.SetBasePath("C:/Users/Miles/Documents/WwiseProjects/SuperDarylDeluxe/GeneratedSoundBanks/Windows");
             //Wwise.SetAudioSrcPath("C:/Users/Miles/Documents/GitHub/WwiseSharp/wwisesharp/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/");
             Wwise.InitReverb();
             Wwise.LoadBank("Init.bnk");
             Wwise.LoadBank("global.bnk");
+            Wwise.LoadBank("ambience.bnk");
            
             WwiseObject = Wwise.RegisterGameObject(globalObjectID, "global");
             WwiseObject2 = Wwise.RegisterGameObject((uint)1, "local");
@@ -263,16 +264,16 @@ namespace WindowsFormsApplication1
         //test banks
         private void button20_Click(object sender, EventArgs e)
         {
-            String msg;
-            msg = Wwise.LoadEvents(new String[2] { "ambience_bathroom_play", "ambience_bathroom_stop" }, 2);
-            Console.WriteLine("Prepared " + msg);
+            //String msg;
+            //msg = Wwise.LoadEvents(new String[2] { "ambience_bathroom_play", "ambience_bathroom_stop" }, 2);
+           // Console.WriteLine("Prepared " + msg);
             //WwiseObject2.PostEvent("ambience_bathroom_play");
         }
 
         //prepare
         private void button21_Click(object sender, EventArgs e)
         {
-            Wwise.LoadBank("ambience.bnk");
+            WwiseObject2.PostEvent("ambience_furnace_play");
             
         }
     }

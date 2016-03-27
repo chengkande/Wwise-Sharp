@@ -3,13 +3,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	2634512711	combustible_confutation_ch_1_use			\Default Work Unit\Weapons\combustible_confutation_ch_1_use	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
-	2694431556	combustable_confutations_ch_1			\Default Work Unit\Skills\combustable_confutations_ch_1	
+	2238872060	combustible_confutations_ch_1			\Default Work Unit\Skills\combustible_confutations_ch_1	
 
 Switch	ID	Name	Switch Group			Notes
-	141331488	lvl3	combustable_confutations_ch_1			
-	141331489	lvl2	combustable_confutations_ch_1			
-	141331490	lvl1	combustable_confutations_ch_1			
-	141331495	lvl4	combustable_confutations_ch_1			
+	141331488	lvl3	combustible_confutations_ch_1			
+	141331489	lvl2	combustible_confutations_ch_1			
+	141331490	lvl1	combustible_confutations_ch_1			
+	141331495	lvl4	combustible_confutations_ch_1			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	87715803	weapon_fire_punch_lvl3_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl3_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_1\lvl3\weapon_fire_punch_lvl3_02		34476

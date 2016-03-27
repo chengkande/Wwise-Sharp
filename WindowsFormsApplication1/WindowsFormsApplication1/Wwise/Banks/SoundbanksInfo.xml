@@ -5,72 +5,72 @@
 		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
 		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\Media</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
-	<MediaFilesNotInAnyBank>
+	<StreamedFiles>
 		<File Id="5215782" Language="SFX">
 			<ShortName>ambience_wasteland.wav</ShortName>
-			<Path>SFX\ambience_wasteland_8D34B564.wem</Path>
+			<Path>SFX\ambience_wasteland_66878FFD.wem</Path>
 		</File>
 		<File Id="91118028" Language="SFX">
 			<ShortName>ambience_school_people.wav</ShortName>
-			<Path>SFX\ambience_school_people_8D34B564.wem</Path>
+			<Path>SFX\ambience_school_people_66878FFD.wem</Path>
 		</File>
 		<File Id="146021818" Language="SFX">
 			<ShortName>ambience_bathroom.wav</ShortName>
-			<Path>SFX\ambience_bathroom_8D34B564.wem</Path>
+			<Path>SFX\ambience_bathroom_66878FFD.wem</Path>
 		</File>
 		<File Id="146258339" Language="SFX">
 			<ShortName>ambience_far_side.wav</ShortName>
-			<Path>SFX\ambience_far_side_8D34B564.wem</Path>
+			<Path>SFX\ambience_far_side_66878FFD.wem</Path>
 		</File>
 		<File Id="155480348" Language="SFX">
 			<ShortName>ambience_vents.wav</ShortName>
-			<Path>SFX\ambience_vents_8D34B564.wem</Path>
+			<Path>SFX\ambience_vents_66878FFD.wem</Path>
 		</File>
 		<File Id="268596333" Language="SFX">
 			<ShortName>ambience_quad.wav</ShortName>
-			<Path>SFX\ambience_quad_8D34B564.wem</Path>
+			<Path>SFX\ambience_quad_66878FFD.wem</Path>
+		</File>
+		<File Id="328456620" Language="SFX">
+			<ShortName>ambience_military_camp.wav</ShortName>
+			<Path>SFX\ambience_military_camp_21545B0F.wem</Path>
 		</File>
 		<File Id="350747320" Language="SFX">
 			<ShortName>ambience_cave.wav</ShortName>
-			<Path>SFX\ambience_cave_8D34B564.wem</Path>
+			<Path>SFX\ambience_cave_66878FFD.wem</Path>
 		</File>
 		<File Id="400368641" Language="SFX">
 			<ShortName>ambience_fort_battle.wav</ShortName>
-			<Path>SFX\ambience_fort_battle_8D34B564.wem</Path>
+			<Path>SFX\ambience_fort_battle_66878FFD.wem</Path>
 		</File>
 		<File Id="768154047" Language="SFX">
 			<ShortName>ambience_party_gross.wav</ShortName>
-			<Path>SFX\ambience_party_gross_8D34B564.wem</Path>
-		</File>
-		<File Id="822078946" Language="SFX">
-			<ShortName>ambience_furnace.wav</ShortName>
-			<Path>SFX\ambience_furnace_8D34B564.wem</Path>
+			<Path>SFX\ambience_party_gross_66878FFD.wem</Path>
 		</File>
 		<File Id="825799538" Language="SFX">
 			<ShortName>ambience_school_empty.wav</ShortName>
-			<Path>SFX\ambience_school_empty_8D34B564.wem</Path>
+			<Path>SFX\ambience_school_empty_66878FFD.wem</Path>
 		</File>
 		<File Id="909069808" Language="SFX">
 			<ShortName>ambience_janitor_snoring.wav</ShortName>
-			<Path>SFX\ambience_janitor_snoring_8D34B564.wem</Path>
+			<Path>SFX\ambience_janitor_snoring_66878FFD.wem</Path>
 		</File>
 		<File Id="967240221" Language="SFX">
 			<ShortName>ambience_vent_puzzle_room.wav</ShortName>
-			<Path>SFX\ambience_vent_puzzle_room_8D34B564.wem</Path>
+			<Path>SFX\ambience_vent_puzzle_room_66878FFD.wem</Path>
 		</File>
 		<File Id="1034548613" Language="SFX">
 			<ShortName>ambience_outdoors_night.wav</ShortName>
-			<Path>SFX\ambience_outdoors_night_8D34B564.wem</Path>
+			<Path>SFX\ambience_outdoors_night_66878FFD.wem</Path>
 		</File>
 		<File Id="1057112445" Language="SFX">
 			<ShortName>ambience_ethereal.wav</ShortName>
-			<Path>SFX\ambience_ethereal_8D34B564.wem</Path>
+			<Path>SFX\ambience_ethereal_66878FFD.wem</Path>
 		</File>
-	</MediaFilesNotInAnyBank>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="85412153" Language="SFX">
 			<ShortName>ambience</ShortName>
@@ -90,6 +90,8 @@
 				<Event Id="2453128231" Name="ambience_furnace_stop"/>
 				<Event Id="302525619" Name="ambience_janitor_snoring_play"/>
 				<Event Id="3685935001" Name="ambience_janitor_snoring_stop"/>
+				<Event Id="4204973168" Name="ambience_military_camp_play"/>
+				<Event Id="2511878162" Name="ambience_military_camp_stop"/>
 				<Event Id="3137962781" Name="ambience_outdoors_night_play"/>
 				<Event Id="1028837515" Name="ambience_outdoors_night_stop"/>
 				<Event Id="3219232470" Name="ambience_party_gross_play"/>
@@ -109,68 +111,29 @@
 				<Event Id="3067707886" Name="ambience_wasteland_play"/>
 				<Event Id="4069246928" Name="ambience_wasteland_stop"/>
 			</IncludedEvents>
-			<ExcludedMemoryFiles>
-				<File Id="5215782" Language="SFX">
-					<ShortName>ambience_wasteland.wav</ShortName>
-					<Path>SFX\ambience_wasteland_8D34B564.wem</Path>
-				</File>
-				<File Id="91118028" Language="SFX">
-					<ShortName>ambience_school_people.wav</ShortName>
-					<Path>SFX\ambience_school_people_8D34B564.wem</Path>
-				</File>
-				<File Id="146021818" Language="SFX">
-					<ShortName>ambience_bathroom.wav</ShortName>
-					<Path>SFX\ambience_bathroom_8D34B564.wem</Path>
-				</File>
-				<File Id="146258339" Language="SFX">
-					<ShortName>ambience_far_side.wav</ShortName>
-					<Path>SFX\ambience_far_side_8D34B564.wem</Path>
-				</File>
-				<File Id="155480348" Language="SFX">
-					<ShortName>ambience_vents.wav</ShortName>
-					<Path>SFX\ambience_vents_8D34B564.wem</Path>
-				</File>
-				<File Id="268596333" Language="SFX">
-					<ShortName>ambience_quad.wav</ShortName>
-					<Path>SFX\ambience_quad_8D34B564.wem</Path>
-				</File>
-				<File Id="350747320" Language="SFX">
-					<ShortName>ambience_cave.wav</ShortName>
-					<Path>SFX\ambience_cave_8D34B564.wem</Path>
-				</File>
-				<File Id="400368641" Language="SFX">
-					<ShortName>ambience_fort_battle.wav</ShortName>
-					<Path>SFX\ambience_fort_battle_8D34B564.wem</Path>
-				</File>
-				<File Id="768154047" Language="SFX">
-					<ShortName>ambience_party_gross.wav</ShortName>
-					<Path>SFX\ambience_party_gross_8D34B564.wem</Path>
-				</File>
+			<ReferencedStreamedFiles>
+				<File Id="5215782"/>
+				<File Id="91118028"/>
+				<File Id="146021818"/>
+				<File Id="146258339"/>
+				<File Id="155480348"/>
+				<File Id="268596333"/>
+				<File Id="328456620"/>
+				<File Id="350747320"/>
+				<File Id="400368641"/>
+				<File Id="768154047"/>
+				<File Id="825799538"/>
+				<File Id="909069808"/>
+				<File Id="967240221"/>
+				<File Id="1034548613"/>
+				<File Id="1057112445"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
 				<File Id="822078946" Language="SFX">
 					<ShortName>ambience_furnace.wav</ShortName>
-					<Path>SFX\ambience_furnace_8D34B564.wem</Path>
+					<Path>SFX\ambience_furnace_66878FFD.wem</Path>
 				</File>
-				<File Id="825799538" Language="SFX">
-					<ShortName>ambience_school_empty.wav</ShortName>
-					<Path>SFX\ambience_school_empty_8D34B564.wem</Path>
-				</File>
-				<File Id="909069808" Language="SFX">
-					<ShortName>ambience_janitor_snoring.wav</ShortName>
-					<Path>SFX\ambience_janitor_snoring_8D34B564.wem</Path>
-				</File>
-				<File Id="967240221" Language="SFX">
-					<ShortName>ambience_vent_puzzle_room.wav</ShortName>
-					<Path>SFX\ambience_vent_puzzle_room_8D34B564.wem</Path>
-				</File>
-				<File Id="1034548613" Language="SFX">
-					<ShortName>ambience_outdoors_night.wav</ShortName>
-					<Path>SFX\ambience_outdoors_night_8D34B564.wem</Path>
-				</File>
-				<File Id="1057112445" Language="SFX">
-					<ShortName>ambience_ethereal.wav</ShortName>
-					<Path>SFX\ambience_ethereal_8D34B564.wem</Path>
-				</File>
-			</ExcludedMemoryFiles>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="120727764" Language="SFX">
 			<ShortName>goblin_mortar</ShortName>
@@ -284,7 +247,7 @@
 				</File>
 				<File Id="130149214" Language="SFX">
 					<ShortName>enemy_anubis_summon_01.wav</ShortName>
-					<Path>SFX\enemy_anubis_summon_01_3314988A.wem</Path>
+					<Path>SFX\enemy_anubis_summon_01_2C301954.wem</Path>
 				</File>
 				<File Id="334173222" Language="SFX">
 					<ShortName>enemy_anubis_swipe_03.wav</ShortName>
@@ -292,7 +255,7 @@
 				</File>
 				<File Id="368078288" Language="SFX">
 					<ShortName>enemy_anubis_summon_02.wav</ShortName>
-					<Path>SFX\enemy_anubis_summon_02_3314988A.wem</Path>
+					<Path>SFX\enemy_anubis_summon_02_F72C1A66.wem</Path>
 				</File>
 				<File Id="370093949" Language="SFX">
 					<ShortName>enemy_anubis_shockwave_02.wav</ShortName>
@@ -320,8 +283,17 @@
 			<ShortName>d_and_d</ShortName>
 			<Path>d_and_d.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1097643769" Name="popup_d_and_d_clear"/>
 				<Event Id="700526099" Name="popup_d_and_d_countdown"/>
+				<Event Id="2801699750" Name="popup_d_and_d_fail"/>
+				<Event Id="2302545558" Name="ui_d_and_d_arrow_click"/>
+				<Event Id="951517452" Name="ui_d_and_d_arrow_hover"/>
+				<Event Id="2895362345" Name="ui_d_and_d_back"/>
+				<Event Id="3872723696" Name="ui_d_and_d_menu_click"/>
+				<Event Id="2897916574" Name="ui_d_and_d_menu_hover"/>
+				<Event Id="309327528" Name="ui_d_and_d_open"/>
 				<Event Id="995323385" Name="ui_d_and_d_quest_accept"/>
+				<Event Id="2195928685" Name="ui_d_and_d_quest_select"/>
 				<Event Id="1818455295" Name="ui_d_and_d_reward_hit"/>
 				<Event Id="2168219932" Name="ui_d_and_d_reward_start"/>
 				<Event Id="15948784" Name="ui_d_and_d_reward_stop"/>
@@ -331,21 +303,57 @@
 					<ShortName>ui_DandD_Begin.wav</ShortName>
 					<Path>SFX\ui_DandD_Begin_3314988A.wem</Path>
 				</File>
+				<File Id="124084224" Language="SFX">
+					<ShortName>ui_DandD_open.wav</ShortName>
+					<Path>SFX\ui_DandD_open_3314988A.wem</Path>
+				</File>
+				<File Id="159963309" Language="SFX">
+					<ShortName>ui_DandD_back.wav</ShortName>
+					<Path>SFX\ui_DandD_back_3314988A.wem</Path>
+				</File>
+				<File Id="173691282" Language="SFX">
+					<ShortName>popup_d_and_d_countdown_03.wav</ShortName>
+					<Path>SFX\popup_d_and_d_countdown_03_3314988A.wem</Path>
+				</File>
 				<File Id="258397620" Language="SFX">
 					<ShortName>ui_DandD_Reward_Drum_loop.wav</ShortName>
 					<Path>SFX\ui_DandD_Reward_Drum_loop_8D34B564.wem</Path>
 				</File>
-				<File Id="318639940" Language="SFX">
-					<ShortName>popup_DandD_countdown_02.wav</ShortName>
-					<Path>SFX\popup_DandD_countdown_02_3314988A.wem</Path>
+				<File Id="439219422" Language="SFX">
+					<ShortName>ui_DandD_arrow_hover.wav</ShortName>
+					<Path>SFX\ui_DandD_arrow_hover_3314988A.wem</Path>
+				</File>
+				<File Id="514495685" Language="SFX">
+					<ShortName>popup_DandD_fail.wav</ShortName>
+					<Path>SFX\popup_DandD_fail_3314988A.wem</Path>
 				</File>
 				<File Id="528362630" Language="SFX">
 					<ShortName>ui_DandD_Reward_Drum_start.wav</ShortName>
 					<Path>SFX\ui_DandD_Reward_Drum_start_3314988A.wem</Path>
 				</File>
+				<File Id="618863700" Language="SFX">
+					<ShortName>popup_DandD_clear.wav</ShortName>
+					<Path>SFX\popup_DandD_clear_3314988A.wem</Path>
+				</File>
+				<File Id="679518401" Language="SFX">
+					<ShortName>ui_DandD_menu_hover.wav</ShortName>
+					<Path>SFX\ui_DandD_menu_hover_6034DC60.wem</Path>
+				</File>
+				<File Id="747868296" Language="SFX">
+					<ShortName>ui_DandD_arrow_click.wav</ShortName>
+					<Path>SFX\ui_DandD_arrow_click_3314988A.wem</Path>
+				</File>
 				<File Id="899145388" Language="SFX">
 					<ShortName>ui_DandD_Reward_Drum_End.wav</ShortName>
 					<Path>SFX\ui_DandD_Reward_Drum_End_3314988A.wem</Path>
+				</File>
+				<File Id="1013844109" Language="SFX">
+					<ShortName>ui_DandD_quest_select.wav</ShortName>
+					<Path>SFX\ui_DandD_quest_select_458A6E02.wem</Path>
+				</File>
+				<File Id="1065603924" Language="SFX">
+					<ShortName>ui_DandD_menu_click.wav</ShortName>
+					<Path>SFX\ui_DandD_menu_click_3314988A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -468,6 +476,7 @@
 			<Path>ent.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1342422041" Name="ent_body_slam"/>
+				<Event Id="4143923948" Name="ent_body_slam_stop"/>
 				<Event Id="2322087748" Name="ent_rise"/>
 				<Event Id="721196554" Name="ent_sink"/>
 			</IncludedEvents>
@@ -752,6 +761,7 @@
 			<Path>cymbal.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3525175130" Name="cymbal_attack"/>
+				<Event Id="3315706025" Name="cymbal_attack_stop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="502517257" Language="SFX">
@@ -814,6 +824,10 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="833460923" Language="SFX">
+			<ShortName>music_temp</ShortName>
+			<Path>music_temp.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="989797170" Language="SFX">
 			<ShortName>scarecrow</ShortName>
 			<Path>scarecrow.bnk</Path>
@@ -843,11 +857,11 @@
 				</File>
 				<File Id="456960980" Language="SFX">
 					<ShortName>enemy_rat_knife_pull_passive.wav</ShortName>
-					<Path>SFX\enemy_rat_knife_pull_passive_3314988A.wem</Path>
+					<Path>SFX\enemy_rat_knife_pull_passive_2B260C58.wem</Path>
 				</File>
 				<File Id="590268904" Language="SFX">
 					<ShortName>enemy_rat_knife_flip.wav</ShortName>
-					<Path>SFX\enemy_rat_knife_flip_3314988A.wem</Path>
+					<Path>SFX\enemy_rat_knife_flip_18431343.wem</Path>
 				</File>
 				<File Id="699590175" Language="SFX">
 					<ShortName>enemy_rat_attack_swipe_02.wav</ShortName>
@@ -1039,6 +1053,10 @@
 					<ShortName>ui_locker_player_open.wav</ShortName>
 					<Path>SFX\ui_locker_player_open_3314988A.wem</Path>
 				</File>
+				<File Id="84974582" Language="SFX">
+					<ShortName>enemy_generic_hit_generic_02.wav</ShortName>
+					<Path>SFX\enemy_generic_hit_generic_02_21545B0F.wem</Path>
+				</File>
 				<File Id="86183594" Language="SFX">
 					<ShortName>movement_footstep_walk_vent_03.wav</ShortName>
 					<Path>SFX\movement_footstep_walk_vent_03_3314988A.wem</Path>
@@ -1070,6 +1088,10 @@
 				<File Id="118476583" Language="SFX">
 					<ShortName>object_barrel_wood_hit_01.wav</ShortName>
 					<Path>SFX\object_barrel_wood_hit_01_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="122123897" Language="SFX">
+					<ShortName>enemy_generic_hit_generic_01.wav</ShortName>
+					<Path>SFX\enemy_generic_hit_generic_01_21545B0F.wem</Path>
 				</File>
 				<File Id="139162179" Language="SFX">
 					<ShortName>object_barrel_wood_destroy_01.wav</ShortName>
@@ -1309,7 +1331,7 @@
 				</File>
 				<File Id="682921533" Language="SFX">
 					<ShortName>object_pickup_textbook.wav</ShortName>
-					<Path>SFX\object_pickup_textbook_FB1EEB1D.wem</Path>
+					<Path>SFX\object_pickup_textbook_C77FB4CD.wem</Path>
 				</File>
 				<File Id="689147296" Language="SFX">
 					<ShortName>movement_footstep_walk_room_01.wav</ShortName>
@@ -1369,7 +1391,7 @@
 				</File>
 				<File Id="785922429" Language="SFX">
 					<ShortName>popup_skill_level_up.wav</ShortName>
-					<Path>SFX\popup_skill_level_up_3314988A.wem</Path>
+					<Path>SFX\popup_skill_level_up_FE16761C.wem</Path>
 				</File>
 				<File Id="793897608" Language="SFX">
 					<ShortName>object_pickup_health_2.wav</ShortName>
@@ -1386,6 +1408,10 @@
 				<File Id="814477897" Language="SFX">
 					<ShortName>movement_jump_outside_01.wav</ShortName>
 					<Path>SFX\movement_jump_outside_01_3314988A.wem</Path>
+				</File>
+				<File Id="821104753" Language="SFX">
+					<ShortName>tear_enter.wav</ShortName>
+					<Path>SFX\tear_enter_3314988A.wem</Path>
 				</File>
 				<File Id="822092441" Language="SFX">
 					<ShortName>movement_land_outside_02.wav</ShortName>
@@ -1450,6 +1476,10 @@
 				<File Id="920811120" Language="SFX">
 					<ShortName>movement_jump_science_02.wav</ShortName>
 					<Path>SFX\movement_jump_science_02_3314988A.wem</Path>
+				</File>
+				<File Id="933049443" Language="SFX">
+					<ShortName>enemy_generic_hit_generic_03.wav</ShortName>
+					<Path>SFX\enemy_generic_hit_generic_03_21545B0F.wem</Path>
 				</File>
 				<File Id="934650014" Language="SFX">
 					<ShortName>object_fire_trap_01.wav</ShortName>
@@ -1529,7 +1559,9 @@
 			<ShortName>twisted_thinking</ShortName>
 			<Path>twisted_thinking.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2254603474" Name="twisted_thinking_explode"/>
 				<Event Id="1422805246" Name="twisted_thinking_hit"/>
+				<Event Id="3188750231" Name="twisted_thinking_stop"/>
 				<Event Id="1384571436" Name="twisted_thinking_use"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -1545,6 +1577,10 @@
 					<ShortName>weapon_fire_hit_04.wav</ShortName>
 					<Path>SFX\weapon_fire_hit_04_21545B0F.wem</Path>
 				</File>
+				<File Id="567621974" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_explode_03.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_explode_03_3314988A.wem</Path>
+				</File>
 				<File Id="593231295" Language="SFX">
 					<ShortName>weapon_fire_hit_02.wav</ShortName>
 					<Path>SFX\weapon_fire_hit_02_21545B0F.wem</Path>
@@ -1552,6 +1588,14 @@
 				<File Id="688230459" Language="SFX">
 					<ShortName>weapon_fire_hit_03.wav</ShortName>
 					<Path>SFX\weapon_fire_hit_03_21545B0F.wem</Path>
+				</File>
+				<File Id="695042828" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_explode_01.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_explode_01_3314988A.wem</Path>
+				</File>
+				<File Id="830789124" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_explode_02.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_explode_02_3314988A.wem</Path>
 				</File>
 				<File Id="885936519" Language="SFX">
 					<ShortName>twisted_thinking_stereo.wav</ShortName>
@@ -1593,16 +1637,41 @@
 			<ShortName>objects</ShortName>
 			<Path>objects.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3231815477" Name="object_bomb_horse_move_loop_start"/>
+				<Event Id="950003607" Name="object_bomb_horse_move_loop_stop"/>
 				<Event Id="344650103" Name="object_fire_trap"/>
 				<Event Id="2172612084" Name="object_ghost_sucker_damage"/>
 				<Event Id="1417365428" Name="object_ghost_sucker_loop_start"/>
 				<Event Id="1622373416" Name="object_ghost_sucker_loop_stop"/>
+				<Event Id="1638932804" Name="object_goblin_hut_damage"/>
+				<Event Id="3291599859" Name="object_goblin_hut_destroy"/>
+				<Event Id="1523419505" Name="object_goblin_hut_fire_loop_start"/>
+				<Event Id="484658667" Name="object_goblin_hut_fire_loop_stop"/>
+				<Event Id="1121409554" Name="object_horse_damage"/>
+				<Event Id="2815960723" Name="object_laser_fence_start"/>
+				<Event Id="2549674833" Name="object_laser_fence_stop"/>
 				<Event Id="3910530431" Name="object_prologue_rat_die"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="24716759" Language="SFX">
+					<ShortName>object_horse_damage_02.wav</ShortName>
+					<Path>SFX\object_horse_damage_02_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="29059718" Language="SFX">
+					<ShortName>object_laser_fence_start.wav</ShortName>
+					<Path>SFX\object_laser_fence_start_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="36338803" Language="SFX">
+					<ShortName>object_goblin_hut_fire_loop.wav</ShortName>
+					<Path>SFX\object_goblin_hut_fire_loop_682514AB.wem</Path>
+				</File>
 				<File Id="66861835" Language="SFX">
 					<ShortName>object_ghost_sucker_damage_01.wav</ShortName>
 					<Path>SFX\object_ghost_sucker_damage_01_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="245237797" Language="SFX">
+					<ShortName>object_horse_damage_03.wav</ShortName>
+					<Path>SFX\object_horse_damage_03_FB1EEB1D.wem</Path>
 				</File>
 				<File Id="250691801" Language="SFX">
 					<ShortName>object_prologue_rat_die.wav</ShortName>
@@ -1612,9 +1681,29 @@
 					<ShortName>object_ghost_sucker_loop.wav</ShortName>
 					<Path>SFX\object_ghost_sucker_loop_682514AB.wem</Path>
 				</File>
+				<File Id="467945992" Language="SFX">
+					<ShortName>object_bomb_horse_move_loop.wav</ShortName>
+					<Path>SFX\object_bomb_horse_move_loop_682514AB.wem</Path>
+				</File>
+				<File Id="628292486" Language="SFX">
+					<ShortName>object_horse_damage_01.wav</ShortName>
+					<Path>SFX\object_horse_damage_01_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="636349257" Language="SFX">
+					<ShortName>object_goblin_hut_damage.wav</ShortName>
+					<Path>SFX\object_goblin_hut_damage_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="684654700" Language="SFX">
+					<ShortName>object_laser_fence_loop.wav</ShortName>
+					<Path>SFX\object_laser_fence_loop_682514AB.wem</Path>
+				</File>
 				<File Id="934650014" Language="SFX">
 					<ShortName>object_fire_trap_01.wav</ShortName>
 					<Path>SFX\object_fire_trap_01_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="979148409" Language="SFX">
+					<ShortName>object_goblin_hut_destroy.wav</ShortName>
+					<Path>SFX\object_goblin_hut_destroy_FB1EEB1D.wem</Path>
 				</File>
 				<File Id="987142050" Language="SFX">
 					<ShortName>object_ghost_sucker_damage_02.wav</ShortName>
@@ -1917,6 +2006,7 @@
 			<Path>maracas.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4051637358" Name="maracas_attack"/>
+				<Event Id="473674605" Name="maracas_attack_stop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="551585148" Language="SFX">
@@ -2241,6 +2331,7 @@
 			<Path>eatball.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2766351673" Name="eatball_attack"/>
+				<Event Id="3175482572" Name="eatball_attack_stop"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="125095583" Language="SFX">
@@ -2858,6 +2949,7 @@
 				<Event Id="3065251264" Name="cutscene_science_plant_guy"/>
 				<Event Id="2918540979" Name="cutscene_troll_burst_through_wall"/>
 				<Event Id="1595821041" Name="cutscene_tsar_bomb_explosion"/>
+				<Event Id="2944812769" Name="popup_prologue_end"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="69194916" Language="SFX">
@@ -2888,9 +2980,13 @@
 					<ShortName>cutscene_gorilla_tim_transform.wav</ShortName>
 					<Path>SFX\cutscene_gorilla_tim_transform_3314988A.wem</Path>
 				</File>
+				<File Id="976816401" Language="SFX">
+					<ShortName>popup_prologue_end.wav</ShortName>
+					<Path>SFX\popup_prologue_end_3314988A.wem</Path>
+				</File>
 				<File Id="1036960597" Language="SFX">
 					<ShortName>cutscene_gorilla_tim_end.wav</ShortName>
-					<Path>SFX\cutscene_gorilla_tim_end_3314988A.wem</Path>
+					<Path>SFX\cutscene_gorilla_tim_end_E5B9617D.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

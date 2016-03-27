@@ -15,6 +15,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	467945992	object_bomb_horse_move_loop	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_bomb_horse_move_loop_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_bomb_horse_move_loop		228768
 	628292486	object_horse_damage_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_horse_damage_01_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_horse_damage\object_horse_damage_01		17285
 	636349257	object_goblin_hut_damage	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_goblin_hut_damage_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_goblin_hut_damage		15740
-	803356089	popup_fort_alarm	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\popup_fort_alarm_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\popup_fort_alarm		317137
+	803356089	popup_fort_alarm	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\popup_fort_alarm_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\popups\popup_fort_alarm		317137
 	979148409	object_goblin_hut_destroy	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_goblin_hut_destroy_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_goblin_hut_destroy		36995
 

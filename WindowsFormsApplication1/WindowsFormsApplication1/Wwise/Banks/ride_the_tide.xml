@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3266109230" Language="SFX">
+			<ShortName>ride_the_tide</ShortName>
+			<Path>ride_the_tide.bnk</Path>
+			<IncludedEvents>
+				<Event Id="613084528" Name="ride_the_tide_hit"/>
+				<Event Id="1052303682" Name="ride_the_tide_use"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="115578932" Language="SFX">
+					<ShortName>weapon_fire_hit_01.wav</ShortName>
+					<Path>SFX\weapon_fire_hit_01_21545B0F.wem</Path>
+				</File>
+				<File Id="160719000" Language="SFX">
+					<ShortName>ride_the_tide_lvl1.wav</ShortName>
+					<Path>SFX\ride_the_tide_lvl1_3314988A.wem</Path>
+				</File>
+				<File Id="366302747" Language="SFX">
+					<ShortName>weapon_fire_hit_04.wav</ShortName>
+					<Path>SFX\weapon_fire_hit_04_21545B0F.wem</Path>
+				</File>
+				<File Id="593231295" Language="SFX">
+					<ShortName>weapon_fire_hit_02.wav</ShortName>
+					<Path>SFX\weapon_fire_hit_02_21545B0F.wem</Path>
+				</File>
+				<File Id="688230459" Language="SFX">
+					<ShortName>weapon_fire_hit_03.wav</ShortName>
+					<Path>SFX\weapon_fire_hit_03_21545B0F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
