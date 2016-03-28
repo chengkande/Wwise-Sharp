@@ -50,71 +50,69 @@
 			<ReferencedStreamedFiles>
 				<File Id="5215782" Language="SFX">
 					<ShortName>ambience_wasteland.wav</ShortName>
-					<Path>SFX\ambience_wasteland_66878FFD.wem</Path>
+					<Path>SFX\ambience_wasteland_8D34B564.wem</Path>
 				</File>
 				<File Id="91118028" Language="SFX">
 					<ShortName>ambience_school_people.wav</ShortName>
-					<Path>SFX\ambience_school_people_66878FFD.wem</Path>
+					<Path>SFX\ambience_school_people_8D34B564.wem</Path>
 				</File>
 				<File Id="146021818" Language="SFX">
 					<ShortName>ambience_bathroom.wav</ShortName>
-					<Path>SFX\ambience_bathroom_66878FFD.wem</Path>
+					<Path>SFX\ambience_bathroom_8D34B564.wem</Path>
 				</File>
 				<File Id="146258339" Language="SFX">
 					<ShortName>ambience_far_side.wav</ShortName>
-					<Path>SFX\ambience_far_side_66878FFD.wem</Path>
+					<Path>SFX\ambience_far_side_8D34B564.wem</Path>
 				</File>
 				<File Id="155480348" Language="SFX">
 					<ShortName>ambience_vents.wav</ShortName>
-					<Path>SFX\ambience_vents_66878FFD.wem</Path>
+					<Path>SFX\ambience_vents_8D34B564.wem</Path>
 				</File>
 				<File Id="268596333" Language="SFX">
 					<ShortName>ambience_quad.wav</ShortName>
-					<Path>SFX\ambience_quad_66878FFD.wem</Path>
+					<Path>SFX\ambience_quad_8D34B564.wem</Path>
 				</File>
 				<File Id="328456620" Language="SFX">
 					<ShortName>ambience_military_camp.wav</ShortName>
-					<Path>SFX\ambience_military_camp_21545B0F.wem</Path>
+					<Path>SFX\ambience_military_camp_3314988A.wem</Path>
 				</File>
 				<File Id="350747320" Language="SFX">
 					<ShortName>ambience_cave.wav</ShortName>
-					<Path>SFX\ambience_cave_66878FFD.wem</Path>
+					<Path>SFX\ambience_cave_8D34B564.wem</Path>
 				</File>
 				<File Id="400368641" Language="SFX">
 					<ShortName>ambience_fort_battle.wav</ShortName>
-					<Path>SFX\ambience_fort_battle_66878FFD.wem</Path>
+					<Path>SFX\ambience_fort_battle_8D34B564.wem</Path>
 				</File>
 				<File Id="768154047" Language="SFX">
 					<ShortName>ambience_party_gross.wav</ShortName>
-					<Path>SFX\ambience_party_gross_66878FFD.wem</Path>
+					<Path>SFX\ambience_party_gross_8D34B564.wem</Path>
+				</File>
+				<File Id="822078946" Language="SFX">
+					<ShortName>ambience_furnace.wav</ShortName>
+					<Path>SFX\ambience_furnace_8D34B564.wem</Path>
 				</File>
 				<File Id="825799538" Language="SFX">
 					<ShortName>ambience_school_empty.wav</ShortName>
-					<Path>SFX\ambience_school_empty_66878FFD.wem</Path>
+					<Path>SFX\ambience_school_empty_8D34B564.wem</Path>
 				</File>
 				<File Id="909069808" Language="SFX">
 					<ShortName>ambience_janitor_snoring.wav</ShortName>
-					<Path>SFX\ambience_janitor_snoring_66878FFD.wem</Path>
+					<Path>SFX\ambience_janitor_snoring_8D34B564.wem</Path>
 				</File>
 				<File Id="967240221" Language="SFX">
 					<ShortName>ambience_vent_puzzle_room.wav</ShortName>
-					<Path>SFX\ambience_vent_puzzle_room_66878FFD.wem</Path>
+					<Path>SFX\ambience_vent_puzzle_room_8D34B564.wem</Path>
 				</File>
 				<File Id="1034548613" Language="SFX">
 					<ShortName>ambience_outdoors_night.wav</ShortName>
-					<Path>SFX\ambience_outdoors_night_66878FFD.wem</Path>
+					<Path>SFX\ambience_outdoors_night_8D34B564.wem</Path>
 				</File>
 				<File Id="1057112445" Language="SFX">
 					<ShortName>ambience_ethereal.wav</ShortName>
-					<Path>SFX\ambience_ethereal_66878FFD.wem</Path>
+					<Path>SFX\ambience_ethereal_8D34B564.wem</Path>
 				</File>
 			</ReferencedStreamedFiles>
-			<IncludedMemoryFiles>
-				<File Id="822078946" Language="SFX">
-					<ShortName>ambience_furnace.wav</ShortName>
-					<Path>SFX\ambience_furnace_66878FFD.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

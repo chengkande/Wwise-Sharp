@@ -484,7 +484,7 @@
 				</File>
 				<File Id="785922429" Language="SFX">
 					<ShortName>popup_skill_level_up.wav</ShortName>
-					<Path>SFX\popup_skill_level_up_FE16761C.wem</Path>
+					<Path>SFX\popup_skill_level_up_659B4ADB.wem</Path>
 				</File>
 				<File Id="793897608" Language="SFX">
 					<ShortName>object_pickup_health_2.wav</ShortName>

@@ -37,23 +37,21 @@ Event	ID	Name			Wwise Object Path	Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3651499055	Quad_Ambience_Blend			\Default Work Unit\Quad_Ambience_Blend	Based on Y-location - get min + max
 
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	822078946	ambience_furnace	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_furnace_66878FFD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_furnace		6626716
-
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
-	5215782	ambience_wasteland	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_wasteland_66878FFD.wem	5215782.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_wasteland	
-	91118028	ambience_school_people	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_school_people_66878FFD.wem	91118028.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_school_people	
-	146021818	ambience_bathroom	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_bathroom_66878FFD.wem	146021818.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_bathroom	
-	146258339	ambience_far_side	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_far_side_66878FFD.wem	146258339.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_far_side	
-	155480348	ambience_vents	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_vents_66878FFD.wem	155480348.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_vents	
-	268596333	ambience_quad	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_quad_66878FFD.wem	268596333.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_quad	
-	328456620	ambience_military_camp	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_military_camp_21545B0F.wem	328456620.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_military_camp	
-	350747320	ambience_cave	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_cave_66878FFD.wem	350747320.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_cave	
-	400368641	ambience_fort_battle	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_fort_battle_66878FFD.wem	400368641.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_fort_battle	
-	768154047	ambience_party_gross	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_party_gross_66878FFD.wem	768154047.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_party_gross	
-	825799538	ambience_school_empty	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_school_empty_66878FFD.wem	825799538.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_school_empty	
-	909069808	ambience_janitor_snoring	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_janitor_snoring_66878FFD.wem	909069808.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_janitor_snoring	
-	967240221	ambience_vent_puzzle_room	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_vent_puzzle_room_66878FFD.wem	967240221.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_vent_puzzle_room	
-	1034548613	ambience_outdoors_night	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_outdoors_night_66878FFD.wem	1034548613.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_outdoors_night	
-	1057112445	ambience_ethereal	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_ethereal_66878FFD.wem	1057112445.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_ethereal	
+	5215782	ambience_wasteland	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_wasteland_8D34B564.wem	5215782.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_wasteland	
+	91118028	ambience_school_people	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_school_people_8D34B564.wem	91118028.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_school_people	
+	146021818	ambience_bathroom	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_bathroom_8D34B564.wem	146021818.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_bathroom	
+	146258339	ambience_far_side	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_far_side_8D34B564.wem	146258339.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_far_side	
+	155480348	ambience_vents	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_vents_8D34B564.wem	155480348.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_vents	
+	268596333	ambience_quad	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_quad_8D34B564.wem	268596333.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_quad	
+	328456620	ambience_military_camp	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_military_camp_3314988A.wem	328456620.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_military_camp	
+	350747320	ambience_cave	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_cave_8D34B564.wem	350747320.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_cave	
+	400368641	ambience_fort_battle	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_fort_battle_8D34B564.wem	400368641.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_fort_battle	
+	768154047	ambience_party_gross	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_party_gross_8D34B564.wem	768154047.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_party_gross	
+	822078946	ambience_furnace	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_furnace_8D34B564.wem	822078946.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_furnace	
+	825799538	ambience_school_empty	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_school_empty_8D34B564.wem	825799538.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_school_empty	
+	909069808	ambience_janitor_snoring	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_janitor_snoring_8D34B564.wem	909069808.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_janitor_snoring	
+	967240221	ambience_vent_puzzle_room	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_vent_puzzle_room_8D34B564.wem	967240221.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_vent_puzzle_room	
+	1034548613	ambience_outdoors_night	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_outdoors_night_8D34B564.wem	1034548613.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_outdoors_night	
+	1057112445	ambience_ethereal	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ambience_ethereal_8D34B564.wem	1057112445.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\ambience_ethereal	
 

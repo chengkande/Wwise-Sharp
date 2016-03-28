@@ -567,7 +567,7 @@ namespace AK
         static const AkUniqueID COMBUSTIBLE_CONFUTATION_CH_2 = 1713493312U;
         static const AkUniqueID COMBUSTIBLE_CONFUTATION_CH_3 = 1713493313U;
         static const AkUniqueID CRUSHING_REALIZATION = 1765062915U;
-        static const AkUniqueID CUTSCENES_GENERAL = 4045437233U;
+        static const AkUniqueID CUTSCENES = 3765803840U;
         static const AkUniqueID CUTTING_CORNERS = 150483284U;
         static const AkUniqueID CYMBAL = 761516531U;
         static const AkUniqueID D_AND_D = 376901448U;
@@ -583,7 +583,7 @@ namespace AK
         static const AkUniqueID HEALTHY_SACRIFICES = 1392697725U;
         static const AkUniqueID MARACAS = 1990990599U;
         static const AkUniqueID MOPPING_UP = 3006657585U;
-        static const AkUniqueID MUSIC_TEMP = 833460923U;
+        static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID OBJECTS = 1695690031U;
         static const AkUniqueID PLAYER_LOCKER = 2459031369U;
         static const AkUniqueID QUICK_RETORT = 3410210551U;

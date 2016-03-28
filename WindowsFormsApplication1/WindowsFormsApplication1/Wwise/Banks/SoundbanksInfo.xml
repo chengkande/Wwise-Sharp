@@ -11,66 +11,107 @@
 	<StreamedFiles>
 		<File Id="5215782" Language="SFX">
 			<ShortName>ambience_wasteland.wav</ShortName>
-			<Path>SFX\ambience_wasteland_66878FFD.wem</Path>
+			<Path>SFX\ambience_wasteland_8D34B564.wem</Path>
 		</File>
 		<File Id="91118028" Language="SFX">
 			<ShortName>ambience_school_people.wav</ShortName>
-			<Path>SFX\ambience_school_people_66878FFD.wem</Path>
+			<Path>SFX\ambience_school_people_8D34B564.wem</Path>
 		</File>
 		<File Id="146021818" Language="SFX">
 			<ShortName>ambience_bathroom.wav</ShortName>
-			<Path>SFX\ambience_bathroom_66878FFD.wem</Path>
+			<Path>SFX\ambience_bathroom_8D34B564.wem</Path>
 		</File>
 		<File Id="146258339" Language="SFX">
 			<ShortName>ambience_far_side.wav</ShortName>
-			<Path>SFX\ambience_far_side_66878FFD.wem</Path>
+			<Path>SFX\ambience_far_side_8D34B564.wem</Path>
 		</File>
 		<File Id="155480348" Language="SFX">
 			<ShortName>ambience_vents.wav</ShortName>
-			<Path>SFX\ambience_vents_66878FFD.wem</Path>
+			<Path>SFX\ambience_vents_8D34B564.wem</Path>
 		</File>
 		<File Id="268596333" Language="SFX">
 			<ShortName>ambience_quad.wav</ShortName>
-			<Path>SFX\ambience_quad_66878FFD.wem</Path>
+			<Path>SFX\ambience_quad_8D34B564.wem</Path>
 		</File>
 		<File Id="328456620" Language="SFX">
 			<ShortName>ambience_military_camp.wav</ShortName>
-			<Path>SFX\ambience_military_camp_21545B0F.wem</Path>
+			<Path>SFX\ambience_military_camp_3314988A.wem</Path>
 		</File>
 		<File Id="350747320" Language="SFX">
 			<ShortName>ambience_cave.wav</ShortName>
-			<Path>SFX\ambience_cave_66878FFD.wem</Path>
+			<Path>SFX\ambience_cave_8D34B564.wem</Path>
 		</File>
 		<File Id="400368641" Language="SFX">
 			<ShortName>ambience_fort_battle.wav</ShortName>
-			<Path>SFX\ambience_fort_battle_66878FFD.wem</Path>
+			<Path>SFX\ambience_fort_battle_8D34B564.wem</Path>
 		</File>
 		<File Id="768154047" Language="SFX">
 			<ShortName>ambience_party_gross.wav</ShortName>
-			<Path>SFX\ambience_party_gross_66878FFD.wem</Path>
+			<Path>SFX\ambience_party_gross_8D34B564.wem</Path>
+		</File>
+		<File Id="822078946" Language="SFX">
+			<ShortName>ambience_furnace.wav</ShortName>
+			<Path>SFX\ambience_furnace_8D34B564.wem</Path>
 		</File>
 		<File Id="825799538" Language="SFX">
 			<ShortName>ambience_school_empty.wav</ShortName>
-			<Path>SFX\ambience_school_empty_66878FFD.wem</Path>
+			<Path>SFX\ambience_school_empty_8D34B564.wem</Path>
 		</File>
 		<File Id="909069808" Language="SFX">
 			<ShortName>ambience_janitor_snoring.wav</ShortName>
-			<Path>SFX\ambience_janitor_snoring_66878FFD.wem</Path>
+			<Path>SFX\ambience_janitor_snoring_8D34B564.wem</Path>
 		</File>
 		<File Id="967240221" Language="SFX">
 			<ShortName>ambience_vent_puzzle_room.wav</ShortName>
-			<Path>SFX\ambience_vent_puzzle_room_66878FFD.wem</Path>
+			<Path>SFX\ambience_vent_puzzle_room_8D34B564.wem</Path>
 		</File>
 		<File Id="1034548613" Language="SFX">
 			<ShortName>ambience_outdoors_night.wav</ShortName>
-			<Path>SFX\ambience_outdoors_night_66878FFD.wem</Path>
+			<Path>SFX\ambience_outdoors_night_8D34B564.wem</Path>
 		</File>
 		<File Id="1057112445" Language="SFX">
 			<ShortName>ambience_ethereal.wav</ShortName>
-			<Path>SFX\ambience_ethereal_66878FFD.wem</Path>
+			<Path>SFX\ambience_ethereal_8D34B564.wem</Path>
 		</File>
 	</StreamedFiles>
-	<MediaFilesNotInAnyBank/>
+	<MediaFilesNotInAnyBank>
+		<File Id="69194916" Language="SFX">
+			<ShortName>cutscene_goblin_gate.wav</ShortName>
+			<Path>SFX\cutscene_goblin_gate_3314988A.wem</Path>
+		</File>
+		<File Id="203386964" Language="SFX">
+			<ShortName>cutscene_science_plant_guy.wav</ShortName>
+			<Path>SFX\cutscene_science_plant_guy_3314988A.wem</Path>
+		</File>
+		<File Id="377666745" Language="SFX">
+			<ShortName>cutscene_goblin_fort_gate_open.wav</ShortName>
+			<Path>SFX\cutscene_goblin_fort_gate_open_3314988A.wem</Path>
+		</File>
+		<File Id="508279520" Language="SFX">
+			<ShortName>cutscene_tsar_bomb_explosion.wav</ShortName>
+			<Path>SFX\cutscene_tsar_bomb_explosion_3314988A.wem</Path>
+		</File>
+		<File Id="599256237" Language="SFX">
+			<ShortName>cutscene_prologue_bird_steals_note.wav</ShortName>
+			<Path>SFX\cutscene_prologue_bird_steals_note_3314988A.wem</Path>
+		</File>
+		<File Id="686605211" Language="SFX">
+			<ShortName>cutscene_troll_burst_through_wall.wav</ShortName>
+			<Path>SFX\cutscene_troll_burst_through_wall_3314988A.wem</Path>
+		</File>
+		<File Id="727051739" Language="SFX">
+			<ShortName>cutscene_gorilla_tim_transform.wav</ShortName>
+			<Path>SFX\cutscene_gorilla_tim_transform_3314988A.wem</Path>
+		</File>
+		<File Id="976816401" Language="SFX">
+			<ShortName>popup_prologue_end.wav</ShortName>
+			<Path>SFX\popup_prologue_end_3314988A.wem</Path>
+		</File>
+		<File Id="1036960597" Language="SFX">
+			<ShortName>cutscene_gorilla_tim_end.wav</ShortName>
+			<Path>SFX\cutscene_gorilla_tim_end_F3B7F6D8.wem</Path>
+		</File>
+	</MediaFilesNotInAnyBank>
 	<SoundBanks>
 		<SoundBank Id="85412153" Language="SFX">
 			<ShortName>ambience</ShortName>
@@ -122,18 +163,13 @@
 				<File Id="350747320"/>
 				<File Id="400368641"/>
 				<File Id="768154047"/>
+				<File Id="822078946"/>
 				<File Id="825799538"/>
 				<File Id="909069808"/>
 				<File Id="967240221"/>
 				<File Id="1034548613"/>
 				<File Id="1057112445"/>
 			</ReferencedStreamedFiles>
-			<IncludedMemoryFiles>
-				<File Id="822078946" Language="SFX">
-					<ShortName>ambience_furnace.wav</ShortName>
-					<Path>SFX\ambience_furnace_66878FFD.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="120727764" Language="SFX">
 			<ShortName>goblin_mortar</ShortName>
@@ -824,10 +860,6 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="833460923" Language="SFX">
-			<ShortName>music_temp</ShortName>
-			<Path>music_temp.bnk</Path>
-		</SoundBank>
 		<SoundBank Id="989797170" Language="SFX">
 			<ShortName>scarecrow</ShortName>
 			<Path>scarecrow.bnk</Path>
@@ -1391,7 +1423,7 @@
 				</File>
 				<File Id="785922429" Language="SFX">
 					<ShortName>popup_skill_level_up.wav</ShortName>
-					<Path>SFX\popup_skill_level_up_FE16761C.wem</Path>
+					<Path>SFX\popup_skill_level_up_659B4ADB.wem</Path>
 				</File>
 				<File Id="793897608" Language="SFX">
 					<ShortName>object_pickup_health_2.wav</ShortName>
@@ -2694,6 +2726,59 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="3765803840" Language="SFX">
+			<ShortName>cutscenes</ShortName>
+			<Path>cutscenes.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1436188198" Name="cutscene_goblin_fort_gate_open"/>
+				<Event Id="3317193065" Name="cutscene_goblin_gate"/>
+				<Event Id="2782363355" Name="cutscene_gorilla_tim_end"/>
+				<Event Id="1676130152" Name="cutscene_gorilla_tim_transform"/>
+				<Event Id="3107207281" Name="cutscene_prologue_bird_steals_note"/>
+				<Event Id="3065251264" Name="cutscene_science_plant_guy"/>
+				<Event Id="2918540979" Name="cutscene_troll_burst_through_wall"/>
+				<Event Id="1595821041" Name="cutscene_tsar_bomb_explosion"/>
+				<Event Id="2944812769" Name="popup_prologue_end"/>
+			</IncludedEvents>
+			<ExcludedMemoryFiles>
+				<File Id="69194916" Language="SFX">
+					<ShortName>cutscene_goblin_gate.wav</ShortName>
+					<Path>SFX\cutscene_goblin_gate_3314988A.wem</Path>
+				</File>
+				<File Id="203386964" Language="SFX">
+					<ShortName>cutscene_science_plant_guy.wav</ShortName>
+					<Path>SFX\cutscene_science_plant_guy_3314988A.wem</Path>
+				</File>
+				<File Id="377666745" Language="SFX">
+					<ShortName>cutscene_goblin_fort_gate_open.wav</ShortName>
+					<Path>SFX\cutscene_goblin_fort_gate_open_3314988A.wem</Path>
+				</File>
+				<File Id="508279520" Language="SFX">
+					<ShortName>cutscene_tsar_bomb_explosion.wav</ShortName>
+					<Path>SFX\cutscene_tsar_bomb_explosion_3314988A.wem</Path>
+				</File>
+				<File Id="599256237" Language="SFX">
+					<ShortName>cutscene_prologue_bird_steals_note.wav</ShortName>
+					<Path>SFX\cutscene_prologue_bird_steals_note_3314988A.wem</Path>
+				</File>
+				<File Id="686605211" Language="SFX">
+					<ShortName>cutscene_troll_burst_through_wall.wav</ShortName>
+					<Path>SFX\cutscene_troll_burst_through_wall_3314988A.wem</Path>
+				</File>
+				<File Id="727051739" Language="SFX">
+					<ShortName>cutscene_gorilla_tim_transform.wav</ShortName>
+					<Path>SFX\cutscene_gorilla_tim_transform_3314988A.wem</Path>
+				</File>
+				<File Id="976816401" Language="SFX">
+					<ShortName>popup_prologue_end.wav</ShortName>
+					<Path>SFX\popup_prologue_end_3314988A.wem</Path>
+				</File>
+				<File Id="1036960597" Language="SFX">
+					<ShortName>cutscene_gorilla_tim_end.wav</ShortName>
+					<Path>SFX\cutscene_gorilla_tim_end_F3B7F6D8.wem</Path>
+				</File>
+			</ExcludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="3854292571" Language="SFX">
 			<ShortName>vents</ShortName>
 			<Path>vents.bnk</Path>
@@ -2743,6 +2828,10 @@
 					<Path>SFX\object_coal_damage_03_FB1EEB1D.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ShortName>music</ShortName>
+			<Path>music.bnk</Path>
 		</SoundBank>
 		<SoundBank Id="3999320713" Language="SFX">
 			<ShortName>science</ShortName>
@@ -2934,59 +3023,6 @@
 				<File Id="1071846242" Language="SFX">
 					<ShortName>Sweep Rev 2 - 2.wav</ShortName>
 					<Path>SFX\Sweep Rev 2 - 2_4C2B0FFC.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
-		</SoundBank>
-		<SoundBank Id="4045437233" Language="SFX">
-			<ShortName>cutscenes_general</ShortName>
-			<Path>cutscenes_general.bnk</Path>
-			<IncludedEvents>
-				<Event Id="1436188198" Name="cutscene_goblin_fort_gate_open"/>
-				<Event Id="3317193065" Name="cutscene_goblin_gate"/>
-				<Event Id="2782363355" Name="cutscene_gorilla_tim_end"/>
-				<Event Id="1676130152" Name="cutscene_gorilla_tim_transform"/>
-				<Event Id="3107207281" Name="cutscene_prologue_bird_steals_note"/>
-				<Event Id="3065251264" Name="cutscene_science_plant_guy"/>
-				<Event Id="2918540979" Name="cutscene_troll_burst_through_wall"/>
-				<Event Id="1595821041" Name="cutscene_tsar_bomb_explosion"/>
-				<Event Id="2944812769" Name="popup_prologue_end"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="69194916" Language="SFX">
-					<ShortName>cutscene_goblin_gate.wav</ShortName>
-					<Path>SFX\cutscene_goblin_gate_3314988A.wem</Path>
-				</File>
-				<File Id="203386964" Language="SFX">
-					<ShortName>cutscene_science_plant_guy.wav</ShortName>
-					<Path>SFX\cutscene_science_plant_guy_3314988A.wem</Path>
-				</File>
-				<File Id="377666745" Language="SFX">
-					<ShortName>cutscene_goblin_fort_gate_open.wav</ShortName>
-					<Path>SFX\cutscene_goblin_fort_gate_open_3314988A.wem</Path>
-				</File>
-				<File Id="508279520" Language="SFX">
-					<ShortName>cutscene_tsar_bomb_explosion.wav</ShortName>
-					<Path>SFX\cutscene_tsar_bomb_explosion_3314988A.wem</Path>
-				</File>
-				<File Id="599256237" Language="SFX">
-					<ShortName>cutscene_prologue_bird_steals_note.wav</ShortName>
-					<Path>SFX\cutscene_prologue_bird_steals_note_3314988A.wem</Path>
-				</File>
-				<File Id="686605211" Language="SFX">
-					<ShortName>cutscene_troll_burst_through_wall.wav</ShortName>
-					<Path>SFX\cutscene_troll_burst_through_wall_3314988A.wem</Path>
-				</File>
-				<File Id="727051739" Language="SFX">
-					<ShortName>cutscene_gorilla_tim_transform.wav</ShortName>
-					<Path>SFX\cutscene_gorilla_tim_transform_3314988A.wem</Path>
-				</File>
-				<File Id="976816401" Language="SFX">
-					<ShortName>popup_prologue_end.wav</ShortName>
-					<Path>SFX\popup_prologue_end_3314988A.wem</Path>
-				</File>
-				<File Id="1036960597" Language="SFX">
-					<ShortName>cutscene_gorilla_tim_end.wav</ShortName>
-					<Path>SFX\cutscene_gorilla_tim_end_E5B9617D.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

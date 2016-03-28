@@ -8,9 +8,9 @@
 		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="833460923" Language="SFX">
-			<ShortName>music_temp</ShortName>
-			<Path>music_temp.bnk</Path>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ShortName>music</ShortName>
+			<Path>music.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

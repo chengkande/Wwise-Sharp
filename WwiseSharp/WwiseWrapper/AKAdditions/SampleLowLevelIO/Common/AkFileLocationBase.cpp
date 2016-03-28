@@ -243,10 +243,10 @@ AKRESULT CAkFileLocationBase::GetFullFilePath(
 		AkOSChar * pszTitle = out_pszFullFilePath + uiPathSize;
 		if ( in_pFlags->uCodecID == AKCODECID_BANK )
 			AK_OSPRINTF( pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_BANK, (unsigned int)in_fileID );
-		else if ( in_pFlags->uCodecID == AKCODECID_XMA )
-			AK_OSPRINTF( pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_XMA, (unsigned int)in_fileID );
-		else if (in_pFlags->uCodecID == AKCODECID_VORBIS)
-			AK_OSPRINTF(pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_VORBIS, (unsigned int)in_fileID);
+		//else if ( in_pFlags->uCodecID == AKCODECID_XMA )
+			//AK_OSPRINTF( pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_XMA, (unsigned int)in_fileID );
+		//else if (in_pFlags->uCodecID == AKCODECID_VORBIS)
+			//AK_OSPRINTF(pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_VORBIS, (unsigned int)in_fileID);
 		else
 			AK_OSPRINTF(pszTitle, MAX_FILETITLE_SIZE, ID_TO_STRING_FORMAT_WEM, (unsigned int)in_fileID);
 	}

@@ -257,23 +257,22 @@ namespace WindowsFormsApplication1
         //LoadBanks
         private void button19_Click(object sender, EventArgs e)
         {
-            WwiseObject2.PostEvent("ambience_bathroom_play");
-             
+            Wwise.PrepareBank("cutscenes.bnk");
         }
 
         //test banks
         private void button20_Click(object sender, EventArgs e)
         {
-            //String msg;
-            //msg = Wwise.LoadEvents(new String[2] { "ambience_bathroom_play", "ambience_bathroom_stop" }, 2);
-           // Console.WriteLine("Prepared " + msg);
-            //WwiseObject2.PostEvent("ambience_bathroom_play");
+            
+            WwiseObject2.PostEvent("cutscene_goblin_fort_gate_open");
         }
 
-        //prepare
+        //prepare Events
         private void button21_Click(object sender, EventArgs e)
         {
-            WwiseObject2.PostEvent("ambience_furnace_play");
+            String msg;
+            msg = Wwise.LoadEvents(new String[2] { "cutscene_goblin_fort_gate_open", "cutscene_science_plat_guy" }, 2);
+            Console.WriteLine("Prepared " + msg);
             
         }
     }

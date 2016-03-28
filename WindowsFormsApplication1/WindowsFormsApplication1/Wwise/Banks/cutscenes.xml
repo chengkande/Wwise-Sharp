@@ -8,9 +8,9 @@
 		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="4045437233" Language="SFX">
-			<ShortName>cutscenes_general</ShortName>
-			<Path>cutscenes_general.bnk</Path>
+		<SoundBank Id="3765803840" Language="SFX">
+			<ShortName>cutscenes</ShortName>
+			<Path>cutscenes.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1436188198" Name="cutscene_goblin_fort_gate_open"/>
 				<Event Id="3317193065" Name="cutscene_goblin_gate"/>
@@ -22,7 +22,7 @@
 				<Event Id="1595821041" Name="cutscene_tsar_bomb_explosion"/>
 				<Event Id="2944812769" Name="popup_prologue_end"/>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
+			<ExcludedMemoryFiles>
 				<File Id="69194916" Language="SFX">
 					<ShortName>cutscene_goblin_gate.wav</ShortName>
 					<Path>SFX\cutscene_goblin_gate_3314988A.wem</Path>
@@ -57,9 +57,9 @@
 				</File>
 				<File Id="1036960597" Language="SFX">
 					<ShortName>cutscene_gorilla_tim_end.wav</ShortName>
-					<Path>SFX\cutscene_gorilla_tim_end_E5B9617D.wem</Path>
+					<Path>SFX\cutscene_gorilla_tim_end_F3B7F6D8.wem</Path>
 				</File>
-			</IncludedMemoryFiles>
+			</ExcludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
