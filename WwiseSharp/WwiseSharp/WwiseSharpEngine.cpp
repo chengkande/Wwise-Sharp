@@ -15,10 +15,12 @@
 
 #include "WwiseSharpEngine.hpp"
 using namespace WwiseSharp;
+//delegate LPCWSTR Converter(System::String^ str);
 
 WwiseSharpEngine::WwiseSharpEngine()
 {
 	akengine = new WwiseEngine();
+	//pStringToLPCWSTR = gcnew Array::Converter<System::String^, LPCWSTR>(StringToLPCWSTRMethod);
 }
 
 WwiseSharpEngine::~WwiseSharpEngine()
@@ -30,7 +32,13 @@ bool WwiseSharpEngine::Init()
 {
 	return akengine->Init();
 }
-
+/*LPCWSTR StringToLPCWSTRMethod(System::String^ str)
+{
+	System::IntPtr p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(str);
+	return (static_cast<LPCWSTR>(static_cast<void *>(p)));
+	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
+}
+*/
 void WwiseSharpEngine::SetBasePath(System::String^ basePath)
 {
 	//Because Wwise low level IO don't handle path without end '/' char, we need to add it in case it does'nt exists.
@@ -69,21 +77,24 @@ void WwiseSharpEngine::PrepareBank(System::String^ bankName)
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }
 
-System::String^ WwiseSharpEngine::LoadEvents(array<System::String^>^ eventNames, unsigned short numEvents)
+System::String^ WwiseSharpEngine::LoadEvents(cli::array<System::String^>^ eventNames, unsigned short numEvents)
 {
-
-	LPCWSTR * eventArray = new LPCWSTR[numEvents];
-	System::IntPtr p;
+	LPCWSTR *eventArray = new LPCWSTR[numEvents];
+	cli::array<System::IntPtr>^ pa = gcnew array<System::IntPtr>(numEvents);
 	for(unsigned short x = 0; x < numEvents; x++)
 	{
-		p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventNames[x]);
-		eventArray[x] = static_cast<LPCWSTR>(static_cast<void *>(p));
+		//eventArray[x] = new wchar_t[50]; //allocate memory for each
+		pa[x] = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventNames[x]);
+		eventArray[x] = static_cast<LPCWSTR>(static_cast<void *>(pa[x]));
 		
 	}
 	pin_ptr<LPCWSTR> pp = &eventArray[0];
-	System::String^ msg = gcnew System::String(akengine->LoadEvent(pp, numEvents));
-	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
+	System::String^ msg = gcnew System::String(akengine->LoadEvent(pp, numEvents)); //THIS PART WORKS SO FAR
+	
+	delete eventArray;
 	return msg;
+
+	//TODO: DEALLOCATE INTPTR ARRAY AND EVENTARRAY, COPY TO CHANGES TO OTHER METHODS, TEST, CRY A LOT
 }
 void WwiseSharpEngine::ClearBanks()
 {
@@ -93,14 +104,15 @@ void WwiseSharpEngine::UnloadPreparedEvents(array<System::String^>^ eventNames, 
 {
 
 	LPCWSTR * eventArray = new LPCWSTR[numEvents];
-	System::IntPtr p;
+	cli::array<System::IntPtr>^ pa = gcnew array<System::IntPtr>(numEvents);
 	for (unsigned short x = 0; x < numEvents; x++)
 	{
-		p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventNames[x]);
-		eventArray[x] = static_cast<LPCWSTR>(static_cast<void *>(p));
+		pa[x] = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventNames[x]);
+		eventArray[x] = static_cast<LPCWSTR>(static_cast<void *>(pa[x]));
 		
 	}
-	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
+	pin_ptr<LPCWSTR> pp = &eventArray[0];
+	delete eventArray;
 	akengine->UnloadPreparedEvent(eventArray, numEvents);
 }
 void WwiseSharpEngine::ClearPreparedEvents()

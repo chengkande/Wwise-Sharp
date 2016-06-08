@@ -17,6 +17,7 @@
 #include "WwiseSharpGameObject.hpp"
 
 #include "WwiseSharpListenerPosition.hpp"
+using namespace System::Collections::Generic;
 
 namespace WwiseSharp
 {
@@ -28,8 +29,11 @@ namespace WwiseSharp
 	public:
 		WwiseSharpEngine();
 		virtual ~WwiseSharpEngine();
+		//static StringToLPCWSTR^ pStringToLPCWSTR;
+		//delegate LPCWSTR Converter(System::String^ str);
 
 		bool Init();
+		//LPCWSTR StringToLPCWSTRMethod(System::String^ str);
 		void SetBasePath(System::String^ basePath);
 		void SetAudioSrcPath(System::String^ basePath);
 		void LoadBank(System::String^ bankName);

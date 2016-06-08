@@ -491,9 +491,13 @@ namespace AK
             {
                 static const AkUniqueID CAVE = 4122393694U;
                 static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID GRASS = 4248645337U;
                 static const AkUniqueID ROOM = 2077253480U;
+                static const AkUniqueID SAND = 803837735U;
                 static const AkUniqueID SCIENCE = 3999320713U;
+                static const AkUniqueID STONE = 1216965916U;
                 static const AkUniqueID VENT = 3321711160U;
+                static const AkUniqueID WOOD = 2058049674U;
             } // namespace SWITCH
         } // namespace SURFACE_TYPES
 

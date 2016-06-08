@@ -75,6 +75,14 @@
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank>
+		<File Id="29059718" Language="SFX">
+			<ShortName>object_laser_fence_start.wav</ShortName>
+			<Path>SFX\object_laser_fence_start_FB1EEB1D.wem</Path>
+		</File>
+		<File Id="66861835" Language="SFX">
+			<ShortName>object_ghost_sucker_damage_01.wav</ShortName>
+			<Path>SFX\object_ghost_sucker_damage_01_FB1EEB1D.wem</Path>
+		</File>
 		<File Id="69194916" Language="SFX">
 			<ShortName>cutscene_goblin_gate.wav</ShortName>
 			<Path>SFX\cutscene_goblin_gate_3314988A.wem</Path>
@@ -82,6 +90,14 @@
 		<File Id="203386964" Language="SFX">
 			<ShortName>cutscene_science_plant_guy.wav</ShortName>
 			<Path>SFX\cutscene_science_plant_guy_3314988A.wem</Path>
+		</File>
+		<File Id="250691801" Language="SFX">
+			<ShortName>object_prologue_rat_die.wav</ShortName>
+			<Path>SFX\object_prologue_rat_die_FB1EEB1D.wem</Path>
+		</File>
+		<File Id="332698090" Language="SFX">
+			<ShortName>object_ghost_sucker_loop.wav</ShortName>
+			<Path>SFX\object_ghost_sucker_loop_682514AB.wem</Path>
 		</File>
 		<File Id="377666745" Language="SFX">
 			<ShortName>cutscene_goblin_fort_gate_open.wav</ShortName>
@@ -95,6 +111,10 @@
 			<ShortName>cutscene_prologue_bird_steals_note.wav</ShortName>
 			<Path>SFX\cutscene_prologue_bird_steals_note_3314988A.wem</Path>
 		</File>
+		<File Id="684654700" Language="SFX">
+			<ShortName>object_laser_fence_loop.wav</ShortName>
+			<Path>SFX\object_laser_fence_loop_682514AB.wem</Path>
+		</File>
 		<File Id="686605211" Language="SFX">
 			<ShortName>cutscene_troll_burst_through_wall.wav</ShortName>
 			<Path>SFX\cutscene_troll_burst_through_wall_3314988A.wem</Path>
@@ -106,6 +126,10 @@
 		<File Id="976816401" Language="SFX">
 			<ShortName>popup_prologue_end.wav</ShortName>
 			<Path>SFX\popup_prologue_end_3314988A.wem</Path>
+		</File>
+		<File Id="987142050" Language="SFX">
+			<ShortName>object_ghost_sucker_damage_02.wav</ShortName>
+			<Path>SFX\object_ghost_sucker_damage_02_FB1EEB1D.wem</Path>
 		</File>
 		<File Id="1036960597" Language="SFX">
 			<ShortName>cutscene_gorilla_tim_end.wav</ShortName>
@@ -1037,6 +1061,10 @@
 					<ShortName>movement_jump_science_01.wav</ShortName>
 					<Path>SFX\movement_jump_science_01_3314988A.wem</Path>
 				</File>
+				<File Id="5211079" Language="SFX">
+					<ShortName>movement_footstep_wood.wav</ShortName>
+					<Path>SFX\movement_footstep_wood_3314988A.wem</Path>
+				</File>
 				<File Id="13472031" Language="SFX">
 					<ShortName>movement_jump_hallway_01.wav</ShortName>
 					<Path>SFX\movement_jump_hallway_01_3314988A.wem</Path>
@@ -1105,6 +1133,10 @@
 					<ShortName>ui_inventory_tab_click.wav</ShortName>
 					<Path>SFX\ui_inventory_tab_click_3314988A.wem</Path>
 				</File>
+				<File Id="99259560" Language="SFX">
+					<ShortName>movement_footstep_wood-006.wav</ShortName>
+					<Path>SFX\movement_footstep_wood-006_3314988A.wem</Path>
+				</File>
 				<File Id="99992371" Language="SFX">
 					<ShortName>ui_general_enter.wav</ShortName>
 					<Path>SFX\ui_general_enter_3314988A.wem</Path>
@@ -1113,6 +1145,10 @@
 					<ShortName>movement_land_science_01.wav</ShortName>
 					<Path>SFX\movement_land_science_01_3314988A.wem</Path>
 				</File>
+				<File Id="110841146" Language="SFX">
+					<ShortName>movement_footstep_wood-003.wav</ShortName>
+					<Path>SFX\movement_footstep_wood-003_3314988A.wem</Path>
+				</File>
 				<File Id="112332347" Language="SFX">
 					<ShortName>object_barrel_wood_hit_03.wav</ShortName>
 					<Path>SFX\object_barrel_wood_hit_03_FB1EEB1D.wem</Path>
@@ -1120,6 +1156,10 @@
 				<File Id="118476583" Language="SFX">
 					<ShortName>object_barrel_wood_hit_01.wav</ShortName>
 					<Path>SFX\object_barrel_wood_hit_01_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="120221611" Language="SFX">
+					<ShortName>movement_footstep_grass-003.wav</ShortName>
+					<Path>SFX\movement_footstep_grass-003_3314988A.wem</Path>
 				</File>
 				<File Id="122123897" Language="SFX">
 					<ShortName>enemy_generic_hit_generic_01.wav</ShortName>
@@ -1141,17 +1181,33 @@
 					<ShortName>movement_footstep_walk_vent_06.wav</ShortName>
 					<Path>SFX\movement_footstep_walk_vent_06_3314988A.wem</Path>
 				</File>
+				<File Id="162415660" Language="SFX">
+					<ShortName>movement_footstep_wood-001.wav</ShortName>
+					<Path>SFX\movement_footstep_wood-001_3314988A.wem</Path>
+				</File>
 				<File Id="166480715" Language="SFX">
 					<ShortName>movement_unduck.wav</ShortName>
 					<Path>SFX\movement_unduck_3314988A.wem</Path>
+				</File>
+				<File Id="167631086" Language="SFX">
+					<ShortName>movement_footstep_grass-002.wav</ShortName>
+					<Path>SFX\movement_footstep_grass-002_3314988A.wem</Path>
 				</File>
 				<File Id="171165779" Language="SFX">
 					<ShortName>movement_land_room_01.wav</ShortName>
 					<Path>SFX\movement_land_room_01_3314988A.wem</Path>
 				</File>
+				<File Id="171423333" Language="SFX">
+					<ShortName>movement_land_stone.wav</ShortName>
+					<Path>SFX\movement_land_stone_3314988A.wem</Path>
+				</File>
 				<File Id="178697107" Language="SFX">
 					<ShortName>ui_inventory_equip_weapon_01.wav</ShortName>
 					<Path>SFX\ui_inventory_equip_weapon_01_3314988A.wem</Path>
+				</File>
+				<File Id="179359880" Language="SFX">
+					<ShortName>movement_footstep_sand-006.wav</ShortName>
+					<Path>SFX\movement_footstep_sand-006_3314988A.wem</Path>
 				</File>
 				<File Id="180170831" Language="SFX">
 					<ShortName>object_pickup_coin_04.wav</ShortName>
@@ -1169,9 +1225,17 @@
 					<ShortName>ui_bio_portrait_click.wav</ShortName>
 					<Path>SFX\ui_bio_portrait_click_3314988A.wem</Path>
 				</File>
+				<File Id="199866239" Language="SFX">
+					<ShortName>movement_land_grass.wav</ShortName>
+					<Path>SFX\movement_land_grass_3314988A.wem</Path>
+				</File>
 				<File Id="202922288" Language="SFX">
 					<ShortName>movement_door_locked.wav</ShortName>
 					<Path>SFX\movement_door_locked_3314988A.wem</Path>
+				</File>
+				<File Id="204011347" Language="SFX">
+					<ShortName>movement_land_wood-001.wav</ShortName>
+					<Path>SFX\movement_land_wood-001_3314988A.wem</Path>
 				</File>
 				<File Id="210760701" Language="SFX">
 					<ShortName>movement_footstep_walk_science_04.wav</ShortName>
@@ -1181,6 +1245,10 @@
 					<ShortName>ui_inventory_close.wav</ShortName>
 					<Path>SFX\ui_inventory_close_3314988A.wem</Path>
 				</File>
+				<File Id="218511522" Language="SFX">
+					<ShortName>movement_jump_grass-001.wav</ShortName>
+					<Path>SFX\movement_jump_grass-001_3314988A.wem</Path>
+				</File>
 				<File Id="220852680" Language="SFX">
 					<ShortName>ui_quest_window_tab_click.wav</ShortName>
 					<Path>SFX\ui_quest_window_tab_click_3314988A.wem</Path>
@@ -1188,6 +1256,10 @@
 				<File Id="223192334" Language="SFX">
 					<ShortName>object_pickup_coin_01.wav</ShortName>
 					<Path>SFX\object_pickup_coin_01_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="224795312" Language="SFX">
+					<ShortName>movement_footstep_sand-003.wav</ShortName>
+					<Path>SFX\movement_footstep_sand-003_3314988A.wem</Path>
 				</File>
 				<File Id="237412212" Language="SFX">
 					<ShortName>ui_map_tab_reveal.wav</ShortName>
@@ -1204,6 +1276,10 @@
 				<File Id="279215626" Language="SFX">
 					<ShortName>object_barrel_metal_hit_03.wav</ShortName>
 					<Path>SFX\object_barrel_metal_hit_03_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="283703265" Language="SFX">
+					<ShortName>movement_jump_wood.wav</ShortName>
+					<Path>SFX\movement_jump_wood_3314988A.wem</Path>
 				</File>
 				<File Id="284644986" Language="SFX">
 					<ShortName>object_pickup_loot.wav</ShortName>
@@ -1225,6 +1301,10 @@
 					<ShortName>ui_tab_hover.wav</ShortName>
 					<Path>SFX\ui_tab_hover_3314988A.wem</Path>
 				</File>
+				<File Id="312656817" Language="SFX">
+					<ShortName>movement_footstep_stone.wav</ShortName>
+					<Path>SFX\movement_footstep_stone_3314988A.wem</Path>
+				</File>
 				<File Id="315855122" Language="SFX">
 					<ShortName>movement_footstep_walk_outside_03.wav</ShortName>
 					<Path>SFX\movement_footstep_walk_outside_03_3314988A.wem</Path>
@@ -1233,6 +1313,14 @@
 					<ShortName>ui_quest_unpin.wav</ShortName>
 					<Path>SFX\ui_quest_unpin_3314988A.wem</Path>
 				</File>
+				<File Id="331435467" Language="SFX">
+					<ShortName>movement_jump_stone-001.wav</ShortName>
+					<Path>SFX\movement_jump_stone-001_3314988A.wem</Path>
+				</File>
+				<File Id="331896439" Language="SFX">
+					<ShortName>movement_footstep_sand-001.wav</ShortName>
+					<Path>SFX\movement_footstep_sand-001_3314988A.wem</Path>
+				</File>
 				<File Id="338415879" Language="SFX">
 					<ShortName>movement_land_vent_01.wav</ShortName>
 					<Path>SFX\movement_land_vent_01_3314988A.wem</Path>
@@ -1240,6 +1328,14 @@
 				<File Id="343574560" Language="SFX">
 					<ShortName>popup_exit.wav</ShortName>
 					<Path>SFX\popup_exit_3314988A.wem</Path>
+				</File>
+				<File Id="360377078" Language="SFX">
+					<ShortName>movement_land_grass-001.wav</ShortName>
+					<Path>SFX\movement_land_grass-001_3314988A.wem</Path>
+				</File>
+				<File Id="387604827" Language="SFX">
+					<ShortName>movement_footstep_stone-003.wav</ShortName>
+					<Path>SFX\movement_footstep_stone-003_3314988A.wem</Path>
 				</File>
 				<File Id="390815055" Language="SFX">
 					<ShortName>object_barrel_metal_destroy_03.wav</ShortName>
@@ -1269,6 +1365,10 @@
 					<ShortName>ui_inventory_open.wav</ShortName>
 					<Path>SFX\ui_inventory_open_3314988A.wem</Path>
 				</File>
+				<File Id="430750145" Language="SFX">
+					<ShortName>movement_footstep_wood-002.wav</ShortName>
+					<Path>SFX\movement_footstep_wood-002_3314988A.wem</Path>
+				</File>
 				<File Id="432463268" Language="SFX">
 					<ShortName>movement_jump_vent_02.wav</ShortName>
 					<Path>SFX\movement_jump_vent_02_3314988A.wem</Path>
@@ -1285,9 +1385,21 @@
 					<ShortName>object_barrel_wood_destroy_02.wav</ShortName>
 					<Path>SFX\object_barrel_wood_destroy_02_FB1EEB1D.wem</Path>
 				</File>
+				<File Id="448538190" Language="SFX">
+					<ShortName>movement_land_wood.wav</ShortName>
+					<Path>SFX\movement_land_wood_3314988A.wem</Path>
+				</File>
+				<File Id="449299145" Language="SFX">
+					<ShortName>movement_footstep_grass-001.wav</ShortName>
+					<Path>SFX\movement_footstep_grass-001_3314988A.wem</Path>
+				</File>
 				<File Id="460378195" Language="SFX">
 					<ShortName>popup_load_game.wav</ShortName>
 					<Path>SFX\popup_load_game_3314988A.wem</Path>
+				</File>
+				<File Id="473771320" Language="SFX">
+					<ShortName>movement_jump_sand.wav</ShortName>
+					<Path>SFX\movement_jump_sand_3314988A.wem</Path>
 				</File>
 				<File Id="474506362" Language="SFX">
 					<ShortName>ui_passives_open.wav</ShortName>
@@ -1296,6 +1408,18 @@
 				<File Id="480419391" Language="SFX">
 					<ShortName>movement_footstep_walk_hallway_01.wav</ShortName>
 					<Path>SFX\movement_footstep_walk_hallway_01_3314988A.wem</Path>
+				</File>
+				<File Id="488602104" Language="SFX">
+					<ShortName>movement_land_sand.wav</ShortName>
+					<Path>SFX\movement_land_sand_3314988A.wem</Path>
+				</File>
+				<File Id="495445301" Language="SFX">
+					<ShortName>movement_footstep_grass.wav</ShortName>
+					<Path>SFX\movement_footstep_grass_3314988A.wem</Path>
+				</File>
+				<File Id="500997232" Language="SFX">
+					<ShortName>movement_jump_wood-001.wav</ShortName>
+					<Path>SFX\movement_jump_wood-001_3314988A.wem</Path>
 				</File>
 				<File Id="503410366" Language="SFX">
 					<ShortName>ui_inventory_tab_hover.wav</ShortName>
@@ -1309,13 +1433,29 @@
 					<ShortName>movement_door_open.wav</ShortName>
 					<Path>SFX\movement_door_open_3314988A.wem</Path>
 				</File>
+				<File Id="520067529" Language="SFX">
+					<ShortName>movement_land_sand-001.wav</ShortName>
+					<Path>SFX\movement_land_sand-001_3314988A.wem</Path>
+				</File>
 				<File Id="530008874" Language="SFX">
 					<ShortName>movement_footstep_walk_outside_01.wav</ShortName>
 					<Path>SFX\movement_footstep_walk_outside_01_3314988A.wem</Path>
 				</File>
+				<File Id="536536736" Language="SFX">
+					<ShortName>movement_footstep_sand-002.wav</ShortName>
+					<Path>SFX\movement_footstep_sand-002_3314988A.wem</Path>
+				</File>
 				<File Id="543355819" Language="SFX">
 					<ShortName>object_pickup_coin_05.wav</ShortName>
 					<Path>SFX\object_pickup_coin_05_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="543393150" Language="SFX">
+					<ShortName>movement_footstep_sand-004.wav</ShortName>
+					<Path>SFX\movement_footstep_sand-004_3314988A.wem</Path>
+				</File>
+				<File Id="546300304" Language="SFX">
+					<ShortName>movement_footstep_wood-004.wav</ShortName>
+					<Path>SFX\movement_footstep_wood-004_3314988A.wem</Path>
 				</File>
 				<File Id="548768604" Language="SFX">
 					<ShortName>movement_footstep_walk_outside_05.wav</ShortName>
@@ -1365,6 +1505,10 @@
 					<ShortName>object_pickup_textbook.wav</ShortName>
 					<Path>SFX\object_pickup_textbook_C77FB4CD.wem</Path>
 				</File>
+				<File Id="683937896" Language="SFX">
+					<ShortName>movement_footstep_grass-004.wav</ShortName>
+					<Path>SFX\movement_footstep_grass-004_3314988A.wem</Path>
+				</File>
 				<File Id="689147296" Language="SFX">
 					<ShortName>movement_footstep_walk_room_01.wav</ShortName>
 					<Path>SFX\movement_footstep_walk_room_01_3314988A.wem</Path>
@@ -1372,6 +1516,10 @@
 				<File Id="689292818" Language="SFX">
 					<ShortName>movement_footstep_walk_hallway_03.wav</ShortName>
 					<Path>SFX\movement_footstep_walk_hallway_03_3314988A.wem</Path>
+				</File>
+				<File Id="698199461" Language="SFX">
+					<ShortName>movement_footstep_stone-005.wav</ShortName>
+					<Path>SFX\movement_footstep_stone-005_3314988A.wem</Path>
 				</File>
 				<File Id="701812890" Language="SFX">
 					<ShortName>ui_general_tab.wav</ShortName>
@@ -1381,6 +1529,10 @@
 					<ShortName>ui_inventory_equip_clothes_02.wav</ShortName>
 					<Path>SFX\ui_inventory_equip_clothes_02_3314988A.wem</Path>
 				</File>
+				<File Id="720093207" Language="SFX">
+					<ShortName>movement_footstep_wood-005.wav</ShortName>
+					<Path>SFX\movement_footstep_wood-005_3314988A.wem</Path>
+				</File>
 				<File Id="721605057" Language="SFX">
 					<ShortName>ui_page_arrow_click.wav</ShortName>
 					<Path>SFX\ui_page_arrow_click_3314988A.wem</Path>
@@ -1388,6 +1540,10 @@
 				<File Id="736931763" Language="SFX">
 					<ShortName>movement_land_science_02.wav</ShortName>
 					<Path>SFX\movement_land_science_02_3314988A.wem</Path>
+				</File>
+				<File Id="741126676" Language="SFX">
+					<ShortName>movement_footstep_sand.wav</ShortName>
+					<Path>SFX\movement_footstep_sand_3314988A.wem</Path>
 				</File>
 				<File Id="746833307" Language="SFX">
 					<ShortName>object_barrel_metal_hit_02.wav</ShortName>
@@ -1412,6 +1568,10 @@
 				<File Id="764619556" Language="SFX">
 					<ShortName>movement_footstep_walk_outside_02.wav</ShortName>
 					<Path>SFX\movement_footstep_walk_outside_02_3314988A.wem</Path>
+				</File>
+				<File Id="771868287" Language="SFX">
+					<ShortName>movement_footstep_stone-004.wav</ShortName>
+					<Path>SFX\movement_footstep_stone-004_3314988A.wem</Path>
 				</File>
 				<File Id="779143215" Language="SFX">
 					<ShortName>popup_social_rank_up.wav</ShortName>
@@ -1453,6 +1613,10 @@
 					<ShortName>movement_footstep_walk_science_01.wav</ShortName>
 					<Path>SFX\movement_footstep_walk_science_01_3314988A.wem</Path>
 				</File>
+				<File Id="823102715" Language="SFX">
+					<ShortName>movement_jump_stone.wav</ShortName>
+					<Path>SFX\movement_jump_stone_3314988A.wem</Path>
+				</File>
 				<File Id="825104076" Language="SFX">
 					<ShortName>enemy_generic_spawn_01.wav</ShortName>
 					<Path>SFX\enemy_generic_spawn_01_3314988A.wem</Path>
@@ -1468,6 +1632,10 @@
 				<File Id="837026750" Language="SFX">
 					<ShortName>movement_footstep_walk_vent_04.wav</ShortName>
 					<Path>SFX\movement_footstep_walk_vent_04_3314988A.wem</Path>
+				</File>
+				<File Id="837037960" Language="SFX">
+					<ShortName>movement_land_stone-001.wav</ShortName>
+					<Path>SFX\movement_land_stone-001_3314988A.wem</Path>
 				</File>
 				<File Id="848202896" Language="SFX">
 					<ShortName>movement_footstep_walk_room_04.wav</ShortName>
@@ -1509,6 +1677,10 @@
 					<ShortName>movement_jump_science_02.wav</ShortName>
 					<Path>SFX\movement_jump_science_02_3314988A.wem</Path>
 				</File>
+				<File Id="926036335" Language="SFX">
+					<ShortName>movement_footstep_sand-005.wav</ShortName>
+					<Path>SFX\movement_footstep_sand-005_3314988A.wem</Path>
+				</File>
 				<File Id="933049443" Language="SFX">
 					<ShortName>enemy_generic_hit_generic_03.wav</ShortName>
 					<Path>SFX\enemy_generic_hit_generic_03_21545B0F.wem</Path>
@@ -1520,6 +1692,10 @@
 				<File Id="937770042" Language="SFX">
 					<ShortName>enemy_generic_spawn_02.wav</ShortName>
 					<Path>SFX\enemy_generic_spawn_02_3314988A.wem</Path>
+				</File>
+				<File Id="943916150" Language="SFX">
+					<ShortName>movement_jump_sand-001.wav</ShortName>
+					<Path>SFX\movement_jump_sand-001_3314988A.wem</Path>
 				</File>
 				<File Id="957332764" Language="SFX">
 					<ShortName>movement_footstep_walk_hallway_06.wav</ShortName>
@@ -1541,6 +1717,10 @@
 					<ShortName>movement_footstep_walk_room_05.wav</ShortName>
 					<Path>SFX\movement_footstep_walk_room_05_3314988A.wem</Path>
 				</File>
+				<File Id="1010756148" Language="SFX">
+					<ShortName>movement_footstep_stone-001.wav</ShortName>
+					<Path>SFX\movement_footstep_stone-001_3314988A.wem</Path>
+				</File>
 				<File Id="1019399758" Language="SFX">
 					<ShortName>ui_tab_click.wav</ShortName>
 					<Path>SFX\ui_tab_click_3314988A.wem</Path>
@@ -1561,6 +1741,10 @@
 					<ShortName>tear_hum_loop_mono.wav</ShortName>
 					<Path>SFX\tear_hum_loop_mono_682514AB.wem</Path>
 				</File>
+				<File Id="1037706964" Language="SFX">
+					<ShortName>movement_footstep_stone-002.wav</ShortName>
+					<Path>SFX\movement_footstep_stone-002_3314988A.wem</Path>
+				</File>
 				<File Id="1047045587" Language="SFX">
 					<ShortName>object_pickup_misc.wav</ShortName>
 					<Path>SFX\object_pickup_misc_FB1EEB1D.wem</Path>
@@ -1576,6 +1760,10 @@
 				<File Id="1054524985" Language="SFX">
 					<ShortName>object_locker_hit.wav</ShortName>
 					<Path>SFX\object_locker_hit_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="1061860205" Language="SFX">
+					<ShortName>movement_jump_grass.wav</ShortName>
+					<Path>SFX\movement_jump_grass_3314988A.wem</Path>
 				</File>
 				<File Id="1063267813" Language="SFX">
 					<ShortName>movement_jump_hallway_02.wav</ShortName>
@@ -1669,9 +1857,6 @@
 			<ShortName>objects</ShortName>
 			<Path>objects.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3231815477" Name="object_bomb_horse_move_loop_start"/>
-				<Event Id="950003607" Name="object_bomb_horse_move_loop_stop"/>
-				<Event Id="344650103" Name="object_fire_trap"/>
 				<Event Id="2172612084" Name="object_ghost_sucker_damage"/>
 				<Event Id="1417365428" Name="object_ghost_sucker_loop_start"/>
 				<Event Id="1622373416" Name="object_ghost_sucker_loop_stop"/>
@@ -1679,16 +1864,11 @@
 				<Event Id="3291599859" Name="object_goblin_hut_destroy"/>
 				<Event Id="1523419505" Name="object_goblin_hut_fire_loop_start"/>
 				<Event Id="484658667" Name="object_goblin_hut_fire_loop_stop"/>
-				<Event Id="1121409554" Name="object_horse_damage"/>
 				<Event Id="2815960723" Name="object_laser_fence_start"/>
 				<Event Id="2549674833" Name="object_laser_fence_stop"/>
 				<Event Id="3910530431" Name="object_prologue_rat_die"/>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="24716759" Language="SFX">
-					<ShortName>object_horse_damage_02.wav</ShortName>
-					<Path>SFX\object_horse_damage_02_FB1EEB1D.wem</Path>
-				</File>
+			<ExcludedMemoryFiles>
 				<File Id="29059718" Language="SFX">
 					<ShortName>object_laser_fence_start.wav</ShortName>
 					<Path>SFX\object_laser_fence_start_FB1EEB1D.wem</Path>
@@ -1701,10 +1881,6 @@
 					<ShortName>object_ghost_sucker_damage_01.wav</ShortName>
 					<Path>SFX\object_ghost_sucker_damage_01_FB1EEB1D.wem</Path>
 				</File>
-				<File Id="245237797" Language="SFX">
-					<ShortName>object_horse_damage_03.wav</ShortName>
-					<Path>SFX\object_horse_damage_03_FB1EEB1D.wem</Path>
-				</File>
 				<File Id="250691801" Language="SFX">
 					<ShortName>object_prologue_rat_die.wav</ShortName>
 					<Path>SFX\object_prologue_rat_die_FB1EEB1D.wem</Path>
@@ -1712,14 +1888,6 @@
 				<File Id="332698090" Language="SFX">
 					<ShortName>object_ghost_sucker_loop.wav</ShortName>
 					<Path>SFX\object_ghost_sucker_loop_682514AB.wem</Path>
-				</File>
-				<File Id="467945992" Language="SFX">
-					<ShortName>object_bomb_horse_move_loop.wav</ShortName>
-					<Path>SFX\object_bomb_horse_move_loop_682514AB.wem</Path>
-				</File>
-				<File Id="628292486" Language="SFX">
-					<ShortName>object_horse_damage_01.wav</ShortName>
-					<Path>SFX\object_horse_damage_01_FB1EEB1D.wem</Path>
 				</File>
 				<File Id="636349257" Language="SFX">
 					<ShortName>object_goblin_hut_damage.wav</ShortName>
@@ -1729,10 +1897,6 @@
 					<ShortName>object_laser_fence_loop.wav</ShortName>
 					<Path>SFX\object_laser_fence_loop_682514AB.wem</Path>
 				</File>
-				<File Id="934650014" Language="SFX">
-					<ShortName>object_fire_trap_01.wav</ShortName>
-					<Path>SFX\object_fire_trap_01_FB1EEB1D.wem</Path>
-				</File>
 				<File Id="979148409" Language="SFX">
 					<ShortName>object_goblin_hut_destroy.wav</ShortName>
 					<Path>SFX\object_goblin_hut_destroy_FB1EEB1D.wem</Path>
@@ -1741,11 +1905,7 @@
 					<ShortName>object_ghost_sucker_damage_02.wav</ShortName>
 					<Path>SFX\object_ghost_sucker_damage_02_FB1EEB1D.wem</Path>
 				</File>
-				<File Id="1002170629" Language="SFX">
-					<ShortName>object_fire_trap_02.wav</ShortName>
-					<Path>SFX\object_fire_trap_02_FB1EEB1D.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
+			</ExcludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="1713493312" Language="SFX">
 			<ShortName>combustible_confutation_ch_2</ShortName>

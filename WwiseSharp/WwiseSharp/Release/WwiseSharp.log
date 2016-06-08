@@ -1,4 +1,5 @@
-﻿     Creating library C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\WwiseSharp.lib and object C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\WwiseSharp.exp
+﻿  WwiseSharpEngine.cpp
+     Creating library C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\WwiseSharp.lib and object C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\WwiseSharp.exp
   Generating code
   Finished generating code
 WwiseWrapper.lib(AkPeakLimiterFXParams.obj) : warning LNK4099: PDB 'akpeaklimiterfx.pdb' was not found with 'WwiseWrapper.lib(AkPeakLimiterFXParams.obj)' or at 'C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\akpeaklimiterfx.pdb'; linking object as if no debug info

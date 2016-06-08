@@ -229,18 +229,18 @@ const char* WwiseEngine::LoadEvent(const wchar_t ** in_ppszString, AkUInt32 in_u
 {
 	const char ** pEventNameArray = new const char *[in_uNumEvent];
 	
-	for (unsigned int x = 0; x < 2; x++)
+	for (unsigned int x = 0; x < in_uNumEvent; x++)
 	{
-		size_t origsize = wcslen(in_ppszString[0]) + 1;
+		size_t origsize = wcslen(in_ppszString[x]) + 1;
 		size_t convertedChars = 0;
 		const size_t newsize = origsize * 2;
 		char* nstring = new char[newsize];
-		wcstombs_s(&convertedChars, nstring, newsize, in_ppszString[0], _TRUNCATE);
+		wcstombs_s(&convertedChars, nstring, newsize, in_ppszString[x], _TRUNCATE);
 		pEventNameArray[x] = nstring;
 	}
 	
 	AK::SoundEngine::PrepareEvent(AK::SoundEngine::PreparationType::Preparation_Load, pEventNameArray, in_uNumEvent);
-	return pEventNameArray[0];
+	return pEventNameArray[in_uNumEvent - 1]; //this is not returning correctly
 }
 void WwiseEngine::ClearBanks()
 {

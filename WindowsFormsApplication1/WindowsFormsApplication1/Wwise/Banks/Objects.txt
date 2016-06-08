@@ -1,8 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	344650103	object_fire_trap			\Default Work Unit\Object\object_fire_trap	
 	484658667	object_goblin_hut_fire_loop_stop			\Default Work Unit\Object\object_goblin_hut_fire_loop_stop	
-	950003607	object_bomb_horse_move_loop_stop			\Default Work Unit\Object\object_bomb_horse_move_loop_stop	
-	1121409554	object_horse_damage			\Default Work Unit\Object\object_horse_damage	
 	1417365428	object_ghost_sucker_loop_start			\Default Work Unit\Object\object_ghost_sucker_loop_start	
 	1523419505	object_goblin_hut_fire_loop_start			\Default Work Unit\Object\object_goblin_hut_fire_loop_start	
 	1622373416	object_ghost_sucker_loop_stop			\Default Work Unit\Object\object_ghost_sucker_loop_stop	
@@ -10,24 +7,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2172612084	object_ghost_sucker_damage			\Default Work Unit\Object\object_ghost_sucker_damage	
 	2549674833	object_laser_fence_stop			\Default Work Unit\Object\object_laser_fence_stop	
 	2815960723	object_laser_fence_start			\Default Work Unit\Object\object_laser_fence_start	
-	3231815477	object_bomb_horse_move_loop_start			\Default Work Unit\Object\object_bomb_horse_move_loop_start	
 	3291599859	object_goblin_hut_destroy			\Default Work Unit\Object\object_goblin_hut_destroy	
 	3910530431	object_prologue_rat_die			\Default Work Unit\Object\object_prologue_rat_die	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	24716759	object_horse_damage_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_horse_damage_02_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_horse_damage\object_horse_damage_02		19786
-	29059718	object_laser_fence_start	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_laser_fence_start_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_laser_fence_start		12851
-	36338803	object_goblin_hut_fire_loop	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_goblin_hut_fire_loop_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_goblin_hut_fire_loop		185697
-	66861835	object_ghost_sucker_damage_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_ghost_sucker_damage_01_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_ghost_sucker_damage\object_ghost_sucker_damage_01		18945
-	245237797	object_horse_damage_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_horse_damage_03_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_horse_damage\object_horse_damage_03		20390
-	250691801	object_prologue_rat_die	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_prologue_rat_die_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_prologue_rat_die		21511
-	332698090	object_ghost_sucker_loop	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_ghost_sucker_loop_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_ghost_sucker_loop		381573
-	467945992	object_bomb_horse_move_loop	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_bomb_horse_move_loop_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_bomb_horse_move_loop		228768
-	628292486	object_horse_damage_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_horse_damage_01_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_horse_damage\object_horse_damage_01		17285
-	636349257	object_goblin_hut_damage	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_goblin_hut_damage_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_goblin_hut_damage		15740
-	684654700	object_laser_fence_loop	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_laser_fence_loop_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_laser_fence_loop		394322
-	934650014	object_fire_trap_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_fire_trap_01_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_fire_trap\object_fire_trap_01		69474
-	979148409	object_goblin_hut_destroy	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_goblin_hut_destroy_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_goblin_hut_destroy		36995
-	987142050	object_ghost_sucker_damage_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_ghost_sucker_damage_02_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_ghost_sucker_damage\object_ghost_sucker_damage_02		20365
-	1002170629	object_fire_trap_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\object_fire_trap_02_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_fire_trap\object_fire_trap_02		71795
 

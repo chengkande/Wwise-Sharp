@@ -257,21 +257,21 @@ namespace WindowsFormsApplication1
         //LoadBanks
         private void button19_Click(object sender, EventArgs e)
         {
-            Wwise.PrepareBank("cutscenes.bnk");
+            Wwise.PrepareBank("objects.bnk");
         }
 
         //test banks
         private void button20_Click(object sender, EventArgs e)
         {
-            
-            WwiseObject2.PostEvent("cutscene_goblin_fort_gate_open");
+
+            WwiseObject2.PostEvent("object_goblin_hut_destroy");
         }
 
         //prepare Events
         private void button21_Click(object sender, EventArgs e)
         {
             String msg;
-            msg = Wwise.LoadEvents(new String[2] { "cutscene_goblin_fort_gate_open", "cutscene_science_plat_guy" }, 2);
+            msg = Wwise.LoadEvents(new String[3] { "object_goblin_hut_fire_loop_start", "object_goblin_hut_fire_loop_stop", "object_goblin_hut_destroy" }, 3);
             Console.WriteLine("Prepared " + msg);
             
         }
