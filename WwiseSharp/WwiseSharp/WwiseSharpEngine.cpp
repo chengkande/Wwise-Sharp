@@ -1,8 +1,5 @@
 //////////////////////////////////////////////////////////////////////
 //
-// Author: Adrien "Lucyberad" Bock.
-//
-// -------------------------------------------------------------------
 //
 // Important note about usage of System::String^ and StringToHGlobalUni heavily used in this file.
 // At first, for your information, the ^ char means that the System::String is given as a managed object. It works like pointer.

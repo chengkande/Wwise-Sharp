@@ -22,6 +22,7 @@
 #include "SDK/include/AK/MusicEngine/Common/AkMusicEngine.h"                // Music Engine
 #include "SDK/include/AK/Plugin/AkRoomVerbFXFactory.h"						// Room Verb
 #include "SDK/include/AK/Plugin/AkPeakLimiterFXFactory.h"					//Limiter
+#include "SDK/include/AK/Plugin/AkStereoDelayFXFactory.h"					//Stereo Delay for Bathroom effect
 #ifdef WWISESHARP_VORBIS
 	#include "SDK/include/AK/Plugin/AkVorbisFactory.h"						// Vorbis Plugin.
 #endif

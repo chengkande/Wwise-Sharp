@@ -1,8 +1,7 @@
-//////////////////////////////////////////////////////////////////////
-//
-// Author: Adrien "Lucyberad" Bock.
-//
-//////////////////////////////////////////////////////////////////////
+
+/*
+	Based on Adrien Bock's original WwiseSharp
+*/
 
 #include "WwiseEngine.hpp"
 #include <assert.h>
@@ -376,6 +375,11 @@ void WwiseEngine::RegisterReverb()
 		AKEFFECTID_PEAKLIMITER,
 		CreatePeakLimiterFX,
 		CreatePeakLimiterFXParams);
+	AK::SoundEngine::RegisterPlugin(AkPluginTypeEffect,
+		AKCOMPANYID_AUDIOKINETIC,
+		AKEFFECTID_STEREODELAY,
+		CreateStereoDelayFX,
+		CreateStereoDelayFXParams);
 }
 void WwiseEngine::GetSourcePlayPosition(AkPlayingID g_markersPlayingID, AkTimeMs* out_puPostition)
 {

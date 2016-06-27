@@ -1,6 +1,18 @@
-﻿     Creating library C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\WwiseSharp.lib and object C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\WwiseSharp.exp
+﻿  WwiseSharpEngine.cpp
+  WwiseSharpGameObject.cpp
+  WwiseSharpListenerPosition.cpp
+  WwiseSharpMusicInfo.cpp
+  WwiseSharpSoundPosition.cpp
+  Generating Code...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+     Creating library C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\WwiseSharp.lib and object C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\WwiseSharp.exp
   Generating code
   Finished generating code
+WwiseWrapper.lib(Mix2Interp.obj) : warning LNK4099: PDB 'akstereodelayfx.pdb' was not found with 'WwiseWrapper.lib(Mix2Interp.obj)' or at 'C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\akstereodelayfx.pdb'; linking object as if no debug info
+WwiseWrapper.lib(AkStereoDelayLine.obj) : warning LNK4099: PDB 'akstereodelayfx.pdb' was not found with 'WwiseWrapper.lib(AkStereoDelayLine.obj)' or at 'C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\akstereodelayfx.pdb'; linking object as if no debug info
+WwiseWrapper.lib(AkStereoDelayFXParams.obj) : warning LNK4099: PDB 'akstereodelayfx.pdb' was not found with 'WwiseWrapper.lib(AkStereoDelayFXParams.obj)' or at 'C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\akstereodelayfx.pdb'; linking object as if no debug info
+WwiseWrapper.lib(AkStereoDelayFX.obj) : warning LNK4099: PDB 'akstereodelayfx.pdb' was not found with 'WwiseWrapper.lib(AkStereoDelayFX.obj)' or at 'C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\akstereodelayfx.pdb'; linking object as if no debug info
+WwiseWrapper.lib(AkStereoDelayDSPProcess.obj) : warning LNK4099: PDB 'akstereodelayfx.pdb' was not found with 'WwiseWrapper.lib(AkStereoDelayDSPProcess.obj)' or at 'C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\akstereodelayfx.pdb'; linking object as if no debug info
 WwiseWrapper.lib(AkPeakLimiterFXParams.obj) : warning LNK4099: PDB 'akpeaklimiterfx.pdb' was not found with 'WwiseWrapper.lib(AkPeakLimiterFXParams.obj)' or at 'C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\akpeaklimiterfx.pdb'; linking object as if no debug info
 WwiseWrapper.lib(AkPeakLimiterFX.obj) : warning LNK4099: PDB 'akpeaklimiterfx.pdb' was not found with 'WwiseWrapper.lib(AkPeakLimiterFX.obj)' or at 'C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\akpeaklimiterfx.pdb'; linking object as if no debug info
 WwiseWrapper.lib(OnePoleZeroHPFilter.obj) : warning LNK4099: PDB 'akroomverbfx.pdb' was not found with 'WwiseWrapper.lib(OnePoleZeroHPFilter.obj)' or at 'C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\akroomverbfx.pdb'; linking object as if no debug info

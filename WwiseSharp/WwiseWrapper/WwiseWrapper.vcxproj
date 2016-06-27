@@ -87,7 +87,7 @@
       <AdditionalIncludeDirectories>SDK\include\;$(WWISE5533)\samples\SoundEngine\Common;$(WWISE5533)\samples\SoundEngine\Win32;$(WWISE5533)\Win32_vc120\Debug\lib;$(WWISE5533)\include\AK\Plugin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Lib>
-      <AdditionalDependencies>AkSoundEngine.lib;AkMusicEngine.lib;AkStreamMgr.lib;AkMemoryMgr.lib;AkVorbisDecoder.lib;dxguid.lib;AkRoomVerbFX.lib;AkPeakLimiterFX.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>AkSoundEngine.lib;AkMusicEngine.lib;AkStreamMgr.lib;AkMemoryMgr.lib;AkVorbisDecoder.lib;dxguid.lib;AkRoomVerbFX.lib;AkPeakLimiterFX.lib;AkStereoDelayFX.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(DXSDK_DIR)\lib\x86;SDK\Win32_vc120\Release\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Lib>

@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	484658667	object_goblin_hut_fire_loop_stop			\Default Work Unit\Object\object_goblin_hut_fire_loop_stop	
+	1417365428	object_ghost_sucker_loop_start			\Default Work Unit\Object\object_ghost_sucker_loop_start	
+	1523419505	object_goblin_hut_fire_loop_start			\Default Work Unit\Object\object_goblin_hut_fire_loop_start	
+	1622373416	object_ghost_sucker_loop_stop			\Default Work Unit\Object\object_ghost_sucker_loop_stop	
+	1638932804	object_goblin_hut_damage			\Default Work Unit\Object\object_goblin_hut_damage	
+	2172612084	object_ghost_sucker_damage			\Default Work Unit\Object\object_ghost_sucker_damage	
+	2549674833	object_laser_fence_stop			\Default Work Unit\Object\object_laser_fence_stop	
+	2815960723	object_laser_fence_start			\Default Work Unit\Object\object_laser_fence_start	
+	3291599859	object_goblin_hut_destroy			\Default Work Unit\Object\object_goblin_hut_destroy	
+	3910530431	object_prologue_rat_die			\Default Work Unit\Object\object_prologue_rat_die	
+

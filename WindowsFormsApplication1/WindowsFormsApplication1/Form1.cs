@@ -27,20 +27,40 @@ namespace WindowsFormsApplication1
         uint musicPlayingID = 0;
         WwiseSharpMusicInfo musicInfo;
         System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
+        string path = AppDomain.CurrentDomain.BaseDirectory;
         public Form1()
         {
             InitializeComponent();
             Wwise.Init();
-            Wwise.SetBasePath("C:/Users/Miles/Documents/WwiseProjects/SuperDarylDeluxe/GeneratedSoundBanks/Windows");
-            //Wwise.SetAudioSrcPath("C:/Users/Miles/Documents/GitHub/WwiseSharp/wwisesharp/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/");
+            Console.WriteLine(path);
+            Wwise.SetBasePath(path+"Wwise/Banks/");
+            //Wwise.SetAudioSrcPath("C:/Users/Miles/Documents/GitHub/WwiseSharp/wwisesharp/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/"); //only for external sources
             Wwise.InitReverb();
             Wwise.LoadBank("Init.bnk");
             Wwise.LoadBank("global.bnk");
             Wwise.LoadBank("ambience.bnk");
+            Wwise.LoadBank("music.bnk");
+            Wwise.LoadBank("fowl_mouth.bnk");
+            Wwise.LoadBank("captain_sax.bnk");
            
             WwiseObject = Wwise.RegisterGameObject(globalObjectID, "global");
             WwiseObject2 = Wwise.RegisterGameObject((uint)1, "local");
             WwiseObject.PostEvent("Enable_Reverb");
+
+            //set Listener back 50 so we can hear the left/right
+            WwiseSharpListenerPosition listenerPos = new WwiseSharpListenerPosition();
+            listenerPos.Xposition = 0;
+            listenerPos.Yposition = 0;
+            listenerPos.Zposition = -50;
+            listenerPos.XorientationFront = 0;
+            listenerPos.YorientationFront = 0;
+            listenerPos.ZorientationFront = 1;
+            listenerPos.XorientationTop = 0;
+            listenerPos.YorientationTop = 1;
+            listenerPos.ZorientationTop = 0;
+
+            Wwise.SetListenerPosition(listenerPos);
+
             Application.Idle += HandleApplicationIdle;
         }
         void HandleApplicationIdle(object sender, EventArgs e)
@@ -60,7 +80,7 @@ namespace WindowsFormsApplication1
                             {
                                 time = stopwatch.ElapsedMilliseconds;
                                 //WwiseObject2.PostEvent("popup_social_rank_up");
-                                WwiseObject.PostEvent("test_music_01");
+                                WwiseObject.PostEvent("captain_sax_full_loop_start");
                                 cptSaxHasStarted = true;
                                 Console.WriteLine("midi started " + time + " ms after being set for " + timer + " ms");
                             }
@@ -91,12 +111,12 @@ namespace WindowsFormsApplication1
         
         private void button1_Click(object sender, EventArgs e)
         {
-            //WwiseObject.PostEvent("play_ambience_furnace");
+            WwiseObject.PostEvent("ambience_furnace_play");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //WwiseObject.PostEvent("stop_ambience_furnace");
+            WwiseObject.PostEvent("ambience_furnace_stop");
         }
         
         private void button3_Click(object sender, EventArgs e)
@@ -132,7 +152,7 @@ namespace WindowsFormsApplication1
         private void button8_Click(object sender, EventArgs e)
         {
             //weapon
-            WwiseObject2.PostEvent("weapon_sword_barrage_lvl3");
+            WwiseObject2.PostEvent("fowl_mouth_use");
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -177,6 +197,7 @@ namespace WindowsFormsApplication1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            /*
             WwiseSharpListenerPosition listenerPos = new WwiseSharpListenerPosition();
             listenerPos.Xposition = 0;
             listenerPos.Yposition = 0;
@@ -189,6 +210,7 @@ namespace WindowsFormsApplication1
             listenerPos.ZorientationTop = 0;
 
             Wwise.SetListenerPosition(listenerPos);
+             * */
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -200,20 +222,27 @@ namespace WindowsFormsApplication1
         private void button12_Click(object sender, EventArgs e)
         {
             isCallbackEnabled = true;
-            WwiseObject.PostMusicSyncEvent_Bar("mx_test_play");
+            WwiseObject.PostMusicSyncEvent_Bar("MXTest1");
             musicPlayingID = WwiseObject.syncPlayingID;
         }
         //play mx 2
         private void button13_Click(object sender, EventArgs e)
         {
             isCallbackEnabled = true;
-            WwiseObject.PostMusicSyncEvent_Bar("mxtest2_play");
+            WwiseObject.PostMusicSyncEvent_Bar("MXTest2");
             musicPlayingID = WwiseObject.syncPlayingID;
         }
-        //start midi
+        // mx3
+        private void button22_Click(object sender, EventArgs e)
+        {
+            isCallbackEnabled = true;
+            WwiseObject.PostMusicSyncEvent_Bar("MXTest3");
+            musicPlayingID = WwiseObject.syncPlayingID;
+        }
+        //start midi  -- this currently breaks if being posted during music pre-entry
         private void button14_Click(object sender, EventArgs e)
         {
-            //WwiseObject.PostEvent("test_music_01");
+            WwiseObject.PostEvent("captain_sax_loop_intro");
             musicInfo = WwiseObject.GetPlayingSegmentInfo(musicPlayingID);
 
             //set a timer to post event 200ms (or whatever latency there may be later) before next bar
@@ -246,12 +275,12 @@ namespace WindowsFormsApplication1
         //attack
         private void button16_Click(object sender, EventArgs e)
         {
-            WwiseObject.PostEvent("enemy_captain_sax_attack_enable");
+            WwiseObject.PostEvent("captain_sax_attack_enable");
         }
         //un-attack
         private void button18_Click(object sender, EventArgs e)
         {
-            WwiseObject.PostEvent("enemy_captain_sax_attack_disable");
+            WwiseObject.PostEvent("captain_sax_attack_disable");
         }
 
         //LoadBanks
