@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	187028942	anubis_swipe			\Default Work Unit\Enemies\anubis_swipe	
+	383461258	anubis_spawn_locust			\Default Work Unit\Enemies\anubis_spawn_locust	
+	1098168745	anubis_shockwave			\Default Work Unit\Enemies\anubis_shockwave	
+	1366152297	anubis_summon			\Default Work Unit\Enemies\anubis_summon	
+	2953887732	anubis_dash			\Default Work Unit\Enemies\anubis_dash	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21430873	enemy_anubis_shockwave_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_anubis_shockwave_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Anubis\enemy_anubis_shockwave\enemy_anubis_shockwave_01		66222
+	60834008	enemy_anubis_shockwave_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_anubis_shockwave_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Anubis\enemy_anubis_shockwave\enemy_anubis_shockwave_03		66039
+	117570666	enemy_anubis_swipe_04	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_anubis_swipe_04_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Anubis\enemy_anubis_swipe\enemy_anubis_swipe_04		15577
+	130149214	enemy_anubis_summon_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_anubis_summon_01_2C301954.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Anubis\enemy_anubis_summon\enemy_anubis_summon_01		19415
+	334173222	enemy_anubis_swipe_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_anubis_swipe_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Anubis\enemy_anubis_swipe\enemy_anubis_swipe_03		17192
+	368078288	enemy_anubis_summon_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_anubis_summon_02_F72C1A66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Anubis\enemy_anubis_summon\enemy_anubis_summon_02		15943
+	370093949	enemy_anubis_shockwave_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_anubis_shockwave_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Anubis\enemy_anubis_shockwave\enemy_anubis_shockwave_02		60176
+	375569515	enemy_anubis_dash	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_anubis_dash_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Anubis\enemy_anubis_dash		15970
+	475115842	enemy_anubis_spawn_locust	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_anubis_spawn_locust_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Anubis\enemy_anubis_spawn_locust		27619
+	593331217	enemy_anubis_swipe_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_anubis_swipe_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Anubis\enemy_anubis_swipe\enemy_anubis_swipe_01		12215
+	745685598	enemy_anubis_swipe_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_anubis_swipe_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Anubis\enemy_anubis_swipe\enemy_anubis_swipe_02		16883
+

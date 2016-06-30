@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="85412153" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\ambience</ObjectPath>
+			<ShortName>ambience</ShortName>
+			<Path>ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="476958511" Name="ambience_bathroom_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_bathroom_play"/>
+				<Event Id="3236165933" Name="ambience_bathroom_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_bathroom_stop"/>
+				<Event Id="2104457236" Name="ambience_cave_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_cave_play"/>
+				<Event Id="3808359918" Name="ambience_cave_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_cave_stop"/>
+				<Event Id="2402138200" Name="ambience_desert_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_desert_play"/>
+				<Event Id="479618218" Name="ambience_desert_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_desert_stop"/>
+				<Event Id="1739628586" Name="ambience_ent_forest_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_ent_forest_play"/>
+				<Event Id="3143830612" Name="ambience_ent_forest_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_ent_forest_stop"/>
+				<Event Id="61970451" Name="ambience_ethereal_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_ethereal_play"/>
+				<Event Id="3487059961" Name="ambience_ethereal_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_ethereal_stop"/>
+				<Event Id="2945877104" Name="ambience_far_side_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_far_side_play"/>
+				<Event Id="1252782098" Name="ambience_far_side_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_far_side_stop"/>
+				<Event Id="1776492829" Name="ambience_fort_battle_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_fort_battle_play"/>
+				<Event Id="3962334859" Name="ambience_fort_battle_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_fort_battle_stop"/>
+				<Event Id="1160136561" Name="ambience_furnace_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_furnace_play"/>
+				<Event Id="2453128231" Name="ambience_furnace_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_furnace_stop"/>
+				<Event Id="722170270" Name="ambience_haunted_mansion_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_haunted_mansion_play"/>
+				<Event Id="1718486624" Name="ambience_haunted_mansion_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_haunted_mansion_stop"/>
+				<Event Id="302525619" Name="ambience_janitor_snoring_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_janitor_snoring_play"/>
+				<Event Id="3685935001" Name="ambience_janitor_snoring_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_janitor_snoring_stop"/>
+				<Event Id="4204973168" Name="ambience_military_camp_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_military_camp_play"/>
+				<Event Id="2511878162" Name="ambience_military_camp_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_military_camp_stop"/>
+				<Event Id="1935273557" Name="ambience_mongolian_camp_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_mongolian_camp_play"/>
+				<Event Id="102269747" Name="ambience_mongolian_camp_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_mongolian_camp_stop"/>
+				<Event Id="1739282493" Name="ambience_mongolian_fields_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_mongolian_fields_play"/>
+				<Event Id="3966598059" Name="ambience_mongolian_fields_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_mongolian_fields_stop"/>
+				<Event Id="3137962781" Name="ambience_outdoors_night_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_outdoors_night_play"/>
+				<Event Id="1028837515" Name="ambience_outdoors_night_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_outdoors_night_stop"/>
+				<Event Id="3219232470" Name="ambience_party_gross_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_party_gross_play"/>
+				<Event Id="3991243368" Name="ambience_party_gross_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_party_gross_stop"/>
+				<Event Id="3160624068" Name="ambience_pyramid_clff_entrance_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_clff_entrance_play"/>
+				<Event Id="1638103998" Name="ambience_pyramid_clff_entrance_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_clff_entrance_stop"/>
+				<Event Id="702263144" Name="ambience_pyramid_dark_room_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_dark_room_play"/>
+				<Event Id="3038356698" Name="ambience_pyramid_dark_room_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_dark_room_stop"/>
+				<Event Id="854039258" Name="ambience_pyramid_general_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_general_play"/>
+				<Event Id="2253018340" Name="ambience_pyramid_general_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_general_stop"/>
+				<Event Id="1017535863" Name="ambience_pyramid_pit_falling_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_pit_falling_play"/>
+				<Event Id="4000945317" Name="ambience_pyramid_pit_falling_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_pit_falling_stop"/>
+				<Event Id="1010012075" Name="ambience_pyramid_treasure_room_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_treasure_room_play"/>
+				<Event Id="4127642689" Name="ambience_pyramid_treasure_room_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_treasure_room_stop"/>
+				<Event Id="12061759" Name="ambience_pyramid_water_room_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_water_room_play"/>
+				<Event Id="3839710813" Name="ambience_pyramid_water_room_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_pyramid_water_room_stop"/>
+				<Event Id="3888078718" Name="ambience_quad_blend_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_quad_blend_play"/>
+				<Event Id="631004224" Name="ambience_quad_blend_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_quad_blend_stop"/>
+				<Event Id="2574845226" Name="ambience_quad_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_quad_play"/>
+				<Event Id="3979047252" Name="ambience_quad_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_quad_stop"/>
+				<Event Id="1870086827" Name="ambience_school_empty_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_school_empty_play"/>
+				<Event Id="692750145" Name="ambience_school_empty_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_school_empty_stop"/>
+				<Event Id="669703963" Name="ambience_school_people_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_school_people_play"/>
+				<Event Id="3792557521" Name="ambience_school_people_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_school_people_stop"/>
+				<Event Id="252396492" Name="ambience_snowy_streets_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_snowy_streets_play"/>
+				<Event Id="2908385839" Name="ambience_vent_puzzle_room_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_vent_puzzle_room_play"/>
+				<Event Id="1372625965" Name="ambience_vent_puzzle_room_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_vent_puzzle_room_stop"/>
+				<Event Id="2457855633" Name="ambience_vents_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_vents_play"/>
+				<Event Id="3709270855" Name="ambience_vents_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_vents_stop"/>
+				<Event Id="3067707886" Name="ambience_wasteland_play" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_wasteland_play"/>
+				<Event Id="4069246928" Name="ambience_wasteland_stop" ObjectPath="\Events\Default Work Unit\Ambiences\ambience_wasteland_stop"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="5215782" Language="SFX">
+					<ShortName>ambience_wasteland.wav</ShortName>
+					<Path>SFX\ambience_wasteland_E444F1C3.wem</Path>
+				</File>
+				<File Id="91118028" Language="SFX">
+					<ShortName>ambience_school_people.wav</ShortName>
+					<Path>SFX\ambience_school_people_E444F1C3.wem</Path>
+				</File>
+				<File Id="113217327" Language="SFX">
+					<ShortName>ambience_mongolian_fields.wav</ShortName>
+					<Path>SFX\ambience_mongolian_fields_06CF5415.wem</Path>
+				</File>
+				<File Id="146021818" Language="SFX">
+					<ShortName>ambience_bathroom.wav</ShortName>
+					<Path>SFX\ambience_bathroom_E444F1C3.wem</Path>
+				</File>
+				<File Id="146258339" Language="SFX">
+					<ShortName>ambience_far_side.wav</ShortName>
+					<Path>SFX\ambience_far_side_E444F1C3.wem</Path>
+				</File>
+				<File Id="155480348" Language="SFX">
+					<ShortName>ambience_vents.wav</ShortName>
+					<Path>SFX\ambience_vents_E444F1C3.wem</Path>
+				</File>
+				<File Id="220211574" Language="SFX">
+					<ShortName>ambience_pyramid_clff_entrance_loop.wav</ShortName>
+					<Path>SFX\ambience_pyramid_clff_entrance_loop_06CF5415.wem</Path>
+				</File>
+				<File Id="229465264" Language="SFX">
+					<ShortName>ambience_pyramid_water_room_loop.wav</ShortName>
+					<Path>SFX\ambience_pyramid_water_room_loop_06CF5415.wem</Path>
+				</File>
+				<File Id="268596333" Language="SFX">
+					<ShortName>ambience_quad.wav</ShortName>
+					<Path>SFX\ambience_quad_E444F1C3.wem</Path>
+				</File>
+				<File Id="328456620" Language="SFX">
+					<ShortName>ambience_military_camp.wav</ShortName>
+					<Path>SFX\ambience_military_camp_06CF5415.wem</Path>
+				</File>
+				<File Id="350747320" Language="SFX">
+					<ShortName>ambience_cave.wav</ShortName>
+					<Path>SFX\ambience_cave_E444F1C3.wem</Path>
+				</File>
+				<File Id="355765682" Language="SFX">
+					<ShortName>ambience_pyramid_general.wav</ShortName>
+					<Path>SFX\ambience_pyramid_general_06CF5415.wem</Path>
+				</File>
+				<File Id="400368641" Language="SFX">
+					<ShortName>ambience_fort_battle.wav</ShortName>
+					<Path>SFX\ambience_fort_battle_E444F1C3.wem</Path>
+				</File>
+				<File Id="490335129" Language="SFX">
+					<ShortName>ambience_pyramid_dark_room_loop.wav</ShortName>
+					<Path>SFX\ambience_pyramid_dark_room_loop_06CF5415.wem</Path>
+				</File>
+				<File Id="637937368" Language="SFX">
+					<ShortName>ambience_ent_forest.wav</ShortName>
+					<Path>SFX\ambience_ent_forest_06CF5415.wem</Path>
+				</File>
+				<File Id="667382897" Language="SFX">
+					<ShortName>ambience_mongolian_camp.wav</ShortName>
+					<Path>SFX\ambience_mongolian_camp_06CF5415.wem</Path>
+				</File>
+				<File Id="752241772" Language="SFX">
+					<ShortName>ambience_pyramid_pit_falling_loop.wav</ShortName>
+					<Path>SFX\ambience_pyramid_pit_falling_loop_06CF5415.wem</Path>
+				</File>
+				<File Id="768154047" Language="SFX">
+					<ShortName>ambience_party_gross.wav</ShortName>
+					<Path>SFX\ambience_party_gross_E444F1C3.wem</Path>
+				</File>
+				<File Id="792764491" Language="SFX">
+					<ShortName>ambience_haunted_mansion.wav</ShortName>
+					<Path>SFX\ambience_haunted_mansion_06CF5415.wem</Path>
+				</File>
+				<File Id="805762319" Language="SFX">
+					<ShortName>ambience_pyramid_treasure_room_loop.wav</ShortName>
+					<Path>SFX\ambience_pyramid_treasure_room_loop_06CF5415.wem</Path>
+				</File>
+				<File Id="822078946" Language="SFX">
+					<ShortName>ambience_furnace.wav</ShortName>
+					<Path>SFX\ambience_furnace_E444F1C3.wem</Path>
+				</File>
+				<File Id="825799538" Language="SFX">
+					<ShortName>ambience_school_empty.wav</ShortName>
+					<Path>SFX\ambience_school_empty_E444F1C3.wem</Path>
+				</File>
+				<File Id="908915080" Language="SFX">
+					<ShortName>ambience_desert.wav</ShortName>
+					<Path>SFX\ambience_desert_06CF5415.wem</Path>
+				</File>
+				<File Id="909069808" Language="SFX">
+					<ShortName>ambience_janitor_snoring.wav</ShortName>
+					<Path>SFX\ambience_janitor_snoring_E444F1C3.wem</Path>
+				</File>
+				<File Id="936447614" Language="SFX">
+					<ShortName>ambience_snowy_streets.wav</ShortName>
+					<Path>SFX\ambience_snowy_streets_06CF5415.wem</Path>
+				</File>
+				<File Id="967240221" Language="SFX">
+					<ShortName>ambience_vent_puzzle_room.wav</ShortName>
+					<Path>SFX\ambience_vent_puzzle_room_E444F1C3.wem</Path>
+				</File>
+				<File Id="1034548613" Language="SFX">
+					<ShortName>ambience_outdoors_night.wav</ShortName>
+					<Path>SFX\ambience_outdoors_night_E444F1C3.wem</Path>
+				</File>
+				<File Id="1057112445" Language="SFX">
+					<ShortName>ambience_ethereal.wav</ShortName>
+					<Path>SFX\ambience_ethereal_E444F1C3.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

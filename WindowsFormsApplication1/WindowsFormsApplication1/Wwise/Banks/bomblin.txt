@@ -1,0 +1,31 @@
+Event	ID	Name			Wwise Object Path	Notes
+	246572004	bomblin_claw			\Default Work Unit\Enemies\bomblin_claw	
+	936347831	bomblin_bomb_explode			\Default Work Unit\Enemies\bomblin_bomb_explode	
+	947829576	bomblin_bomb_throw			\Default Work Unit\Enemies\bomblin_bomb_throw	
+	1332458155	bomblin_summon_bomb			\Default Work Unit\Enemies\bomblin_summon_bomb	
+	1872643106	bomblin_bomb_fuse_stop			\Default Work Unit\Enemies\bomblin_bomb_fuse_stop	
+	2862635816	bomblin_bomb_bounce			\Default Work Unit\Enemies\bomblin_bomb_bounce	
+	3529384096	bomblin_bomb_fuse_play			\Default Work Unit\Enemies\bomblin_bomb_fuse_play	
+	4231638720	bomblin_headbutt			\Default Work Unit\Enemies\bomblin_headbutt	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	117982809	enemy_bomblin_bomb_bounce_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_bounce_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_bounce\enemy_bomblin_bomb_bounce_02		4035
+	126990180	enemy_bomblin_bomb_throw_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_throw_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_throw\enemy_bomblin_bomb_throw_03		18563
+	140963532	enemy_bomblin_bomb_throw_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_throw_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_throw\enemy_bomblin_bomb_throw_02		20896
+	251876411	enemy_bomblin_claw_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_claw_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_claw\enemy_bomblin_claw_02		11101
+	273161267	enemy_bomblin_bomb_bounce_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_bounce_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_bounce\enemy_bomblin_bomb_bounce_03		3200
+	488400049	enemy_bomblin_summon_bomb_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_summon_bomb_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_summon_bomb\enemy_bomblin_summon_bomb_03		15755
+	526543960	enemy_bomblin_claw_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_claw_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_claw\enemy_bomblin_claw_03		8640
+	636123202	enemy_bomblin_bomb_explode_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_explode_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_explode\enemy_bomblin_bomb_explode_02		40732
+	654028659	enemy_bomblin_bomb_explode_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_explode_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_explode\enemy_bomblin_bomb_explode_01		50448
+	660634114	enemy_bomblin_headbutt_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_headbutt_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_headbutt\enemy_bomblin_headbutt_02		10477
+	672323945	enemy_bomblin_bomb_explode_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_explode_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_explode\enemy_bomblin_bomb_explode_03		36893
+	686956929	enemy_bomblin_headbutt_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_headbutt_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_headbutt\enemy_bomblin_headbutt_03		10613
+	853908112	enemy_bomblin_bomb_fuse	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_fuse_8D34B564.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_fuse		140629
+	912657298	enemy_bomblin_headbutt_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_headbutt_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_headbutt\enemy_bomblin_headbutt_01		11392
+	937670423	enemy_bomblin_claw_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_claw_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_claw\enemy_bomblin_claw_01		11256
+	943003277	enemy_bomblin_bomb_bounce_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_bounce_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_bounce\enemy_bomblin_bomb_bounce_01		2428
+	979785529	enemy_bomblin_summon_bomb_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_summon_bomb_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_summon_bomb\enemy_bomblin_summon_bomb_02		15557
+	1043735292	enemy_bomblin_bomb_throw_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_throw_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_throw\enemy_bomblin_bomb_throw_01		18512
+	1064850024	enemy_bomblin_summon_bomb_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_summon_bomb_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_summon_bomb\enemy_bomblin_summon_bomb_01		15989
+

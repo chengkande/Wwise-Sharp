@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	721196554	ent_sink			\Default Work Unit\Enemies\ent_sink	
+	1342422041	ent_body_slam			\Default Work Unit\Enemies\ent_body_slam	
+	2322087748	ent_rise			\Default Work Unit\Enemies\ent_rise	
+	4143923948	ent_body_slam_stop			\Default Work Unit\Enemies\ent_body_slam_stop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	545434697	enemy_ent_sink	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_ent_sink_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Ent\enemy_ent_sink		33090
+	977481705	enemy_ent_rise	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_ent_rise_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Ent\enemy_ent_rise		61880
+	1062068492	enemy_ent_body_slam	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_ent_body_slam_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Ent\enemy_ent_body_slam		59613
+

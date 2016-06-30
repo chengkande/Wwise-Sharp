@@ -1,11 +1,45 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2837384057	stop_music			\Default Work Unit\Music\stop_music	
-	3997510072	MXTest2			\Default Work Unit\Music\MXTest2	
-	3997510073	MXTest3			\Default Work Unit\Music\MXTest3	
-	3997510075	MXTest1			\Default Work Unit\Music\MXTest1	
+	8314821	furryfuneral_play			\Default Work Unit\Music\furryfuneral_play	
+	114798297	doingsciencelow_stop			\Default Work Unit\Music\doingsciencelow_stop	
+	969914383	bloodonthecourt_play			\Default Work Unit\Music\bloodonthecourt_play	
+	984676339	doingsciencelow_play			\Default Work Unit\Music\doingsciencelow_play	
+	1167378818	noirhalls_stop			\Default Work Unit\Music\noirhalls_stop	
+	1196359573	doingsciencemed_stop			\Default Work Unit\Music\doingsciencemed_stop	
+	1206762761	doingsciencehigh_play			\Default Work Unit\Music\doingsciencehigh_play	
+	1327709098	music_bathroom_exit			\Default Work Unit\Music\music_bathroom_exit	
+	1432967747	furryfuneral_stop			\Default Work Unit\Music\furryfuneral_stop	
+	1444752463	egyptianbattle_stop			\Default Work Unit\Music\egyptianbattle_stop	
+	1808471690	paulandalantheme_stop			\Default Work Unit\Music\paulandalantheme_stop	
+	2502694471	doingsciencemed_play			\Default Work Unit\Music\doingsciencemed_play	
+	2729179695	doingsciencehigh_stop			\Default Work Unit\Music\doingsciencehigh_stop	
+	2735935537	Pause_Music			\Default Work Unit\Music\Pause_Music	
+	2824119808	noirhalls_play			\Default Work Unit\Music\noirhalls_play	
+	2837384057	Stop_Music			\Default Work Unit\Music\Stop_Music	
+	2940177080	Resume_Music			\Default Work Unit\Music\Resume_Music	
+	3712197696	music_bathroom_enter			\Default Work Unit\Music\music_bathroom_enter	
+	3729018637	bloodonthecourt_stop			\Default Work Unit\Music\bloodonthecourt_stop	
+	3730991672	paulandalantheme_play			\Default Work Unit\Music\paulandalantheme_play	
+	4217302825	egyptianbattle_play			\Default Work Unit\Music\egyptianbattle_play	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	418515319	09 Faith of Jevel	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\09 Faith of Jevel_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\MXtest2\09 Faith of Jevel\09 Faith of Jevel		5049482
-	699269928	02 A Proper Story	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\02 A Proper Story_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\MXTest1\02 A Proper Story\02 A Proper Story		4080113
-	761309963	13 Spike in a Rail	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\13 Spike in a Rail_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\MXTest3\13 Spike in a Rail\13 Spike in a Rail		10944258
+	47311800	DoingScienceLow	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\DoingScienceLow_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\DoingScienceLow\DoingScienceLow\DoingScienceLow		30208
+	76870485	DoingScienceMed	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\DoingScienceMed_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\DoingScienceMed\DoingScienceMed\DoingScienceMed		33359
+	186113957	EgyptianBattle_Intro_Mastered	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\EgyptianBattle_Intro_Mastered_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\EgyptianBattle\EgyptianBattle_Intro\EgyptianBattle_Intro_Mastered		27690
+	505499307	Noir Halls	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\Noir Halls_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\NoirHalls\Noir Halls\Noir Halls		30014
+	553712117	BloodOnTheCourt_Mastered	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\BloodOnTheCourt_Mastered_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\BloodOnTheCourt\BloodOnTheCourt\BloodOnTheCourt_Mastered		20618
+	765675111	PaulAndAlanTheme_Mastered	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\PaulAndAlanTheme_Mastered_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\PaulAndAlanTheme\PaulAndAlanTheme\PaulAndAlanTheme_Mastered		25690
+	894110768	DoingScienceHigh	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\DoingScienceHigh_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\DoingScienceHigh\DoingScienceHigh\DoingScienceHigh		32411
+	909907100	EgyptianBattle_Loop_Mastered	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\EgyptianBattle_Loop_Mastered_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\EgyptianBattle\EgyptianBattle_Loop\EgyptianBattle_Loop_Mastered		31652
+	926910761	FurryFuneral	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\FurryFuneral_8D34B564.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\FurryFuneral\FurryFuneral\FurryFuneral		25099
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	47311800	DoingScienceLow	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\DoingScienceLow_8D34B564.wem	47311800.wem	\Interactive Music Hierarchy\Default Work Unit\Actual Music\DoingScienceLow\DoingScienceLow\DoingScienceLow	
+	76870485	DoingScienceMed	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\DoingScienceMed_8D34B564.wem	76870485.wem	\Interactive Music Hierarchy\Default Work Unit\Actual Music\DoingScienceMed\DoingScienceMed\DoingScienceMed	
+	186113957	EgyptianBattle_Intro_Mastered	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\EgyptianBattle_Intro_Mastered_8D34B564.wem	186113957.wem	\Interactive Music Hierarchy\Default Work Unit\Actual Music\EgyptianBattle\EgyptianBattle_Intro\EgyptianBattle_Intro_Mastered	
+	505499307	Noir Halls	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\Noir Halls_8D34B564.wem	505499307.wem	\Interactive Music Hierarchy\Default Work Unit\Actual Music\NoirHalls\Noir Halls\Noir Halls	
+	553712117	BloodOnTheCourt_Mastered	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\BloodOnTheCourt_Mastered_8D34B564.wem	553712117.wem	\Interactive Music Hierarchy\Default Work Unit\Actual Music\BloodOnTheCourt\BloodOnTheCourt\BloodOnTheCourt_Mastered	
+	765675111	PaulAndAlanTheme_Mastered	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\PaulAndAlanTheme_Mastered_8D34B564.wem	765675111.wem	\Interactive Music Hierarchy\Default Work Unit\Actual Music\PaulAndAlanTheme\PaulAndAlanTheme\PaulAndAlanTheme_Mastered	
+	894110768	DoingScienceHigh	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\DoingScienceHigh_8D34B564.wem	894110768.wem	\Interactive Music Hierarchy\Default Work Unit\Actual Music\DoingScienceHigh\DoingScienceHigh\DoingScienceHigh	
+	909907100	EgyptianBattle_Loop_Mastered	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\EgyptianBattle_Loop_Mastered_8D34B564.wem	909907100.wem	\Interactive Music Hierarchy\Default Work Unit\Actual Music\EgyptianBattle\EgyptianBattle_Loop\EgyptianBattle_Loop_Mastered	
+	926910761	FurryFuneral	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\FurryFuneral_8D34B564.wem	926910761.wem	\Interactive Music Hierarchy\Default Work Unit\Actual Music\FurryFuneral\FurryFuneral\FurryFuneral	
 

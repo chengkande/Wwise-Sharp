@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3999320713" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Evironment Objects\science</ObjectPath>
+			<ShortName>science</ShortName>
+			<Path>science.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2146372163" Name="object_barrel_science_destroy" ObjectPath="\Events\Default Work Unit\Object\object_barrel_science_destroy"/>
+				<Event Id="3389587138" Name="object_barrel_science_hit" ObjectPath="\Events\Default Work Unit\Object\object_barrel_science_hit"/>
+				<Event Id="3733473207" Name="object_giant_flask_trap_destroy" ObjectPath="\Events\Default Work Unit\Object\object_giant_flask_trap_destroy"/>
+				<Event Id="2848384629" Name="object_giant_flask_trap_start" ObjectPath="\Events\Default Work Unit\Object\object_giant_flask_trap_start"/>
+				<Event Id="1153978322" Name="object_portal_loop" ObjectPath="\Events\Default Work Unit\Object\object_portal_loop"/>
+				<Event Id="1726241635" Name="object_portal_pulse" ObjectPath="\Events\Default Work Unit\Object\object_portal_pulse"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="99929452" Language="SFX">
+					<ShortName>object_portal_loop.wav</ShortName>
+					<Path>SFX\object_portal_loop_682514AB.wem</Path>
+				</File>
+				<File Id="126037475" Language="SFX">
+					<ShortName>object_giant_flask_trap_destroy.wav</ShortName>
+					<Path>SFX\object_giant_flask_trap_destroy_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="229887647" Language="SFX">
+					<ShortName>object_barrel_science_destroy_01.wav</ShortName>
+					<Path>SFX\object_barrel_science_destroy_01_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="349496360" Language="SFX">
+					<ShortName>object_barrel_science_destroy_02.wav</ShortName>
+					<Path>SFX\object_barrel_science_destroy_02_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="390921670" Language="SFX">
+					<ShortName>object_portal_pulse.wav</ShortName>
+					<Path>SFX\object_portal_pulse_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="509838067" Language="SFX">
+					<ShortName>object_giant_flask_trap_start.wav</ShortName>
+					<Path>SFX\object_giant_flask_trap_start_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="826928056" Language="SFX">
+					<ShortName>object_barrel_science_destroy_03.wav</ShortName>
+					<Path>SFX\object_barrel_science_destroy_03_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="938093457" Language="SFX">
+					<ShortName>object_barrel_science_hit_02.wav</ShortName>
+					<Path>SFX\object_barrel_science_hit_02_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="982785639" Language="SFX">
+					<ShortName>object_barrel_science_hit_03.wav</ShortName>
+					<Path>SFX\object_barrel_science_hit_03_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="1034723544" Language="SFX">
+					<ShortName>object_barrel_science_hit_01.wav</ShortName>
+					<Path>SFX\object_barrel_science_hit_01_FB1EEB1D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1235452070	troll_walk			\Default Work Unit\Enemies\troll_walk	
+	1680736498	troll_fall			\Default Work Unit\Enemies\troll_fall	
+	1848512552	troll_fart			\Default Work Unit\Enemies\troll_fart	
+	3002191180	troll_getup			\Default Work Unit\Enemies\troll_getup	
+	3221438097	troll_ready_swing			\Default Work Unit\Enemies\troll_ready_swing	
+	3515279135	troll_club_hit			\Default Work Unit\Enemies\troll_club_hit	
+	3623385944	troll_summon			\Default Work Unit\Enemies\troll_summon	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	274998817	enemy_troll_fart	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_troll_fart_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Troll\enemy_troll_fart		17730
+	360511479	enemy_troll_walk_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_troll_walk_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Troll\enemy_troll_walk\enemy_troll_walk_02		35985
+	437712618	enemy_troll_getup	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_troll_getup_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Troll\enemy_troll_getup		55097
+	544666809	enemy_troll_walk_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_troll_walk_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Troll\enemy_troll_walk\enemy_troll_walk_03		35951
+	726031219	enemy_troll_ready_swing	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_troll_ready_swing_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Troll\enemy_troll_ready_swing		40459
+	743553961	enemy_troll_walk_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_troll_walk_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Troll\enemy_troll_walk\enemy_troll_walk_01		32883
+	768691978	enemy_troll_summon	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_troll_summon_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Troll\enemy_troll_summon		16420
+	803503356	enemy_troll_club_hit	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_troll_club_hit_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Troll\enemy_troll_club_hit		48117
+	1046137335	enemy_troll_fall	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_troll_fall_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Troll\enemy_troll_fall		45833
+

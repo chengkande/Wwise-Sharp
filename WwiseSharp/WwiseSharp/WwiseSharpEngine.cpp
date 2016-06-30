@@ -148,7 +148,7 @@ void WwiseSharpEngine::SetGlobalRTPCValue(System::String^ rtpcName, float value)
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }
 
-void WwiseSharpEngine::SetListenerPosition(WwiseSharpListenerPosition^ listenerPosition)
+void WwiseSharpEngine::SetListenerPosition(WwiseSharpTransform^ listenerPosition)
 {
 	AkVector akPosition;
 	akPosition.X = listenerPosition->Xposition;
@@ -165,14 +165,13 @@ void WwiseSharpEngine::SetListenerPosition(WwiseSharpListenerPosition^ listenerP
 	akOrientationTop.Y = listenerPosition->YorientationTop;
 	akOrientationTop.Z = listenerPosition->ZorientationTop;
 
-	AkListenerPosition akListenerPosition;
-	akListenerPosition.Position = akPosition;
-	akListenerPosition.OrientationFront = akOrientationFront;
-	akListenerPosition.OrientationTop = akOrientationTop;
+	AkTransform akListenerPosition;
+	akListenerPosition.SetPosition(akPosition);
+	akListenerPosition.SetOrientation(akOrientationFront, akOrientationTop);
 
 	akengine->SetListenerPosition(akListenerPosition);
 }
-void WwiseSharpEngine::SetListenerPosition(int listenerIndex, WwiseSharpListenerPosition^ listenerPosition)
+void WwiseSharpEngine::SetListenerPosition(int listenerIndex, WwiseSharpTransform^ listenerPosition)
 {
 	AkVector akPosition;
 	akPosition.X = listenerPosition->Xposition;
@@ -189,10 +188,9 @@ void WwiseSharpEngine::SetListenerPosition(int listenerIndex, WwiseSharpListener
 	akOrientationTop.Y = listenerPosition->YorientationTop;
 	akOrientationTop.Z = listenerPosition->ZorientationTop;
 
-	AkListenerPosition akListenerPosition;
-	akListenerPosition.Position = akPosition;
-	akListenerPosition.OrientationFront = akOrientationFront;
-	akListenerPosition.OrientationTop = akOrientationTop;
+	AkTransform akListenerPosition;
+	akListenerPosition.SetPosition(akPosition);
+	akListenerPosition.SetOrientation(akOrientationFront, akOrientationTop);
 
 	akengine->SetListenerPosition(listenerIndex, akListenerPosition);
 }
@@ -208,7 +206,7 @@ void WwiseSharpEngine::SetPanType(bool type)
 		akengine->SetPanningRule(AkPanningRule_Speakers);
 	}
 }
-
+//only controls Reverb bus fx right now
 void WwiseSharpEngine::SetBusEffect(unsigned int fxID)
 {
 	akengine->SetBusEffect(348963605, (AkUInt32)0, (AkUniqueID)fxID);
@@ -216,7 +214,7 @@ void WwiseSharpEngine::SetBusEffect(unsigned int fxID)
 
 void WwiseSharpEngine::InitReverb()
 {
-	akengine->RegisterReverb();
+	//DO NOTHING
 }
 
 void WwiseSharpEngine::Update()

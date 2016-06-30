@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-
 using WwiseSharp;
 namespace WindowsFormsApplication1
 {
@@ -21,13 +20,15 @@ namespace WindowsFormsApplication1
         private bool isCallbackEnabled = false;
         private bool cptSaxHasStarted = false;
         private bool cptSaxCanStart = false;
-        long timer = 0;
+        long timer = 1000/60;
         long time = 0;
         long latency = 0;
         uint musicPlayingID = 0;
         WwiseSharpMusicInfo musicInfo;
         System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
         string path = AppDomain.CurrentDomain.BaseDirectory;
+        float targetVolume = 100f;
+        float currentVolume = 100f;
         public Form1()
         {
             InitializeComponent();
@@ -35,7 +36,7 @@ namespace WindowsFormsApplication1
             Console.WriteLine(path);
             Wwise.SetBasePath(path+"Wwise/Banks/");
             //Wwise.SetAudioSrcPath("C:/Users/Miles/Documents/GitHub/WwiseSharp/wwisesharp/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/"); //only for external sources
-            Wwise.InitReverb();
+            //Wwise.InitReverb();
             Wwise.LoadBank("Init.bnk");
             Wwise.LoadBank("global.bnk");
             Wwise.LoadBank("ambience.bnk");
@@ -48,7 +49,7 @@ namespace WindowsFormsApplication1
             WwiseObject.PostEvent("Enable_Reverb");
 
             //set Listener back 50 so we can hear the left/right
-            WwiseSharpListenerPosition listenerPos = new WwiseSharpListenerPosition();
+            WwiseSharpTransform listenerPos = new WwiseSharpTransform();
             listenerPos.Xposition = 0;
             listenerPos.Yposition = 0;
             listenerPos.Zposition = -50;
@@ -60,6 +61,7 @@ namespace WindowsFormsApplication1
             listenerPos.ZorientationTop = 0;
 
             Wwise.SetListenerPosition(listenerPos);
+            stopwatch.Restart();
 
             Application.Idle += HandleApplicationIdle;
         }
@@ -67,7 +69,23 @@ namespace WindowsFormsApplication1
         {
             while (IsApplicationIdle())
             {
+                if (timer <= stopwatch.ElapsedMilliseconds)
+                {
+                    if (targetVolume > currentVolume)
+                    {
+                        currentVolume += 0.5f;
+                        Wwise.SetGlobalRTPCValue("Music_Volume", currentVolume);
+                        stopwatch.Restart();
+                    }
+                    if (targetVolume < currentVolume)
+                    {
+                        currentVolume -= 0.5f;
+                        Wwise.SetGlobalRTPCValue("Music_Volume", currentVolume);
+                        stopwatch.Restart();
+                    }
+                }
                 
+                /*
                 if(isCallbackEnabled)
                 {
                     //do callback stuff here
@@ -87,6 +105,7 @@ namespace WindowsFormsApplication1
                        // }
                     }
                 }
+                 * */
                 Wwise.Update();
             }
         }
@@ -159,7 +178,7 @@ namespace WindowsFormsApplication1
         {
             //change to - play music sync event
             
-            WwiseSharpSoundPosition objPos = new WwiseSharpSoundPosition();
+            WwiseSharpTransform objPos = new WwiseSharpTransform();
             objPos.Xposition = -10;
             objPos.Yposition = 0;
             objPos.Zposition = 0;
@@ -173,7 +192,7 @@ namespace WindowsFormsApplication1
         {
             //change to updateRTPC for tempo
             
-            WwiseSharpSoundPosition objPos = new WwiseSharpSoundPosition();
+            WwiseSharpTransform objPos = new WwiseSharpTransform();
             objPos.Xposition = 0;
             objPos.Yposition = 0;
             objPos.Zposition = 0;
@@ -186,7 +205,7 @@ namespace WindowsFormsApplication1
         {
             //change to Update Game Parameter event
             
-            WwiseSharpSoundPosition objPos = new WwiseSharpSoundPosition();
+            WwiseSharpTransform objPos = new WwiseSharpTransform();
             objPos.Xposition = 10;
             objPos.Yposition = 0;
             objPos.Zposition = 0;
@@ -198,7 +217,7 @@ namespace WindowsFormsApplication1
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             /*
-            WwiseSharpListenerPosition listenerPos = new WwiseSharpListenerPosition();
+            WwiseSharpTransform listenerPos = new WwiseSharpTransform();
             listenerPos.Xposition = 0;
             listenerPos.Yposition = 0;
             listenerPos.Zposition = -50;
@@ -222,24 +241,24 @@ namespace WindowsFormsApplication1
         private void button12_Click(object sender, EventArgs e)
         {
             isCallbackEnabled = true;
-            WwiseObject.PostMusicSyncEvent_Bar("MXTest1");
+            WwiseObject.PostMusicSyncEvent_Bar("furryfuneral_play");
             musicPlayingID = WwiseObject.syncPlayingID;
         }
         //play mx 2
         private void button13_Click(object sender, EventArgs e)
         {
             isCallbackEnabled = true;
-            WwiseObject.PostMusicSyncEvent_Bar("MXTest2");
+            WwiseObject.PostMusicSyncEvent_Bar("doingsciencehigh_play");
             musicPlayingID = WwiseObject.syncPlayingID;
         }
         // mx3
         private void button22_Click(object sender, EventArgs e)
         {
             isCallbackEnabled = true;
-            WwiseObject.PostMusicSyncEvent_Bar("MXTest3");
+            WwiseObject.PostMusicSyncEvent_Bar("bloodonthecourt_play");
             musicPlayingID = WwiseObject.syncPlayingID;
         }
-        //start midi  -- this currently breaks if being posted during music pre-entry
+        //start midi  -- this currently breaks if being posted during music pre-entry also you need to post a musicsync event or you'll get a dividebyzero
         private void button14_Click(object sender, EventArgs e)
         {
             WwiseObject.PostEvent("captain_sax_loop_intro");
@@ -303,6 +322,43 @@ namespace WindowsFormsApplication1
             msg = Wwise.LoadEvents(new String[3] { "object_goblin_hut_fire_loop_start", "object_goblin_hut_fire_loop_stop", "object_goblin_hut_destroy" }, 3);
             Console.WriteLine("Prepared " + msg);
             
+        }
+        //mx2
+        private void button23_Click(object sender, EventArgs e)
+        {
+            WwiseObject.PostEvent("doingsciencelow_play");
+            
+        }
+        //mx3
+        private void button24_Click(object sender, EventArgs e)
+        {
+            targetVolume = 50f;
+            WwiseObject.PostEvent("doingsciencemed_play");
+            WwiseObject.PostEvent("doingsciencelow_stop");
+            
+        }
+        //stop
+        private void button25_Click(object sender, EventArgs e)
+        {
+            WwiseObject.PostEvent("Stop_Music");
+        }
+        //pause
+        private void button26_Click(object sender, EventArgs e)
+        {
+            WwiseObject.PostEvent("Pause_Music");
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            WwiseObject.PostEvent("Resume_Music");
+        }
+        //load more banks
+        private void button28_Click(object sender, EventArgs e)
+        {
+            Wwise.LoadBank("d_and_d.bnk");
+            Wwise.LoadBank("cutting_corners.bnk");
+            Wwise.LoadBank("goblin_fort.bnk");
+            Wwise.LoadBank("science.bnk");
         }
     }
 }

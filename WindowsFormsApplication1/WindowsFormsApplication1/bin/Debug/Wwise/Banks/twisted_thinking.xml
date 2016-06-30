@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1485069336" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Skills\twisted_thinking</ObjectPath>
+			<ShortName>twisted_thinking</ShortName>
+			<Path>twisted_thinking.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2254603474" Name="twisted_thinking_explode" ObjectPath="\Events\Default Work Unit\Weapons\twisted_thinking_explode"/>
+				<Event Id="1422805246" Name="twisted_thinking_hit" ObjectPath="\Events\Default Work Unit\Weapons\twisted_thinking_hit"/>
+				<Event Id="3188750231" Name="twisted_thinking_stop" ObjectPath="\Events\Default Work Unit\Weapons\twisted_thinking_stop"/>
+				<Event Id="1384571436" Name="twisted_thinking_use" ObjectPath="\Events\Default Work Unit\Weapons\twisted_thinking_use"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="115578932" Language="SFX">
+					<ShortName>weapon_fire_hit_01.wav</ShortName>
+					<Path>SFX\weapon_fire_hit_01_21545B0F.wem</Path>
+				</File>
+				<File Id="222980483" Language="SFX">
+					<ShortName>twisted_thinking_mono.wav</ShortName>
+					<Path>SFX\twisted_thinking_mono_3314988A.wem</Path>
+				</File>
+				<File Id="366302747" Language="SFX">
+					<ShortName>weapon_fire_hit_04.wav</ShortName>
+					<Path>SFX\weapon_fire_hit_04_21545B0F.wem</Path>
+				</File>
+				<File Id="567621974" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_explode_03.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_explode_03_3314988A.wem</Path>
+				</File>
+				<File Id="593231295" Language="SFX">
+					<ShortName>weapon_fire_hit_02.wav</ShortName>
+					<Path>SFX\weapon_fire_hit_02_21545B0F.wem</Path>
+				</File>
+				<File Id="688230459" Language="SFX">
+					<ShortName>weapon_fire_hit_03.wav</ShortName>
+					<Path>SFX\weapon_fire_hit_03_21545B0F.wem</Path>
+				</File>
+				<File Id="695042828" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_explode_01.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_explode_01_3314988A.wem</Path>
+				</File>
+				<File Id="830789124" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_explode_02.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_explode_02_3314988A.wem</Path>
+				</File>
+				<File Id="885936519" Language="SFX">
+					<ShortName>twisted_thinking_stereo.wav</ShortName>
+					<Path>SFX\twisted_thinking_stereo_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

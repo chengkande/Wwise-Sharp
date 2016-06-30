@@ -4,7 +4,7 @@
 
 #include "WwiseEngine.hpp"
 
-#include "WwiseSharpSoundPosition.hpp"
+#include "WwiseSharpTransform.h"
 #include "WwiseSharpMusicInfo.h"
 
 using namespace WwiseWrapper;
@@ -26,6 +26,7 @@ namespace WwiseSharp
 
 	public:
 		AkTimeMs* out_puPosition;
+		AkSegmentInfo* segInfo;
 		unsigned long syncPlayingID;
 		unsigned long musicPlayingID, musicBeatDuration, musicBarDuration, musicGridDuration, musicGridOffset;
 
@@ -56,8 +57,8 @@ namespace WwiseSharp
 		void PostMusicSyncEvent_Bar(System::String^ eventName);
 
 		//Note: SinglePosition & MultiplePosition override each other between each ProcessAudio() call on WwiseSharpEngine object.
-		void SetSinglePosition(WwiseSharpSoundPosition^ position);
-		void SetMultiplePositions(array<WwiseSharpSoundPosition^>^ positions, unsigned short numPositions);
+		void SetSinglePosition(WwiseSharpTransform^ position);
+		void SetMultiplePositions(array<WwiseSharpTransform^>^ positions, unsigned short numPositions);
 		//TODO: void SetMultiplePosition(WwiseSharpSoundPosition[]^ position, bool isMultiSource); //isMultiSource == add each source volume, false means that the object is multiple directions (refer to the documentation: Integration Details - 3D Positions)
 		//TODO: void SetMultiplePosition(WwiseSharpSoundPosition[]^ position, bool isMultiSource, int listener);
 

@@ -21,13 +21,10 @@
     <ClCompile Include="WwiseSharpGameObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WwiseSharpListenerPosition.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WwiseSharpSoundPosition.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="WwiseSharpMusicInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WwiseSharpTransform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,13 +35,10 @@
     <ClInclude Include="WwiseSharpGameObject.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="WwiseSharpListenerPosition.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WwiseSharpSoundPosition.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="WwiseSharpMusicInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WwiseSharpTransform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

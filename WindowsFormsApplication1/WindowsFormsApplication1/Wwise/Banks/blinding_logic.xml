@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1748233005" Language="SFX">
+			<ShortName>blinding_logic</ShortName>
+			<Path>blinding_logic.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3199683791" Name="blinding_logic_hit"/>
+				<Event Id="2964355721" Name="blinding_logic_use"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="84974582" Language="SFX">
+					<ShortName>enemy_generic_hit_generic_02.wav</ShortName>
+					<Path>SFX\enemy_generic_hit_generic_02_21545B0F.wem</Path>
+				</File>
+				<File Id="122123897" Language="SFX">
+					<ShortName>enemy_generic_hit_generic_01.wav</ShortName>
+					<Path>SFX\enemy_generic_hit_generic_01_21545B0F.wem</Path>
+				</File>
+				<File Id="326671004" Language="SFX">
+					<ShortName>weapon_blinding_logic_a_01.wav</ShortName>
+					<Path>SFX\weapon_blinding_logic_a_01_3314988A.wem</Path>
+				</File>
+				<File Id="933049443" Language="SFX">
+					<ShortName>enemy_generic_hit_generic_03.wav</ShortName>
+					<Path>SFX\enemy_generic_hit_generic_03_21545B0F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

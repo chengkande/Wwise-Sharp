@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2964355721	blinding_logic_use			\Default Work Unit\Weapons\blinding_logic_use	
+	3199683791	blinding_logic_hit			\Default Work Unit\Weapons\blinding_logic_hit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	84974582	enemy_generic_hit_generic_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_generic_hit_generic_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\punch_hit\enemy_generic_hit_generic_02		34704
+	122123897	enemy_generic_hit_generic_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_generic_hit_generic_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\punch_hit\enemy_generic_hit_generic_01		26500
+	326671004	weapon_blinding_logic_a_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_blinding_logic_a_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\weapon_blinding_logic_a_01		19516
+	933049443	enemy_generic_hit_generic_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_generic_hit_generic_03_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\punch_hit\enemy_generic_hit_generic_03		25870
+

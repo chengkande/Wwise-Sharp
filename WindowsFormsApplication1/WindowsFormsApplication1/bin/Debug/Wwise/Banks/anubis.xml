@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="351061749" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemies\anubis</ObjectPath>
+			<ShortName>anubis</ShortName>
+			<Path>anubis.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2953887732" Name="anubis_dash" ObjectPath="\Events\Default Work Unit\Enemies\anubis_dash"/>
+				<Event Id="1098168745" Name="anubis_shockwave" ObjectPath="\Events\Default Work Unit\Enemies\anubis_shockwave"/>
+				<Event Id="383461258" Name="anubis_spawn_locust" ObjectPath="\Events\Default Work Unit\Enemies\anubis_spawn_locust"/>
+				<Event Id="1366152297" Name="anubis_summon" ObjectPath="\Events\Default Work Unit\Enemies\anubis_summon"/>
+				<Event Id="187028942" Name="anubis_swipe" ObjectPath="\Events\Default Work Unit\Enemies\anubis_swipe"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="21430873" Language="SFX">
+					<ShortName>enemy_anubis_shockwave_01.wav</ShortName>
+					<Path>SFX\enemy_anubis_shockwave_01_3314988A.wem</Path>
+				</File>
+				<File Id="60834008" Language="SFX">
+					<ShortName>enemy_anubis_shockwave_03.wav</ShortName>
+					<Path>SFX\enemy_anubis_shockwave_03_3314988A.wem</Path>
+				</File>
+				<File Id="117570666" Language="SFX">
+					<ShortName>enemy_anubis_swipe_04.wav</ShortName>
+					<Path>SFX\enemy_anubis_swipe_04_3314988A.wem</Path>
+				</File>
+				<File Id="130149214" Language="SFX">
+					<ShortName>enemy_anubis_summon_01.wav</ShortName>
+					<Path>SFX\enemy_anubis_summon_01_2C301954.wem</Path>
+				</File>
+				<File Id="334173222" Language="SFX">
+					<ShortName>enemy_anubis_swipe_03.wav</ShortName>
+					<Path>SFX\enemy_anubis_swipe_03_3314988A.wem</Path>
+				</File>
+				<File Id="368078288" Language="SFX">
+					<ShortName>enemy_anubis_summon_02.wav</ShortName>
+					<Path>SFX\enemy_anubis_summon_02_F72C1A66.wem</Path>
+				</File>
+				<File Id="370093949" Language="SFX">
+					<ShortName>enemy_anubis_shockwave_02.wav</ShortName>
+					<Path>SFX\enemy_anubis_shockwave_02_3314988A.wem</Path>
+				</File>
+				<File Id="375569515" Language="SFX">
+					<ShortName>enemy_anubis_dash.wav</ShortName>
+					<Path>SFX\enemy_anubis_dash_3314988A.wem</Path>
+				</File>
+				<File Id="475115842" Language="SFX">
+					<ShortName>enemy_anubis_spawn_locust.wav</ShortName>
+					<Path>SFX\enemy_anubis_spawn_locust_3314988A.wem</Path>
+				</File>
+				<File Id="593331217" Language="SFX">
+					<ShortName>enemy_anubis_swipe_01.wav</ShortName>
+					<Path>SFX\enemy_anubis_swipe_01_3314988A.wem</Path>
+				</File>
+				<File Id="745685598" Language="SFX">
+					<ShortName>enemy_anubis_swipe_02.wav</ShortName>
+					<Path>SFX\enemy_anubis_swipe_02_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

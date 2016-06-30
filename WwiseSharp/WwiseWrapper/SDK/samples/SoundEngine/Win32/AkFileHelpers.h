@@ -178,7 +178,7 @@ public:
 			fileAttributes = fileInfo.dwFileAttributes;
 		}
 #else
-		fileAttributes = GetFileAttributes((LPCSTR)in_pszBasePath);
+		fileAttributes = GetFileAttributes( (LPCSTR)in_pszBasePath );
 #endif
 		if (fileAttributes == INVALID_FILE_ATTRIBUTES)
 			return AK_Fail;  //something is wrong with your path!

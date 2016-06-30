@@ -104,18 +104,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="WwiseSharpTransform.cpp" />
     <ClCompile Include="WwiseSharpEngine.cpp" />
     <ClCompile Include="WwiseSharpGameObject.cpp" />
-    <ClCompile Include="WwiseSharpListenerPosition.cpp" />
     <ClCompile Include="WwiseSharpMusicInfo.cpp" />
-    <ClCompile Include="WwiseSharpSoundPosition.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="WwiseSharpTransform.h" />
     <ClInclude Include="WwiseSharpEngine.hpp" />
     <ClInclude Include="WwiseSharpGameObject.hpp" />
-    <ClInclude Include="WwiseSharpListenerPosition.hpp" />
     <ClInclude Include="WwiseSharpMusicInfo.h" />
-    <ClInclude Include="WwiseSharpSoundPosition.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

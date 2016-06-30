@@ -9,10 +9,14 @@
 #define WWISESHARP_WWISESHARPENGINE_HPP
 
 #include "WwiseEngine.hpp"
+#include "SDK/include/AK/Plugin/AkRoomVerbFXFactory.h"						// Room Verb
+#include "SDK/include/AK/Plugin/AkPeakLimiterFXFactory.h"					//Limiter
+#include "SDK/include/AK/Plugin/AkStereoDelayFXFactory.h"					//Stereo Delay for Bathroom effect
+#include "SDK/include/AK/Plugin/AkVorbisDecoderFactory.h"						// Vorbis Plugin.
 
 #include "WwiseSharpGameObject.hpp"
 
-#include "WwiseSharpListenerPosition.hpp"
+#include "WwiseSharpTransform.h"
 using namespace System::Collections::Generic;
 
 namespace WwiseSharp
@@ -47,8 +51,8 @@ namespace WwiseSharp
 		void SetGlobalRTPCValue(System::String^ rtpcName, float value);
 		void SetGlobalRTPCValue(unsigned long rtpcId, float value);
 
-		void SetListenerPosition(WwiseSharpListenerPosition^ listenerPosition);
-		void SetListenerPosition(int listenerIndex, WwiseSharpListenerPosition^ listenerPosition);
+		void SetListenerPosition(WwiseSharpTransform^ listenerPosition);
+		void SetListenerPosition(int listenerIndex, WwiseSharpTransform^ listenerPosition);
 
 		void SetPanType(bool type);
 		void SetBusEffect(unsigned int fxID);

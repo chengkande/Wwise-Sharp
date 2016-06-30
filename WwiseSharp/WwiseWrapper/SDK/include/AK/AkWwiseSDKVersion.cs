@@ -24,7 +24,7 @@ namespace AK
 			/// <summary>
 			/// Wwise SDK major version
 			/// </summary>
-            public const int Major = 2015;
+            public const int Major = 2016;
 
 			/// <summary>
 			/// Wwise SDK minor version
@@ -34,12 +34,12 @@ namespace AK
 			/// <summary>
 			/// Wwise SDK sub-minor version
 			/// </summary>
-            public const int SubMinor = 5;
+            public const int SubMinor = 0;
 
 			/// <summary>
 			/// Wwise SDK build number
 			/// </summary>
-            public const int Build = 5533;
+            public const int Build = 5775;
 			
 			/// <summary>
 			/// Wwise SDK build nickname
@@ -58,16 +58,16 @@ namespace AK
                 get
                 {
                     if (Nickname.Length == 0)
-                        return "v2015.1.5";
+                        return "v2016.1";
                     else
-                        return "v2015.1.5_" + Nickname;
+                        return "v2016.1_" + Nickname;
                 }
             }
 
             /// <summary>
             /// String representing the Wwise SDK version
             /// </summary>
-            public const string AssemblyVersion = "2015.1.5.5533";
+            public const string AssemblyVersion = "2016.1.0.5775";
 
 			/// <summary>
 			/// String representing the Wwise SDK copyright notice

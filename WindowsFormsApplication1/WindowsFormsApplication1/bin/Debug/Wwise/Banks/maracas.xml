@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1990990599" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemies\maracas</ObjectPath>
+			<ShortName>maracas</ShortName>
+			<Path>maracas.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4051637358" Name="maracas_attack" ObjectPath="\Events\Default Work Unit\Enemies\maracas_attack"/>
+				<Event Id="473674605" Name="maracas_attack_stop" ObjectPath="\Events\Default Work Unit\Enemies\maracas_attack_stop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="551585148" Language="SFX">
+					<ShortName>enemy_maracas_attack.wav</ShortName>
+					<Path>SFX\enemy_maracas_attack_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

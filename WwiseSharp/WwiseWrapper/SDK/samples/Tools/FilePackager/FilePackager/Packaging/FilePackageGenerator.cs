@@ -209,6 +209,7 @@ namespace FilePackager.Packaging
                         case AK.Wwise.InfoFile.SoundBanksInfoBasePlatform.XboxOne:
                         case AK.Wwise.InfoFile.SoundBanksInfoBasePlatform.Linux:
                         case AK.Wwise.InfoFile.SoundBanksInfoBasePlatform.WindowsPhone:
+                        case AK.Wwise.InfoFile.SoundBanksInfoBasePlatform.Emscripten:
                             eEndianness = FilePackageWriter.Endianness.LittleEndian;
                             break;
                         default:

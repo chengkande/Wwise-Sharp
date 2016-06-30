@@ -10,6 +10,8 @@
 #include <AK/SoundEngine/Common/AkSoundEngineExport.h>
 #include <AK/SoundEngine/Common/IAkPlugin.h>
 
+#define AKMOTIONDEVICEID_RUMBLE 406
+
 /// Audiokinetic namespace
 namespace AK
 {
@@ -42,15 +44,6 @@ namespace MotionEngine
 		AkUInt8 in_iPlayerID,			///< Player number, must be between 0 and 3.  See platform-specific documentation for more details.
 		AkUInt32 in_iCompanyID,			///< Company ID providing support for the device
 		AkUInt32 in_iDeviceID			///< Device ID, must be one of the currently supported devices. 
-		);
-
-	/// Registers a motion device for use in the game.  
-	/// \sa
-	/// - \ref integrating_elements_motion
-	AK_EXTERNAPIFUNC( void, RegisterMotionDevice )(
-		AkUInt32 in_ulCompanyID,				///< Company ID providing support for the device
-		AkUInt32 in_ulPluginID,					///< Device ID, must be one of the currently supported devices. 
-		AkCreatePluginCallback in_pCreateFunc	///< Creation function.
 		);
 
 	/// Attaches a player to a listener.  This is necessary for the player to receive motion through the connected

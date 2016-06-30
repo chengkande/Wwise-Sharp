@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2779383182" Language="SFX">
+			<ShortName>trenchcoat</ShortName>
+			<Path>trenchcoat.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1902345564" Name="ui_trenchcoat_buy"/>
+				<Event Id="37218988" Name="ui_trenchcoat_open"/>
+				<Event Id="3733344980" Name="ui_trenchcoat_select"/>
+				<Event Id="549600600" Name="ui_trenchcoat_sell"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="31934" Language="SFX">
+					<ShortName>ui_trenchcoat_buy.wav</ShortName>
+					<Path>SFX\ui_trenchcoat_buy_3314988A.wem</Path>
+				</File>
+				<File Id="112126806" Language="SFX">
+					<ShortName>ui_trenchcoat_select.wav</ShortName>
+					<Path>SFX\ui_trenchcoat_select_3314988A.wem</Path>
+				</File>
+				<File Id="295220256" Language="SFX">
+					<ShortName>ui_trenchcoat_sell.wav</ShortName>
+					<Path>SFX\ui_trenchcoat_sell_3314988A.wem</Path>
+				</File>
+				<File Id="437785491" Language="SFX">
+					<ShortName>ui_trenchcoat_open.wav</ShortName>
+					<Path>SFX\ui_trenchcoat_open_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

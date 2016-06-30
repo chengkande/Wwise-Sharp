@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2995046728" Language="SFX">
+			<ShortName>goblin</ShortName>
+			<Path>goblin.bnk</Path>
+			<IncludedEvents>
+				<Event Id="778418198" Name="goblin_claw"/>
+				<Event Id="1294758591" Name="goblin_nurse_heal"/>
+				<Event Id="1926045709" Name="goblin_snort"/>
+				<Event Id="4221441017" Name="goblin_spit"/>
+				<Event Id="1678422411" Name="goblin_spit_hit"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="282102276" Language="SFX">
+					<ShortName>enemy_goblin_spit_hit.wav</ShortName>
+					<Path>SFX\enemy_goblin_spit_hit_3314988A.wem</Path>
+				</File>
+				<File Id="455379300" Language="SFX">
+					<ShortName>enemy_goblin_claw_01.wav</ShortName>
+					<Path>SFX\enemy_goblin_claw_01_3314988A.wem</Path>
+				</File>
+				<File Id="523294910" Language="SFX">
+					<ShortName>enemy_goblin_snort_02.wav</ShortName>
+					<Path>SFX\enemy_goblin_snort_02_3314988A.wem</Path>
+				</File>
+				<File Id="566261504" Language="SFX">
+					<ShortName>enemy_goblin_claw_02.wav</ShortName>
+					<Path>SFX\enemy_goblin_claw_02_3314988A.wem</Path>
+				</File>
+				<File Id="618837610" Language="SFX">
+					<ShortName>enemy_goblin_spit_02.wav</ShortName>
+					<Path>SFX\enemy_goblin_spit_02_3314988A.wem</Path>
+				</File>
+				<File Id="675382675" Language="SFX">
+					<ShortName>enemy_goblin_claw_03.wav</ShortName>
+					<Path>SFX\enemy_goblin_claw_03_3314988A.wem</Path>
+				</File>
+				<File Id="685268270" Language="SFX">
+					<ShortName>enemy_goblin_snort_03.wav</ShortName>
+					<Path>SFX\enemy_goblin_snort_03_3314988A.wem</Path>
+				</File>
+				<File Id="716071038" Language="SFX">
+					<ShortName>enemy_goblin_spit_03.wav</ShortName>
+					<Path>SFX\enemy_goblin_spit_03_3314988A.wem</Path>
+				</File>
+				<File Id="980495013" Language="SFX">
+					<ShortName>enemy_goblin_spit_01.wav</ShortName>
+					<Path>SFX\enemy_goblin_spit_01_3314988A.wem</Path>
+				</File>
+				<File Id="984335758" Language="SFX">
+					<ShortName>enemy_goblin_snort_01.wav</ShortName>
+					<Path>SFX\enemy_goblin_snort_01_3314988A.wem</Path>
+				</File>
+				<File Id="1064942310" Language="SFX">
+					<ShortName>enemy_goblin_nurse_heal - Copy.wav</ShortName>
+					<Path>SFX\enemy_goblin_nurse_heal - Copy_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

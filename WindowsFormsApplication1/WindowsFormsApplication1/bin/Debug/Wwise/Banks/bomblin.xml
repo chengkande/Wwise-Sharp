@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1997232438" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemies\bomblin</ObjectPath>
+			<ShortName>bomblin</ShortName>
+			<Path>bomblin.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2862635816" Name="bomblin_bomb_bounce" ObjectPath="\Events\Default Work Unit\Enemies\bomblin_bomb_bounce"/>
+				<Event Id="936347831" Name="bomblin_bomb_explode" ObjectPath="\Events\Default Work Unit\Enemies\bomblin_bomb_explode"/>
+				<Event Id="3529384096" Name="bomblin_bomb_fuse_play" ObjectPath="\Events\Default Work Unit\Enemies\bomblin_bomb_fuse_play"/>
+				<Event Id="1872643106" Name="bomblin_bomb_fuse_stop" ObjectPath="\Events\Default Work Unit\Enemies\bomblin_bomb_fuse_stop"/>
+				<Event Id="947829576" Name="bomblin_bomb_throw" ObjectPath="\Events\Default Work Unit\Enemies\bomblin_bomb_throw"/>
+				<Event Id="246572004" Name="bomblin_claw" ObjectPath="\Events\Default Work Unit\Enemies\bomblin_claw"/>
+				<Event Id="4231638720" Name="bomblin_headbutt" ObjectPath="\Events\Default Work Unit\Enemies\bomblin_headbutt"/>
+				<Event Id="1332458155" Name="bomblin_summon_bomb" ObjectPath="\Events\Default Work Unit\Enemies\bomblin_summon_bomb"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="117982809" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_bounce_02.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_bounce_02_3314988A.wem</Path>
+				</File>
+				<File Id="126990180" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_throw_03.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_throw_03_3314988A.wem</Path>
+				</File>
+				<File Id="140963532" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_throw_02.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_throw_02_3314988A.wem</Path>
+				</File>
+				<File Id="251876411" Language="SFX">
+					<ShortName>enemy_bomblin_claw_02.wav</ShortName>
+					<Path>SFX\enemy_bomblin_claw_02_3314988A.wem</Path>
+				</File>
+				<File Id="273161267" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_bounce_03.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_bounce_03_3314988A.wem</Path>
+				</File>
+				<File Id="488400049" Language="SFX">
+					<ShortName>enemy_bomblin_summon_bomb_03.wav</ShortName>
+					<Path>SFX\enemy_bomblin_summon_bomb_03_3314988A.wem</Path>
+				</File>
+				<File Id="526543960" Language="SFX">
+					<ShortName>enemy_bomblin_claw_03.wav</ShortName>
+					<Path>SFX\enemy_bomblin_claw_03_3314988A.wem</Path>
+				</File>
+				<File Id="636123202" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_explode_02.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_explode_02_3314988A.wem</Path>
+				</File>
+				<File Id="654028659" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_explode_01.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_explode_01_3314988A.wem</Path>
+				</File>
+				<File Id="660634114" Language="SFX">
+					<ShortName>enemy_bomblin_headbutt_02.wav</ShortName>
+					<Path>SFX\enemy_bomblin_headbutt_02_3314988A.wem</Path>
+				</File>
+				<File Id="672323945" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_explode_03.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_explode_03_3314988A.wem</Path>
+				</File>
+				<File Id="686956929" Language="SFX">
+					<ShortName>enemy_bomblin_headbutt_03.wav</ShortName>
+					<Path>SFX\enemy_bomblin_headbutt_03_3314988A.wem</Path>
+				</File>
+				<File Id="853908112" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_fuse.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_fuse_8D34B564.wem</Path>
+				</File>
+				<File Id="912657298" Language="SFX">
+					<ShortName>enemy_bomblin_headbutt_01.wav</ShortName>
+					<Path>SFX\enemy_bomblin_headbutt_01_3314988A.wem</Path>
+				</File>
+				<File Id="937670423" Language="SFX">
+					<ShortName>enemy_bomblin_claw_01.wav</ShortName>
+					<Path>SFX\enemy_bomblin_claw_01_3314988A.wem</Path>
+				</File>
+				<File Id="943003277" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_bounce_01.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_bounce_01_3314988A.wem</Path>
+				</File>
+				<File Id="979785529" Language="SFX">
+					<ShortName>enemy_bomblin_summon_bomb_02.wav</ShortName>
+					<Path>SFX\enemy_bomblin_summon_bomb_02_3314988A.wem</Path>
+				</File>
+				<File Id="1043735292" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_throw_01.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_throw_01_3314988A.wem</Path>
+				</File>
+				<File Id="1064850024" Language="SFX">
+					<ShortName>enemy_bomblin_summon_bomb_01.wav</ShortName>
+					<Path>SFX\enemy_bomblin_summon_bomb_01_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

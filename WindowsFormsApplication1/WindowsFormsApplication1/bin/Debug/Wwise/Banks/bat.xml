@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="513390118" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemies\bat</ObjectPath>
+			<ShortName>bat</ShortName>
+			<Path>bat.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3053372663" Name="bat_bite" ObjectPath="\Events\Default Work Unit\Enemies\bat_bite"/>
+				<Event Id="3399320463" Name="bat_shriek" ObjectPath="\Events\Default Work Unit\Enemies\bat_shriek"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="129755705" Language="SFX">
+					<ShortName>enemy_bat_shriek_01.wav</ShortName>
+					<Path>SFX\enemy_bat_shriek_01_3314988A.wem</Path>
+				</File>
+				<File Id="244840269" Language="SFX">
+					<ShortName>enemy_bat_bite_02.wav</ShortName>
+					<Path>SFX\enemy_bat_bite_02_3314988A.wem</Path>
+				</File>
+				<File Id="319503634" Language="SFX">
+					<ShortName>enemy_bat_shriek_03.wav</ShortName>
+					<Path>SFX\enemy_bat_shriek_03_3314988A.wem</Path>
+				</File>
+				<File Id="815868548" Language="SFX">
+					<ShortName>enemy_bat_shriek_02.wav</ShortName>
+					<Path>SFX\enemy_bat_shriek_02_3314988A.wem</Path>
+				</File>
+				<File Id="1055534581" Language="SFX">
+					<ShortName>enemy_bat_bite_01.wav</ShortName>
+					<Path>SFX\enemy_bat_bite_01_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

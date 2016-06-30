@@ -16,12 +16,14 @@ State	ID	Name	State Group			Notes
 	748895195	None	shocking_statements_ch_2			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	725232568	Dialogue_Volume			\Default Work Unit\Dialogue_Volume	
-	960544891	Footsteps_Volume			\Default Work Unit\Footsteps_Volume	
+	272074115	Options_Dialogue_Volume			\Default Work Unit\Options_Dialogue_Volume	
 	1006694123	Music_Volume			\Default Work Unit\Music_Volume	
+	1282371064	Music_Bathroom_Stuff			\Default Work Unit\Music_Bathroom_Stuff	
+	1725857970	Options_Footsteps_Volume			\Default Work Unit\Options_Footsteps_Volume	
+	2378703251	Options_Master_Volume			\Default Work Unit\Options_Master_Volume	
 	2669979670	Daryl_Health			\Default Work Unit\Daryl_Health	% - to be used for Danger State FX
-	2901143258	Ambience_Volume			\Default Work Unit\Ambience_Volume	
-	4179668880	Master_Volume			\Default Work Unit\Master_Volume	
+	3933061217	Options_Ambience_Volume			\Default Work Unit\Options_Ambience_Volume	
+	4004167646	Options_Music_Volume			\Default Work Unit\Options_Music_Volume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Master Audio Bus\Non-Music\Ambience	
@@ -40,6 +42,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	1203148070	Instance_Limiter_Hits	Wwise Peak Limiter			
+	1831461191	Bathroom	Wwise Stereo Delay			
 	1864444207	Instance_Limiter_Pickups	Wwise Peak Limiter			
-	3888786832	City	Wwise RoomVerb			
+	4122393694	Cave	Wwise RoomVerb			
 

@@ -216,7 +216,9 @@ AK_DECLARE_THREAD_ROUTINE( CAkIOThread::IOSchedThread )
 {
     CAkIOThread * pDevice = AK_GET_THREAD_ROUTINE_PARAMETER_PTR( CAkIOThread );
 
-    bool bRun = true;
+	AK_INSTRUMENT_THREAD_START( "CAkIOThread::IOSchedThread" );
+
+	bool bRun = true;
     DWORD dwWaitRes;
 
     HANDLE pEvents[3];

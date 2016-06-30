@@ -84,10 +84,11 @@ void WwiseSharpGameObject::MusicSyncCallback(AkCallbackType in_eType, AkCallback
 
 	AkMusicSyncCallbackInfo* in_info = static_cast<AkMusicSyncCallbackInfo*>(in_pCallbackInfo);
 	musicPlayingID = static_cast<unsigned long>(in_info->playingID);
-	musicBarDuration = static_cast<unsigned long>(in_info->fBarDuration * 1000);
-	musicBeatDuration = static_cast<unsigned long>(in_info->fBeatDuration * 1000);
-	musicGridDuration = static_cast<unsigned long>(in_info->fGridDuration * 1000);
-	musicGridOffset = static_cast<unsigned long>(in_info->fGridOffset * 1000);
+	segInfo = &in_info->segmentInfo;
+	musicBarDuration = static_cast<unsigned long>(segInfo->fBarDuration * 1000);
+	musicBeatDuration = static_cast<unsigned long>(segInfo->fBeatDuration * 1000);
+	musicGridDuration = static_cast<unsigned long>(segInfo->fGridDuration * 1000);
+	musicGridOffset = static_cast<unsigned long>(segInfo->fGridOffset * 1000);
 
 	//h.Free();
 }
@@ -108,7 +109,7 @@ void WwiseSharpGameObject::PostMusicSyncEvent_Bar(System::String^ eventName)
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }
 
-void WwiseSharpGameObject::SetSinglePosition(WwiseSharpSoundPosition^ position)
+void WwiseSharpGameObject::SetSinglePosition(WwiseSharpTransform^ position)
 {
 	AkVector akVectorPosition;
 	akVectorPosition.X = position->Xposition;
@@ -116,19 +117,21 @@ void WwiseSharpGameObject::SetSinglePosition(WwiseSharpSoundPosition^ position)
 	akVectorPosition.Z = position->Zposition;
 	
 	AkVector akVectorOrientation;
-	akVectorOrientation.X = position->Xorientation;
-	akVectorOrientation.Y = position->Yorientation;
-	akVectorOrientation.Z = position->Zorientation;
+	akVectorOrientation.X = position->XorientationFront;
+	akVectorOrientation.Y = position->YorientationFront;
+	akVectorOrientation.Z = position->ZorientationFront;
 
-	AkSoundPosition akSoundPosition;
-	akSoundPosition.Position = akVectorPosition;
-	akSoundPosition.Orientation = akVectorOrientation;
+	AkVector top = {0.0, 1.0, 0.0};
+
+	AkTransform akSoundPosition;
+	akSoundPosition.SetPosition(akVectorPosition);
+	akSoundPosition.SetOrientation(akVectorOrientation, top);
 
 	engine->SetPosition(objectId, akSoundPosition);
 }
-void WwiseSharpGameObject::SetMultiplePositions(array<WwiseSharpSoundPosition^>^ positions, unsigned short numPositions)
+void WwiseSharpGameObject::SetMultiplePositions(array<WwiseSharpTransform^>^ positions, unsigned short numPositions)
 {
-	AkSoundPosition* akSoundPositions = new AkSoundPosition[numPositions];
+	AkTransform* akSoundPositions = new AkTransform[numPositions];
 	for (unsigned short x = 0; x < numPositions; x++)
 	{
 		AkVector akVectorPosition;
@@ -137,12 +140,14 @@ void WwiseSharpGameObject::SetMultiplePositions(array<WwiseSharpSoundPosition^>^
 		akVectorPosition.Z = positions[x]->Zposition;
 
 		AkVector akVectorOrientation;
-		akVectorOrientation.X = positions[x]->Xorientation;
-		akVectorOrientation.Y = positions[x]->Yorientation;
-		akVectorOrientation.Z = positions[x]->Zorientation;
+		akVectorOrientation.X = positions[x]->XorientationFront;
+		akVectorOrientation.Y = positions[x]->YorientationFront;
+		akVectorOrientation.Z = positions[x]->ZorientationFront;
 
-		akSoundPositions[x].Position = akVectorPosition;
-		akSoundPositions[x].Orientation = akVectorOrientation;
+		AkVector top = { 0.0, 1.0, 0.0 };
+
+		akSoundPositions[x].SetPosition(akVectorPosition);
+		akSoundPositions[x].SetOrientation(akVectorOrientation, top);
 	}
 
 	engine->SetMultiplePositions(objectId, akSoundPositions, static_cast<AkUInt16>(numPositions));

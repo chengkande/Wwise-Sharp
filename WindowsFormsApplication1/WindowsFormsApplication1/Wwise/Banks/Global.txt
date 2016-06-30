@@ -40,11 +40,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	2446616532	popup_save_game			\Default Work Unit\UI\popup_save_game	
 	2483987744	generic_spawn			\Default Work Unit\Enemies\generic_spawn	
 	2637548363	object_button_large			\Default Work Unit\Object\object_button_large	
-	2735935537	Pause_Music			\Default Work Unit\Global Events\Pause_Music	
+	2735935537	Pause_Music			\Default Work Unit\Music\Pause_Music	
 	2767947223	Enable_Reverb			\Default Work Unit\Global Events\Enable_Reverb	
 	2791324974	Pause_All_Except_Ambience			\Default Work Unit\Global Events\Pause_All_Except_Ambience	
 	2820657510	movement_door_locked			\Default Work Unit\Movement\movement_door_locked	
-	2940177080	Resume_Music			\Default Work Unit\Global Events\Resume_Music	
+	2940177080	Resume_Music			\Default Work Unit\Music\Resume_Music	
 	2966123984	default_damage			\Default Work Unit\Global Events\default_damage	
 	3052579441	ui_general_text_scroll_play			\Default Work Unit\UI\ui_general_text_scroll_play	
 	3063265052	ui_quest_pin			\Default Work Unit\UI\inventory\ui_quest_pin	
@@ -100,10 +100,13 @@ Switch	ID	Name	Switch Group			Notes
 	4248645337	Grass	Surface_Types			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1282371064	Music_Bathroom_Stuff			\Default Work Unit\Music_Bathroom_Stuff	
 	2848209228	Text_Scroll_Speed			\Default Work Unit\Text_Scroll_Speed	Controls trigger speed of ui_general_text_scroll. 0 (slow) to 1 (fast).
 
 Effect plug-ins	ID	Name	Type				Notes
 	1203148070	Instance_Limiter_Hits	Wwise Peak Limiter			
+	1831461191	Bathroom	Wwise Stereo Delay			
+	1864444207	Instance_Limiter_Pickups	Wwise Peak Limiter			
 	3854292571	Vents	Wwise RoomVerb			
 	3888786832	City	Wwise RoomVerb			
 	3999320713	Science	Wwise RoomVerb			

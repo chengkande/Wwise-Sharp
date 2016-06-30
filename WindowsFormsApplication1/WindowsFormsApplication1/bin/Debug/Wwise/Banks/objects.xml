@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1695690031" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\objects</ObjectPath>
+			<ShortName>objects</ShortName>
+			<Path>objects.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2172612084" Name="object_ghost_sucker_damage" ObjectPath="\Events\Default Work Unit\Object\object_ghost_sucker_damage"/>
+				<Event Id="1417365428" Name="object_ghost_sucker_loop_start" ObjectPath="\Events\Default Work Unit\Object\object_ghost_sucker_loop_start"/>
+				<Event Id="1622373416" Name="object_ghost_sucker_loop_stop" ObjectPath="\Events\Default Work Unit\Object\object_ghost_sucker_loop_stop"/>
+				<Event Id="1638932804" Name="object_goblin_hut_damage" ObjectPath="\Events\Default Work Unit\Object\object_goblin_hut_damage"/>
+				<Event Id="3291599859" Name="object_goblin_hut_destroy" ObjectPath="\Events\Default Work Unit\Object\object_goblin_hut_destroy"/>
+				<Event Id="1523419505" Name="object_goblin_hut_fire_loop_start" ObjectPath="\Events\Default Work Unit\Object\object_goblin_hut_fire_loop_start"/>
+				<Event Id="484658667" Name="object_goblin_hut_fire_loop_stop" ObjectPath="\Events\Default Work Unit\Object\object_goblin_hut_fire_loop_stop"/>
+				<Event Id="2815960723" Name="object_laser_fence_start" ObjectPath="\Events\Default Work Unit\Object\object_laser_fence_start"/>
+				<Event Id="2549674833" Name="object_laser_fence_stop" ObjectPath="\Events\Default Work Unit\Object\object_laser_fence_stop"/>
+				<Event Id="3910530431" Name="object_prologue_rat_die" ObjectPath="\Events\Default Work Unit\Object\object_prologue_rat_die"/>
+			</IncludedEvents>
+			<ExcludedMemoryFiles>
+				<File Id="29059718" Language="SFX">
+					<ShortName>object_laser_fence_start.wav</ShortName>
+					<Path>SFX\object_laser_fence_start_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="36338803" Language="SFX">
+					<ShortName>object_goblin_hut_fire_loop.wav</ShortName>
+					<Path>SFX\object_goblin_hut_fire_loop_682514AB.wem</Path>
+				</File>
+				<File Id="66861835" Language="SFX">
+					<ShortName>object_ghost_sucker_damage_01.wav</ShortName>
+					<Path>SFX\object_ghost_sucker_damage_01_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="250691801" Language="SFX">
+					<ShortName>object_prologue_rat_die.wav</ShortName>
+					<Path>SFX\object_prologue_rat_die_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="332698090" Language="SFX">
+					<ShortName>object_ghost_sucker_loop.wav</ShortName>
+					<Path>SFX\object_ghost_sucker_loop_682514AB.wem</Path>
+				</File>
+				<File Id="636349257" Language="SFX">
+					<ShortName>object_goblin_hut_damage.wav</ShortName>
+					<Path>SFX\object_goblin_hut_damage_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="684654700" Language="SFX">
+					<ShortName>object_laser_fence_loop.wav</ShortName>
+					<Path>SFX\object_laser_fence_loop_682514AB.wem</Path>
+				</File>
+				<File Id="979148409" Language="SFX">
+					<ShortName>object_goblin_hut_destroy.wav</ShortName>
+					<Path>SFX\object_goblin_hut_destroy_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="987142050" Language="SFX">
+					<ShortName>object_ghost_sucker_damage_02.wav</ShortName>
+					<Path>SFX\object_ghost_sucker_damage_02_FB1EEB1D.wem</Path>
+				</File>
+			</ExcludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

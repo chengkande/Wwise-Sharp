@@ -20,12 +20,8 @@
 #include "SDK/samples/SoundEngine/Win32/AkFilePackageLowLevelIOBlocking.h"			// Sample low-level I/O implementation
 #include "SDK/include/AK/SoundEngine/Common/AkSoundEngine.h"                // Sound engine
 #include "SDK/include/AK/MusicEngine/Common/AkMusicEngine.h"                // Music Engine
-#include "SDK/include/AK/Plugin/AkRoomVerbFXFactory.h"						// Room Verb
-#include "SDK/include/AK/Plugin/AkPeakLimiterFXFactory.h"					//Limiter
-#include "SDK/include/AK/Plugin/AkStereoDelayFXFactory.h"					//Stereo Delay for Bathroom effect
-#ifdef WWISESHARP_VORBIS
-	#include "SDK/include/AK/Plugin/AkVorbisFactory.h"						// Vorbis Plugin.
-#endif
+#include "AK/SoundEngine/Common/IAkPlugin.h"
+
 #ifdef DEBUG
 	#include "SDk/include/AK/Comm/AkCommunication.h"						// Communication (is the component which allow Wwise editor to track Game Instance).
 #endif
@@ -83,7 +79,7 @@ namespace WwiseWrapper
 		void SetActiveListeners(AkGameObjectID gameObjectId, AkUInt32 listenerMask);
 		void SetPanningRule(AkPanningRule in_ePanningRule);
 		void SetBusEffect(AkUniqueID in_audioNodeID, AkUInt32 in_uFXIndex, AkUniqueID in_shareSetID);
-		void RegisterReverb();
+		//void RegisterReverb();  - Deprecated in 2016.1
 		void GetSourcePlayPosition(AkPlayingID g_markersPlayingID, AkTimeMs* out_puPosition);
 		AkSegmentInfo GetPlayingSegmentInfo(AkPlayingID in_playingID);
 	};

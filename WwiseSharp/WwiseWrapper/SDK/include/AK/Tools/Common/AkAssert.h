@@ -75,13 +75,13 @@
 			#define AKASSERTD AKASSERT
 		#else
 			#define AKASSERTD(Condition) ((void)0)
-		#endif
+		#endif		
 
 	#else //  defined( AK_ENABLE_ASSERTS )
 
 		#define AKASSERT(Condition) ((void)0)
 		#define AKASSERTD(Condition) ((void)0)
-		#define AKVERIFY(x) ((void)(x))
+		#define AKVERIFY(x) ((void)(x))		
 
 	#endif //  defined( AK_ENABLE_ASSERTS )
 
@@ -110,9 +110,14 @@
 	#else
 		// Compile-time assert
 		#define AKSTATICASSERT( __expr__, __msg__ ) typedef char __AKSTATICASSERT__[(__expr__)?1:-1]
-	#endif
+	#endif	
 
 #endif // ! defined( AKASSERT )
 
+#ifdef AK_ENABLE_ASSERTS
+#define DEFINEDUMMYASSERTHOOK AkAssertHook g_pAssertHook = NULL;
+#else
+#define DEFINEDUMMYASSERTHOOK
+#endif
 #endif //_AK_AKASSERT_H_
 

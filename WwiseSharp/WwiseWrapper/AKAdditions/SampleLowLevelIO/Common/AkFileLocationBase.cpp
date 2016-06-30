@@ -16,9 +16,9 @@
 #include "AkFileLocationBase.h"
 
 #include <AK/SoundEngine/Common/AkStreamMgrModule.h>
-#include <AK/Plugin/AkVorbisFactory.h>	  // For Vorbis CODEC_ID.
+//#include <AK/Plugin/AkVorbisDecoderFactory.h>	  // For Vorbis CODEC_ID.
 #ifdef AK_WIN
-#include <AK/Plugin/AkMP3SourceFactory.h> // For MP3 Codec ID.
+//#include <AK/Plugin/AkMP3SourceFactory.h> // For MP3 Codec ID.
 #endif
 #include <AK/Tools/Common/AkPlatformFuncs.h>
 #ifdef AK_SUPPORT_WCHAR
@@ -84,8 +84,8 @@ AKRESULT CAkFileLocationBase::GetFullFilePath(
 		assert( !"Input string too large" );
 		return AK_InvalidParameter;
 	}
-
-#ifdef AK_WIN
+	/*
+#ifdef AK_WIN -- no more mp3
 	// MP3 files using the MP3 sample code, usually being provided by the gamer will 
 	// not be located in the game path, for these sounds, we are using the Full path
 	// to access them.
@@ -97,6 +97,7 @@ AKRESULT CAkFileLocationBase::GetFullFilePath(
 	}
 	else
 #endif
+	*/
 	{
 		AKPLATFORM::SafeStrCpy( out_pszFullFilePath, m_szBasePath, AK_MAX_PATH );
 	}

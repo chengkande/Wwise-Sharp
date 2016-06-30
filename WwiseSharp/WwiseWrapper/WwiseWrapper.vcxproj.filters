@@ -38,5 +38,8 @@
     <ClInclude Include="SDK\samples\SoundEngine\Win32\AkFileHelpers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="WwiseEngine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

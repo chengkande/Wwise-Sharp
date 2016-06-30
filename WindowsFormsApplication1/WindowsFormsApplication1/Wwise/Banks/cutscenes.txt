@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1436188198	cutscene_goblin_fort_gate_open			\Default Work Unit\Cutscenes\cutscene_goblin_fort_gate_open	
+	1595821041	cutscene_tsar_bomb_explosion			\Default Work Unit\Cutscenes\cutscene_tsar_bomb_explosion	
+	1676130152	cutscene_gorilla_tim_transform			\Default Work Unit\Cutscenes\cutscene_gorilla_tim_transform	
+	2782363355	cutscene_gorilla_tim_end			\Default Work Unit\Cutscenes\cutscene_gorilla_tim_end	
+	2918540979	cutscene_troll_burst_through_wall			\Default Work Unit\Cutscenes\cutscene_troll_burst_through_wall	
+	2944812769	popup_prologue_end			\Default Work Unit\UI\popup_prologue_end	
+	3065251264	cutscene_science_plant_guy			\Default Work Unit\Cutscenes\cutscene_science_plant_guy	
+	3107207281	cutscene_prologue_bird_steals_note			\Default Work Unit\Cutscenes\cutscene_prologue_bird_steals_note	
+	3317193065	cutscene_goblin_gate			\Default Work Unit\Cutscenes\cutscene_goblin_gate	
+

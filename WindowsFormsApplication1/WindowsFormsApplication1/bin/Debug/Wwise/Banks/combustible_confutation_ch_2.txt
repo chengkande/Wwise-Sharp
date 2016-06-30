@@ -1,0 +1,31 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3150516772	combustible_confutation_ch_2_use			\Default Work Unit\Weapons\combustible_confutation_ch_2_use	
+	3449409558	combustible_confutation_ch_2_hit			\Default Work Unit\Weapons\combustible_confutation_ch_2_hit	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2238872063	combustible_confutations_ch_2			\Default Work Unit\Skills\combustible_confutations_ch_2	
+
+Switch	ID	Name	Switch Group			Notes
+	141331488	lvl3	combustible_confutations_ch_2			
+	141331489	lvl2	combustible_confutations_ch_2			
+	141331490	lvl1	combustible_confutations_ch_2			
+	141331495	lvl4	combustible_confutations_ch_2			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	87715803	weapon_fire_punch_lvl3_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl3_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl3\weapon_fire_punch_lvl3_02		34476
+	115578932	weapon_fire_hit_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_01		74150
+	225523632	weapon_fire_punch_lvl2_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl2_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl2\weapon_fire_punch_lvl2_03		37744
+	358312732	weapon_fire_punch_lvl3_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl3_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl3\weapon_fire_punch_lvl3_03		36309
+	366302747	weapon_fire_hit_04	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_04_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_04		53290
+	410458528	weapon_fire_punch_lvl2_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl2_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl2\weapon_fire_punch_lvl2_02		37888
+	412963714	weapon_fire_punch_lvl2_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl2_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl2\weapon_fire_punch_lvl2_01		35852
+	492911596	weapon_fire_punch_lvl4_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl4_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl4\weapon_fire_punch_lvl4_01		83652
+	509824607	weapon_fire_punch_lvl1_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl1_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl1\weapon_fire_punch_lvl1_01		31035
+	547523335	weapon_fire_punch_lvl1_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl1_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl1\weapon_fire_punch_lvl1_03		30926
+	593231295	weapon_fire_hit_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_02		65794
+	671962155	weapon_fire_punch_lvl4_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl4_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl4\weapon_fire_punch_lvl4_03		78785
+	676408577	weapon_fire_punch_lvl1_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl1_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl1\weapon_fire_punch_lvl1_02		31028
+	688230459	weapon_fire_hit_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_hit_03_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fire_hit\weapon_fire_hit_03		53554
+	691926584	weapon_fire_punch_lvl3_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl3_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl3\weapon_fire_punch_lvl3_01		36946
+	844712592	weapon_fire_punch_lvl4_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fire_punch_lvl4_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\comustable_confutations_ch_2\lvl4\weapon_fire_punch_lvl4_02		73152
+

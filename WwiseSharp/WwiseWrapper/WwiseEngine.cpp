@@ -130,14 +130,14 @@ bool WwiseEngine::Init()
 		assert( ! "Could not initialize the Music Engine." );
 		return false;
 	}
-
+	/* -- Deprecated, probably
 #ifdef WWISESHARP_VORBIS
 	AK::SoundEngine::RegisterCodec( AKCOMPANYID_AUDIOKINETIC, 
 									AKCODECID_VORBIS, 
 									CreateVorbisFilePlugin, 
 									CreateVorbisBankPlugin );
 #endif
-
+*/
 #ifdef DEBUG
 	//
 	// Initialize communications (not in release build!)
@@ -363,6 +363,7 @@ void WwiseEngine::SetBusEffect(AkUniqueID in_audioNodeID, AkUInt32 in_uFXIndex, 
 {
 	AK::SoundEngine::SetBusEffect(in_audioNodeID, in_uFXIndex, in_shareSetID);
 }
+/*	-- Deprecated fxn in 2016, now use includes only
 void WwiseEngine::RegisterReverb()
 {
 	AK::SoundEngine::RegisterPlugin(AkPluginTypeEffect,
@@ -381,6 +382,7 @@ void WwiseEngine::RegisterReverb()
 		CreateStereoDelayFX,
 		CreateStereoDelayFXParams);
 }
+*/
 void WwiseEngine::GetSourcePlayPosition(AkPlayingID g_markersPlayingID, AkTimeMs* out_puPostition)
 {
 	AK::SoundEngine::GetSourcePlayPosition(g_markersPlayingID, out_puPostition);

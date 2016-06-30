@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15948784	ui_d_and_d_reward_stop			\Default Work Unit\UI\DandD\ui_d_and_d_reward_stop	
+	309327528	ui_d_and_d_open			\Default Work Unit\UI\DandD\ui_d_and_d_open	
+	700526099	popup_d_and_d_countdown			\Default Work Unit\UI\DandD\popup_d_and_d_countdown	
+	951517452	ui_d_and_d_arrow_hover			\Default Work Unit\UI\DandD\ui_d_and_d_arrow_hover	
+	995323385	ui_d_and_d_quest_accept			\Default Work Unit\UI\DandD\ui_d_and_d_quest_accept	
+	1097643769	popup_d_and_d_clear			\Default Work Unit\UI\DandD\popup_d_and_d_clear	
+	1818455295	ui_d_and_d_reward_hit			\Default Work Unit\UI\DandD\ui_d_and_d_reward_hit	
+	2168219932	ui_d_and_d_reward_start			\Default Work Unit\UI\DandD\ui_d_and_d_reward_start	
+	2195928685	ui_d_and_d_quest_select			\Default Work Unit\UI\DandD\ui_d_and_d_quest_select	
+	2302545558	ui_d_and_d_arrow_click			\Default Work Unit\UI\DandD\ui_d_and_d_arrow_click	
+	2801699750	popup_d_and_d_fail			\Default Work Unit\UI\DandD\popup_d_and_d_fail	
+	2895362345	ui_d_and_d_back			\Default Work Unit\UI\DandD\ui_d_and_d_back	
+	2897916574	ui_d_and_d_menu_hover			\Default Work Unit\UI\DandD\ui_d_and_d_menu_hover	
+	3872723696	ui_d_and_d_menu_click			\Default Work Unit\UI\DandD\ui_d_and_d_menu_click	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	17968953	ui_DandD_Begin	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_Begin_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\ui_DandD_Begin		123535
+	124084224	ui_DandD_open	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_open_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\ui_DandD_open		205829
+	159963309	ui_DandD_back	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_back_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\ui_DandD_back		34611
+	173691282	popup_d_and_d_countdown_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\popup_d_and_d_countdown_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\popup_d_and_d_countdown_03		290551
+	258397620	ui_DandD_Reward_Drum_loop	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_Reward_Drum_loop_8D34B564.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\ui_DandD_Reward_Drum_loop		281887
+	439219422	ui_DandD_arrow_hover	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_arrow_hover_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\ui_DandD_arrow_hover		11285
+	514495685	popup_DandD_fail	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\popup_DandD_fail_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\popup_DandD_fail		237879
+	528362630	ui_DandD_Reward_Drum_start	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_Reward_Drum_start_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\ui_DandD_Reward_Drum_start		36629
+	618863700	popup_DandD_clear	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\popup_DandD_clear_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\popup_DandD_clear		116048
+	679518401	ui_DandD_menu_hover	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_menu_hover_6034DC60.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\ui_DandD_menu_hover		19458
+	747868296	ui_DandD_arrow_click	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_arrow_click_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\ui_DandD_arrow_click		31294
+	899145388	ui_DandD_Reward_Drum_End	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_Reward_Drum_End_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\ui_DandD_Reward_Drum_End		56110
+	1013844109	ui_DandD_quest_select	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_quest_select_458A6E02.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\ui_DandD_quest_select		31373
+	1065603924	ui_DandD_menu_click	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\ui_DandD_menu_click_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\DandD\ui_DandD_menu_click		44374
+

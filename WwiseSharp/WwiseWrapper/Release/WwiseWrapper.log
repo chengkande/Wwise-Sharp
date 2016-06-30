@@ -1,8 +1,7 @@
-﻿  AkDefaultIOHookBlocking.cpp
-  AkFileLocationBase.cpp
-  AkFilePackage.cpp
-  AkFilePackageLUT.cpp
-  WwiseEngine.cpp
+﻿  WwiseEngine.cpp
+AkStereoDelayFX.lib(Mix2Interp.obj) : warning LNK4006: "void __cdecl DSP::Mix2Interp(float * __restrict,float * __restrict,float * __restrict,float,float,float,float,unsigned long)" (?Mix2Interp@DSP@@YAXPIAM00MMMMK@Z) already defined in AkRoomVerbFX.lib(Mix2Interp.obj); second definition ignored
+AkStereoDelayFX.lib(Mix2Interp.obj) : warning LNK4006: "void __cdecl DSP::Mix2Interp(float * __restrict,float * __restrict,float,float,float,float,unsigned long)" (?Mix2Interp@DSP@@YAXPIAM0MMMMK@Z) already defined in AkRoomVerbFX.lib(Mix2Interp.obj); second definition ignored
+AkStereoDelayFX.lib(Mix2Interp.obj) : warning LNK4006: "void __cdecl DSP::Mix2Interp(float * __restrict,float * __restrict,float,float,unsigned long)" (?Mix2Interp@DSP@@YAXPIAM0MMK@Z) already defined in AkRoomVerbFX.lib(Mix2Interp.obj); second definition ignored
 AkStereoDelayFX.lib(Mix3Interp.obj) : warning LNK4006: "void __cdecl DSP::Mix3Interp(float * __restrict,float * __restrict,float * __restrict,float * __restrict,float,float,float,float,float,float,unsigned long)" (?Mix3Interp@DSP@@YAXPIAM000MMMMMMK@Z) already defined in AkRoomVerbFX.lib(Mix3Interp.obj); second definition ignored
 AkStereoDelayFX.lib(Mix3Interp.obj) : warning LNK4006: "void __cdecl DSP::Mix3Interp(float * __restrict,float * __restrict,float * __restrict,float,float,float,float,float,float,unsigned long)" (?Mix3Interp@DSP@@YAXPIAM00MMMMMMK@Z) already defined in AkRoomVerbFX.lib(Mix3Interp.obj); second definition ignored
   WwiseWrapper.vcxproj -> C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\WwiseWrapper.lib

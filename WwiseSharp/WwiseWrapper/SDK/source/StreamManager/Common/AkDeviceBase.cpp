@@ -95,7 +95,7 @@ AKRESULT CAkDeviceBase::Init(
 	}
 	
 	// Create I/O scheduler thread objects.
-	return CAkIOThread::Init( in_settings.threadProperties );
+	return CAkIOThread::Init(in_settings.threadProperties); 
 }
 
 // Destroy.
@@ -286,8 +286,7 @@ CAkStmTask * CAkDeviceBase::SchedulerFindNextCachingTask()
 	AkUInt32 uCurrentCachePinned = 0;
 	bool bStreamDestroyed = false;
 
-	TaskList::IteratorEx it = m_listCachingTasks.BeginEx();
-	while ( it != m_listCachingTasks.End() )
+	for (TaskList::IteratorEx it = m_listCachingTasks.BeginEx(); it != m_listCachingTasks.End();)
 	{
 		if ( (*it)->IsToBeDestroyed() && (*it)->CanBeDestroyed() )
 		{
@@ -1268,6 +1267,39 @@ AKRESULT CAkStdStmBase::Read(
     AkUInt32 &      out_uSize           // Size actually read.
     )
 {
+#ifdef __EMSCRIPTEN__
+	if (m_bIsFileOpen)
+	{
+		bool bEof;	// unused
+		in_uReqSize = ClampRequestSizeToEof(GetCurUserPosition(), in_uReqSize, bEof);
+	}
+
+	if (0 == in_uReqSize)
+	{
+		//AkAutoLock<CAkLock> status(m_lockStatus);
+		SetStatus(AK_StmStatusCompleted);
+		out_uSize = 0;
+		return AK_Success;
+	}
+
+	AkIoHeuristics heuristics;
+	heuristics.priority = 0; // dummy
+	heuristics.fDeadline = 0; // dummy
+
+	AkIOTransferInfo info;
+	info.uBufferSize = in_uReqSize;
+	info.uRequestedSize = in_uReqSize;
+	info.uFilePosition = GetCurUserPosition();
+	
+	AKRESULT eResult = static_cast<IAkIOHookBlocking*>(m_pDevice->GetLowLevelHook())->Read(*m_pFileDesc, heuristics, in_pBuffer, info);
+	if (eResult == AK_Success)
+	{
+		out_uSize = in_uReqSize;
+		SetCurUserPosition(GetCurUserPosition() + out_uSize);
+		SetStatus(AK_StmStatusCompleted);
+	}
+	return eResult;
+#else
     return ExecuteOp( false,// (Read)
 		in_pBuffer,         // User buffer address. 
 		in_uReqSize,        // Requested write size. 
@@ -1275,6 +1307,8 @@ AKRESULT CAkStdStmBase::Read(
 		in_priority,        // Heuristic: operation priority.
 		in_fDeadline,       // Heuristic: operation deadline (s).
 		out_uSize );        // Size actually written.
+
+#endif
 }
 
 // Write.
@@ -1596,6 +1630,7 @@ void CAkStdStmBase::SetStatus(
 {
 	m_eStmStatus = in_eStatus;
 
+#ifndef __EMSCRIPTEN__
 	// Update semaphore.
 	if ( IsToBeDestroyed() && CanBeDestroyed() )
 	{
@@ -1639,6 +1674,8 @@ void CAkStdStmBase::SetStatus(
 			}
 		}
 	}
+
+#endif
 }
 
 
@@ -1711,7 +1748,7 @@ AKRESULT CAkAutoStmBase::Init(
 
 	// Heuristics.
 	SetThroughput(AkMax( in_heuristics.fThroughput, AK_MINIMAL_THROUGHPUT ));
-    m_uLoopStart	= in_heuristics.uLoopStart - ( in_heuristics.uLoopStart % m_uLLBlockSize );;
+    m_uLoopStart	= in_heuristics.uLoopStart - ( in_heuristics.uLoopStart % m_uLLBlockSize );
 	if ( in_heuristics.uLoopEnd <= in_pFileDesc->iFileSize )
 		m_uLoopEnd      = in_heuristics.uLoopEnd;
 	else
@@ -2550,10 +2587,10 @@ void CAkAutoStmBase::OnFileDeferredOpen()
 {
 	CAkStmTask::OnFileDeferredOpen();
 
-	AkAutoStmHeuristics heuristics;
-	GetHeuristics( heuristics );
-	if ( heuristics.uLoopEnd > m_pFileDesc->iFileSize )
+	if (m_uLoopEnd > m_pFileDesc->iFileSize)
 	{
+		AkAutoStmHeuristics heuristics;
+		GetHeuristics(heuristics);
 		heuristics.uLoopEnd = (AkUInt32)m_pFileDesc->iFileSize;
 		AKVERIFY( SetHeuristics( heuristics ) == AK_Success );
 	}

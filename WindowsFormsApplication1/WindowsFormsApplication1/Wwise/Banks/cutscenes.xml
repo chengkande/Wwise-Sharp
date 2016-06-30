@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3765803840" Language="SFX">
+			<ShortName>cutscenes</ShortName>
+			<Path>cutscenes.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1436188198" Name="cutscene_goblin_fort_gate_open"/>
+				<Event Id="3317193065" Name="cutscene_goblin_gate"/>
+				<Event Id="2782363355" Name="cutscene_gorilla_tim_end"/>
+				<Event Id="1676130152" Name="cutscene_gorilla_tim_transform"/>
+				<Event Id="3107207281" Name="cutscene_prologue_bird_steals_note"/>
+				<Event Id="3065251264" Name="cutscene_science_plant_guy"/>
+				<Event Id="2918540979" Name="cutscene_troll_burst_through_wall"/>
+				<Event Id="1595821041" Name="cutscene_tsar_bomb_explosion"/>
+				<Event Id="2944812769" Name="popup_prologue_end"/>
+			</IncludedEvents>
+			<ExcludedMemoryFiles>
+				<File Id="69194916" Language="SFX">
+					<ShortName>cutscene_goblin_gate.wav</ShortName>
+					<Path>SFX\cutscene_goblin_gate_3314988A.wem</Path>
+				</File>
+				<File Id="203386964" Language="SFX">
+					<ShortName>cutscene_science_plant_guy.wav</ShortName>
+					<Path>SFX\cutscene_science_plant_guy_3314988A.wem</Path>
+				</File>
+				<File Id="377666745" Language="SFX">
+					<ShortName>cutscene_goblin_fort_gate_open.wav</ShortName>
+					<Path>SFX\cutscene_goblin_fort_gate_open_3314988A.wem</Path>
+				</File>
+				<File Id="508279520" Language="SFX">
+					<ShortName>cutscene_tsar_bomb_explosion.wav</ShortName>
+					<Path>SFX\cutscene_tsar_bomb_explosion_3314988A.wem</Path>
+				</File>
+				<File Id="599256237" Language="SFX">
+					<ShortName>cutscene_prologue_bird_steals_note.wav</ShortName>
+					<Path>SFX\cutscene_prologue_bird_steals_note_3314988A.wem</Path>
+				</File>
+				<File Id="686605211" Language="SFX">
+					<ShortName>cutscene_troll_burst_through_wall.wav</ShortName>
+					<Path>SFX\cutscene_troll_burst_through_wall_3314988A.wem</Path>
+				</File>
+				<File Id="727051739" Language="SFX">
+					<ShortName>cutscene_gorilla_tim_transform.wav</ShortName>
+					<Path>SFX\cutscene_gorilla_tim_transform_3314988A.wem</Path>
+				</File>
+				<File Id="976816401" Language="SFX">
+					<ShortName>popup_prologue_end.wav</ShortName>
+					<Path>SFX\popup_prologue_end_3314988A.wem</Path>
+				</File>
+				<File Id="1036960597" Language="SFX">
+					<ShortName>cutscene_gorilla_tim_end.wav</ShortName>
+					<Path>SFX\cutscene_gorilla_tim_end_F3B7F6D8.wem</Path>
+				</File>
+			</ExcludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

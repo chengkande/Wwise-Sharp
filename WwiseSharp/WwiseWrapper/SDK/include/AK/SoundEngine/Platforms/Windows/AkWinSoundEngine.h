@@ -24,26 +24,27 @@ enum AkSoundQuality
 };
 
 ///< API used for audio output
-///< Use with AkInitSettings to select the API used for audio output.  
+///< Use with AkPlatformInitSettings to select the API used for audio output.  
 ///< Use AkAPI_Default, it will select the more appropriate API depending on the computer's capabilities.  Other values should be used for testing purposes.
 ///< \sa AK::SoundEngine::Init
 enum AkAudioAPI
 {
-	AkAPI_XAudio2 = 1 << 0,								///< Use XAudio2
-	AkAPI_DirectSound = 1 << 1,							///< Use DirectSound
-	AkAPI_Wasapi = 1 << 2,								///< Use Wasapi (preferred API on Windows)
-	AkAPI_Default = AkAPI_Wasapi | AkAPI_XAudio2 | AkAPI_DirectSound,	///< Default value, will select the more appropriate API.	
-	AkAPI_Dummy = 1 << 3,								///< Dummy output, outputs nothing.
+	AkAPI_Wasapi = 1 << 0,								///< Use Wasapi 
+	AkAPI_XAudio2 = 1 << 1,								///< Use XAudio2 (this is the preferred API on Windows)
+	AkAPI_DirectSound = 1 << 2,							///< Use DirectSound
+	AkAPI_Default = AkAPI_Wasapi | AkAPI_XAudio2 | AkAPI_DirectSound,	///< Default value, will select the more appropriate API (XAudio2 is the default)	
 };
 
 ///< Used with \ref AK::SoundEngine::AddSecondaryOutput to specify the type of secondary output.
 enum AkAudioOutputType
 {
-	AkOutput_Dummy = 1 << 3,		///< Dummy output, simply eats the audio stream and outputs nothing.
-	AkOutput_MergeToMain = 1 << 4,	///< This output will mix back its content to the main output, after the master mix.
-	AkOutput_Main = 1 << 5,			///< Main output.  This cannot be used with AddSecondaryOutput, but can be used to query information about the main output (GetSpeakerConfiguration for example).	
-	AkOutput_Secondary = 1 << 6,	///< Adds an output linked to the hardware device specified  (See AddSecondaryOutput).  Supported ONLY with a WASAPI AkAudioAPI (see above).
-	AkOutput_NumOutputs = 1 << 7,	///< Do not use.
+	AkOutput_None = 0,		///< Used for uninitialized type, do not use.
+	AkOutput_Dummy,			///< Dummy output, simply eats the audio stream and outputs nothing.
+	AkOutput_MergeToMain,	///< This output will mix back its content to the main output, after the master mix.
+	AkOutput_Main,			///< Main output.  This cannot be used with AddSecondaryOutput, but can be used to query information about the main output (GetSpeakerConfiguration for example).	
+	AkOutput_Secondary,		///< Adds an output linked to the hardware device specified  (See AddSecondaryOutput).
+	AkOutput_NumBuiltInOutputs,		///< Do not use.
+	AkOutput_Plugin			///< Specify if using Audio Device Plugin Sink.
 };
 
 /// Platform specific initialization settings
@@ -74,14 +75,18 @@ struct AkPlatformInitSettings
 	// Voices.
 	AkUInt16            uNumRefillsInVoice;		///< Number of refill buffers in voice buffer. 2 == double-buffered, defaults to 4.
 	AkSoundQuality		eAudioQuality;			///< Quality of audio processing, default = AkSoundQuality_High.
-	
-	bool				bGlobalFocus;			///< Corresponding to DSBCAPS_GLOBALFOCUS. If using the DirectSound sink type, sounds will be muted if set to false when the game loses the focus.
-												///< This setting is ignored when using other sink types.
 
-	IXAudio2*			pXAudio2;				///< XAudio2 instance to use for the Wwise sound engine.  If NULL (default) Wwise will initialize its own instance.  Used only if the sink type is XAudio2 in AkInitSettings.eSinkType.
+	AkAudioAPI			eAudioAPI;				///< Main audio API to use. Leave to AkAPI_Default for the default sink (default value).
+												///< If a valid audioDeviceShareset plug-in is provided, the AkAudioAPI will be Ignored.
+												///< \ref AkAudioAPI
+	
+	bool				bGlobalFocus;			///< Corresponding to DSBCAPS_GLOBALFOCUS. If using the AkAPI_DirectSound AkAudioAPI type, sounds will be muted if set to false when the game loses the focus.
+												///< This setting is ignored when using other AkAudioAPI types.
+
+	IXAudio2*			pXAudio2;				///< XAudio2 instance to use for the Wwise sound engine.  If NULL (default) Wwise will initialize its own instance.  Used only if the sink type is XAudio2 in AkInitSettings.outputType.
 
 	AkUInt32			idAudioDevice;			///< Device ID to use for the main audio output, as returned from AK::GetDeviceID or AK::GetDeviceIDFromName.  
-												///< This is usable only when the AkInitSettings.eMainOutputType is set to AkAPI_Wasapi (or AkAPI_Default, which is using WASAPI).  												
+												 												
 };
 
 struct IDirectSound8;

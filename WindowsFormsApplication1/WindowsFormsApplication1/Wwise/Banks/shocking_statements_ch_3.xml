@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="548171032" Language="SFX">
+			<ShortName>shocking_statements_ch_3</ShortName>
+			<Path>shocking_statements_ch_3.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1738959358" Name="shocking_statements_ch_3_hit"/>
+				<Event Id="1700725548" Name="shocking_statements_ch_3_use"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="219744431" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl2_02.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl2_02_3314988A.wem</Path>
+				</File>
+				<File Id="262602260" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl3_01.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl3_01_3314988A.wem</Path>
+				</File>
+				<File Id="393465170" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl3_03.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl3_03_3314988A.wem</Path>
+				</File>
+				<File Id="435841909" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl2_03.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl2_03_3314988A.wem</Path>
+				</File>
+				<File Id="445786323" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl4_02.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl4_02_3314988A.wem</Path>
+				</File>
+				<File Id="491185600" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl1_01.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl1_01_3314988A.wem</Path>
+				</File>
+				<File Id="652160044" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl1_03.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl1_03_3314988A.wem</Path>
+				</File>
+				<File Id="923524752" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl2_01.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl2_01_3314988A.wem</Path>
+				</File>
+				<File Id="924513857" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl4_03.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl4_03_3314988A.wem</Path>
+				</File>
+				<File Id="968671513" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl1_02.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl1_02_3314988A.wem</Path>
+				</File>
+				<File Id="982468093" Language="SFX">
+					<ShortName>enemy_generic_hit_zap_02.wav</ShortName>
+					<Path>SFX\enemy_generic_hit_zap_02_21545B0F.wem</Path>
+				</File>
+				<File Id="1045530408" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl3_02.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl3_02_3314988A.wem</Path>
+				</File>
+				<File Id="1065204978" Language="SFX">
+					<ShortName>enemy_generic_hit_zap_01.wav</ShortName>
+					<Path>SFX\enemy_generic_hit_zap_01_21545B0F.wem</Path>
+				</File>
+				<File Id="1069562396" Language="SFX">
+					<ShortName>weapon_lightning_bolt_lvl4_01.wav</ShortName>
+					<Path>SFX\weapon_lightning_bolt_lvl4_01_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

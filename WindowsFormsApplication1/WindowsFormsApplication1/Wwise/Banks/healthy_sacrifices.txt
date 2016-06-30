@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	913057887	healthy_sacrifices_hit			\Default Work Unit\Weapons\healthy_sacrifices_hit	
+	1219836665	healthy_sacrifices_use			\Default Work Unit\Weapons\healthy_sacrifices_use	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	26218127	weapon_health_shotgun_fire_lvl1	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_health_shotgun_fire_lvl1_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\weapon_health_shotgun_fire_lvl1		26581
+	311545060	weapon_health_shotgun_hit_01	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_health_shotgun_hit_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\healthy_sacrifices_hit\weapon_health_shotgun_hit_01		57334
+	428805756	weapon_health_shotgun_hit_02	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_health_shotgun_hit_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\healthy_sacrifices_hit\weapon_health_shotgun_hit_02		53204
+	817865719	weapon_health_shotgun_hit_03	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\weapon_health_shotgun_hit_03_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\healthy_sacrifices_hit\weapon_health_shotgun_hit_03		57450
+
