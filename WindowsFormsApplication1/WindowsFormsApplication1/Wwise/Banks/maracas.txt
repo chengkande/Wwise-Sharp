@@ -1,7 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	473674605	maracas_attack_stop			\Default Work Unit\Enemies\maracas_attack_stop	
-	4051637358	maracas_attack			\Default Work Unit\Enemies\maracas_attack	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	551585148	enemy_maracas_attack	C:\Users\Miles\Documents\WwiseProjects\SuperDarylDeluxe\.cache\Windows\SFX\enemy_maracas_attack_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Maracas\enemy_maracas_attack		40802
-

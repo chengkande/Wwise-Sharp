@@ -21,6 +21,9 @@ namespace WwiseSharp
 		float Xposition, Yposition, Zposition;
 		float XorientationFront, YorientationFront, ZorientationFront;
 		float XorientationTop, YorientationTop, ZorientationTop;
+
+		WwiseSharpTransform(float x, float y, float z);
+		WwiseSharpTransform(float x, float y, float z, float xF, float yF, float zF, float xT, float yT, float zT);
 	};
 }
 

@@ -116,10 +116,7 @@ void WwiseSharpGameObject::SetSinglePosition(WwiseSharpTransform^ position)
 	akVectorPosition.Y = position->Yposition;
 	akVectorPosition.Z = position->Zposition;
 	
-	AkVector akVectorOrientation;
-	akVectorOrientation.X = position->XorientationFront;
-	akVectorOrientation.Y = position->YorientationFront;
-	akVectorOrientation.Z = position->ZorientationFront;
+	AkVector akVectorOrientation = { 0.0, 1.0, 0.0 };
 
 	AkVector top = {0.0, 1.0, 0.0};
 
@@ -132,19 +129,15 @@ void WwiseSharpGameObject::SetSinglePosition(WwiseSharpTransform^ position)
 void WwiseSharpGameObject::SetMultiplePositions(array<WwiseSharpTransform^>^ positions, unsigned short numPositions)
 {
 	AkTransform* akSoundPositions = new AkTransform[numPositions];
+	//Fucking ignore orientation completely and normalize it so the profiler shuts up
+	AkVector akVectorOrientation = { 0.0, 1.0, 0.0 };
+	AkVector top = { 0.0, 1.0, 0.0 };
 	for (unsigned short x = 0; x < numPositions; x++)
 	{
 		AkVector akVectorPosition;
 		akVectorPosition.X = positions[x]->Xposition;
 		akVectorPosition.Y = positions[x]->Yposition;
 		akVectorPosition.Z = positions[x]->Zposition;
-
-		AkVector akVectorOrientation;
-		akVectorOrientation.X = positions[x]->XorientationFront;
-		akVectorOrientation.Y = positions[x]->YorientationFront;
-		akVectorOrientation.Z = positions[x]->ZorientationFront;
-
-		AkVector top = { 0.0, 1.0, 0.0 };
 
 		akSoundPositions[x].SetPosition(akVectorPosition);
 		akSoundPositions[x].SetOrientation(akVectorOrientation, top);

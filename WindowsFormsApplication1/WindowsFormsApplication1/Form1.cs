@@ -29,6 +29,7 @@ namespace WindowsFormsApplication1
         string path = AppDomain.CurrentDomain.BaseDirectory;
         float targetVolume = 100f;
         float currentVolume = 100f;
+        string currentTrack;
         public Form1()
         {
             InitializeComponent();
@@ -41,8 +42,8 @@ namespace WindowsFormsApplication1
             Wwise.LoadBank("global.bnk");
             Wwise.LoadBank("ambience.bnk");
             Wwise.LoadBank("music.bnk");
-            Wwise.LoadBank("fowl_mouth.bnk");
-            Wwise.LoadBank("captain_sax.bnk");
+            //Wwise.LoadBank("fowl_mouth.bnk");
+            //Wwise.LoadBank("captain_sax.bnk");
            
             WwiseObject = Wwise.RegisterGameObject(globalObjectID, "global");
             WwiseObject2 = Wwise.RegisterGameObject((uint)1, "local");
@@ -237,27 +238,7 @@ namespace WindowsFormsApplication1
 
         }
 
-        //play music
-        private void button12_Click(object sender, EventArgs e)
-        {
-            isCallbackEnabled = true;
-            WwiseObject.PostMusicSyncEvent_Bar("furryfuneral_play");
-            musicPlayingID = WwiseObject.syncPlayingID;
-        }
-        //play mx 2
-        private void button13_Click(object sender, EventArgs e)
-        {
-            isCallbackEnabled = true;
-            WwiseObject.PostMusicSyncEvent_Bar("doingsciencehigh_play");
-            musicPlayingID = WwiseObject.syncPlayingID;
-        }
-        // mx3
-        private void button22_Click(object sender, EventArgs e)
-        {
-            isCallbackEnabled = true;
-            WwiseObject.PostMusicSyncEvent_Bar("bloodonthecourt_play");
-            musicPlayingID = WwiseObject.syncPlayingID;
-        }
+        
         //start midi  -- this currently breaks if being posted during music pre-entry also you need to post a musicsync event or you'll get a dividebyzero
         private void button14_Click(object sender, EventArgs e)
         {
@@ -281,7 +262,7 @@ namespace WindowsFormsApplication1
         //stop music
         private void button15_Click(object sender, EventArgs e)
         {
-            WwiseObject.PostEvent("stop_music");
+            WwiseObject.PostEvent(currentTrack+"_stop");
             isCallbackEnabled = false;
         }
         //stop midi
@@ -323,10 +304,35 @@ namespace WindowsFormsApplication1
             Console.WriteLine("Prepared " + msg);
             
         }
+        //play music
+        private void button12_Click(object sender, EventArgs e)
+        {
+            isCallbackEnabled = true;
+            WwiseObject.PostMusicSyncEvent_Bar("furryfuneral_play");
+            currentTrack = "furryfuneral";
+            musicPlayingID = WwiseObject.syncPlayingID;
+        }
+        //play mx 2
+        private void button13_Click(object sender, EventArgs e)
+        {
+            isCallbackEnabled = true;
+            WwiseObject.PostMusicSyncEvent_Bar("doingsciencehigh_play");
+            currentTrack = "doingsciencehigh";
+            musicPlayingID = WwiseObject.syncPlayingID;
+        }
+        // mx3
+        private void button22_Click(object sender, EventArgs e)
+        {
+            isCallbackEnabled = true;
+            WwiseObject.PostMusicSyncEvent_Bar("bloodonthecourt_play");
+            currentTrack = "bloodonthecourt";
+            musicPlayingID = WwiseObject.syncPlayingID;
+        }
         //mx2
         private void button23_Click(object sender, EventArgs e)
         {
             WwiseObject.PostEvent("doingsciencelow_play");
+            currentTrack = "doingsciencelow";
             
         }
         //mx3
@@ -334,23 +340,24 @@ namespace WindowsFormsApplication1
         {
             targetVolume = 50f;
             WwiseObject.PostEvent("doingsciencemed_play");
-            WwiseObject.PostEvent("doingsciencelow_stop");
+            WwiseObject.PostEvent(currentTrack+"_stop");
+            currentTrack = "doingsciencemed";
             
         }
         //stop
         private void button25_Click(object sender, EventArgs e)
         {
-            WwiseObject.PostEvent("Stop_Music");
+            WwiseObject.PostEvent(currentTrack+"_stop");
         }
         //pause
         private void button26_Click(object sender, EventArgs e)
         {
-            WwiseObject.PostEvent("Pause_Music");
+            WwiseObject.PostEvent(currentTrack+"_pause");
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            WwiseObject.PostEvent("Resume_Music");
+            WwiseObject.PostEvent(currentTrack+"_resume");
         }
         //load more banks
         private void button28_Click(object sender, EventArgs e)
