@@ -1,8 +1,4 @@
 ﻿  WwiseSharpEngine.cpp
-  WwiseSharpGameObject.cpp
-  WwiseSharpMusicInfo.cpp
-  WwiseSharpTransform.cpp
-  Generating Code...
      Creating library C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\WwiseSharp.lib and object C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WwiseSharp\Release\WwiseSharp.exp
   Generating code
   Finished generating code

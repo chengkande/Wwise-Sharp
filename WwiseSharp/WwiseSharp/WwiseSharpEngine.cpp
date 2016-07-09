@@ -109,8 +109,8 @@ void WwiseSharpEngine::UnloadPreparedEvents(array<System::String^>^ eventNames, 
 		
 	}
 	pin_ptr<LPCWSTR> pp = &eventArray[0];
+	akengine->UnloadPreparedEvent(pp, numEvents);
 	delete eventArray;
-	akengine->UnloadPreparedEvent(eventArray, numEvents);
 }
 void WwiseSharpEngine::ClearPreparedEvents()
 {
