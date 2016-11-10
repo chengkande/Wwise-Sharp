@@ -40,7 +40,8 @@ namespace WindowsFormsApplication1
             //Wwise.InitReverb();
             Wwise.LoadBank("Init.bnk");
             Wwise.LoadBank("global.bnk");
-            Wwise.LoadBank("ambience.bnk");
+            Wwise.SetLanguage("English(US)");
+            //Wwise.LoadBank("ambience.bnk");
             Wwise.LoadBank("music.bnk");
             //Wwise.LoadBank("fowl_mouth.bnk");
             //Wwise.LoadBank("captain_sax.bnk");
@@ -50,16 +51,7 @@ namespace WindowsFormsApplication1
             WwiseObject.PostEvent("Enable_Reverb");
 
             //set Listener back 50 so we can hear the left/right
-            WwiseSharpTransform listenerPos = new WwiseSharpTransform();
-            listenerPos.Xposition = 0;
-            listenerPos.Yposition = 0;
-            listenerPos.Zposition = -50;
-            listenerPos.XorientationFront = 0;
-            listenerPos.YorientationFront = 0;
-            listenerPos.ZorientationFront = 1;
-            listenerPos.XorientationTop = 0;
-            listenerPos.YorientationTop = 1;
-            listenerPos.ZorientationTop = 0;
+            WwiseSharpTransform listenerPos = new WwiseSharpTransform(0,0,-50,0,0,1,0,1,0);
 
             Wwise.SetListenerPosition(listenerPos);
             stopwatch.Restart();
@@ -131,12 +123,12 @@ namespace WindowsFormsApplication1
         
         private void button1_Click(object sender, EventArgs e)
         {
-            WwiseObject.PostEvent("ambience_furnace_play");
+            WwiseObject.PostEvent("noir_intro_play"); 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            WwiseObject.PostEvent("ambience_furnace_stop");
+            WwiseObject.PostEvent("noir_intro_fadeout_stop");
         }
         
         private void button3_Click(object sender, EventArgs e)
@@ -154,19 +146,19 @@ namespace WindowsFormsApplication1
         private void button5_Click(object sender, EventArgs e)
         {
             //play footstep on local object
-            WwiseObject2.PostEvent("movement_footstep");
+            WwiseObject.PostEvent("movement_footstep");
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //set switch to dirt
-            WwiseObject2.SetSwitch("Surface_Types", "Dirt");
+            //set switch to lvl1
+            WwiseObject.SetSwitch("Surface_Types", "Dirt");
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             //set switch to tile
-            WwiseObject2.SetSwitch("Surface_Types", "Room");
+            WwiseObject.SetSwitch("Surface_Types", "Room");
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -179,10 +171,8 @@ namespace WindowsFormsApplication1
         {
             //change to - play music sync event
             
-            WwiseSharpTransform objPos = new WwiseSharpTransform();
-            objPos.Xposition = -10;
-            objPos.Yposition = 0;
-            objPos.Zposition = 0;
+            WwiseSharpTransform objPos = new WwiseSharpTransform(-10,0,0,0,0,1,0,1,0);
+
             WwiseObject2.SetSinglePosition(objPos);
             
 
@@ -193,10 +183,8 @@ namespace WindowsFormsApplication1
         {
             //change to updateRTPC for tempo
             
-            WwiseSharpTransform objPos = new WwiseSharpTransform();
-            objPos.Xposition = 0;
-            objPos.Yposition = 0;
-            objPos.Zposition = 0;
+            WwiseSharpTransform objPos = new WwiseSharpTransform(0,0,0,0,0,1,0,1,0);
+
             WwiseObject2.SetSinglePosition(objPos);
             
             //WwiseObject2.PostEvent("set_tempo_180");
@@ -206,10 +194,8 @@ namespace WindowsFormsApplication1
         {
             //change to Update Game Parameter event
             
-            WwiseSharpTransform objPos = new WwiseSharpTransform();
-            objPos.Xposition = 10;
-            objPos.Yposition = 0;
-            objPos.Zposition = 0;
+            WwiseSharpTransform objPos = new WwiseSharpTransform(10,0,0,0,0,1,0,1,0);
+
             WwiseObject2.SetSinglePosition(objPos);
             
             //Wwise.SetGlobalRTPCValue("Captain_Sax_Tempo", 64f);
@@ -286,47 +272,54 @@ namespace WindowsFormsApplication1
         //LoadBanks
         private void button19_Click(object sender, EventArgs e)
         {
-            Wwise.PrepareBank("objects.bnk");
+            Wwise.LoadBank("paul.bnk");
         }
 
         //test banks
         private void button20_Click(object sender, EventArgs e)
         {
 
-            WwiseObject2.PostEvent("object_goblin_hut_destroy");
+            WwiseObject2.PostEvent("paul_greet");
         }
 
         //prepare Events
         private void button21_Click(object sender, EventArgs e)
         {
-            String msg;
-            msg = Wwise.LoadEvents(new String[3] { "object_goblin_hut_fire_loop_start", "object_goblin_hut_fire_loop_stop", "object_goblin_hut_destroy" }, 3);
-            Console.WriteLine("Prepared " + msg);
+            Wwise.SetState("Main_Quest_Progress", "Dandelions");
             
         }
         //play music
         private void button12_Click(object sender, EventArgs e)
         {
+            /*
             isCallbackEnabled = true;
             WwiseObject.PostMusicSyncEvent_Bar("furryfuneral_play");
             currentTrack = "furryfuneral";
             musicPlayingID = WwiseObject.syncPlayingID;
+            */
+            Wwise.SetState("Noir_Intro_Music", "layer_4");
         }
         //play mx 2
         private void button13_Click(object sender, EventArgs e)
         {
+            /*
             isCallbackEnabled = true;
             WwiseObject.PostMusicSyncEvent_Bar("doingsciencehigh_play");
             currentTrack = "doingsciencehigh";
             musicPlayingID = WwiseObject.syncPlayingID;
+            */
+            Wwise.SetState("Noir_Intro_Music", "layer_2");
         }
         // mx3
         private void button22_Click(object sender, EventArgs e)
         {
+            /*
             isCallbackEnabled = true;
             WwiseObject.PostMusicSyncEvent_Bar("bloodonthecourt_play");
             currentTrack = "bloodonthecourt";
             musicPlayingID = WwiseObject.syncPlayingID;
+            */
+            Wwise.SetState("Noir_Intro_Music", "layer_3");
         }
         //mx2
         private void button23_Click(object sender, EventArgs e)
@@ -362,10 +355,7 @@ namespace WindowsFormsApplication1
         //load more banks
         private void button28_Click(object sender, EventArgs e)
         {
-            Wwise.LoadBank("d_and_d.bnk");
-            Wwise.LoadBank("cutting_corners.bnk");
-            Wwise.LoadBank("goblin_fort.bnk");
-            Wwise.LoadBank("science.bnk");
+            Wwise.SetState("Main_Quest_Progress", "Science");
         }
     }
 }

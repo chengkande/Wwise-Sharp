@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1765062915" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Skills\crushing_realization</ObjectPath>
+			<ShortName>crushing_realization</ShortName>
+			<Path>crushing_realization.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2333856081" Name="crushing_realization_hit" ObjectPath="\Events\Default Work Unit\Weapons\crushing_realization_hit"/>
+				<Event Id="2431417351" Name="crushing_realization_use" ObjectPath="\Events\Default Work Unit\Weapons\crushing_realization_use"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="6994592" Language="SFX">
+					<ShortName>weapon_hammer_lvl4.wav</ShortName>
+					<Path>SFX\weapon_hammer_lvl4_3314988A.wem</Path>
+				</File>
+				<File Id="31350246" Language="SFX">
+					<ShortName>debate_dissimilarities_hit_heavy_03.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_hit_heavy_03_21545B0F.wem</Path>
+				</File>
+				<File Id="76217888" Language="SFX">
+					<ShortName>weapon_hammer_lvl1.wav</ShortName>
+					<Path>SFX\weapon_hammer_lvl1_3314988A.wem</Path>
+				</File>
+				<File Id="119548872" Language="SFX">
+					<ShortName>weapon_hammer_lvl3.wav</ShortName>
+					<Path>SFX\weapon_hammer_lvl3_3314988A.wem</Path>
+				</File>
+				<File Id="471103181" Language="SFX">
+					<ShortName>debate_dissimilarities_hit_heavy_02.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_hit_heavy_02_21545B0F.wem</Path>
+				</File>
+				<File Id="616076469" Language="SFX">
+					<ShortName>weapon_hammer_lvl2.wav</ShortName>
+					<Path>SFX\weapon_hammer_lvl2_3314988A.wem</Path>
+				</File>
+				<File Id="976949538" Language="SFX">
+					<ShortName>debate_dissimilarities_hit_heavy_01.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_hit_heavy_01_21545B0F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3315706025	cymbal_attack_stop			\Default Work Unit\Enemies\cymbal_attack_stop	
+	3525175130	cymbal_attack			\Default Work Unit\Enemies\cymbal_attack	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	502517257	enemy_cymbal_attack_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_cymbal_attack_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Cymbal\enemy_cymbal_attack\enemy_cymbal_attack_02		45101
+	1003299209	enemy_cymbal_attack_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_cymbal_attack_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Cymbal\enemy_cymbal_attack\enemy_cymbal_attack_01		44481
+

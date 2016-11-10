@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1153978322	object_portal_loop			\Default Work Unit\Object\object_portal_loop	
+	1726241635	object_portal_pulse			\Default Work Unit\Object\object_portal_pulse	
+	2146372163	object_barrel_science_destroy			\Default Work Unit\Object\object_barrel_science_destroy	
+	2848384629	object_giant_flask_trap_start			\Default Work Unit\Object\object_giant_flask_trap_start	
+	3389587138	object_barrel_science_hit			\Default Work Unit\Object\object_barrel_science_hit	
+	3733473207	object_giant_flask_trap_destroy			\Default Work Unit\Object\object_giant_flask_trap_destroy	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	99929452	object_portal_loop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_portal_loop_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_portal_loop		439096
+	126037475	object_giant_flask_trap_destroy	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_giant_flask_trap_destroy_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_giant_flask_trap_destroy		41197
+	229887647	object_barrel_science_destroy_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_barrel_science_destroy_01_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_barrel_science_destroy\object_barrel_science_destroy_01		37445
+	349496360	object_barrel_science_destroy_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_barrel_science_destroy_02_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_barrel_science_destroy\object_barrel_science_destroy_02		34251
+	390921670	object_portal_pulse	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_portal_pulse_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_portal_pulse		34760
+	509838067	object_giant_flask_trap_start	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_giant_flask_trap_start_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_giant_flask_trap_start		58772
+	826928056	object_barrel_science_destroy_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_barrel_science_destroy_03_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_barrel_science_destroy\object_barrel_science_destroy_03		31547
+	938093457	object_barrel_science_hit_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_barrel_science_hit_02_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_barrel_science_hit\object_barrel_science_hit_02		22811
+	982785639	object_barrel_science_hit_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_barrel_science_hit_03_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_barrel_science_hit\object_barrel_science_hit_03		21979
+	1034723544	object_barrel_science_hit_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_barrel_science_hit_01_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_barrel_science_hit\object_barrel_science_hit_01		22462
+

@@ -1,0 +1,32 @@
+Event	ID	Name			Wwise Object Path	Notes
+	183016597	ui_locker_take_item_weapon			\Default Work Unit\UI\locker\ui_locker_take_item_weapon	
+	859517650	ui_locker_take_item_key			\Default Work Unit\UI\locker\ui_locker_take_item_key	
+	1077031150	ui_locker_take_item_book			\Default Work Unit\UI\locker\ui_locker_take_item_book	
+	1215807311	ui_locker_other_menu_appear			\Default Work Unit\UI\locker\ui_locker_other_menu_appear	
+	2042768677	ui_locker_spin_loop_stop			\Default Work Unit\UI\locker\ui_locker_spin_loop_stop	
+	2338207767	ui_locker_take_item_money			\Default Work Unit\UI\locker\ui_locker_take_item_money	
+	2539516596	ui_locker_other_menu_open			\Default Work Unit\UI\locker\ui_locker_other_menu_open	
+	2599882645	ui_locker_unlock			\Default Work Unit\UI\locker\ui_locker_unlock	
+	2884360226	ui_locker_dial_click			\Default Work Unit\UI\locker\ui_locker_dial_click	
+	2943645353	ui_locker_take_item_paper			\Default Work Unit\UI\locker\ui_locker_take_item_paper	
+	3685850719	ui_locker_spin_loop_start			\Default Work Unit\UI\locker\ui_locker_spin_loop_start	
+	4130034672	ui_locker_take_item_outfit			\Default Work Unit\UI\locker\ui_locker_take_item_outfit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	114018587	ui_locker_other_menu_appear	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_other_menu_appear_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\student locker\ui_locker_other_menu_appear		14831
+	173638219	ui_locker_take_item_outfit	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_take_item_outfit_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\student locker\ui_locker_take_item_outfit		12435
+	226256967	ui_locker_dial_click_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_dial_click_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Skill Locker\ui_locker_dial_click\ui_locker_dial_click_01		2641
+	258658297	ui_locker_dial_click_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_dial_click_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Skill Locker\ui_locker_dial_click\ui_locker_dial_click_02		2737
+	286713476	ui_locker_take_item_key	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_take_item_key_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\student locker\ui_locker_take_item_key		7378
+	411418771	ui_locker_spin_loop_end	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_spin_loop_end_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\student locker\ui_locker_spin_loop_end		16513
+	504277338	ui_locker_spin_loop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_spin_loop_8D34B564.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\student locker\ui_locker_spin_loop		155409
+	543697804	ui_locker_dial_click_04	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_dial_click_04_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Skill Locker\ui_locker_dial_click\ui_locker_dial_click_04		3018
+	704667171	ui_locker_take_item_paper	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_take_item_paper_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\student locker\ui_locker_take_item_paper		12858
+	727125424	ui_locker_take_item_book	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_take_item_book_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\student locker\ui_locker_take_item_book		8897
+	922755698	ui_locker_dial_click_05	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_dial_click_05_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Skill Locker\ui_locker_dial_click\ui_locker_dial_click_05		2934
+	941087991	ui_locker_take_item_money	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_take_item_money_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\student locker\ui_locker_take_item_money		13374
+	942737511	ui_locker_unlock	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_unlock_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\student locker\ui_locker_unlock		111782
+	1035943550	ui_locker_other_menu_open	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_other_menu_open_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\student locker\ui_locker_other_menu_open		89561
+	1060458788	ui_locker_take_item_weapon	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_take_item_weapon_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\student locker\ui_locker_take_item_weapon		12181
+	1068879644	ui_locker_dial_click_06	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ui_locker_dial_click_06_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Skill Locker\ui_locker_dial_click\ui_locker_dial_click_06		2975
+

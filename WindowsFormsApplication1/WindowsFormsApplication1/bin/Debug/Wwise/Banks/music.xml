@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\music</ObjectPath>
+			<ShortName>music</ShortName>
+			<Path>music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="380142695" Name="bloodonthecourt_fadein_play" ObjectPath="\Events\Default Work Unit\Music\bloodonthecourt_fadein_play"/>
+				<Event Id="398982244" Name="bloodonthecourt_fadein_resume" ObjectPath="\Events\Default Work Unit\Music\bloodonthecourt_fadein_resume"/>
+				<Event Id="808917938" Name="bloodonthecourt_fadeout_pause" ObjectPath="\Events\Default Work Unit\Music\bloodonthecourt_fadeout_pause"/>
+				<Event Id="2057863708" Name="bloodonthecourt_fadeout_stop" ObjectPath="\Events\Default Work Unit\Music\bloodonthecourt_fadeout_stop"/>
+				<Event Id="2872040309" Name="bloodonthecourt_pause" ObjectPath="\Events\Default Work Unit\Music\bloodonthecourt_pause"/>
+				<Event Id="969914383" Name="bloodonthecourt_play" ObjectPath="\Events\Default Work Unit\Music\bloodonthecourt_play"/>
+				<Event Id="3184768924" Name="bloodonthecourt_resume" ObjectPath="\Events\Default Work Unit\Music\bloodonthecourt_resume"/>
+				<Event Id="3729018637" Name="bloodonthecourt_stop" ObjectPath="\Events\Default Work Unit\Music\bloodonthecourt_stop"/>
+				<Event Id="1750517825" Name="doingsciencehigh_fadein_play" ObjectPath="\Events\Default Work Unit\Music\doingsciencehigh_fadein_play"/>
+				<Event Id="1662576158" Name="doingsciencehigh_fadein_resume" ObjectPath="\Events\Default Work Unit\Music\doingsciencehigh_fadein_resume"/>
+				<Event Id="2742137280" Name="doingsciencehigh_fadeout_pause" ObjectPath="\Events\Default Work Unit\Music\doingsciencehigh_fadeout_pause"/>
+				<Event Id="806813322" Name="doingsciencehigh_fadeout_stop" ObjectPath="\Events\Default Work Unit\Music\doingsciencehigh_fadeout_stop"/>
+				<Event Id="621271111" Name="doingsciencehigh_pause" ObjectPath="\Events\Default Work Unit\Music\doingsciencehigh_pause"/>
+				<Event Id="1206762761" Name="doingsciencehigh_play" ObjectPath="\Events\Default Work Unit\Music\doingsciencehigh_play"/>
+				<Event Id="86552342" Name="doingsciencehigh_resume" ObjectPath="\Events\Default Work Unit\Music\doingsciencehigh_resume"/>
+				<Event Id="2729179695" Name="doingsciencehigh_stop" ObjectPath="\Events\Default Work Unit\Music\doingsciencehigh_stop"/>
+				<Event Id="1782373531" Name="doingsciencelow_fadein_play" ObjectPath="\Events\Default Work Unit\Music\doingsciencelow_fadein_play"/>
+				<Event Id="618144784" Name="doingsciencelow_fadein_resume" ObjectPath="\Events\Default Work Unit\Music\doingsciencelow_fadein_resume"/>
+				<Event Id="35029726" Name="doingsciencelow_fadeout_pause" ObjectPath="\Events\Default Work Unit\Music\doingsciencelow_fadeout_pause"/>
+				<Event Id="3978239424" Name="doingsciencelow_fadeout_stop" ObjectPath="\Events\Default Work Unit\Music\doingsciencelow_fadeout_stop"/>
+				<Event Id="2646408857" Name="doingsciencelow_pause" ObjectPath="\Events\Default Work Unit\Music\doingsciencelow_pause"/>
+				<Event Id="984676339" Name="doingsciencelow_play" ObjectPath="\Events\Default Work Unit\Music\doingsciencelow_play"/>
+				<Event Id="4024689368" Name="doingsciencelow_resume" ObjectPath="\Events\Default Work Unit\Music\doingsciencelow_resume"/>
+				<Event Id="114798297" Name="doingsciencelow_stop" ObjectPath="\Events\Default Work Unit\Music\doingsciencelow_stop"/>
+				<Event Id="2940980191" Name="doingsciencemed_fadein_play" ObjectPath="\Events\Default Work Unit\Music\doingsciencemed_fadein_play"/>
+				<Event Id="3313743884" Name="doingsciencemed_fadein_resume" ObjectPath="\Events\Default Work Unit\Music\doingsciencemed_fadein_resume"/>
+				<Event Id="1951329050" Name="doingsciencemed_fadeout_pause" ObjectPath="\Events\Default Work Unit\Music\doingsciencemed_fadeout_pause"/>
+				<Event Id="2356620548" Name="doingsciencemed_fadeout_stop" ObjectPath="\Events\Default Work Unit\Music\doingsciencemed_fadeout_stop"/>
+				<Event Id="4209200893" Name="doingsciencemed_pause" ObjectPath="\Events\Default Work Unit\Music\doingsciencemed_pause"/>
+				<Event Id="2502694471" Name="doingsciencemed_play" ObjectPath="\Events\Default Work Unit\Music\doingsciencemed_play"/>
+				<Event Id="3540303684" Name="doingsciencemed_resume" ObjectPath="\Events\Default Work Unit\Music\doingsciencemed_resume"/>
+				<Event Id="1196359573" Name="doingsciencemed_stop" ObjectPath="\Events\Default Work Unit\Music\doingsciencemed_stop"/>
+				<Event Id="807541281" Name="egyptianbattle_fadein_play" ObjectPath="\Events\Default Work Unit\Music\egyptianbattle_fadein_play"/>
+				<Event Id="3345976062" Name="egyptianbattle_fadein_resume" ObjectPath="\Events\Default Work Unit\Music\egyptianbattle_fadein_resume"/>
+				<Event Id="1929272864" Name="egyptianbattle_fadeout_pause" ObjectPath="\Events\Default Work Unit\Music\egyptianbattle_fadeout_pause"/>
+				<Event Id="2267154538" Name="egyptianbattle_fadeout_stop" ObjectPath="\Events\Default Work Unit\Music\egyptianbattle_fadeout_stop"/>
+				<Event Id="3225010407" Name="egyptianbattle_pause" ObjectPath="\Events\Default Work Unit\Music\egyptianbattle_pause"/>
+				<Event Id="4217302825" Name="egyptianbattle_play" ObjectPath="\Events\Default Work Unit\Music\egyptianbattle_play"/>
+				<Event Id="235313206" Name="egyptianbattle_resume" ObjectPath="\Events\Default Work Unit\Music\egyptianbattle_resume"/>
+				<Event Id="1444752463" Name="egyptianbattle_stop" ObjectPath="\Events\Default Work Unit\Music\egyptianbattle_stop"/>
+				<Event Id="1473451709" Name="furryfuneral_fadein_play" ObjectPath="\Events\Default Work Unit\Music\furryfuneral_fadein_play"/>
+				<Event Id="3599658786" Name="furryfuneral_fadein_resume" ObjectPath="\Events\Default Work Unit\Music\furryfuneral_fadein_resume"/>
+				<Event Id="4179502820" Name="furryfuneral_fadeout_pause" ObjectPath="\Events\Default Work Unit\Music\furryfuneral_fadeout_pause"/>
+				<Event Id="2153763894" Name="furryfuneral_fadeout_stop" ObjectPath="\Events\Default Work Unit\Music\furryfuneral_fadeout_stop"/>
+				<Event Id="3293871507" Name="furryfuneral_pause" ObjectPath="\Events\Default Work Unit\Music\furryfuneral_pause"/>
+				<Event Id="8314821" Name="furryfuneral_play" ObjectPath="\Events\Default Work Unit\Music\furryfuneral_play"/>
+				<Event Id="145040986" Name="furryfuneral_resume" ObjectPath="\Events\Default Work Unit\Music\furryfuneral_resume"/>
+				<Event Id="1432967747" Name="furryfuneral_stop" ObjectPath="\Events\Default Work Unit\Music\furryfuneral_stop"/>
+				<Event Id="3712197696" Name="music_bathroom_enter" ObjectPath="\Events\Default Work Unit\Music\music_bathroom_enter"/>
+				<Event Id="1327709098" Name="music_bathroom_exit" ObjectPath="\Events\Default Work Unit\Music\music_bathroom_exit"/>
+				<Event Id="2418292175" Name="noir_intro_fadein_play" ObjectPath="\Events\Default Work Unit\Music\noir_intro_fadein_play"/>
+				<Event Id="1668127068" Name="noir_intro_fadein_resume" ObjectPath="\Events\Default Work Unit\Music\noir_intro_fadein_resume"/>
+				<Event Id="1159292458" Name="noir_intro_fadeout_pause" ObjectPath="\Events\Default Work Unit\Music\noir_intro_fadeout_pause"/>
+				<Event Id="2260720756" Name="noir_intro_fadeout_stop" ObjectPath="\Events\Default Work Unit\Music\noir_intro_fadeout_stop"/>
+				<Event Id="1544409901" Name="noir_intro_pause" ObjectPath="\Events\Default Work Unit\Music\noir_intro_pause"/>
+				<Event Id="543879799" Name="noir_intro_play" ObjectPath="\Events\Default Work Unit\Music\noir_intro_play"/>
+				<Event Id="205479316" Name="noir_intro_resume" ObjectPath="\Events\Default Work Unit\Music\noir_intro_resume"/>
+				<Event Id="3527289253" Name="noir_intro_stop" ObjectPath="\Events\Default Work Unit\Music\noir_intro_stop"/>
+				<Event Id="2170785322" Name="noir_showdown_music_fadein_play" ObjectPath="\Events\Default Work Unit\Music\noir_showdown_music_fadein_play"/>
+				<Event Id="3853549917" Name="noir_showdown_music_fadein_resume" ObjectPath="\Events\Default Work Unit\Music\noir_showdown_music_fadein_resume"/>
+				<Event Id="3886666647" Name="noir_showdown_music_fadeout_pause" ObjectPath="\Events\Default Work Unit\Music\noir_showdown_music_fadeout_pause"/>
+				<Event Id="646814367" Name="noir_showdown_music_fadeout_stop" ObjectPath="\Events\Default Work Unit\Music\noir_showdown_music_fadeout_stop"/>
+				<Event Id="401701330" Name="noir_showdown_music_fight_end" ObjectPath="\Events\Default Work Unit\Music\noir_showdown_music_fight_end"/>
+				<Event Id="1894742996" Name="noir_showdown_music_pause" ObjectPath="\Events\Default Work Unit\Music\noir_showdown_music_pause"/>
+				<Event Id="2044081990" Name="noir_showdown_music_start" ObjectPath="\Events\Default Work Unit\Music\noir_showdown_music_start"/>
+				<Event Id="2647958278" Name="noir_showdown_music_stop" ObjectPath="\Events\Default Work Unit\Music\noir_showdown_music_stop"/>
+				<Event Id="2606005470" Name="noirhalls_fadein_play" ObjectPath="\Events\Default Work Unit\Music\noirhalls_fadein_play"/>
+				<Event Id="1720337209" Name="noirhalls_fadein_resume" ObjectPath="\Events\Default Work Unit\Music\noirhalls_fadein_resume"/>
+				<Event Id="1425948515" Name="noirhalls_fadeout_pause" ObjectPath="\Events\Default Work Unit\Music\noirhalls_fadeout_pause"/>
+				<Event Id="386754483" Name="noirhalls_fadeout_stop" ObjectPath="\Events\Default Work Unit\Music\noirhalls_fadeout_stop"/>
+				<Event Id="814696792" Name="noirhalls_pause" ObjectPath="\Events\Default Work Unit\Music\noirhalls_pause"/>
+				<Event Id="2824119808" Name="noirhalls_play" ObjectPath="\Events\Default Work Unit\Music\noirhalls_play"/>
+				<Event Id="1437883475" Name="noirhalls_resume" ObjectPath="\Events\Default Work Unit\Music\noirhalls_resume"/>
+				<Event Id="1167378818" Name="noirhalls_stop" ObjectPath="\Events\Default Work Unit\Music\noirhalls_stop"/>
+				<Event Id="2974563222" Name="paulandalantheme_fadein_play" ObjectPath="\Events\Default Work Unit\Music\paulandalantheme_fadein_play"/>
+				<Event Id="2509581569" Name="paulandalantheme_fadein_resume" ObjectPath="\Events\Default Work Unit\Music\paulandalantheme_fadein_resume"/>
+				<Event Id="887304587" Name="paulandalantheme_fadeout_pause" ObjectPath="\Events\Default Work Unit\Music\paulandalantheme_fadeout_pause"/>
+				<Event Id="1955725659" Name="paulandalantheme_fadeout_stop" ObjectPath="\Events\Default Work Unit\Music\paulandalantheme_fadeout_stop"/>
+				<Event Id="2683533760" Name="paulandalantheme_pause" ObjectPath="\Events\Default Work Unit\Music\paulandalantheme_pause"/>
+				<Event Id="3730991672" Name="paulandalantheme_play" ObjectPath="\Events\Default Work Unit\Music\paulandalantheme_play"/>
+				<Event Id="258975131" Name="paulandalantheme_resume" ObjectPath="\Events\Default Work Unit\Music\paulandalantheme_resume"/>
+				<Event Id="1808471690" Name="paulandalantheme_stop" ObjectPath="\Events\Default Work Unit\Music\paulandalantheme_stop"/>
+				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Music\Stop_Music"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="47311800" Language="SFX">
+					<ShortName>DoingScienceLow.wav</ShortName>
+					<Path>SFX\DoingScienceLow_66878FFD.wem</Path>
+				</File>
+				<File Id="76870485" Language="SFX">
+					<ShortName>DoingScienceMed.wav</ShortName>
+					<Path>SFX\DoingScienceMed_66878FFD.wem</Path>
+				</File>
+				<File Id="94335156" Language="SFX">
+					<ShortName>Noir_Intro_layer_1_2.wav</ShortName>
+					<Path>SFX\Noir_Intro_layer_1_2_66878FFD.wem</Path>
+				</File>
+				<File Id="186113957" Language="SFX">
+					<ShortName>EgyptianBattle_Intro_Mastered.wav</ShortName>
+					<Path>SFX\EgyptianBattle_Intro_Mastered_66878FFD.wem</Path>
+				</File>
+				<File Id="290609253" Language="SFX">
+					<ShortName>Noir_Intro_layer_2.wav</ShortName>
+					<Path>SFX\Noir_Intro_layer_2_66878FFD.wem</Path>
+				</File>
+				<File Id="403611898" Language="SFX">
+					<ShortName>Noir_Intro_layer_4.wav</ShortName>
+					<Path>SFX\Noir_Intro_layer_4_66878FFD.wem</Path>
+				</File>
+				<File Id="505499307" Language="SFX">
+					<ShortName>Noir Halls.wav</ShortName>
+					<Path>SFX\Noir Halls_66878FFD.wem</Path>
+				</File>
+				<File Id="553712117" Language="SFX">
+					<ShortName>BloodOnTheCourt_Mastered.wav</ShortName>
+					<Path>SFX\BloodOnTheCourt_Mastered_66878FFD.wem</Path>
+				</File>
+				<File Id="765675111" Language="SFX">
+					<ShortName>PaulAndAlanTheme_Mastered.wav</ShortName>
+					<Path>SFX\PaulAndAlanTheme_Mastered_66878FFD.wem</Path>
+				</File>
+				<File Id="767755198" Language="SFX">
+					<ShortName>Noir_Intro_layer_1_1.wav</ShortName>
+					<Path>SFX\Noir_Intro_layer_1_1_66878FFD.wem</Path>
+				</File>
+				<File Id="795459652" Language="SFX">
+					<ShortName>Noir_Intro_layer_1_3.wav</ShortName>
+					<Path>SFX\Noir_Intro_layer_1_3_66878FFD.wem</Path>
+				</File>
+				<File Id="801740335" Language="SFX">
+					<ShortName>Dubstep_Action_Mastered.wav</ShortName>
+					<Path>SFX\Dubstep_Action_Mastered_66878FFD.wem</Path>
+				</File>
+				<File Id="808204742" Language="SFX">
+					<ShortName>Noir_Intro_layer_3.wav</ShortName>
+					<Path>SFX\Noir_Intro_layer_3_66878FFD.wem</Path>
+				</File>
+				<File Id="894110768" Language="SFX">
+					<ShortName>DoingScienceHigh.wav</ShortName>
+					<Path>SFX\DoingScienceHigh_66878FFD.wem</Path>
+				</File>
+				<File Id="909907100" Language="SFX">
+					<ShortName>EgyptianBattle_Loop_Mastered.wav</ShortName>
+					<Path>SFX\EgyptianBattle_Loop_Mastered_66878FFD.wem</Path>
+				</File>
+				<File Id="926910761" Language="SFX">
+					<ShortName>FurryFuneral.wav</ShortName>
+					<Path>SFX\FurryFuneral_66878FFD.wem</Path>
+				</File>
+				<File Id="974151629" Language="SFX">
+					<ShortName>Dubstep_Action_Leadin.wav</ShortName>
+					<Path>SFX\Dubstep_Action_Leadin_66878FFD.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

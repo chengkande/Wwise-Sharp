@@ -64,7 +64,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(145, 61);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Play Furnace";
+            this.button1.Text = "Play Noir Intro";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -74,7 +74,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(145, 54);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Stop Furnace";
+            this.button2.Text = "Stop Noir Intro";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -174,7 +174,7 @@
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(87, 42);
             this.button12.TabIndex = 14;
-            this.button12.Text = "Play MX 1";
+            this.button12.Text = "layer 1";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
@@ -184,7 +184,7 @@
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(87, 42);
             this.button13.TabIndex = 15;
-            this.button13.Text = "Play MX 2";
+            this.button13.Text = "layer 2";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
@@ -260,11 +260,11 @@
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(706, 79);
+            this.button21.Location = new System.Drawing.Point(845, 15);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(114, 54);
             this.button21.TabIndex = 23;
-            this.button21.Text = "prepareEvent";
+            this.button21.Text = "state 1";
             this.button21.UseVisualStyleBackColor = true;
             this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
@@ -274,7 +274,7 @@
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(86, 42);
             this.button22.TabIndex = 24;
-            this.button22.Text = "Play MX 3";
+            this.button22.Text = "layer 3";
             this.button22.UseVisualStyleBackColor = true;
             this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
@@ -330,11 +330,11 @@
             // 
             // button28
             // 
-            this.button28.Location = new System.Drawing.Point(711, 233);
+            this.button28.Location = new System.Drawing.Point(845, 138);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(157, 86);
             this.button28.TabIndex = 30;
-            this.button28.Text = "Load more banks";
+            this.button28.Text = "state 2";
             this.button28.UseVisualStyleBackColor = true;
             this.button28.Click += new System.EventHandler(this.button28_Click);
             // 

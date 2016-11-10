@@ -9,10 +9,12 @@
 #define WWISESHARP_WWISESHARPENGINE_HPP
 
 #include "WwiseEngine.hpp"
+
 #include "SDK/include/AK/Plugin/AkRoomVerbFXFactory.h"						// Room Verb
 #include "SDK/include/AK/Plugin/AkPeakLimiterFXFactory.h"					//Limiter
 #include "SDK/include/AK/Plugin/AkStereoDelayFXFactory.h"					//Stereo Delay for Bathroom effect
 #include "SDK/include/AK/Plugin/AkVorbisDecoderFactory.h"						// Vorbis Plugin.
+
 
 #include "WwiseSharpGameObject.hpp"
 
@@ -57,6 +59,8 @@ namespace WwiseSharp
 		void SetPanType(bool type);
 		void SetBusEffect(unsigned int fxID);
 		void InitReverb();
+
+		void SetLanguage(System::String^ language);
 		
 
 		void Update();

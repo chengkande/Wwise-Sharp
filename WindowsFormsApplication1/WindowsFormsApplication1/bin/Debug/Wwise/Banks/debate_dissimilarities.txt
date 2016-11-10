@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	548774002	debate_dissimilarities_hit_strong			\Default Work Unit\Weapons\debate_dissimilarities_hit_strong	
+	1841104311	debate_dissimilarities_hit_weak			\Default Work Unit\Weapons\debate_dissimilarities_hit_weak	
+	2109642406	debate_dissimilarities_use			\Default Work Unit\Weapons\debate_dissimilarities_use	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1100725402	debate_dissimilarities			\Default Work Unit\Skills\debate_dissimilarities	
+
+Switch	ID	Name	Switch Group			Notes
+	141331488	lvl3	debate_dissimilarities			
+	141331489	lvl2	debate_dissimilarities			
+	141331490	lvl1	debate_dissimilarities			
+	141331495	lvl4	debate_dissimilarities			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	31350246	debate_dissimilarities_hit_heavy_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_hit_heavy_03_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\violent_strong_hit\debate_dissimilarities_hit_heavy_03		37668
+	147380051	debate_dissimilarities_lvl1_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_lvl1_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl1\debate_dissimilarities_lvl1_03		16250
+	199486214	debate_dissimilarities_lvl1_07	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_lvl1_07_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl1\debate_dissimilarities_lvl1_07		16716
+	348240373	debate_dissimilarities_lvl1_06	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_lvl1_06_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl1\debate_dissimilarities_lvl1_06		18253
+	354666302	debate_dissimilarities_lvl1_05	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_lvl1_05_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl1\debate_dissimilarities_lvl1_05		13852
+	387833157	debate_dissimilarities_use_lvl4_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_use_lvl4_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl4\debate_dissimilarities_use_lvl4_03		24456
+	471103181	debate_dissimilarities_hit_heavy_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_hit_heavy_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\violent_strong_hit\debate_dissimilarities_hit_heavy_02		25202
+	482710412	debate_dissimilarities_use_lvl4_05	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_use_lvl4_05_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl4\debate_dissimilarities_use_lvl4_05		23096
+	545647584	debate_dissimilarities_lvl1_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_lvl1_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl1\debate_dissimilarities_lvl1_01		17073
+	576488226	debate_dissimilarities_use_lvl4_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_use_lvl4_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl4\debate_dissimilarities_use_lvl4_01		26796
+	612060229	debate_dissimilarities_use_lvl4_04	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_use_lvl4_04_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl4\debate_dissimilarities_use_lvl4_04		24514
+	768820985	debate_dissimilarities_lvl1_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_lvl1_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl1\debate_dissimilarities_lvl1_02		16938
+	806437983	debate_dissimilarities_hit_weak_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_hit_weak_03_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\violent_weak_hit\debate_dissimilarities_hit_weak_03		22892
+	914420286	debate_dissimilarities_lvl1_04	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_lvl1_04_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl1\debate_dissimilarities_lvl1_04		16135
+	916425405	debate_dissimilarities_hit_weak_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_hit_weak_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\violent_weak_hit\debate_dissimilarities_hit_weak_02		24932
+	976949538	debate_dissimilarities_hit_heavy_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_hit_heavy_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\violent_strong_hit\debate_dissimilarities_hit_heavy_01		32264
+	997085510	debate_dissimilarities_use_lvl4_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_use_lvl4_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\debate_dissimilarities\debate_dissimilarities_lvl4\debate_dissimilarities_use_lvl4_02		25097
+	1022059405	debate_dissimilarities_hit_weak_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_hit_weak_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\violent_weak_hit\debate_dissimilarities_hit_weak_01		25066
+

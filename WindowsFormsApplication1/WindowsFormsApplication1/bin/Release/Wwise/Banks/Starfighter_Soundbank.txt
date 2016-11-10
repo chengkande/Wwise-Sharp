@@ -1,0 +1,135 @@
+Event	ID	Name			Wwise Object Path	Notes
+	42485666	Wrist_UI_Open			\Default Work Unit\Pilot Sounds\Wrist_UI\Wrist_UI_Open	
+	76426756	Play_laser_impact			\Default Work Unit\Weapon Events\Play_laser_impact	
+	283268793	Play_gamestate_win_rtb_01			\Default Work Unit\Voice Overs\AI (Male)\Game States\Play_gamestate_win_rtb_01	
+	407660388	Play_shrike_wings_open			\Default Work Unit\Spacecraft Mechanics\Play_shrike_wings_open	
+	433676593	Play_hull_critical			\Default Work Unit\Components\Play_hull_critical	
+	485789196	Wrist_UI_Decline			\Default Work Unit\Pilot Sounds\Wrist_UI\Wrist_UI_Decline	
+	494842912	Play_gforce_alarm			\Default Work Unit\Components\Play_gforce_alarm	
+	501911843	Play_Rearming_01			\Default Work Unit\Voice Overs\AI (Male)\Rearming\Play_Rearming_01	
+	503340160	Play_impact_ship_low_01			\Default Work Unit\Projectile_Events\Impacts\Ships\Play_impact_ship_low_01	
+	537191018	Play_Refueling_compelete_01			\Default Work Unit\Voice Overs\AI (Male)\Refueling\Play_Refueling_compelete_01	
+	604991912	Play_Shrike_Reactor_ambience_01			\Default Work Unit\Ambiences\Ship Reactors\Play_Shrike_Reactor_ambience_01	
+	858120435	Play_Repairing_complete_01			\Default Work Unit\Voice Overs\AI (Male)\Repairing\Play_Repairing_complete_01	
+	884737256	Stop_All_peg_thruster_main_sfx			\Default Work Unit\Thrusters\Main Thrusters\Pegasus\Stop_All_peg_thruster_main_sfx	
+	1017640264	Play_shrike_thruster_main_on			\Default Work Unit\Thrusters\Main Thrusters\Shrike\Play_shrike_thruster_main_on	
+	1074026065	Airlock_Depressurise			\Default Work Unit\Ambiences\Airlock\Airlock_Depressurise	
+	1226030809	Play_SmallShot_Detonation			\Default Work Unit\Projectile_Events\Impacts\Weapons\Play_SmallShot_Detonation	
+	1366091411	Play_Repairing_01			\Default Work Unit\Voice Overs\AI (Male)\Repairing\Play_Repairing_01	
+	1432969322	Play_peg_thruster_main_on			\Default Work Unit\Thrusters\Main Thrusters\Pegasus\Play_peg_thruster_main_on	
+	1487875792	Play_shrike_wings_close			\Default Work Unit\Spacecraft Mechanics\Play_shrike_wings_close	
+	1736292338	Play_hyperion_main_thruster_on			\Default Work Unit\Thrusters\Main Thrusters\Hyperion\Play_hyperion_main_thruster_on	
+	1979100883	Stop_monoprellent_fire_loop_01			\Default Work Unit\Thrusters\Maneuver\Stop_monoprellent_fire_loop_01	
+	2042181991	Play_Refueling_01			\Default Work Unit\Voice Overs\AI (Male)\Refueling\Play_Refueling_01	
+	2068483261	Play_Out_fuel_01			\Default Work Unit\Voice Overs\AI (Male)\Fuel\Play_Out_fuel_01	
+	2097892455	Play_impact_ship_hard_01			\Default Work Unit\Projectile_Events\Impacts\Ships\Play_impact_ship_hard_01	
+	2149173357	Pilot_Helmet_Startup			\Default Work Unit\Pilot Sounds\Pilot_Helmet_Startup	
+	2159644803	Play_hyperion_main_thruster_loop			\Default Work Unit\Thrusters\Main Thrusters\Hyperion\Play_hyperion_main_thruster_loop	
+	2359885087	Play_Target_destoyed_01			\Default Work Unit\Voice Overs\AI (Male)\Misc Comms\Play_Target_destoyed_01	
+	2483217032	play_ship_explosion_small			\Default Work Unit\Explosions\play_ship_explosion_small	
+	2548042486	Wrist_UI_Close			\Default Work Unit\Pilot Sounds\Wrist_UI\Wrist_UI_Close	
+	2562984856	Wrist_UI_Hover			\Default Work Unit\Pilot Sounds\Wrist_UI\Wrist_UI_Hover	
+	2663108071	Play_hull_Damaged			\Default Work Unit\Components\Play_hull_Damaged	
+	2680331753	Play_monoprellent_fire_loop_01			\Default Work Unit\Thrusters\Maneuver\Play_monoprellent_fire_loop_01	
+	2789074991	Airlock_Interface_Loop			\Default Work Unit\Ambiences\Airlock\Airlock_Interface_Loop	
+	2799762779	Play_impact_railgun_01			\Default Work Unit\Projectile_Events\Impacts\Weapons\Play_impact_railgun_01	
+	2811313711	Play_gamestate_fail_rtb_01			\Default Work Unit\Voice Overs\AI (Male)\Game States\Play_gamestate_fail_rtb_01	
+	2871294647	Play_laser_fire_loop			\Default Work Unit\Weapon Events\Play_laser_fire_loop	
+	2881508686	Stop_All_shrike_thruster_main_sfx			\Default Work Unit\Thrusters\Main Thrusters\Shrike\Stop_All_shrike_thruster_main_sfx	
+	2907450056	Airlock_Hatch_Open			\Default Work Unit\Ambiences\Airlock\Airlock_Hatch_Open	
+	3090771474	Play_Auto_Kill			\Default Work Unit\Voice Overs\AI (Male)\Game States\Play_Auto_Kill	
+	3159469186	Wrist_UI_Confirm			\Default Work Unit\Pilot Sounds\Wrist_UI\Wrist_UI_Confirm	
+	3160871846	Play_shrike_thruster_main_off			\Default Work Unit\Thrusters\Main Thrusters\Shrike\Play_shrike_thruster_main_off	
+	3218394243	Play_Rearming_complete_01			\Default Work Unit\Voice Overs\AI (Male)\Rearming\Play_Rearming_complete_01	
+	3246963103	Airlock_Hatch_Alarm			\Default Work Unit\Ambiences\Airlock\Airlock_Hatch_Alarm	
+	3280995306	Stop_laser_impact			\Default Work Unit\Weapon Events\Stop_laser_impact	
+	3353010578	Play_Online_dss_01			\Default Work Unit\Voice Overs\AI (Male)\DSS\Play_Online_dss_01	
+	3375692285	Play_dss_reparied_01			\Default Work Unit\Voice Overs\AI (Male)\DSS\Play_dss_reparied_01	
+	3516220905	Play_reactor_start_01			\Default Work Unit\Engines\Play_reactor_start_01	
+	3561174270	Play_Pegasus_Reactor_ambience_01			\Default Work Unit\Ambiences\Ship Reactors\Play_Pegasus_Reactor_ambience_01	
+	3584211409	Stop_laser_fire_loop			\Default Work Unit\Weapon Events\Stop_laser_fire_loop	
+	3588950411	Play_peg_thruster_main_loop			\Default Work Unit\Thrusters\Main Thrusters\Pegasus\Play_peg_thruster_main_loop	
+	3605183008	Play_peg_thruster_main_off			\Default Work Unit\Thrusters\Main Thrusters\Pegasus\Play_peg_thruster_main_off	
+	3693802570	Play_explosion_nuke_02			\Default Work Unit\Explosions\Play_explosion_nuke_02	
+	3840450280	Play_hyperion_main_thruster_off			\Default Work Unit\Thrusters\Main Thrusters\Hyperion\Play_hyperion_main_thruster_off	
+	3855247562	Play_Hyperion_Reactor_Ambeince_01			\Default Work Unit\Ambiences\Ship Reactors\Play_Hyperion_Reactor_Ambeince_01	
+	3935117883	Shrike_MainEngine_Chemical_Play			\Default Work Unit\Thrusters\Main Thrusters\Shrike\Shrike_MainEngine_Chemical_Play	
+	4021403196	Play_impact_ship_med_01			\Default Work Unit\Projectile_Events\Impacts\Ships\Play_impact_ship_med_01	
+	4027046515	Play_Ammo_Low			\Default Work Unit\Voice Overs\AI (Male)\Ammo\Play_Ammo_Low	
+	4105396703	Play_Low_fuel_01			\Default Work Unit\Voice Overs\AI (Male)\Fuel\Play_Low_fuel_01	
+	4175635596	Airlock_Hatch_Button			\Default Work Unit\Ambiences\Airlock\Airlock_Hatch_Button	
+	4179716017	Play_shrike_thruster_main_loop			\Default Work Unit\Thrusters\Main Thrusters\Shrike\Play_shrike_thruster_main_loop	
+	4194969645	Play_Ammo_Out			\Default Work Unit\Voice Overs\AI (Male)\Ammo\Play_Ammo_Out	
+	4231572554	Play_pilot_plss_ambience_01			\Default Work Unit\Ambiences\Play_pilot_plss_ambience_01	
+	4252996770	Play_misc_target_hit_01			\Default Work Unit\Voice Overs\AI (Male)\Misc Comms\Play_misc_target_hit_01	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2456815420	engine_thrust			\Default Work Unit\engine_thrust	
+	2738652471	doppler_val			\Default Work Unit\doppler_val	
+
+Effect plug-ins	ID	Name	Type				Notes
+	81783068	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
+	128638206	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
+	516808527	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	564613930	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	679818074	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+	1011234149	Wwise Harmonizer (Custom)	Wwise Harmonizer			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21088657	hypersion_reactor_ambience_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\hypersion_reactor_ambience_01_68D363F1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Reactor\Hyperion\Hyperion Reactor Ambeince\hypersion_reactor_ambience_01		1895378
+	26440487	reactor_ambience_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\reactor_ambience_01_4F5D5AEF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Reactor\Pegesus\peg_reactor_ambience\reactor_ambience_01		1905136
+	45951239	reparing_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Rearm_Refuel_Repair Status\reparing_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Repair\Repairing Mix\reparing_01		212608
+	49104160	laser_fire_loop_02	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\laser_fire_loop_02_29A1CC3E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Weapons Mix\Laser\laser_fire_loop_02		233888
+	51474984	Airlock_Hatch_Alarm	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\48-16_airlock_alarm_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Hatch_Alarm		1651646
+	63333102	ExplosionSynthClose_B	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\ExplosionSynthClose_B_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosions\ExplosionsMix\RandomCloseExplosion\ExplosionSynthClose_B		3008360
+	66210804	Wrist_UI_Close	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\48-16_Wrist-UI_Close_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Pilot\Wrist_UI\Wrist_UI_Close		50876
+	88181221	48-16m_airlock-UILoop_hClick_02	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_hClick_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_High_Clicks\48-16m_airlock-UILoop_hClick_02		384064
+	95065496	48-16m_airlock-UILoop_LClick_02	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_LClick_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_Low_Clicks\48-16m_airlock-UILoop_LClick_02		384064
+	95251448	48-16m_airlock-UILoop_LClick_04	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_LClick_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_Low_Clicks\48-16m_airlock-UILoop_LClick_04		384064
+	100770442	rearming_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Rearm_Refuel_Repair Status\rearming_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Rearm\ReArm Mix\rearming_01		213396
+	103512564	component_alarm_06	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\component_alarm_06_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Components\Alarms\component_alarm_06		165328
+	115702184	misc_target_hit_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Miscellaneous Communications\misc_target_hit_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Misc Communications\Misc Comms\misc_target_hit_01		194436
+	223180605	48-16m_airlock-UILoop_boops_03	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_boops_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_Bloops\48-16m_airlock-UILoop_boops_03		384064
+	237311435	shrike_wings_close_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\shrike_wings_close_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spacecraft Mechanics\Mechanic Mix\shrike_wings_close_01		638286
+	246965541	48-16m_airlock-UILoop_boops_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_boops_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_Bloops\48-16m_airlock-UILoop_boops_01		384064
+	251865650	impact_ship_hard_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\impact_ship_hard_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Impacts Mix\Ship Impacts\Impacts\Hard\Hard Impacts\impact_ship_hard_01		115972
+	272027732	impact_ship_med_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\impact_ship_med_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Impacts Mix\Ship Impacts\Impacts\Medium\Medium Impacts\impact_ship_med_01		119820
+	284191478	refueling_complete_02	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Rearm_Refuel_Repair Status\refueling_complete_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Refuel\ReFueling Mix\refueling_complete_02		259228
+	286750199	dss_online_03	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\DSS Status\dss_online_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\DSS\DSS Mix\dss_online_03		311372
+	303757930	fuel_out_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Fuel Status\fuel_out_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Fuel\Fuel Mix\fuel_out_01		228408
+	320607225	48-16m_airlock-UILoop_hClick_04	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_hClick_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_High_Clicks\48-16m_airlock-UILoop_hClick_04		384064
+	335578329	48-16m_airlock-UILoop_boops_02	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_boops_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_Bloops\48-16m_airlock-UILoop_boops_02		384064
+	373716360	pilot_plss_ambience_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\pilot_plss_ambience_01_905B4C85.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Pilot\pilot_plss_ambience_01		3890696
+	411519603	gamestate_win_rtb_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Gamestates\gamestate_win_rtb_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Game States\State Mix\gamestate_win_rtb_01		830484
+	433859892	Wrist_UI_Open	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\48-16_Wrist-UI_Open_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Pilot\Wrist_UI\Wrist_UI_Open		77504
+	463717062	Airlock_Hatch_Button	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\48-16_airlock_door-button_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Hatch_Button		100498
+	482342105	misc_target_destroyed_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Miscellaneous Communications\misc_target_destroyed_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Misc Communications\Misc Comms\misc_target_destroyed_01		227620
+	546689419	dss_reparied_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\DSS Status\dss_reparied_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\DSS\DSS Mix\dss_reparied_01		248952
+	588905379	shrike_wings_open_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\shrike_wings_open_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spacecraft Mechanics\Mechanic Mix\shrike_wings_open_01		696622
+	605826516	Wrist_UI_Decline	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\48-16_Menu_Decline-Layered_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Pilot\Wrist_UI\Wrist_UI_Decline		38768
+	624245268	48-16m_airlock-UILoop_LClick_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_LClick_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_Low_Clicks\48-16m_airlock-UILoop_LClick_01		384064
+	646801867	SmallShot_Detonation	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\6025_29_2 20mmSingleShot.R_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Impacts Mix\Round Impacts\Gatling Gun\SmallRound_Explosive\SmallShot_Detonation		314432
+	652417495	refueling_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Rearm_Refuel_Repair Status\refueling_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Refuel\ReFueling Mix\refueling_01		217348
+	668902900	gamestate_fail_rtb_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Gamestates\gamestate_fail_rtb_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Game States\State Mix\gamestate_fail_rtb_01		808360
+	693364373	fuel_low_02	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Fuel Status\fuel_low_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Fuel\Fuel Mix\fuel_low_02		206284
+	698188365	reparing_complete_02	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Rearm_Refuel_Repair Status\reparing_complete_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Repair\Repairing Mix\reparing_complete_02		238684
+	711006086	Wrist_UI_Hover	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\48-16_Menu_Hover-05_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Pilot\Wrist_UI\Wrist_UI_Hover		96064
+	723986544	laser_impact_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\laser_impact_01_E125D95B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Weapons Mix\Laser\laser_impact_01		1428856
+	751579379	rearming_complete_02	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Rearm_Refuel_Repair Status\rearming_complete_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Rearm\ReArm Mix\rearming_complete_02		257644
+	752418167	48-16m_airlock-UILoop_boops_04	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_boops_04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_Bloops\48-16m_airlock-UILoop_boops_04		384064
+	828362723	48-16m_airlock-UILoop_hClick_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_hClick_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_High_Clicks\48-16m_airlock-UILoop_hClick_01		384064
+	828525330	Airlock_Hatch_Open	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\48-16_airlock_door-opening_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Hatch_Open		1695796
+	833030926	48-16m_airlock-UILoop_LClick_03	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_LClick_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_Low_Clicks\48-16m_airlock-UILoop_LClick_03		384064
+	838840782	impact_ship_low_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\impact_ship_low_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Impacts Mix\Ship Impacts\Impacts\Low\Low Impacts\impact_ship_low_01		146212
+	867497814	48-16m_airlock-UILoop_hClick_03	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Airlock_UI_Loops\48-16m_airlock-UILoop_hClick_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Interface_Loop\Airlock_High_Clicks\48-16m_airlock-UILoop_hClick_03		384064
+	868643208	Airlock_Depressurise	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\48-16_airlock_airrelease_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Atlas\Airlock\Airlock_Depressurise		2314732
+	869458511	ammo_out_03	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Ammo Status\ammo_out_03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Ammo\Ammo Mix\ammo_out_03		236312
+	917950305	impact_railgun_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\impact_railgun_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Impacts\Impacts Mix\Round Impacts\Railgun\Railgun Impact\impact_railgun_01		126286
+	935339502	component_alarm_11	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\component_alarm_11_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Components\Alarms\component_alarm_11		187304
+	962472727	Pilot_Helmet_Startup	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\48-16s_airlock_helmet-activation_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Pilot\Pilot_Helmet_Startup		1853248
+	985556212	Wrist_UI_Confirm	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\48-16_Menu_Confirm-Layered_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Mix\Pilot\Wrist_UI\Wrist_UI_Confirm		38768
+	993312422	explosion_nuke_02	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\explosion_nuke_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosions\ExplosionsMix\RandomCloseExplosion\explosion_nuke_02		548804
+	999693105	gamestate_auto_kill_countdown_01	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Gamestates\gamestate_auto_kill_countdown_01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Game States\State Mix\gamestate_auto_kill_countdown_01		2276544
+	1021911177	ammo_low_02	C:\ImpellerStudios\ImpellerSVN\trunk\Unreal4\Starfighter\Wwise\Starfighter_UE4_Wwise2015\.cache\Windows\SFX\Ammo Status\ammo_low_02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice Overs\Voice Over Mix\AI\Male (Stephen C)\Callouts Mix\Ammo\Ammo Mix\ammo_low_02		248164
+

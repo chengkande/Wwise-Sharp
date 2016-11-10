@@ -82,6 +82,7 @@ namespace WwiseWrapper
 		//void RegisterReverb();  - Deprecated in 2016.1
 		void GetSourcePlayPosition(AkPlayingID g_markersPlayingID, AkTimeMs* out_puPosition);
 		AkSegmentInfo GetPlayingSegmentInfo(AkPlayingID in_playingID);
+		void SetLanguage(const wchar_t* in_pLanguage);
 	};
 }
 

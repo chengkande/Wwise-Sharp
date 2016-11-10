@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	852582282	cutting_corners_hit			\Default Work Unit\Weapons\cutting_corners_hit	
+	4257407401	cutting_corners_use_4			\Default Work Unit\Weapons\cutting_corners_use_4	
+	4257407404	cutting_corners_use_1			\Default Work Unit\Weapons\cutting_corners_use_1	
+	4257407406	cutting_corners_use_3			\Default Work Unit\Weapons\cutting_corners_use_3	
+	4257407407	cutting_corners_use_2			\Default Work Unit\Weapons\cutting_corners_use_2	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	150483284	cutting_corners			\Default Work Unit\Skills\cutting_corners	
+
+Switch	ID	Name	Switch Group			Notes
+	141331488	lvl3	cutting_corners			
+	141331489	lvl2	cutting_corners			
+	141331490	lvl1	cutting_corners			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	296415765	cutting_corners_lvl3_b_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_barrage_lvl4_b_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\cutting_corners\cutting_corners_2\cutting_corners_lvl3_b_01		19663
+	310263961	cutting_corners_lvl2_b_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_barrage_lvl3_b_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\cutting_corners\cutting_corners_2\cutting_corners_lvl2_b_01		20814
+	356362963	cutting_corners_lvl3_c_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_barrage_lvl4_c_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\cutting_corners\cutting_corners_3\cutting_corners_lvl3_c_01		26695
+	378425842	weapon_sword_hit_04	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_hit_04_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\sword_hit\weapon_sword_hit_04		29798
+	399324579	weapon_sword_hit_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_hit_03_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\sword_hit\weapon_sword_hit_03		28848
+	440056839	cutting_corners_lvl1_a_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_barrage_lvl2_a_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\cutting_corners\cutting_corners_1\cutting_corners_lvl1_a_01		22139
+	546752874	weapon_sword_hit_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_hit_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\sword_hit\weapon_sword_hit_02		28418
+	656146574	cutting_corners_lvl3_a_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_barrage_lvl4_a_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\cutting_corners\cutting_corners_1\cutting_corners_lvl3_a_01		42932
+	662797255	weapon_sword_hit_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_hit_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\sword_hit\weapon_sword_hit_01		24546
+	835790781	cutting_corners_lvl2_c_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_barrage_lvl3_c_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\cutting_corners\cutting_corners_3\cutting_corners_lvl2_c_01		20086
+	890977016	cutting_corners_lvl2_a_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_barrage_lvl3_a_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\cutting_corners\cutting_corners_1\cutting_corners_lvl2_a_01		39615
+	974462879	cutting_corners_lvl1_b_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_barrage_lvl1_b_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\cutting_corners\cutting_corners_3\cutting_corners_lvl1_b_01		16942
+	984420866	cutting_corners_lvl3_d_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_sword_barrage_lvl4_d_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\cutting_corners\cutting_corners_lvl3_d_01		23554
+

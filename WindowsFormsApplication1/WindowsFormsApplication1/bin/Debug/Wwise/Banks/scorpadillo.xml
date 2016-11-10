@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2798467015" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemies\scorpadillo</ObjectPath>
+			<ShortName>scorpadillo</ShortName>
+			<Path>scorpadillo.bnk</Path>
+			<IncludedEvents>
+				<Event Id="963594030" Name="scorpadillo_attack" ObjectPath="\Events\Default Work Unit\Enemies\scorpadillo_attack"/>
+				<Event Id="1862388575" Name="scorpadillo_hit_armor_layer" ObjectPath="\Events\Default Work Unit\Enemies\scorpadillo_hit_armor_layer"/>
+				<Event Id="2811421958" Name="scorpadillo_unfurl" ObjectPath="\Events\Default Work Unit\Enemies\scorpadillo_unfurl"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="368800736" Language="SFX">
+					<ShortName>enemy_scorpadillo_armor_hit_02.wav</ShortName>
+					<Path>SFX\enemy_scorpadillo_armor_hit_02_3314988A.wem</Path>
+				</File>
+				<File Id="453259234" Language="SFX">
+					<ShortName>enemy_scorpadillo_unfurl.wav</ShortName>
+					<Path>SFX\enemy_scorpadillo_unfurl_3314988A.wem</Path>
+				</File>
+				<File Id="471328911" Language="SFX">
+					<ShortName>enemy_scorpadillo_attack.wav</ShortName>
+					<Path>SFX\enemy_scorpadillo_attack_3314988A.wem</Path>
+				</File>
+				<File Id="886441068" Language="SFX">
+					<ShortName>enemy_scorpadillo_armor_hit_03.wav</ShortName>
+					<Path>SFX\enemy_scorpadillo_armor_hit_03_3314988A.wem</Path>
+				</File>
+				<File Id="921169482" Language="SFX">
+					<ShortName>enemy_scorpadillo_armor_hit_01.wav</ShortName>
+					<Path>SFX\enemy_scorpadillo_armor_hit_01_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

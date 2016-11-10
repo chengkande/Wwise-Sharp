@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2146896501" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemies\xylophone</ObjectPath>
+			<ShortName>xylophone</ShortName>
+			<Path>xylophone.bnk</Path>
+			<IncludedEvents>
+				<Event Id="343244890" Name="xylophone_ascend" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_ascend"/>
+				<Event Id="4251482460" Name="xylophone_barrage_loop_start" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_barrage_loop_start"/>
+				<Event Id="1020257584" Name="xylophone_barrage_loop_stop" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_barrage_loop_stop"/>
+				<Event Id="107410459" Name="xylophone_charge_attack" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_charge_attack"/>
+				<Event Id="4092163867" Name="xylophone_damage" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_damage"/>
+				<Event Id="3483235910" Name="xylophone_death" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_death"/>
+				<Event Id="2127303660" Name="xylophone_dollar_explode" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_dollar_explode"/>
+				<Event Id="4006910138" Name="xylophone_dollar_shoot" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_dollar_shoot"/>
+				<Event Id="1974566871" Name="xylophone_land" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_land"/>
+				<Event Id="261197073" Name="xylophone_passby_disable" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_passby_disable"/>
+				<Event Id="4235244634" Name="xylophone_passby_enable" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_passby_enable"/>
+				<Event Id="4288108430" Name="xylophone_spin_end" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_spin_end"/>
+				<Event Id="3679432156" Name="xylophone_spin_loop_stop" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_spin_loop_stop"/>
+				<Event Id="2091284901" Name="xylophone_spin_start" ObjectPath="\Events\Default Work Unit\Enemies\xylophone_spin_start"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="7303432" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_shoot_02.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_shoot_02_3314988A.wem</Path>
+				</File>
+				<File Id="146210550" Language="SFX">
+					<ShortName>enemy_xylophone_damage_03.wav</ShortName>
+					<Path>SFX\enemy_xylophone_damage_03_3314988A.wem</Path>
+				</File>
+				<File Id="148216512" Language="SFX">
+					<ShortName>enemy_xylophone_charge_attack.wav</ShortName>
+					<Path>SFX\enemy_xylophone_charge_attack_3314988A.wem</Path>
+				</File>
+				<File Id="183492357" Language="SFX">
+					<ShortName>enemy_xylophone_ascend.wav</ShortName>
+					<Path>SFX\enemy_xylophone_ascend_3314988A.wem</Path>
+				</File>
+				<File Id="359290016" Language="SFX">
+					<ShortName>enemy_xylophone_passby_02.wav</ShortName>
+					<Path>SFX\enemy_xylophone_passby_02_3314988A.wem</Path>
+				</File>
+				<File Id="360104290" Language="SFX">
+					<ShortName>enemy_xylophone_death.wav</ShortName>
+					<Path>SFX\enemy_xylophone_death_3314988A.wem</Path>
+				</File>
+				<File Id="360331975" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_shoot_03.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_shoot_03_3314988A.wem</Path>
+				</File>
+				<File Id="404921920" Language="SFX">
+					<ShortName>enemy_xylophone_spin_loop.wav</ShortName>
+					<Path>SFX\enemy_xylophone_spin_loop_8D34B564.wem</Path>
+				</File>
+				<File Id="441194780" Language="SFX">
+					<ShortName>enemy_xylophone_damage_04.wav</ShortName>
+					<Path>SFX\enemy_xylophone_damage_04_3314988A.wem</Path>
+				</File>
+				<File Id="475292963" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_shoot_01.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_shoot_01_3314988A.wem</Path>
+				</File>
+				<File Id="491076869" Language="SFX">
+					<ShortName>enemy_xylophone_spin_start.wav</ShortName>
+					<Path>SFX\enemy_xylophone_spin_start_3314988A.wem</Path>
+				</File>
+				<File Id="540732334" Language="SFX">
+					<ShortName>enemy_xylophone_fall.wav</ShortName>
+					<Path>SFX\enemy_xylophone_fall_3314988A.wem</Path>
+				</File>
+				<File Id="567621974" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_explode_03.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_explode_03_3314988A.wem</Path>
+				</File>
+				<File Id="650265628" Language="SFX">
+					<ShortName>enemy_xylophone_damage_02.wav</ShortName>
+					<Path>SFX\enemy_xylophone_damage_02_3314988A.wem</Path>
+				</File>
+				<File Id="695042828" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_explode_01.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_explode_01_3314988A.wem</Path>
+				</File>
+				<File Id="830789124" Language="SFX">
+					<ShortName>enemy_xylophone_dollar_explode_02.wav</ShortName>
+					<Path>SFX\enemy_xylophone_dollar_explode_02_3314988A.wem</Path>
+				</File>
+				<File Id="875304623" Language="SFX">
+					<ShortName>enemy_xylophone_damage_01.wav</ShortName>
+					<Path>SFX\enemy_xylophone_damage_01_3314988A.wem</Path>
+				</File>
+				<File Id="945391527" Language="SFX">
+					<ShortName>enemy_xylophone_land.wav</ShortName>
+					<Path>SFX\enemy_xylophone_land_3314988A.wem</Path>
+				</File>
+				<File Id="966547533" Language="SFX">
+					<ShortName>enemy_xylophone_passby_01.wav</ShortName>
+					<Path>SFX\enemy_xylophone_passby_01_3314988A.wem</Path>
+				</File>
+				<File Id="1055555126" Language="SFX">
+					<ShortName>enemy_xylophone_barrage_loop.wav</ShortName>
+					<Path>SFX\enemy_xylophone_barrage_loop_8D34B564.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

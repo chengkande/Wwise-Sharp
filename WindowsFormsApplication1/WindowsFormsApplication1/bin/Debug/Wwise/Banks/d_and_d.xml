@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="376901448" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI\d_and_d</ObjectPath>
+			<ShortName>d_and_d</ShortName>
+			<Path>d_and_d.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1097643769" Name="popup_d_and_d_clear" ObjectPath="\Events\Default Work Unit\UI\DandD\popup_d_and_d_clear"/>
+				<Event Id="700526099" Name="popup_d_and_d_countdown" ObjectPath="\Events\Default Work Unit\UI\DandD\popup_d_and_d_countdown"/>
+				<Event Id="2801699750" Name="popup_d_and_d_fail" ObjectPath="\Events\Default Work Unit\UI\DandD\popup_d_and_d_fail"/>
+				<Event Id="2302545558" Name="ui_d_and_d_arrow_click" ObjectPath="\Events\Default Work Unit\UI\DandD\ui_d_and_d_arrow_click"/>
+				<Event Id="951517452" Name="ui_d_and_d_arrow_hover" ObjectPath="\Events\Default Work Unit\UI\DandD\ui_d_and_d_arrow_hover"/>
+				<Event Id="2895362345" Name="ui_d_and_d_back" ObjectPath="\Events\Default Work Unit\UI\DandD\ui_d_and_d_back"/>
+				<Event Id="3872723696" Name="ui_d_and_d_menu_click" ObjectPath="\Events\Default Work Unit\UI\DandD\ui_d_and_d_menu_click"/>
+				<Event Id="2897916574" Name="ui_d_and_d_menu_hover" ObjectPath="\Events\Default Work Unit\UI\DandD\ui_d_and_d_menu_hover"/>
+				<Event Id="309327528" Name="ui_d_and_d_open" ObjectPath="\Events\Default Work Unit\UI\DandD\ui_d_and_d_open"/>
+				<Event Id="995323385" Name="ui_d_and_d_quest_accept" ObjectPath="\Events\Default Work Unit\UI\DandD\ui_d_and_d_quest_accept"/>
+				<Event Id="2195928685" Name="ui_d_and_d_quest_select" ObjectPath="\Events\Default Work Unit\UI\DandD\ui_d_and_d_quest_select"/>
+				<Event Id="1818455295" Name="ui_d_and_d_reward_hit" ObjectPath="\Events\Default Work Unit\UI\DandD\ui_d_and_d_reward_hit"/>
+				<Event Id="2168219932" Name="ui_d_and_d_reward_start" ObjectPath="\Events\Default Work Unit\UI\DandD\ui_d_and_d_reward_start"/>
+				<Event Id="15948784" Name="ui_d_and_d_reward_stop" ObjectPath="\Events\Default Work Unit\UI\DandD\ui_d_and_d_reward_stop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="17968953" Language="SFX">
+					<ShortName>ui_DandD_Begin.wav</ShortName>
+					<Path>SFX\ui_DandD_Begin_3314988A.wem</Path>
+				</File>
+				<File Id="124084224" Language="SFX">
+					<ShortName>ui_DandD_open.wav</ShortName>
+					<Path>SFX\ui_DandD_open_3314988A.wem</Path>
+				</File>
+				<File Id="159963309" Language="SFX">
+					<ShortName>ui_DandD_back.wav</ShortName>
+					<Path>SFX\ui_DandD_back_3314988A.wem</Path>
+				</File>
+				<File Id="173691282" Language="SFX">
+					<ShortName>popup_d_and_d_countdown_03.wav</ShortName>
+					<Path>SFX\popup_d_and_d_countdown_03_3314988A.wem</Path>
+				</File>
+				<File Id="258397620" Language="SFX">
+					<ShortName>ui_DandD_Reward_Drum_loop.wav</ShortName>
+					<Path>SFX\ui_DandD_Reward_Drum_loop_8D34B564.wem</Path>
+				</File>
+				<File Id="439219422" Language="SFX">
+					<ShortName>ui_DandD_arrow_hover.wav</ShortName>
+					<Path>SFX\ui_DandD_arrow_hover_3314988A.wem</Path>
+				</File>
+				<File Id="514495685" Language="SFX">
+					<ShortName>popup_DandD_fail.wav</ShortName>
+					<Path>SFX\popup_DandD_fail_3314988A.wem</Path>
+				</File>
+				<File Id="528362630" Language="SFX">
+					<ShortName>ui_DandD_Reward_Drum_start.wav</ShortName>
+					<Path>SFX\ui_DandD_Reward_Drum_start_3314988A.wem</Path>
+				</File>
+				<File Id="618863700" Language="SFX">
+					<ShortName>popup_DandD_clear.wav</ShortName>
+					<Path>SFX\popup_DandD_clear_3314988A.wem</Path>
+				</File>
+				<File Id="679518401" Language="SFX">
+					<ShortName>ui_DandD_menu_hover.wav</ShortName>
+					<Path>SFX\ui_DandD_menu_hover_6034DC60.wem</Path>
+				</File>
+				<File Id="747868296" Language="SFX">
+					<ShortName>ui_DandD_arrow_click.wav</ShortName>
+					<Path>SFX\ui_DandD_arrow_click_3314988A.wem</Path>
+				</File>
+				<File Id="899145388" Language="SFX">
+					<ShortName>ui_DandD_Reward_Drum_End.wav</ShortName>
+					<Path>SFX\ui_DandD_Reward_Drum_End_3314988A.wem</Path>
+				</File>
+				<File Id="1013844109" Language="SFX">
+					<ShortName>ui_DandD_quest_select.wav</ShortName>
+					<Path>SFX\ui_DandD_quest_select_458A6E02.wem</Path>
+				</File>
+				<File Id="1065603924" Language="SFX">
+					<ShortName>ui_DandD_menu_click.wav</ShortName>
+					<Path>SFX\ui_DandD_menu_click_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

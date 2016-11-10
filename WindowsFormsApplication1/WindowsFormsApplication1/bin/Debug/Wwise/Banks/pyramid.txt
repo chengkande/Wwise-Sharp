@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	30618810	object_water_room_fountain_play			\Default Work Unit\Object\Pyramid\object_water_room_fountain_play	
+	554422864	object_distant_boulder_fall			\Default Work Unit\Object\Pyramid\object_distant_boulder_fall	
+	1429701060	object_water_room_fountain_stop			\Default Work Unit\Object\Pyramid\object_water_room_fountain_stop	
+	1731525889	object_pyramid_torch_stop			\Default Work Unit\Object\Pyramid\object_pyramid_torch_stop	
+	1805789304	object_sliding_floor			\Default Work Unit\Object\Pyramid\object_sliding_floor	
+	1820658855	object_block_crumble			\Default Work Unit\Object\Pyramid\object_block_crumble	
+	2494188670	object_pyramid_torch_purple_stop			\Default Work Unit\Object\Pyramid\object_pyramid_torch_purple_stop	
+	2867286123	object_pyramid_torch_play			\Default Work Unit\Object\Pyramid\object_pyramid_torch_play	
+	3248415401	object_floor_crack_start			\Default Work Unit\Object\Pyramid\object_floor_crack_start	
+	3590924499	object_spike_trap			\Default Work Unit\Object\Pyramid\object_spike_trap	
+	3606003381	object_flower_bomb			\Default Work Unit\Object\Pyramid\object_flower_bomb	
+	3670646192	object_distant_wall_open			\Default Work Unit\Object\Pyramid\object_distant_wall_open	
+	4016605316	object_pyramid_torch_purple_play			\Default Work Unit\Object\Pyramid\object_pyramid_torch_purple_play	
+	4090953658	object_floor_crack_end			\Default Work Unit\Object\Pyramid\object_floor_crack_end	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	19578290	floor_crack_element_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\floor_crack_element_01_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\floor_crack_element\floor_crack_element_01		91225
+	174062640	water_room_fountain_loop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\ambience_pyramid_water_room_fountain_loop_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\water_room_fountain_loop		1710769
+	201449252	floor_crack_element_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\floor_crack_element_02_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\floor_crack_element\floor_crack_element_02		95012
+	248403915	floor_crack_start	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\floor_crack_start_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\floor_crack_start		330785
+	273135810	block_crumble	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\block_crumble_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\block_crumble		45142
+	303360729	floor_crack_element_05	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\floor_crack_element_05_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\floor_crack_element\floor_crack_element_05		107118
+	392249339	object_pyramid_torch_loop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_pyramid_torch_loop_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\object_pyramid_torch_loop		109703
+	438123111	distant_boulder_fall	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\distant_boulder_fall_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\distant_boulder_fall		178144
+	690025781	flower_bomb	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\flower_bomb_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\flower_bomb		78469
+	698374437	distant_wall_open	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\distant_wall_open_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\distant_wall_open		159511
+	724910184	floor_collapse	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\floor_collapse_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\floor_collapse		491937
+	732390062	sliding_floor	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\sliding_floor_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\sliding_floor		158317
+	745387321	floor_crack_looped	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\floor_crack_looped_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\floor_crack_looped		335883
+	765187281	object_pyramid_torch_purple_loop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_pyramid_torch_purple_loop_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\object_pyramid_torch_purple_loop		95292
+	978790773	floor_crack_element_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\floor_crack_element_03_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\floor_crack_element\floor_crack_element_03		97677
+	984149028	floor_crack_element_04	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\floor_crack_element_04_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\floor_crack_element\floor_crack_element_04		126465
+	1019660809	spike_trap	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\spike_trap_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Pyramid\spike_trap		48719
+

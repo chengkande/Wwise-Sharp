@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B8925513-FCCF-4A5A-8588-203B4A0BC553}</ProjectGuid>
     <RootNamespace>WwiseSharp</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -20,13 +21,13 @@
     <CharacterSet>MultiByte</CharacterSet>
     <CLRSupport>true</CLRSupport>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <CLRSupport>true</CLRSupport>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -60,7 +61,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)/WwiseWrapper;$(SolutionDir)/WwiseWrapper/SDK/include;$(SolutionDir)/WwiseWrapper/SDK/samples/SoundEngine/Win32;$(SolutionDir)/WwiseWrapper/SDK/samples/SoundEngine/Common;$(SolutionDir)/WwiseWrapper/SDK/Win32_vc120\Debug\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)WwiseWrapper;$(SolutionDir)WwiseWrapper/SDK/include;$(SolutionDir)WwiseWrapper/SDK/samples/SoundEngine/Win32;$(SolutionDir)WwiseWrapper/SDK/samples/SoundEngine/Common;$(SolutionDir)WwiseWrapper/SDK/Win32_vc140\Debug\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;WWISESHARP_VORBIS;_ITERATOR_DEBUG_LEVEL=2;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -79,7 +80,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>$(SolutionDir)/WwiseWrapper;$(SolutionDir)/WwiseWrapper/SDK/include;$(SolutionDir)/WwiseWrapper/SDK/samples/SoundEngine/Win32;$(SolutionDir)/WwiseWrapper/SDK/samples/SoundEngine/Common;$(SolutionDir)/WwiseWrapper/SDK/Win32_vc120\Release\lib;$(WWISE5533)Win32_vc120\Release\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)/WwiseWrapper;$(SolutionDir)/WwiseWrapper/SDK/include;$(SolutionDir)/WwiseWrapper/SDK/samples/SoundEngine/Win32;$(SolutionDir)/WwiseWrapper/SDK/samples/SoundEngine/Common;$(SolutionDir)/WwiseWrapper/SDK/Win32_vc140\Release\lib;$(WWISE5533)Win32_vc140\Release\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;WWISESHARP_VORBIS;_ITERATOR_DEBUG_LEVEL=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>

@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1770434675	mummy_moan_stop			\Default Work Unit\Enemies\mummy_moan_stop	
+	2821355929	mummy_moan_start			\Default Work Unit\Enemies\mummy_moan_start	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	268882849	enemy_mummy_moan-003	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_mummy_moan-003_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Mummy\mummy_moan\enemy_mummy_moan-003		103928
+	500161311	enemy_mummy_moan-002	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_mummy_moan-002_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Mummy\mummy_moan\enemy_mummy_moan-002		86343
+	835065055	enemy_mummy_moan-005	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_mummy_moan-005_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Mummy\mummy_moan\enemy_mummy_moan-005		84598
+	933690655	enemy_mummy_moan-004	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_mummy_moan-004_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Mummy\mummy_moan\enemy_mummy_moan-004		60576
+	1033579843	enemy_mummy_moan-001	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_mummy_moan-001_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Mummy\mummy_moan\enemy_mummy_moan-001		81615
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3529103590" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemies\troll</ObjectPath>
+			<ShortName>troll</ShortName>
+			<Path>troll.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3515279135" Name="troll_club_hit" ObjectPath="\Events\Default Work Unit\Enemies\troll_club_hit"/>
+				<Event Id="1680736498" Name="troll_fall" ObjectPath="\Events\Default Work Unit\Enemies\troll_fall"/>
+				<Event Id="1848512552" Name="troll_fart" ObjectPath="\Events\Default Work Unit\Enemies\troll_fart"/>
+				<Event Id="3002191180" Name="troll_getup" ObjectPath="\Events\Default Work Unit\Enemies\troll_getup"/>
+				<Event Id="3221438097" Name="troll_ready_swing" ObjectPath="\Events\Default Work Unit\Enemies\troll_ready_swing"/>
+				<Event Id="3623385944" Name="troll_summon" ObjectPath="\Events\Default Work Unit\Enemies\troll_summon"/>
+				<Event Id="1235452070" Name="troll_walk" ObjectPath="\Events\Default Work Unit\Enemies\troll_walk"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="274998817" Language="SFX">
+					<ShortName>enemy_troll_fart.wav</ShortName>
+					<Path>SFX\enemy_troll_fart_3314988A.wem</Path>
+				</File>
+				<File Id="360511479" Language="SFX">
+					<ShortName>enemy_troll_walk_02.wav</ShortName>
+					<Path>SFX\enemy_troll_walk_02_3314988A.wem</Path>
+				</File>
+				<File Id="437712618" Language="SFX">
+					<ShortName>enemy_troll_getup.wav</ShortName>
+					<Path>SFX\enemy_troll_getup_3314988A.wem</Path>
+				</File>
+				<File Id="544666809" Language="SFX">
+					<ShortName>enemy_troll_walk_03.wav</ShortName>
+					<Path>SFX\enemy_troll_walk_03_3314988A.wem</Path>
+				</File>
+				<File Id="726031219" Language="SFX">
+					<ShortName>enemy_troll_ready_swing.wav</ShortName>
+					<Path>SFX\enemy_troll_ready_swing_3314988A.wem</Path>
+				</File>
+				<File Id="743553961" Language="SFX">
+					<ShortName>enemy_troll_walk_01.wav</ShortName>
+					<Path>SFX\enemy_troll_walk_01_3314988A.wem</Path>
+				</File>
+				<File Id="768691978" Language="SFX">
+					<ShortName>enemy_troll_summon.wav</ShortName>
+					<Path>SFX\enemy_troll_summon_3314988A.wem</Path>
+				</File>
+				<File Id="803503356" Language="SFX">
+					<ShortName>enemy_troll_club_hit.wav</ShortName>
+					<Path>SFX\enemy_troll_club_hit_3314988A.wem</Path>
+				</File>
+				<File Id="1046137335" Language="SFX">
+					<ShortName>enemy_troll_fall.wav</ShortName>
+					<Path>SFX\enemy_troll_fall_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

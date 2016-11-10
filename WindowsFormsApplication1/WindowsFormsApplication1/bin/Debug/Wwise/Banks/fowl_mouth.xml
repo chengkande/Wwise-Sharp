@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="813312921" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Skills\fowl_mouth</ObjectPath>
+			<ShortName>fowl_mouth</ShortName>
+			<Path>fowl_mouth.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1599710443" Name="fowl_mouth_hit" ObjectPath="\Events\Default Work Unit\Weapons\fowl_mouth_hit"/>
+				<Event Id="1905105981" Name="fowl_mouth_use" ObjectPath="\Events\Default Work Unit\Weapons\fowl_mouth_use"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="51909961" Language="SFX">
+					<ShortName>weapon_fowl_mouth_02.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_02_3314988A.wem</Path>
+				</File>
+				<File Id="110376722" Language="SFX">
+					<ShortName>weapon_fowl_mouth_hit_05.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_hit_05_21545B0F.wem</Path>
+				</File>
+				<File Id="417755711" Language="SFX">
+					<ShortName>weapon_fowl_mouth_05.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_05_3314988A.wem</Path>
+				</File>
+				<File Id="621445956" Language="SFX">
+					<ShortName>weapon_fowl_mouth_hit_04.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_hit_04_21545B0F.wem</Path>
+				</File>
+				<File Id="807949423" Language="SFX">
+					<ShortName>weapon_fowl_mouth_hit_02.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_hit_02_21545B0F.wem</Path>
+				</File>
+				<File Id="899331217" Language="SFX">
+					<ShortName>weapon_fowl_mouth_04.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_04_3314988A.wem</Path>
+				</File>
+				<File Id="913390813" Language="SFX">
+					<ShortName>weapon_fowl_mouth_hit_03.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_hit_03_21545B0F.wem</Path>
+				</File>
+				<File Id="918525327" Language="SFX">
+					<ShortName>weapon_fowl_mouth_hit_01.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_hit_01_21545B0F.wem</Path>
+				</File>
+				<File Id="994045258" Language="SFX">
+					<ShortName>weapon_fowl_mouth_03.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_03_3314988A.wem</Path>
+				</File>
+				<File Id="1029844265" Language="SFX">
+					<ShortName>weapon_fowl_mouth_01.wav</ShortName>
+					<Path>SFX\weapon_fowl_mouth_01_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3859399290" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemies\mummy</ObjectPath>
+			<ShortName>mummy</ShortName>
+			<Path>mummy.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2821355929" Name="mummy_moan_start" ObjectPath="\Events\Default Work Unit\Enemies\mummy_moan_start"/>
+				<Event Id="1770434675" Name="mummy_moan_stop" ObjectPath="\Events\Default Work Unit\Enemies\mummy_moan_stop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="268882849" Language="SFX">
+					<ShortName>enemy_mummy_moan-003.wav</ShortName>
+					<Path>SFX\enemy_mummy_moan-003_3314988A.wem</Path>
+				</File>
+				<File Id="500161311" Language="SFX">
+					<ShortName>enemy_mummy_moan-002.wav</ShortName>
+					<Path>SFX\enemy_mummy_moan-002_3314988A.wem</Path>
+				</File>
+				<File Id="835065055" Language="SFX">
+					<ShortName>enemy_mummy_moan-005.wav</ShortName>
+					<Path>SFX\enemy_mummy_moan-005_3314988A.wem</Path>
+				</File>
+				<File Id="933690655" Language="SFX">
+					<ShortName>enemy_mummy_moan-004.wav</ShortName>
+					<Path>SFX\enemy_mummy_moan-004_3314988A.wem</Path>
+				</File>
+				<File Id="1033579843" Language="SFX">
+					<ShortName>enemy_mummy_moan-001.wav</ShortName>
+					<Path>SFX\enemy_mummy_moan-001_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

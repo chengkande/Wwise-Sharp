@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1599710443	fowl_mouth_hit			\Default Work Unit\Weapons\fowl_mouth_hit	
+	1905105981	fowl_mouth_use			\Default Work Unit\Weapons\fowl_mouth_use	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	51909961	weapon_fowl_mouth_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fowl_mouth_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\weapon_fowl_mouth\weapon_fowl_mouth_02		25699
+	110376722	weapon_fowl_mouth_hit_05	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fowl_mouth_hit_05_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fowl_mouth_hit\weapon_fowl_mouth_hit_05		40284
+	417755711	weapon_fowl_mouth_05	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fowl_mouth_05_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\weapon_fowl_mouth\weapon_fowl_mouth_05		22770
+	621445956	weapon_fowl_mouth_hit_04	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fowl_mouth_hit_04_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fowl_mouth_hit\weapon_fowl_mouth_hit_04		41428
+	807949423	weapon_fowl_mouth_hit_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fowl_mouth_hit_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fowl_mouth_hit\weapon_fowl_mouth_hit_02		22988
+	899331217	weapon_fowl_mouth_04	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fowl_mouth_04_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\weapon_fowl_mouth\weapon_fowl_mouth_04		24456
+	913390813	weapon_fowl_mouth_hit_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fowl_mouth_hit_03_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fowl_mouth_hit\weapon_fowl_mouth_hit_03		27670
+	918525327	weapon_fowl_mouth_hit_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fowl_mouth_hit_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\fowl_mouth_hit\weapon_fowl_mouth_hit_01		34546
+	994045258	weapon_fowl_mouth_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fowl_mouth_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\weapon_fowl_mouth\weapon_fowl_mouth_03		25506
+	1029844265	weapon_fowl_mouth_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_fowl_mouth_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\weapon_fowl_mouth\weapon_fowl_mouth_01		22069
+

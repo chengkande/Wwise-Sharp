@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\English(US)\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1481872250" Language="English(US)">
+			<ObjectPath>\SoundBanks\Default Work Unit\VO\student_male</ObjectPath>
+			<ShortName>student_male</ShortName>
+			<Path>English(US)\student_male.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1780077595" Name="student_male_bye" ObjectPath="\Events\Default Work Unit\VO\Student_Male\student_male_bye"/>
+				<Event Id="699692236" Name="student_male_greet" ObjectPath="\Events\Default Work Unit\VO\Student_Male\student_male_greet"/>
+				<Event Id="2697081489" Name="student_male_quest" ObjectPath="\Events\Default Work Unit\VO\Student_Male\student_male_quest"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="134420895" Language="English(US)">
+					<ShortName>vx_student_male_temp_01-002.wav</ShortName>
+					<Path>Voices\English(US)\vx_student_male_temp_01-002_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="227535805" Language="English(US)">
+					<ShortName>vx_student_male_temp_01-005.wav</ShortName>
+					<Path>Voices\English(US)\vx_student_male_temp_01-005_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="260470117" Language="English(US)">
+					<ShortName>vx_student_male_temp_01-004.wav</ShortName>
+					<Path>Voices\English(US)\vx_student_male_temp_01-004_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="512954985" Language="English(US)">
+					<ShortName>vx_student_male_temp_01-006.wav</ShortName>
+					<Path>Voices\English(US)\vx_student_male_temp_01-006_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="878299203" Language="English(US)">
+					<ShortName>vx_student_male_temp_01-001.wav</ShortName>
+					<Path>Voices\English(US)\vx_student_male_temp_01-001_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="1043616542" Language="English(US)">
+					<ShortName>vx_student_male_temp_01-003.wav</ShortName>
+					<Path>Voices\English(US)\vx_student_male_temp_01-003_FB1EEB1D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

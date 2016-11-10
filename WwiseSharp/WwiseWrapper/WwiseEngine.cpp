@@ -393,3 +393,8 @@ AkSegmentInfo WwiseEngine::GetPlayingSegmentInfo(AkPlayingID in_playingID)
 	AK::MusicEngine::GetPlayingSegmentInfo(in_playingID, mSegmentInfo);
 	return mSegmentInfo;
 }
+
+void WwiseEngine::SetLanguage(const wchar_t* in_pLanguage)
+{
+	AK::StreamMgr::SetCurrentLanguage(in_pLanguage);
+}

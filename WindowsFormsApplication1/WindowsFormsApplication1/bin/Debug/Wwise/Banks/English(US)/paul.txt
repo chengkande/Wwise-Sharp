@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1125324577	paul_greet			\Default Work Unit\VO\Paul\paul_greet	
+	1152417408	paul_quest			\Default Work Unit\VO\Paul\paul_quest	
+	1621073626	paul_bye			\Default Work Unit\VO\Paul\paul_bye	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	420214346	Main_Quest_Status			\Default Work Unit\Dialogue States\Main_Quest_Status	
+	2279579525	Main_Quest_Progress			\Default Work Unit\Dialogue States\Main_Quest_Progress	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Main_Quest_Status			
+	1861070025	Done	Main_Quest_Status			
+	2551881491	Not_Done	Main_Quest_Status			
+	372045764	Dandelions	Main_Quest_Progress			
+	748895195	None	Main_Quest_Progress			
+	2060406283	Meet_Students	Main_Quest_Progress			
+	3999320713	Science	Main_Quest_Progress			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	88439589	vx_paul_greet-001	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\Voices\English(US)\vx_paul_greet-001_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO Barks\paul\Paul_Greet\Paul_Greet_None\vx_paul_greet-001		23152
+	474747172	vx_paul_greet-002 2	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\Voices\English(US)\vx_paul_greet-002 2_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO Barks\paul\Paul_Greet\Paul_Greet_Flowers\vx_paul_greet-002 2		52421
+	635030307	vx_paul_greet-004	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\Voices\English(US)\vx_paul_greet-004_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO Barks\paul\Paul_Greet\Paul_Greet_Science\vx_paul_greet-004		38700
+	644955712	vx_paul_greet-004 2	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\Voices\English(US)\vx_paul_greet-004 2_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO Barks\paul\Paul_Greet\Paul_Greet_Science\vx_paul_greet-004 2		52037
+	794528299	vx_paul_greet-001 2	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\Voices\English(US)\vx_paul_greet-001 2_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO Barks\paul\Paul_Greet\Paul_Greet_None\vx_paul_greet-001 2		46142
+	891761059	vx_paul_greet-003	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\Voices\English(US)\vx_paul_greet-003_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO Barks\paul\Paul_Greet\Paul_Greet_Students\vx_paul_greet-003		29522
+	933455249	vx_paul_bye	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\Voices\English(US)\vx_paul_bye_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO Barks\paul\vx_paul_bye		44903
+	1004360593	vx_paul_greet-003 2	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\Voices\English(US)\vx_paul_greet-003 2_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO Barks\paul\Paul_Greet\Paul_Greet_Students\vx_paul_greet-003 2		30288
+	1037889549	vx_paul_greet-002	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\Voices\English(US)\vx_paul_greet-002_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO Barks\paul\Paul_Greet\Paul_Greet_Flowers\vx_paul_greet-002		23010
+	1066943936	vx_paul_quest	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\Voices\English(US)\vx_paul_quest_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\VO Barks\paul\vx_paul_quest		48441
+

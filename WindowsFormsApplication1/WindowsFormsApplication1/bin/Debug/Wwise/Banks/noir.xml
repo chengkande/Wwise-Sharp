@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="799227909" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Evironment Objects\noir</ObjectPath>
+			<ShortName>noir</ShortName>
+			<Path>noir.bnk</Path>
+			<IncludedEvents>
+				<Event Id="27346302" Name="cutscene_noir_bomb_fight_transition" ObjectPath="\Events\Default Work Unit\Object\Noir\cutscene_noir_bomb_fight_transition"/>
+				<Event Id="1034002795" Name="cutscene_noir_ghost_apparate" ObjectPath="\Events\Default Work Unit\Object\Noir\cutscene_noir_ghost_apparate"/>
+				<Event Id="3119006022" Name="cutscene_noir_ressurect_flash" ObjectPath="\Events\Default Work Unit\Object\Noir\cutscene_noir_ressurect_flash"/>
+				<Event Id="1309482675" Name="object_gunshot" ObjectPath="\Events\Default Work Unit\Object\Noir\object_gunshot"/>
+				<Event Id="808009117" Name="object_noir_bomb_error" ObjectPath="\Events\Default Work Unit\Object\Noir\object_noir_bomb_error"/>
+				<Event Id="2557536570" Name="object_noir_bomb_error_flashing" ObjectPath="\Events\Default Work Unit\Object\Noir\object_noir_bomb_error_flashing"/>
+				<Event Id="3115052233" Name="object_noir_bomb_error_flashing_stop" ObjectPath="\Events\Default Work Unit\Object\Noir\object_noir_bomb_error_flashing_stop"/>
+				<Event Id="486192850" Name="object_noir_bomb_reset" ObjectPath="\Events\Default Work Unit\Object\Noir\object_noir_bomb_reset"/>
+				<Event Id="3997139234" Name="object_noir_bomb_tick" ObjectPath="\Events\Default Work Unit\Object\Noir\object_noir_bomb_tick"/>
+				<Event Id="1486102828" Name="object_noir_controls_drop" ObjectPath="\Events\Default Work Unit\Object\Noir\object_noir_controls_drop"/>
+				<Event Id="82599445" Name="object_warehouse_rain_door_play" ObjectPath="\Events\Default Work Unit\Object\Noir\object_warehouse_rain_door_play"/>
+				<Event Id="2544563187" Name="object_warehouse_rain_door_stop" ObjectPath="\Events\Default Work Unit\Object\Noir\object_warehouse_rain_door_stop"/>
+				<Event Id="1677582706" Name="object_warehouse_rain_window_loop_play" ObjectPath="\Events\Default Work Unit\Object\Noir\object_warehouse_rain_window_loop_play"/>
+				<Event Id="3389243372" Name="object_warehouse_rain_window_loop_stop" ObjectPath="\Events\Default Work Unit\Object\Noir\object_warehouse_rain_window_loop_stop"/>
+				<Event Id="1713230934" Name="object_warehouse_steel_door_close" ObjectPath="\Events\Default Work Unit\Object\Noir\object_warehouse_steel_door_close"/>
+				<Event Id="4030816670" Name="objet_warehouse_light_on" ObjectPath="\Events\Default Work Unit\Object\Noir\objet_warehouse_light_on"/>
+				<Event Id="1399618984" Name="octopaul_book_explode" ObjectPath="\Events\Default Work Unit\Enemies\octopaul_book_explode"/>
+				<Event Id="1407866659" Name="octopaul_book_throw" ObjectPath="\Events\Default Work Unit\Enemies\octopaul_book_throw"/>
+				<Event Id="3573127687" Name="octopaul_water_agitate_play" ObjectPath="\Events\Default Work Unit\Enemies\octopaul_water_agitate_play"/>
+				<Event Id="2308369749" Name="octopaul_water_agitate_stop" ObjectPath="\Events\Default Work Unit\Enemies\octopaul_water_agitate_stop"/>
+				<Event Id="1818372388" Name="octopaul_water_bubble_play" ObjectPath="\Events\Default Work Unit\Enemies\octopaul_water_bubble_play"/>
+				<Event Id="295852318" Name="octopaul_water_bubble_stop" ObjectPath="\Events\Default Work Unit\Enemies\octopaul_water_bubble_stop"/>
+				<Event Id="915732133" Name="thunder_outside" ObjectPath="\Events\Default Work Unit\Object\Noir\thunder_outside"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="5083640" Language="SFX">
+					<ShortName>Thunder_Clap_Ext_01.wav</ShortName>
+					<Path>SFX\Thunder_Clap_Ext_01_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="41447351" Language="SFX">
+					<ShortName>rain_door_loop.wav</ShortName>
+					<Path>SFX\rain_door_loop_682514AB.wem</Path>
+				</File>
+				<File Id="51287069" Language="SFX">
+					<ShortName>warehouse_steel_door_close.wav</ShortName>
+					<Path>SFX\warehouse_steel_door_close_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="115462289" Language="SFX">
+					<ShortName>noir_controls_drop-001.wav</ShortName>
+					<Path>SFX\noir_controls_drop-001_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="283801843" Language="SFX">
+					<ShortName>octopaul_book_throw_01.wav</ShortName>
+					<Path>SFX\octopaul_book_throw_01_3314988A.wem</Path>
+				</File>
+				<File Id="295968610" Language="SFX">
+					<ShortName>warehouse_light_on.wav</ShortName>
+					<Path>SFX\warehouse_light_on_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="362279898" Language="SFX">
+					<ShortName>noir_bomb_tick.wav</ShortName>
+					<Path>SFX\noir_bomb_tick_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="370219855" Language="SFX">
+					<ShortName>Thunder_Clap_Ext_02.wav</ShortName>
+					<Path>SFX\Thunder_Clap_Ext_02_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="394227041" Language="SFX">
+					<ShortName>noir_bomb_reset.wav</ShortName>
+					<Path>SFX\noir_bomb_reset_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="433715689" Language="SFX">
+					<ShortName>octopaul_book_throw_02.wav</ShortName>
+					<Path>SFX\octopaul_book_throw_02_3314988A.wem</Path>
+				</File>
+				<File Id="462373211" Language="SFX">
+					<ShortName>noir_ghost_apparate.wav</ShortName>
+					<Path>SFX\noir_ghost_apparate_3314988A.wem</Path>
+				</File>
+				<File Id="488674180" Language="SFX">
+					<ShortName>noir_ressurect_flash.wav</ShortName>
+					<Path>SFX\noir_ressurect_flash_0A72E799.wem</Path>
+				</File>
+				<File Id="497145797" Language="SFX">
+					<ShortName>octopaul_book_throw_03.wav</ShortName>
+					<Path>SFX\octopaul_book_throw_03_3314988A.wem</Path>
+				</File>
+				<File Id="569412145" Language="SFX">
+					<ShortName>noir_bomb_fight_transition.wav</ShortName>
+					<Path>SFX\noir_bomb_fight_transition_3314988A.wem</Path>
+				</File>
+				<File Id="587428472" Language="SFX">
+					<ShortName>noir_bomb_error.wav</ShortName>
+					<Path>SFX\noir_bomb_error_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="608667691" Language="SFX">
+					<ShortName>water_agitate_loop.wav</ShortName>
+					<Path>SFX\water_agitate_loop_8D34B564.wem</Path>
+				</File>
+				<File Id="636123202" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_explode_02.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_explode_02_3314988A.wem</Path>
+				</File>
+				<File Id="654028659" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_explode_01.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_explode_01_3314988A.wem</Path>
+				</File>
+				<File Id="672323945" Language="SFX">
+					<ShortName>enemy_bomblin_bomb_explode_03.wav</ShortName>
+					<Path>SFX\enemy_bomblin_bomb_explode_03_3314988A.wem</Path>
+				</File>
+				<File Id="711402537" Language="SFX">
+					<ShortName>Gunshot_02.wav</ShortName>
+					<Path>SFX\Gunshot_02_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="716508464" Language="SFX">
+					<ShortName>warehouse_rain_window_loop.wav</ShortName>
+					<Path>SFX\warehouse_rain_window_loop_682514AB.wem</Path>
+				</File>
+				<File Id="844523236" Language="SFX">
+					<ShortName>Gunshot_01.wav</ShortName>
+					<Path>SFX\Gunshot_01_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="907072123" Language="SFX">
+					<ShortName>Thunder_Clap_Ext_03.wav</ShortName>
+					<Path>SFX\Thunder_Clap_Ext_03_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="1048778746" Language="SFX">
+					<ShortName>water_bubble_loop.wav</ShortName>
+					<Path>SFX\water_bubble_loop_8D34B564.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

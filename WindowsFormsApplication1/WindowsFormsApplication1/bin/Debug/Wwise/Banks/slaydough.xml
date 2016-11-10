@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="4058000175" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemies\slaydough</ObjectPath>
+			<ShortName>slaydough</ShortName>
+			<Path>slaydough.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4092771460" Name="clay_hammer_form" ObjectPath="\Events\Default Work Unit\Enemies\clay_hammer_form"/>
+				<Event Id="3603523519" Name="clay_hammer_reform" ObjectPath="\Events\Default Work Unit\Enemies\clay_hammer_reform"/>
+				<Event Id="336855872" Name="clay_hammer_strike" ObjectPath="\Events\Default Work Unit\Enemies\clay_hammer_strike"/>
+				<Event Id="155901958" Name="clay_pot_crash" ObjectPath="\Events\Default Work Unit\Enemies\clay_pot_crash"/>
+				<Event Id="3432398887" Name="clay_pot_form" ObjectPath="\Events\Default Work Unit\Enemies\clay_pot_form"/>
+				<Event Id="683001920" Name="clay_pot_reform" ObjectPath="\Events\Default Work Unit\Enemies\clay_pot_reform"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="85966134" Language="SFX">
+					<ShortName>enemy_clay_hammer_form_01.wav</ShortName>
+					<Path>SFX\enemy_clay_hammer_form_01_3314988A.wem</Path>
+				</File>
+				<File Id="134290648" Language="SFX">
+					<ShortName>enemy_clay_pot_form_03.wav</ShortName>
+					<Path>SFX\enemy_clay_pot_form_03_3314988A.wem</Path>
+				</File>
+				<File Id="191043132" Language="SFX">
+					<ShortName>enemy_clay_pot_crash_02.wav</ShortName>
+					<Path>SFX\enemy_clay_pot_crash_02_3314988A.wem</Path>
+				</File>
+				<File Id="260797939" Language="SFX">
+					<ShortName>enemy_clay_pot_form_01.wav</ShortName>
+					<Path>SFX\enemy_clay_pot_form_01_3314988A.wem</Path>
+				</File>
+				<File Id="323751923" Language="SFX">
+					<ShortName>enemy_clay_hammer_strike_02.wav</ShortName>
+					<Path>SFX\enemy_clay_hammer_strike_02_3314988A.wem</Path>
+				</File>
+				<File Id="445053502" Language="SFX">
+					<ShortName>enemy_clay_pot_reform_03.wav</ShortName>
+					<Path>SFX\enemy_clay_pot_reform_03_3314988A.wem</Path>
+				</File>
+				<File Id="525587444" Language="SFX">
+					<ShortName>enemy_clay_hammer_reform_02.wav</ShortName>
+					<Path>SFX\enemy_clay_hammer_reform_02_3314988A.wem</Path>
+				</File>
+				<File Id="530781295" Language="SFX">
+					<ShortName>enemy_clay_pot_reform_01.wav</ShortName>
+					<Path>SFX\enemy_clay_pot_reform_01_3314988A.wem</Path>
+				</File>
+				<File Id="550284561" Language="SFX">
+					<ShortName>enemy_clay_hammer_strike_03.wav</ShortName>
+					<Path>SFX\enemy_clay_hammer_strike_03_3314988A.wem</Path>
+				</File>
+				<File Id="715507381" Language="SFX">
+					<ShortName>enemy_clay_hammer_form_03.wav</ShortName>
+					<Path>SFX\enemy_clay_hammer_form_03_3314988A.wem</Path>
+				</File>
+				<File Id="830950317" Language="SFX">
+					<ShortName>enemy_clay_pot_crash_03.wav</ShortName>
+					<Path>SFX\enemy_clay_pot_crash_03_3314988A.wem</Path>
+				</File>
+				<File Id="834088947" Language="SFX">
+					<ShortName>enemy_clay_hammer_reform_03.wav</ShortName>
+					<Path>SFX\enemy_clay_hammer_reform_03_3314988A.wem</Path>
+				</File>
+				<File Id="899192649" Language="SFX">
+					<ShortName>enemy_clay_pot_crash_01.wav</ShortName>
+					<Path>SFX\enemy_clay_pot_crash_01_3314988A.wem</Path>
+				</File>
+				<File Id="999197580" Language="SFX">
+					<ShortName>enemy_clay_pot_reform_02.wav</ShortName>
+					<Path>SFX\enemy_clay_pot_reform_02_3314988A.wem</Path>
+				</File>
+				<File Id="1030110179" Language="SFX">
+					<ShortName>enemy_clay_hammer_reform_01.wav</ShortName>
+					<Path>SFX\enemy_clay_hammer_reform_01_3314988A.wem</Path>
+				</File>
+				<File Id="1051475349" Language="SFX">
+					<ShortName>enemy_clay_hammer_strike_01.wav</ShortName>
+					<Path>SFX\enemy_clay_hammer_strike_01_3314988A.wem</Path>
+				</File>
+				<File Id="1058071538" Language="SFX">
+					<ShortName>enemy_clay_pot_form_02.wav</ShortName>
+					<Path>SFX\enemy_clay_pot_form_02_3314988A.wem</Path>
+				</File>
+				<File Id="1058271075" Language="SFX">
+					<ShortName>enemy_clay_hammer_form_02.wav</ShortName>
+					<Path>SFX\enemy_clay_hammer_form_02_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

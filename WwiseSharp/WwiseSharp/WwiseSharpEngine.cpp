@@ -27,7 +27,9 @@ WwiseSharpEngine::~WwiseSharpEngine()
 
 bool WwiseSharpEngine::Init()
 {
-	return akengine->Init();
+	bool status = akengine->Init();
+	SetPanType(true);
+	return status;
 }
 /*LPCWSTR StringToLPCWSTRMethod(System::String^ str)
 {
@@ -235,4 +237,11 @@ void WwiseSharpEngine::UnregisterAllGameObject()
 void WwiseSharpEngine::Term()
 {
 	akengine->Term();
+}
+
+void WwiseSharpEngine::SetLanguage(System::String^ language)
+{
+	System::IntPtr p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(language);
+	akengine->SetLanguage(static_cast<LPCWSTR>(static_cast<void *>(p)));
+	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }

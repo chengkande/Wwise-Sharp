@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2650100119" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemies\vile_mummy</ObjectPath>
+			<ShortName>vile_mummy</ShortName>
+			<Path>vile_mummy.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2993481169" Name="vile_mummy_explode" ObjectPath="\Events\Default Work Unit\Enemies\vile_mummy_explode"/>
+				<Event Id="3666045962" Name="vile_mummy_moan_start" ObjectPath="\Events\Default Work Unit\Enemies\vile_mummy_moan_start"/>
+				<Event Id="1730946402" Name="vile_mummy_moan_stop" ObjectPath="\Events\Default Work Unit\Enemies\vile_mummy_moan_stop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="20516494" Language="SFX">
+					<ShortName>enemy_vile_mummy_moan-005.wav</ShortName>
+					<Path>SFX\enemy_vile_mummy_moan-005_3314988A.wem</Path>
+				</File>
+				<File Id="133974909" Language="SFX">
+					<ShortName>enemy_vile_mummy_moan-006.wav</ShortName>
+					<Path>SFX\enemy_vile_mummy_moan-006_3314988A.wem</Path>
+				</File>
+				<File Id="285441567" Language="SFX">
+					<ShortName>enemy_vile_mummy_moan-001.wav</ShortName>
+					<Path>SFX\enemy_vile_mummy_moan-001_3314988A.wem</Path>
+				</File>
+				<File Id="332144983" Language="SFX">
+					<ShortName>enemy_vile_mummy_moan-002.wav</ShortName>
+					<Path>SFX\enemy_vile_mummy_moan-002_3314988A.wem</Path>
+				</File>
+				<File Id="347749887" Language="SFX">
+					<ShortName>enemy_vile_mummy_explode-003.wav</ShortName>
+					<Path>SFX\enemy_vile_mummy_explode-003_3314988A.wem</Path>
+				</File>
+				<File Id="646417614" Language="SFX">
+					<ShortName>enemy_vile_mummy_moan-008.wav</ShortName>
+					<Path>SFX\enemy_vile_mummy_moan-008_3314988A.wem</Path>
+				</File>
+				<File Id="710904579" Language="SFX">
+					<ShortName>enemy_vile_mummy_explode-002.wav</ShortName>
+					<Path>SFX\enemy_vile_mummy_explode-002_3314988A.wem</Path>
+				</File>
+				<File Id="734765329" Language="SFX">
+					<ShortName>enemy_vile_mummy_moan-007.wav</ShortName>
+					<Path>SFX\enemy_vile_mummy_moan-007_3314988A.wem</Path>
+				</File>
+				<File Id="738650827" Language="SFX">
+					<ShortName>enemy_vile_mummy_moan-004.wav</ShortName>
+					<Path>SFX\enemy_vile_mummy_moan-004_3314988A.wem</Path>
+				</File>
+				<File Id="749603116" Language="SFX">
+					<ShortName>enemy_vile_mummy_explode-001.wav</ShortName>
+					<Path>SFX\enemy_vile_mummy_explode-001_3314988A.wem</Path>
+				</File>
+				<File Id="1020789390" Language="SFX">
+					<ShortName>enemy_vile_mummy_moan-003.wav</ShortName>
+					<Path>SFX\enemy_vile_mummy_moan-003_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

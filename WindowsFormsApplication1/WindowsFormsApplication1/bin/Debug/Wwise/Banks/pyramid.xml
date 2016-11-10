@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="797712787" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Evironment Objects\pyramid</ObjectPath>
+			<ShortName>pyramid</ShortName>
+			<Path>pyramid.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1820658855" Name="object_block_crumble" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_block_crumble"/>
+				<Event Id="554422864" Name="object_distant_boulder_fall" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_distant_boulder_fall"/>
+				<Event Id="3670646192" Name="object_distant_wall_open" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_distant_wall_open"/>
+				<Event Id="4090953658" Name="object_floor_crack_end" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_floor_crack_end"/>
+				<Event Id="3248415401" Name="object_floor_crack_start" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_floor_crack_start"/>
+				<Event Id="3606003381" Name="object_flower_bomb" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_flower_bomb"/>
+				<Event Id="2867286123" Name="object_pyramid_torch_play" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_pyramid_torch_play"/>
+				<Event Id="4016605316" Name="object_pyramid_torch_purple_play" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_pyramid_torch_purple_play"/>
+				<Event Id="2494188670" Name="object_pyramid_torch_purple_stop" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_pyramid_torch_purple_stop"/>
+				<Event Id="1731525889" Name="object_pyramid_torch_stop" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_pyramid_torch_stop"/>
+				<Event Id="1805789304" Name="object_sliding_floor" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_sliding_floor"/>
+				<Event Id="3590924499" Name="object_spike_trap" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_spike_trap"/>
+				<Event Id="30618810" Name="object_water_room_fountain_play" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_water_room_fountain_play"/>
+				<Event Id="1429701060" Name="object_water_room_fountain_stop" ObjectPath="\Events\Default Work Unit\Object\Pyramid\object_water_room_fountain_stop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="19578290" Language="SFX">
+					<ShortName>floor_crack_element_01.wav</ShortName>
+					<Path>SFX\floor_crack_element_01_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="174062640" Language="SFX">
+					<ShortName>ambience_pyramid_water_room_fountain_loop.wav</ShortName>
+					<Path>SFX\ambience_pyramid_water_room_fountain_loop_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="201449252" Language="SFX">
+					<ShortName>floor_crack_element_02.wav</ShortName>
+					<Path>SFX\floor_crack_element_02_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="248403915" Language="SFX">
+					<ShortName>floor_crack_start.wav</ShortName>
+					<Path>SFX\floor_crack_start_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="273135810" Language="SFX">
+					<ShortName>block_crumble.wav</ShortName>
+					<Path>SFX\block_crumble_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="303360729" Language="SFX">
+					<ShortName>floor_crack_element_05.wav</ShortName>
+					<Path>SFX\floor_crack_element_05_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="392249339" Language="SFX">
+					<ShortName>object_pyramid_torch_loop.wav</ShortName>
+					<Path>SFX\object_pyramid_torch_loop_682514AB.wem</Path>
+				</File>
+				<File Id="438123111" Language="SFX">
+					<ShortName>distant_boulder_fall.wav</ShortName>
+					<Path>SFX\distant_boulder_fall_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="690025781" Language="SFX">
+					<ShortName>flower_bomb.wav</ShortName>
+					<Path>SFX\flower_bomb_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="698374437" Language="SFX">
+					<ShortName>distant_wall_open.wav</ShortName>
+					<Path>SFX\distant_wall_open_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="724910184" Language="SFX">
+					<ShortName>floor_collapse.wav</ShortName>
+					<Path>SFX\floor_collapse_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="732390062" Language="SFX">
+					<ShortName>sliding_floor.wav</ShortName>
+					<Path>SFX\sliding_floor_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="745387321" Language="SFX">
+					<ShortName>floor_crack_looped.wav</ShortName>
+					<Path>SFX\floor_crack_looped_682514AB.wem</Path>
+				</File>
+				<File Id="765187281" Language="SFX">
+					<ShortName>object_pyramid_torch_purple_loop.wav</ShortName>
+					<Path>SFX\object_pyramid_torch_purple_loop_682514AB.wem</Path>
+				</File>
+				<File Id="978790773" Language="SFX">
+					<ShortName>floor_crack_element_03.wav</ShortName>
+					<Path>SFX\floor_crack_element_03_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="984149028" Language="SFX">
+					<ShortName>floor_crack_element_04.wav</ShortName>
+					<Path>SFX\floor_crack_element_04_FB1EEB1D.wem</Path>
+				</File>
+				<File Id="1019660809" Language="SFX">
+					<ShortName>spike_trap.wav</ShortName>
+					<Path>SFX\spike_trap_FB1EEB1D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

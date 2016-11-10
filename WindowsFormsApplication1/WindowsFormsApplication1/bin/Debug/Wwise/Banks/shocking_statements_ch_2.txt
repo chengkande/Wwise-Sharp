@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	84047293	shocking_statements_ch_2_use			\Default Work Unit\Weapons\shocking_statements_ch_2_use	
+	620390683	shocking_statements_ch_2_explode			\Default Work Unit\Weapons\shocking_statements_ch_2_explode	
+	664081900	shocking_statements_ch_2_stop			\Default Work Unit\Weapons\shocking_statements_ch_2_stop	
+	4073619051	shocking_statements_ch_2_hit			\Default Work Unit\Weapons\shocking_statements_ch_2_hit	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	548171033	shocking_statements_ch_2			\Default Work Unit\Skills\shocking_statements_ch_2	
+
+State	ID	Name	State Group			Notes
+	141331488	lvl3	shocking_statements_ch_2			
+	141331489	lvl2	shocking_statements_ch_2			
+	141331490	lvl1	shocking_statements_ch_2			
+	141331495	lvl4	shocking_statements_ch_2			
+	748895195	None	shocking_statements_ch_2			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	34136836	weapon_flash_bomb_cast_lvl2	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_flash_bomb_cast_lvl2_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch2\shocking_statements_ch_2_use\weapon_flash_bomb_cast_lvl2		18041
+	159953431	weapon_flash_bomb_explode_lvl2	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_flash_bomb_explode_lvl2_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch2\shocking_statements_ch_explode\weapon_flash_bomb_explode_lvl2		22725
+	177086160	weapon_flash_bomb_cast_lvl4	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_flash_bomb_cast_lvl4_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch2\shocking_statements_ch_2_use\weapon_flash_bomb_cast_lvl4		22533
+	358582983	weapon_flash_bomb_explode_lvl4	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_flash_bomb_explode_lvl4_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch2\shocking_statements_ch_explode\weapon_flash_bomb_explode_lvl4		73006
+	507895722	weapon_flash_bomb_explode_lvl3	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_flash_bomb_explode_lvl3_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch2\shocking_statements_ch_explode\weapon_flash_bomb_explode_lvl3		24133
+	704950967	weapon_flash_bomb_cast_lvl1	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_flash_bomb_cast_lvl1_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch2\shocking_statements_ch_2_use\weapon_flash_bomb_cast_lvl1		18191
+	761237516	weapon_flash_bomb_cast_lvl3	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_flash_bomb_cast_lvl3_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch2\shocking_statements_ch_2_use\weapon_flash_bomb_cast_lvl3		21633
+	790283218	weapon_flash_bomb_loop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_flash_bomb_loop_8D34B564.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch2\weapon_flash_bomb_loop		35687
+	806530251	weapon_flash_bomb_explode_lvl1	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_flash_bomb_explode_lvl1_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch2\shocking_statements_ch_explode\weapon_flash_bomb_explode_lvl1		15888
+	982468093	enemy_generic_hit_zap_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_generic_hit_zap_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\lightning_hit\enemy_generic_hit_zap_02		63662
+	1065204978	enemy_generic_hit_zap_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_generic_hit_zap_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\lightning_hit\enemy_generic_hit_zap_01		52024
+

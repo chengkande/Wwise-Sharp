@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	225405624	tuba_ghost_walk_start			\Default Work Unit\Enemies\tuba_ghost_walk_start	
+	354675140	tuba_ghost_walk_stop			\Default Work Unit\Enemies\tuba_ghost_walk_stop	
+	3615082239	tuba_ghost_interrupt			\Default Work Unit\Enemies\tuba_ghost_interrupt	Also contains stop action for walk
+	3872449202	tuba_ghost_attack			\Default Work Unit\Enemies\tuba_ghost_attack	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	19287978	enemy_tuba_ghost_attack_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_attack_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_attack\enemy_tuba_ghost_attack_02		39246
+	39102024	enemy_tuba_ghost_walk_10	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_10_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_10		129293
+	48936494	enemy_tuba_ghost_interrupt_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_interrupt_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_interrupt\enemy_tuba_ghost_interrupt_02		14558
+	67269529	enemy_tuba_ghost_walk_08	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_08_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_08		132802
+	138116435	enemy_tuba_ghost_walk_11	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_11_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_11		129633
+	148922800	enemy_tuba_ghost_walk_12	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_12_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_12		141514
+	171867372	enemy_tuba_ghost_walk_04	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_04_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_04		90410
+	195260982	enemy_tuba_ghost_walk_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_02		148083
+	227487571	enemy_tuba_ghost_walk_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_01_C0961460.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_01		185269
+	284758594	enemy_tuba_ghost_walk_07	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_07_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_07		145181
+	344776102	enemy_tuba_ghost_walk_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_03		167070
+	399637419	enemy_tuba_ghost_walk_13	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_13_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_13		104838
+	400660293	enemy_tuba_ghost_walk_09	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_09_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_09		218142
+	402296818	enemy_tuba_ghost_walk_05	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_05_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_05		144974
+	511247204	enemy_tuba_ghost_interrupt_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_interrupt_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_interrupt\enemy_tuba_ghost_interrupt_01		20836
+	712395124	enemy_tuba_ghost_walk_06	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_walk_06_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_walk\enemy_tuba_ghost_walk_06		103512
+	876008203	enemy_tuba_ghost_attack_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_attack_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_attack\enemy_tuba_ghost_attack_03		38382
+	1029925372	enemy_tuba_ghost_attack_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_tuba_ghost_attack_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Tuba\enemy_tuba_ghost_attack\enemy_tuba_ghost_attack_01		37603
+

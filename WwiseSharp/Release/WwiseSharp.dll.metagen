@@ -98,6 +98,7 @@ Class WwiseSharp.WwiseSharpEngine: AutoLayout, AnsiClass, Class, Public, BeforeF
     SetPanType(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
     SetBusEffect(UInt32): PrivateScope, Public, HideBySig
     InitReverb(): PrivateScope, Public, HideBySig
+    SetLanguage(String): PrivateScope, Public, HideBySig
     Update(): PrivateScope, Public, HideBySig
     UnregisterGameObject(WwiseSharpGameObject): PrivateScope, Public, HideBySig
     UnregisterAllGameObject(): PrivateScope, Public, HideBySig

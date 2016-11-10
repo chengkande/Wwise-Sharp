@@ -1,0 +1,24 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3702350330	faux_pow_use			\Default Work Unit\Weapons\faux_pow_use	
+	4070913288	faux_pow_hit			\Default Work Unit\Weapons\faux_pow_hit	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3101840790	faux_pow			\Default Work Unit\Skills\faux_pow	
+
+Switch	ID	Name	Switch Group			Notes
+	141331488	lvl3	faux_pow			
+	141331489	lvl2	faux_pow			
+	141331490	lvl1	faux_pow			
+	141331495	lvl4	faux_pow			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	211904816	faux_pow_lvl1_laugh_04	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\faux_pow_lvl1_laugh_04_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\faux_pow\faux_pow_laugh\foux_pow_laugh\faux_pow_lvl1_laugh_04		21594
+	442929592	faux_pow_lvl1_laugh_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\faux_pow_lvl1_laugh_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\faux_pow\faux_pow_laugh\foux_pow_laugh\faux_pow_lvl1_laugh_02		27506
+	633256115	faux_pow_lvl4	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\faux_pow_lvl4_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\faux_pow\faux_pow\faux_pow_lvl4		95981
+	672864985	faux_pow_lvl1_laugh_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\faux_pow_lvl1_laugh_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\faux_pow\faux_pow_laugh\foux_pow_laugh\faux_pow_lvl1_laugh_03		17881
+	806437983	debate_dissimilarities_hit_weak_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_hit_weak_03_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\violent_weak_hit\debate_dissimilarities_hit_weak_03		22892
+	916425405	debate_dissimilarities_hit_weak_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_hit_weak_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\violent_weak_hit\debate_dissimilarities_hit_weak_02		24932
+	1010067689	faux_pow_lvl1	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\faux_pow_lvl1_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\faux_pow\faux_pow\faux_pow_lvl1		84967
+	1022059405	debate_dissimilarities_hit_weak_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\debate_dissimilarities_hit_weak_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\violent_weak_hit\debate_dissimilarities_hit_weak_01		25066
+	1044202928	faux_pow_lvl1_laugh_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\faux_pow_lvl1_laugh_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\faux_pow\faux_pow_laugh\foux_pow_laugh\faux_pow_lvl1_laugh_01		13271
+

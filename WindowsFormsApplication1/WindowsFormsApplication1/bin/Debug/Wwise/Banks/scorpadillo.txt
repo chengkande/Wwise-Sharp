@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	963594030	scorpadillo_attack			\Default Work Unit\Enemies\scorpadillo_attack	
+	1862388575	scorpadillo_hit_armor_layer			\Default Work Unit\Enemies\scorpadillo_hit_armor_layer	
+	2811421958	scorpadillo_unfurl			\Default Work Unit\Enemies\scorpadillo_unfurl	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	368800736	enemy_scorpadillo_armor_hit_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_scorpadillo_armor_hit_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Scorpadillo\scorpadillo_hit_armor_layer\enemy_scorpadillo_armor_hit_02		8265
+	453259234	enemy_scorpadillo_unfurl	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_scorpadillo_unfurl_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Scorpadillo\enemy_scorpadillo_unfurl		31820
+	471328911	enemy_scorpadillo_attack	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_scorpadillo_attack_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Scorpadillo\enemy_scorpadillo_attack		20581
+	886441068	enemy_scorpadillo_armor_hit_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_scorpadillo_armor_hit_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Scorpadillo\scorpadillo_hit_armor_layer\enemy_scorpadillo_armor_hit_03		8632
+	921169482	enemy_scorpadillo_armor_hit_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_scorpadillo_armor_hit_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Scorpadillo\scorpadillo_hit_armor_layer\enemy_scorpadillo_armor_hit_01		8615
+

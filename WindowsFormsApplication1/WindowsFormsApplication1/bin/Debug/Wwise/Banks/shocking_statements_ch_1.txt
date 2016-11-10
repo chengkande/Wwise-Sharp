@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3209285414	shocking_statements_ch_1_use			\Default Work Unit\Weapons\shocking_statements_ch_1_use	
+	3576671772	shocking_statements_ch_1_hit			\Default Work Unit\Weapons\shocking_statements_ch_1_hit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	509195348	weapon_zap_a_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_zap_a_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\weapon_zap\weapon_zap_a_02		25509
+	783614087	weapon_zap_a_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_zap_a_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\weapon_zap\weapon_zap_a_01		23747
+	982468093	enemy_generic_hit_zap_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_generic_hit_zap_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\lightning_hit\enemy_generic_hit_zap_02		63662
+	1065204978	enemy_generic_hit_zap_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_generic_hit_zap_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\lightning_hit\enemy_generic_hit_zap_01		52024
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1487322873" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Enemies\trenchcoats</ObjectPath>
+			<ShortName>trenchcoats</ShortName>
+			<Path>trenchcoats.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3408101471" Name="trenchcoat_kick" ObjectPath="\Events\Default Work Unit\Enemies\trenchcoat_kick"/>
+				<Event Id="1729173526" Name="trenchcoat_leap_attack" ObjectPath="\Events\Default Work Unit\Enemies\trenchcoat_leap_attack"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="18459177" Language="SFX">
+					<ShortName>trenchcoat_leap_01.wav</ShortName>
+					<Path>SFX\trenchcoat_leap_01_3314988A.wem</Path>
+				</File>
+				<File Id="496301290" Language="SFX">
+					<ShortName>trenchcoat_kick_01.wav</ShortName>
+					<Path>SFX\trenchcoat_kick_01_3314988A.wem</Path>
+				</File>
+				<File Id="580499045" Language="SFX">
+					<ShortName>trenchcoat_leap_02.wav</ShortName>
+					<Path>SFX\trenchcoat_leap_02_3314988A.wem</Path>
+				</File>
+				<File Id="802940539" Language="SFX">
+					<ShortName>trenchcoat_kick_02.wav</ShortName>
+					<Path>SFX\trenchcoat_kick_02_3314988A.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

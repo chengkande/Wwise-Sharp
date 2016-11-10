@@ -1,0 +1,29 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1700725548	shocking_statements_ch_3_use			\Default Work Unit\Weapons\shocking_statements_ch_3_use	
+	1738959358	shocking_statements_ch_3_hit			\Default Work Unit\Weapons\shocking_statements_ch_3_hit	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	548171032	shocking_statements_ch_3			\Default Work Unit\Skills\shocking_statements_ch_3	
+
+Switch	ID	Name	Switch Group			Notes
+	141331488	lvl3	shocking_statements_ch_3			
+	141331489	lvl2	shocking_statements_ch_3			
+	141331490	lvl1	shocking_statements_ch_3			
+	141331495	lvl4	shocking_statements_ch_3			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	219744431	weapon_lightning_bolt_lvl2_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl2_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl2\weapon_lightning_bolt_lvl2_02		32060
+	262602260	weapon_lightning_bolt_lvl3_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl3_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl3\weapon_lightning_bolt_lvl3_01		32167
+	393465170	weapon_lightning_bolt_lvl3_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl3_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl3\weapon_lightning_bolt_lvl3_03		33845
+	435841909	weapon_lightning_bolt_lvl2_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl2_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl2\weapon_lightning_bolt_lvl2_03		32890
+	445786323	weapon_lightning_bolt_lvl4_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl4_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl4\weapon_lightning_bolt_lvl4_02		34820
+	491185600	weapon_lightning_bolt_lvl1_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl1_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl1\weapon_lightning_bolt_lvl1_01		25552
+	652160044	weapon_lightning_bolt_lvl1_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl1_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl1\weapon_lightning_bolt_lvl1_03		32910
+	923524752	weapon_lightning_bolt_lvl2_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl2_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl2\weapon_lightning_bolt_lvl2_01		30271
+	924513857	weapon_lightning_bolt_lvl4_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl4_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl4\weapon_lightning_bolt_lvl4_03		33399
+	968671513	weapon_lightning_bolt_lvl1_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl1_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl1\weapon_lightning_bolt_lvl1_02		25165
+	982468093	enemy_generic_hit_zap_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_generic_hit_zap_02_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\lightning_hit\enemy_generic_hit_zap_02		63662
+	1045530408	weapon_lightning_bolt_lvl3_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl3_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl3\weapon_lightning_bolt_lvl3_02		36975
+	1065204978	enemy_generic_hit_zap_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_generic_hit_zap_01_21545B0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Hit\lightning_hit\enemy_generic_hit_zap_01		52024
+	1069562396	weapon_lightning_bolt_lvl4_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\weapon_lightning_bolt_lvl4_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Use\shocking_statements_ch_3\lvl4\weapon_lightning_bolt_lvl4_01		35759
+

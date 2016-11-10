@@ -1,0 +1,56 @@
+Event	ID	Name			Wwise Object Path	Notes
+	80441969	object_tim_fight_platforms_break			\Default Work Unit\Object\object_tim_fight_platforms_break	
+	94756280	gorilla_tim_confused			\Default Work Unit\Enemies\gorilla_tim_confused	
+	616300807	object_tim_fight_platforms_appear			\Default Work Unit\Object\object_tim_fight_platforms_appear	
+	1623032319	gorilla_tim_punch			\Default Work Unit\Enemies\gorilla_tim_punch	
+	1783553065	object_tim_fight_barrel_hit			\Default Work Unit\Object\object_tim_fight_barrel_hit	
+	1924374811	gorilla_tim_music_start			\Default Work Unit\Music\gorilla_tim_music_start	
+	2051549945	gorilla_tim_music_stop			\Default Work Unit\Music\gorilla_tim_music_stop	
+	2083050725	gorilla_tim_snarl			\Default Work Unit\Enemies\gorilla_tim_snarl	
+	2433659511	gorilla_tim_walk_fist			\Default Work Unit\Enemies\gorilla_tim_walk_fist	
+	2534913445	gorilla_tim_walk_feet			\Default Work Unit\Enemies\gorilla_tim_walk_feet	
+	3157804382	gorilla_tim_equip_glasses			\Default Work Unit\Enemies\gorilla_tim_equip_glasses	
+	3580486805	gorilla_tim_stun			\Default Work Unit\Enemies\gorilla_tim_stun	
+	3734059916	object_tim_fight_barrel_destroy			\Default Work Unit\Object\object_tim_fight_barrel_destroy	
+	3886083904	gorilla_tim_surprise			\Default Work Unit\Enemies\gorilla_tim_surprise	
+	4279263867	gorilla_tim_ground_pound			\Default Work Unit\Enemies\gorilla_tim_ground_pound	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	811723717	TimFight			\Default Work Unit\Music States\TimFight	
+
+State	ID	Name	State Group			Notes
+	529726532	End	TimFight			
+	748895195	None	TimFight			
+	1125500713	Intro	TimFight			
+	1422622395	Transform	TimFight			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	52449106	enemy_gorilla_tim_ground_pound_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_ground_pound_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_ground_pound\enemy_gorilla_tim_ground_pound_02		60510
+	87190625	enemy_gorilla_tim_snarl_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_snarl_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_snarl\enemy_gorilla_tim_snarl_03		20714
+	123088860	object_tim_fight_barrel_hit	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_tim_fight_barrel_hit_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_tim_fight_barrel_hit		5798
+	187622680	enemy_gorilla_tim_walk_fist_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_walk_fist_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_walk_fist\enemy_gorilla_tim_walk_fist_02		13241
+	244339424	TimPreTransformLoop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\TimPreTransformLoop_66878FFD.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\TimFight\TimIntro\TimPreTransformLoop\TimPreTransformLoop		3390328
+	320465480	enemy_gorilla_tim_punch_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_punch_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_punch\enemy_gorilla_tim_punch_02		22908
+	361634740	enemy_gorilla_tim_snarl_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_snarl_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_snarl\enemy_gorilla_tim_snarl_02		17878
+	371719689	TimFightLoop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\TimFightLoop_66878FFD.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\TimFight\TimTransform\TimFightLoop\TimFightLoop		6768824
+	400128471	enemy_gorilla_tim_walk_feet_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_walk_feet_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_walk_feet\enemy_gorilla_tim_walk_feet_02		10962
+	407461482	enemy_gorilla_tim_walk_feet_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_walk_feet_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_walk_feet\enemy_gorilla_tim_walk_feet_03		11005
+	411843703	enemy_gorilla_tim_stun	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_stun_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_stun		62505
+	482282404	enemy_gorilla_tim_punch_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_punch_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_punch\enemy_gorilla_tim_punch_01		26026
+	616031018	object_tim_fight_platforms_appear	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_tim_fight_platforms_appear_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_tim_fight_platforms_appear		21018
+	617356778	object_tim_fight_platforms_break	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_tim_fight_platforms_break_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_tim_fight_platforms_break		36537
+	639577364	enemy_gorilla_tim_walk_fist_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_walk_fist_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_walk_fist\enemy_gorilla_tim_walk_fist_01		9803
+	652720528	enemy_gorilla_tim_ground_pound_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_ground_pound_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_ground_pound\enemy_gorilla_tim_ground_pound_03		62055
+	681012050	enemy_gorilla_tim_equip_glasses	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_equip_glasses_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_equip_glasses		33843
+	707672472	TimEnd	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\TimEnd_66878FFD.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\TimFight\TimEnd\TimEnd\TimEnd		918256
+	778222456	TimIntro	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\TimIntro_66878FFD.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\TimFight\TimIntro\TimIntro\TimIntro		3390328
+	797413196	enemy_gorilla_tim_punch_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_punch_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_punch\enemy_gorilla_tim_punch_03		23863
+	807212071	TimTransform	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\TimTransform_66878FFD.wem		\Interactive Music Hierarchy\Default Work Unit\Actual Music\TimFight\TimTransform\TimTransform\TimTransform		1701080
+	849236864	object_tim_fight_barrel_destroy	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_tim_fight_barrel_destroy_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\object_tim_fight_barrel_destroy		20740
+	905391705	enemy_gorilla_tim_confused	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_confused_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_confused		40463
+	913034582	enemy_gorilla_tim_surprise	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_surprise_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_surprise		10019
+	949709691	enemy_gorilla_tim_walk_feet_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_walk_feet_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_walk_feet\enemy_gorilla_tim_walk_feet_01		11376
+	965562463	enemy_gorilla_tim_ground_pound_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_ground_pound_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_ground_pound\enemy_gorilla_tim_ground_pound_01		63780
+	1015435923	enemy_gorilla_tim_snarl_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_snarl_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_snarl\enemy_gorilla_tim_snarl_01		19592
+	1021350243	enemy_gorilla_tim_walk_fist_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_gorilla_tim_walk_fist_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Gorilla Tim\enemy_gorilla_tim_walk_fist\enemy_gorilla_tim_walk_fist_03		11999
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1100725402" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Skills\debate_dissimilarities</ObjectPath>
+			<ShortName>debate_dissimilarities</ShortName>
+			<Path>debate_dissimilarities.bnk</Path>
+			<IncludedEvents>
+				<Event Id="548774002" Name="debate_dissimilarities_hit_strong" ObjectPath="\Events\Default Work Unit\Weapons\debate_dissimilarities_hit_strong"/>
+				<Event Id="1841104311" Name="debate_dissimilarities_hit_weak" ObjectPath="\Events\Default Work Unit\Weapons\debate_dissimilarities_hit_weak"/>
+				<Event Id="2109642406" Name="debate_dissimilarities_use" ObjectPath="\Events\Default Work Unit\Weapons\debate_dissimilarities_use"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="31350246" Language="SFX">
+					<ShortName>debate_dissimilarities_hit_heavy_03.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_hit_heavy_03_21545B0F.wem</Path>
+				</File>
+				<File Id="147380051" Language="SFX">
+					<ShortName>debate_dissimilarities_lvl1_03.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_lvl1_03_3314988A.wem</Path>
+				</File>
+				<File Id="199486214" Language="SFX">
+					<ShortName>debate_dissimilarities_lvl1_07.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_lvl1_07_3314988A.wem</Path>
+				</File>
+				<File Id="348240373" Language="SFX">
+					<ShortName>debate_dissimilarities_lvl1_06.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_lvl1_06_3314988A.wem</Path>
+				</File>
+				<File Id="354666302" Language="SFX">
+					<ShortName>debate_dissimilarities_lvl1_05.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_lvl1_05_3314988A.wem</Path>
+				</File>
+				<File Id="387833157" Language="SFX">
+					<ShortName>debate_dissimilarities_use_lvl4_03.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_use_lvl4_03_3314988A.wem</Path>
+				</File>
+				<File Id="471103181" Language="SFX">
+					<ShortName>debate_dissimilarities_hit_heavy_02.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_hit_heavy_02_21545B0F.wem</Path>
+				</File>
+				<File Id="482710412" Language="SFX">
+					<ShortName>debate_dissimilarities_use_lvl4_05.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_use_lvl4_05_3314988A.wem</Path>
+				</File>
+				<File Id="545647584" Language="SFX">
+					<ShortName>debate_dissimilarities_lvl1_01.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_lvl1_01_3314988A.wem</Path>
+				</File>
+				<File Id="576488226" Language="SFX">
+					<ShortName>debate_dissimilarities_use_lvl4_01.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_use_lvl4_01_3314988A.wem</Path>
+				</File>
+				<File Id="612060229" Language="SFX">
+					<ShortName>debate_dissimilarities_use_lvl4_04.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_use_lvl4_04_3314988A.wem</Path>
+				</File>
+				<File Id="768820985" Language="SFX">
+					<ShortName>debate_dissimilarities_lvl1_02.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_lvl1_02_3314988A.wem</Path>
+				</File>
+				<File Id="806437983" Language="SFX">
+					<ShortName>debate_dissimilarities_hit_weak_03.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_hit_weak_03_21545B0F.wem</Path>
+				</File>
+				<File Id="914420286" Language="SFX">
+					<ShortName>debate_dissimilarities_lvl1_04.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_lvl1_04_3314988A.wem</Path>
+				</File>
+				<File Id="916425405" Language="SFX">
+					<ShortName>debate_dissimilarities_hit_weak_02.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_hit_weak_02_21545B0F.wem</Path>
+				</File>
+				<File Id="976949538" Language="SFX">
+					<ShortName>debate_dissimilarities_hit_heavy_01.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_hit_heavy_01_21545B0F.wem</Path>
+				</File>
+				<File Id="997085510" Language="SFX">
+					<ShortName>debate_dissimilarities_use_lvl4_02.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_use_lvl4_02_3314988A.wem</Path>
+				</File>
+				<File Id="1022059405" Language="SFX">
+					<ShortName>debate_dissimilarities_hit_weak_01.wav</ShortName>
+					<Path>SFX\debate_dissimilarities_hit_weak_01_21545B0F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

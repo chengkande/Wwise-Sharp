@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3410210551" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Skills\quick_retort</ObjectPath>
+			<ShortName>quick_retort</ShortName>
+			<Path>quick_retort.bnk</Path>
+			<IncludedEvents>
+				<Event Id="900059429" Name="quick_retort_hit" ObjectPath="\Events\Default Work Unit\Weapons\quick_retort_hit"/>
+				<Event Id="999003939" Name="quick_retort_use" ObjectPath="\Events\Default Work Unit\Weapons\quick_retort_use"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="84974582" Language="SFX">
+					<ShortName>enemy_generic_hit_generic_02.wav</ShortName>
+					<Path>SFX\enemy_generic_hit_generic_02_21545B0F.wem</Path>
+				</File>
+				<File Id="122123897" Language="SFX">
+					<ShortName>enemy_generic_hit_generic_01.wav</ShortName>
+					<Path>SFX\enemy_generic_hit_generic_01_21545B0F.wem</Path>
+				</File>
+				<File Id="538219484" Language="SFX">
+					<ShortName>weapon_dash_a_01.wav</ShortName>
+					<Path>SFX\weapon_dash_a_01_3314988A.wem</Path>
+				</File>
+				<File Id="933049443" Language="SFX">
+					<ShortName>enemy_generic_hit_generic_03.wav</ShortName>
+					<Path>SFX\enemy_generic_hit_generic_03_21545B0F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,51 @@
+Event	ID	Name			Wwise Object Path	Notes
+	27346302	cutscene_noir_bomb_fight_transition			\Default Work Unit\Object\Noir\cutscene_noir_bomb_fight_transition	
+	82599445	object_warehouse_rain_door_play			\Default Work Unit\Object\Noir\object_warehouse_rain_door_play	
+	295852318	octopaul_water_bubble_stop			\Default Work Unit\Enemies\octopaul_water_bubble_stop	
+	486192850	object_noir_bomb_reset			\Default Work Unit\Object\Noir\object_noir_bomb_reset	
+	808009117	object_noir_bomb_error			\Default Work Unit\Object\Noir\object_noir_bomb_error	
+	915732133	thunder_outside			\Default Work Unit\Object\Noir\thunder_outside	
+	1034002795	cutscene_noir_ghost_apparate			\Default Work Unit\Object\Noir\cutscene_noir_ghost_apparate	
+	1309482675	object_gunshot			\Default Work Unit\Object\Noir\object_gunshot	
+	1399618984	octopaul_book_explode			\Default Work Unit\Enemies\octopaul_book_explode	
+	1407866659	octopaul_book_throw			\Default Work Unit\Enemies\octopaul_book_throw	
+	1486102828	object_noir_controls_drop			\Default Work Unit\Object\Noir\object_noir_controls_drop	
+	1677582706	object_warehouse_rain_window_loop_play			\Default Work Unit\Object\Noir\object_warehouse_rain_window_loop_play	
+	1713230934	object_warehouse_steel_door_close			\Default Work Unit\Object\Noir\object_warehouse_steel_door_close	
+	1818372388	octopaul_water_bubble_play			\Default Work Unit\Enemies\octopaul_water_bubble_play	
+	2308369749	octopaul_water_agitate_stop			\Default Work Unit\Enemies\octopaul_water_agitate_stop	
+	2544563187	object_warehouse_rain_door_stop			\Default Work Unit\Object\Noir\object_warehouse_rain_door_stop	
+	2557536570	object_noir_bomb_error_flashing			\Default Work Unit\Object\Noir\object_noir_bomb_error_flashing	
+	3115052233	object_noir_bomb_error_flashing_stop			\Default Work Unit\Object\Noir\object_noir_bomb_error_flashing_stop	
+	3119006022	cutscene_noir_ressurect_flash			\Default Work Unit\Object\Noir\cutscene_noir_ressurect_flash	
+	3389243372	object_warehouse_rain_window_loop_stop			\Default Work Unit\Object\Noir\object_warehouse_rain_window_loop_stop	
+	3573127687	octopaul_water_agitate_play			\Default Work Unit\Enemies\octopaul_water_agitate_play	
+	3997139234	object_noir_bomb_tick			\Default Work Unit\Object\Noir\object_noir_bomb_tick	
+	4030816670	objet_warehouse_light_on			\Default Work Unit\Object\Noir\objet_warehouse_light_on	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5083640	Thunder_Clap_Ext_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\Thunder_Clap_Ext_01_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Noir Intro\thunder_outside\Thunder_Clap_Ext_01		228975
+	41447351	rain_door_loop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\rain_door_loop_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Noir Intro\rain_door_loop		1316654
+	51287069	warehouse_steel_door_close	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\warehouse_steel_door_close_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Noir Intro\warehouse_steel_door_close		205478
+	115462289	noir_controls_drop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\noir_controls_drop-001_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static Objects\noir\noir_controls_drop		109331
+	283801843	octopaul_book_throw_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\octopaul_book_throw_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Octopaul\octopaul_book_throw\octopaul_book_throw_01		48755
+	295968610	warehouse_light_on	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\warehouse_light_on_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Noir Intro\warehouse_light_on		103685
+	362279898	noir_bomb_tick	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\noir_bomb_tick_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static Objects\noir\noir_bomb_tick_repeat_container\noir_bomb_tick		2738
+	370219855	Thunder_Clap_Ext_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\Thunder_Clap_Ext_02_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Noir Intro\thunder_outside\Thunder_Clap_Ext_02		267140
+	394227041	noir_bomb_reset	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\noir_bomb_reset_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static Objects\noir\noir_bomb_reset		11553
+	433715689	octopaul_book_throw_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\octopaul_book_throw_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Octopaul\octopaul_book_throw\octopaul_book_throw_02		46919
+	462373211	noir_ghost_apparate	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\noir_ghost_apparate_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cutscenes\noir_ghost_apparate		255253
+	488674180	noir_ressurect_flash	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\noir_ressurect_flash_0A72E799.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cutscenes\noir_ressurect_flash		47999
+	497145797	octopaul_book_throw_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\octopaul_book_throw_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Octopaul\octopaul_book_throw\octopaul_book_throw_03		52716
+	569412145	noir_bomb_fight_transition	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\noir_bomb_fight_transition_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cutscenes\noir_bomb_fight_transition		185049
+	587428472	noir_bomb_error	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\noir_bomb_error_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static Objects\noir\noir_bomb_error		8923
+	608667691	water_agitate_loop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\water_agitate_loop_8D34B564.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Octopaul\water_agitate_loop		372205
+	636123202	enemy_bomblin_bomb_explode_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_explode_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_explode\enemy_bomblin_bomb_explode_02		40732
+	654028659	enemy_bomblin_bomb_explode_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_explode_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_explode\enemy_bomblin_bomb_explode_01		50448
+	672323945	enemy_bomblin_bomb_explode_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_bomblin_bomb_explode_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bomblin\enemy_bomblin_bomb_explode\enemy_bomblin_bomb_explode_03		36893
+	711402537	gunshot_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\Gunshot_02_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Noir Intro\object_gunshot\gunshot_02		73887
+	716508464	warehouse_rain_window_loop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\warehouse_rain_window_loop_682514AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Noir Intro\warehouse_rain_window_loop		364347
+	844523236	gunshot_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\Gunshot_01_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Noir Intro\object_gunshot\gunshot_01		82746
+	907072123	Thunder_Clap_Ext_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\Thunder_Clap_Ext_03_FB1EEB1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Noir Intro\thunder_outside\Thunder_Clap_Ext_03		277178
+	1048778746	water_bubble_loop	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\water_bubble_loop_8D34B564.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Octopaul\water_bubble_loop		429832
+

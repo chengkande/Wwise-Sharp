@@ -1,0 +1,28 @@
+Event	ID	Name			Wwise Object Path	Notes
+	155901958	clay_pot_crash			\Default Work Unit\Enemies\clay_pot_crash	
+	336855872	clay_hammer_strike			\Default Work Unit\Enemies\clay_hammer_strike	
+	683001920	clay_pot_reform			\Default Work Unit\Enemies\clay_pot_reform	
+	3432398887	clay_pot_form			\Default Work Unit\Enemies\clay_pot_form	
+	3603523519	clay_hammer_reform			\Default Work Unit\Enemies\clay_hammer_reform	
+	4092771460	clay_hammer_form			\Default Work Unit\Enemies\clay_hammer_form	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	85966134	enemy_clay_hammer_form_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_hammer_form_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_hammer_form\enemy_clay_hammer_form_01		24548
+	134290648	enemy_clay_pot_form_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_pot_form_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_pot_form\enemy_clay_pot_form_03		32985
+	191043132	enemy_clay_pot_crash_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_pot_crash_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_pot_crash\enemy_clay_pot_crash_02		24073
+	260797939	enemy_clay_pot_form_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_pot_form_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_pot_form\enemy_clay_pot_form_01		29787
+	323751923	enemy_clay_hammer_strike_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_hammer_strike_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_hammer_strike\enemy_clay_hammer_strike_02		23775
+	445053502	enemy_clay_pot_reform_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_pot_reform_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_pot_reform\enemy_clay_pot_reform_03		23548
+	525587444	enemy_clay_hammer_reform_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_hammer_reform_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_hammer_reform\enemy_clay_hammer_reform_02		19781
+	530781295	enemy_clay_pot_reform_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_pot_reform_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_pot_reform\enemy_clay_pot_reform_01		26678
+	550284561	enemy_clay_hammer_strike_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_hammer_strike_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_hammer_strike\enemy_clay_hammer_strike_03		25943
+	715507381	enemy_clay_hammer_form_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_hammer_form_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_hammer_form\enemy_clay_hammer_form_03		23723
+	830950317	enemy_clay_pot_crash_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_pot_crash_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_pot_crash\enemy_clay_pot_crash_03		23504
+	834088947	enemy_clay_hammer_reform_03	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_hammer_reform_03_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_hammer_reform\enemy_clay_hammer_reform_03		16796
+	899192649	enemy_clay_pot_crash_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_pot_crash_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_pot_crash\enemy_clay_pot_crash_01		23402
+	999197580	enemy_clay_pot_reform_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_pot_reform_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_pot_reform\enemy_clay_pot_reform_02		24776
+	1030110179	enemy_clay_hammer_reform_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_hammer_reform_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_hammer_reform\enemy_clay_hammer_reform_01		13272
+	1051475349	enemy_clay_hammer_strike_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_hammer_strike_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_hammer_strike\enemy_clay_hammer_strike_01		23095
+	1058071538	enemy_clay_pot_form_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_pot_form_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_pot_form\enemy_clay_pot_form_02		30403
+	1058271075	enemy_clay_hammer_form_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_clay_hammer_form_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Clay\enemy_clay_hammer_form\enemy_clay_hammer_form_02		24186
+
