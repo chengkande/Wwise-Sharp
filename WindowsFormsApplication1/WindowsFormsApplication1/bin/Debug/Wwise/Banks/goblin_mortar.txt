@@ -1,9 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2246323865	goblin_mortar_impact			\Default Work Unit\Enemies\goblin_mortar_impact	
-	2925329983	goblin_mortar_fire			\Default Work Unit\Enemies\goblin_mortar_fire	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	681247896	object_artillery_fire_distant	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_artillery_fire_distant_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goblin Mortar\object_artillery_fire_distant		105757
-	797362786	object_artillery_impact	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_artillery_impact_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goblin Mortar\object_artillery_impact		48230
-	847297877	object_artillery_fire_close	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\object_artillery_fire_close_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goblin Mortar\object_artillery_fire_close		31446
-

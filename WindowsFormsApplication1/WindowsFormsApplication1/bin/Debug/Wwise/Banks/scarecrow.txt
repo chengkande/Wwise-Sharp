@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	3066288604	scarecrow_summon			\Default Work Unit\Enemies\scarecrow_summon	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	79996608	enemy_scarecrow_summon_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_scarecrow_summon_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\enemy_scarecrow_summon_01		30020
-

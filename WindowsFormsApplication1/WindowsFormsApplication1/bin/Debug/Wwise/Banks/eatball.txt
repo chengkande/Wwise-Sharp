@@ -1,8 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2766351673	eatball_attack			\Default Work Unit\Enemies\eatball_attack	
-	3175482572	eatball_attack_stop			\Default Work Unit\Enemies\eatball_attack_stop	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	125095583	enemy_eatball_attack_01	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_eatball_attack_01_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Eatball\enemy_eatball_attack\enemy_eatball_attack_01		37279
-	1017991918	enemy_eatball_attack_02	C:\Users\Miles\Desktop\JUSTINCASE\SuperDarylDeluxe\.cache\Windows\SFX\enemy_eatball_attack_02_3314988A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Eatball\enemy_eatball_attack\enemy_eatball_attack_02		34103
-

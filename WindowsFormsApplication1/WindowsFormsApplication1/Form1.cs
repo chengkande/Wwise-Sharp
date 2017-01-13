@@ -41,7 +41,7 @@ namespace WindowsFormsApplication1
             Wwise.LoadBank("Init.bnk");
             Wwise.LoadBank("global.bnk");
             Wwise.SetLanguage("English(US)");
-            //Wwise.LoadBank("ambience.bnk");
+            Wwise.LoadBank("ambience.bnk");
             Wwise.LoadBank("music.bnk");
             //Wwise.LoadBank("fowl_mouth.bnk");
             //Wwise.LoadBank("captain_sax.bnk");
@@ -123,12 +123,12 @@ namespace WindowsFormsApplication1
         
         private void button1_Click(object sender, EventArgs e)
         {
-            WwiseObject.PostEvent("noir_intro_play"); 
+            WwiseObject.PostEvent("ambience_princess_room_play"); 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            WwiseObject.PostEvent("noir_intro_fadeout_stop");
+            WwiseObject.PostEvent("ambience_princess_room_stop");
         }
         
         private void button3_Click(object sender, EventArgs e)

@@ -213,6 +213,10 @@ void WwiseSharpEngine::SetBusEffect(unsigned int fxID)
 {
 	akengine->SetBusEffect(348963605, (AkUInt32)0, (AkUniqueID)fxID);
 }
+void WwiseSharpEngine::SetBusEffect2(unsigned int fxID)
+{
+	akengine->SetBusEffect(35548098, (AkUInt32)0, (AkUniqueID)fxID);
+}
 
 void WwiseSharpEngine::InitReverb()
 {

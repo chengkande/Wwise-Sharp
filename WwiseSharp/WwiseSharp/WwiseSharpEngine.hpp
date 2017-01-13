@@ -58,6 +58,7 @@ namespace WwiseSharp
 
 		void SetPanType(bool type);
 		void SetBusEffect(unsigned int fxID);
+		void SetBusEffect2(unsigned int fxID);
 		void InitReverb();
 
 		void SetLanguage(System::String^ language);

@@ -99,6 +99,7 @@ Class WwiseSharp.WwiseSharpEngine: AutoLayout, AnsiClass, Class, Public, BeforeF
     SetListenerPosition(WwiseSharpTransform): PrivateScope, Public, HideBySig
     SetPanType(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
     SetBusEffect(UInt32): PrivateScope, Public, HideBySig
+    SetBusEffect2(UInt32): PrivateScope, Public, HideBySig
     InitReverb(): PrivateScope, Public, HideBySig
     SetLanguage(String): PrivateScope, Public, HideBySig
     Update(): PrivateScope, Public, HideBySig
