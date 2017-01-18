@@ -83,6 +83,7 @@ namespace WwiseWrapper
 		void GetSourcePlayPosition(AkPlayingID g_markersPlayingID, AkTimeMs* out_puPosition);
 		AkSegmentInfo GetPlayingSegmentInfo(AkPlayingID in_playingID);
 		void SetLanguage(const wchar_t* in_pLanguage);
+		void SeekOnEvent(const wchar_t * in_pszEventName, AkGameObjectID in_gameObjectID, AkTimeMs in_iPosition);
 	};
 }
 

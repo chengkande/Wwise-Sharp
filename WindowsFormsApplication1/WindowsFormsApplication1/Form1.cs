@@ -43,6 +43,7 @@ namespace WindowsFormsApplication1
             Wwise.SetLanguage("English(US)");
             Wwise.LoadBank("ambience.bnk");
             Wwise.LoadBank("music.bnk");
+            Wwise.LoadBank("music_wing.bnk");
             //Wwise.LoadBank("fowl_mouth.bnk");
             //Wwise.LoadBank("captain_sax.bnk");
            
@@ -78,9 +79,9 @@ namespace WindowsFormsApplication1
                     }
                 }
                 
-                /*
-                if(isCallbackEnabled)
-                {
+                
+                //if(isCallbackEnabled)
+               // {
                     //do callback stuff here
                     if (timer <= stopwatch.ElapsedMilliseconds)
                     {
@@ -91,14 +92,14 @@ namespace WindowsFormsApplication1
                             {
                                 time = stopwatch.ElapsedMilliseconds;
                                 //WwiseObject2.PostEvent("popup_social_rank_up");
-                                WwiseObject.PostEvent("captain_sax_full_loop_start");
+                                WwiseObject2.PostEvent("object_dj_booth_test");
                                 cptSaxHasStarted = true;
-                                Console.WriteLine("midi started " + time + " ms after being set for " + timer + " ms");
+                                Console.WriteLine("Timer Finished at "+stopwatch.ElapsedMilliseconds);
                             }
                        // }
                     }
-                }
-                 * */
+                //}
+                 
                 Wwise.Update();
             }
         }
@@ -356,6 +357,51 @@ namespace WindowsFormsApplication1
         private void button28_Click(object sender, EventArgs e)
         {
             Wwise.SetState("Main_Quest_Progress", "Science");
+        }
+
+        //play this for seek testing
+        private void button29_Click(object sender, EventArgs e)
+        {
+            musicInfo = WwiseObject.GetPlayingSegmentInfo(musicPlayingID);
+            Console.WriteLine("Duration: "+musicInfo.activeDuration+" Position: "+musicInfo.currentPosition);
+
+            //we are not in the intro
+            if (musicInfo.activeDuration > 50000u)
+            {
+                WwiseObject2.PostEvent("object_dj_booth_test");
+                WwiseObject2.Seek("object_dj_booth_test", musicInfo.currentPosition);
+            }
+
+            //wait until the loop starts
+            else
+            {
+                //how much longer until the loop starts
+                timer = (long)(musicInfo.activeDuration - musicInfo.currentPosition);
+
+                //re-used bools from prev timer check
+                cptSaxCanStart = true;
+                cptSaxHasStarted = false;
+
+                stopwatch.Restart();
+            }
+        }
+        //play music
+        private void button31_Click(object sender, EventArgs e)
+        {
+            WwiseObject.PostMusicSyncEvent_Bar("beethoven_nonsense_play");
+            currentTrack = "beethoven_nonsense";
+            musicPlayingID = WwiseObject.syncPlayingID;
+        }
+
+        //seek to specified playing position in ms
+        private void button30_Click(object sender, EventArgs e)
+        {
+            WwiseObject2.Seek("ambience_cassette_room_play", 30000u);
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            WwiseObject2.PostEvent("object_dj_booth_test_stop");
         }
     }
 }

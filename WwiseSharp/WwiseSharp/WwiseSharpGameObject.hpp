@@ -68,6 +68,8 @@ namespace WwiseSharp
 		void SetSwitch(unsigned long switchGroupId, unsigned long switchId);
 		void SetSwitch(System::String^ switchGroupName, System::String^ switchName);
 
+		void Seek(System::String^ eventName, unsigned long position); //Position is in Ms
+
 		unsigned long^ GetSourcePlayPosition(unsigned long in_PlayingID);
 		WwiseSharpMusicInfo^ GetPlayingSegmentInfo(unsigned long in_PlayingID);
 	};

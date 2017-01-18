@@ -398,3 +398,14 @@ void WwiseEngine::SetLanguage(const wchar_t* in_pLanguage)
 {
 	AK::StreamMgr::SetCurrentLanguage(in_pLanguage);
 }
+
+void WwiseEngine::SeekOnEvent(const wchar_t* in_pszEventName, AkGameObjectID in_gameObjectID, AkTimeMs in_iPosition)
+{
+	AK::SoundEngine::SeekOnEvent(
+		in_pszEventName,								///< Name of the event
+		in_gameObjectID,								///< Associated game object ID; use AK_INVALID_GAME_OBJECT to affect all game objects
+		in_iPosition,									///< Desired position where playback should restart, expressed in a percentage of the file's total duration, between 0 and 1.f (see note above about infinite looping sounds)
+		false,											///< If true, the final seeking position will be made equal to the nearest marker (see note above)	
+		AK_INVALID_PLAYING_ID							///< Specify the playing ID for the seek to be applied to. Will result in the seek happening only on active actions of the playing ID. Let it be AK_INVALID_PLAYING_ID or do not specify any, to seek on all active actions of this event ID.	
+	);
+}

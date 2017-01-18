@@ -170,6 +170,14 @@ void WwiseSharpGameObject::SetSwitch(System::String^ switchGroupName, System::St
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p1);
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p2);
 }
+
+void WwiseSharpGameObject::Seek(System::String^ eventName, unsigned long position)
+{
+	System::IntPtr p1 = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventName);
+	engine->SeekOnEvent(static_cast<LPCWSTR>(static_cast<void *>(p1)), objectId, position);
+	System::Runtime::InteropServices::Marshal::FreeHGlobal(p1);
+}
+
 unsigned long^ WwiseSharpGameObject::GetSourcePlayPosition(unsigned long in_PlayingID)
 {
 	engine->GetSourcePlayPosition(static_cast<AkPlayingID>(in_PlayingID), out_puPosition);

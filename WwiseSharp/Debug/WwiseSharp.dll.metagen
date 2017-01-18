@@ -65,6 +65,7 @@ Class WwiseSharp.WwiseSharpGameObject: AutoLayout, AnsiClass, Class, Public, Bef
     SetObjectRTPCValue(UInt32 IsLong, Single): PrivateScope, Public, HideBySig
     SetSwitch(String, String): PrivateScope, Public, HideBySig
     SetSwitch(UInt32 IsLong, UInt32 IsLong): PrivateScope, Public, HideBySig
+    Seek(String, UInt32 IsLong): PrivateScope, Public, HideBySig
     GetSourcePlayPosition(UInt32 IsLong): PrivateScope, Public, HideBySig
     GetPlayingSegmentInfo(UInt32 IsLong): PrivateScope, Public, HideBySig
     Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
