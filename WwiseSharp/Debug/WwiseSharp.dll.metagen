@@ -68,6 +68,9 @@ Class WwiseSharp.WwiseSharpGameObject: AutoLayout, AnsiClass, Class, Public, Bef
     Seek(String, UInt32 IsLong): PrivateScope, Public, HideBySig
     GetSourcePlayPosition(UInt32 IsLong): PrivateScope, Public, HideBySig
     GetPlayingSegmentInfo(UInt32 IsLong): PrivateScope, Public, HideBySig
+    SetTearBusSend1(): PrivateScope, Public, HideBySig
+    SetTearBusSend2(): PrivateScope, Public, HideBySig
+    RemoveTearReverbSend(): PrivateScope, Public, HideBySig
     Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
 Class WwiseSharp.WwiseSharpGameObject+DCallbackFunc: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
   :System.MulticastDelegate

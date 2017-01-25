@@ -409,3 +409,7 @@ void WwiseEngine::SeekOnEvent(const wchar_t* in_pszEventName, AkGameObjectID in_
 		AK_INVALID_PLAYING_ID							///< Specify the playing ID for the seek to be applied to. Will result in the seek happening only on active actions of the playing ID. Let it be AK_INVALID_PLAYING_ID or do not specify any, to seek on all active actions of this event ID.	
 	);
 }
+void WwiseEngine::SetAuxBus(AkGameObjectID gameObjectId, AkAuxSendValue* values, AkUInt16 numValues)
+{
+	AK::SoundEngine::SetGameObjectAuxSendValues(gameObjectId, values, numValues);
+}

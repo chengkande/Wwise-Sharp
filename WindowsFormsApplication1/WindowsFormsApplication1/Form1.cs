@@ -16,6 +16,8 @@ namespace WindowsFormsApplication1
         WwiseSharpEngine Wwise = new WwiseSharpEngine();
         WwiseSharpGameObject WwiseObject;
         WwiseSharpGameObject WwiseObject2;
+        WwiseSharpGameObject TearMusic1;
+        WwiseSharpGameObject TearMusic2;
         private uint globalObjectID = 100;
         private bool isCallbackEnabled = false;
         private bool cptSaxHasStarted = false;
@@ -402,6 +404,43 @@ namespace WindowsFormsApplication1
         private void button32_Click(object sender, EventArgs e)
         {
             WwiseObject2.PostEvent("object_dj_booth_test_stop");
+        }
+
+        //setup tear music objects
+        private void button33_Click(object sender, EventArgs e)
+        {
+            TearMusic1 = Wwise.RegisterGameObject(3, "global");
+            TearMusic1.SetTearBusSend1();
+
+            TearMusic2 = Wwise.RegisterGameObject(4, "global");
+            TearMusic2.SetTearBusSend2();
+        }
+
+        //enable tear music busses
+        private void button34_Click(object sender, EventArgs e)
+        {
+            TearMusic1.PostEvent("Enable_Tear_Music");
+        }
+
+        //disable tear music busses
+        private void button35_Click(object sender, EventArgs e)
+        {
+            TearMusic1.PostEvent("Disable_Tear_Music");
+        }
+        //play track 2
+        private void button37_Click(object sender, EventArgs e)
+        {
+            TearMusic1.PostEvent("beethoven_nonsense_fadein_play");
+        }
+        //play track 1
+        private void button36_Click(object sender, EventArgs e)
+        {
+            TearMusic2.PostEvent("doingsciencemed_fadein_play");
+        }
+
+        private void button38_Click(object sender, EventArgs e)
+        {
+            TearMusic1.PostEvent("Stop_Music");
         }
     }
 }

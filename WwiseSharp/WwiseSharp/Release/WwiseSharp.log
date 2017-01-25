@@ -1,13 +1,16 @@
 ﻿  WwiseSharpEngine.cpp
   WwiseSharpGameObject.cpp
-  WwiseSharpMusicInfo.cpp
   Generating Code...
      Creating library C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\WwiseSharp.lib and object C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\WwiseSharp.exp
   Generating code
-  0 of 126 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
+  1 of 127 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
+WwiseWrapper.lib(InitAkMeterFX.obj) : warning LNK4099: PDB 'AkMeterFX.pdb' was not found with 'WwiseWrapper.lib(InitAkMeterFX.obj)' or at 'C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\AkMeterFX.pdb'; linking object as if no debug info
+WwiseWrapper.lib(AkMeterManager.obj) : warning LNK4099: PDB 'AkMeterFX.pdb' was not found with 'WwiseWrapper.lib(AkMeterManager.obj)' or at 'C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\AkMeterFX.pdb'; linking object as if no debug info
+WwiseWrapper.lib(AkMeterFXParams.obj) : warning LNK4099: PDB 'AkMeterFX.pdb' was not found with 'WwiseWrapper.lib(AkMeterFXParams.obj)' or at 'C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\AkMeterFX.pdb'; linking object as if no debug info
+WwiseWrapper.lib(AkMeterFX.obj) : warning LNK4099: PDB 'AkMeterFX.pdb' was not found with 'WwiseWrapper.lib(AkMeterFX.obj)' or at 'C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\AkMeterFX.pdb'; linking object as if no debug info
 WwiseWrapper.lib(InitAkStereoDelayFX.obj) : warning LNK4099: PDB 'AkStereoDelayFX.pdb' was not found with 'WwiseWrapper.lib(InitAkStereoDelayFX.obj)' or at 'C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\AkStereoDelayFX.pdb'; linking object as if no debug info
 WwiseWrapper.lib(AkStereoDelayLine.obj) : warning LNK4099: PDB 'AkStereoDelayFX.pdb' was not found with 'WwiseWrapper.lib(AkStereoDelayLine.obj)' or at 'C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\AkStereoDelayFX.pdb'; linking object as if no debug info
 WwiseWrapper.lib(AkStereoDelayFXParams.obj) : warning LNK4099: PDB 'AkStereoDelayFX.pdb' was not found with 'WwiseWrapper.lib(AkStereoDelayFXParams.obj)' or at 'C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\AkStereoDelayFX.pdb'; linking object as if no debug info

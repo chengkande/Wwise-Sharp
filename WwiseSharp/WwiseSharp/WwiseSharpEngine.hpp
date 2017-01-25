@@ -13,11 +13,11 @@
 #include "SDK/include/AK/Plugin/AkRoomVerbFXFactory.h"						// Room Verb
 #include "SDK/include/AK/Plugin/AkPeakLimiterFXFactory.h"					//Limiter
 #include "SDK/include/AK/Plugin/AkStereoDelayFXFactory.h"					//Stereo Delay for Bathroom effect
-#include "SDK/include/AK/Plugin/AkVorbisDecoderFactory.h"						// Vorbis Plugin.
-
+#include "SDK/include/AK/Plugin/AkVorbisDecoderFactory.h"					// Vorbis Plugin.
+#include "SDK/include//AK/Plugin/AkMeterFXFactory.h"						//Meter, the best plugin
 
 #include "WwiseSharpGameObject.hpp"
-
+#include "Wwise_IDs.h"
 #include "WwiseSharpTransform.h"
 using namespace System::Collections::Generic;
 

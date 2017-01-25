@@ -71,7 +71,7 @@
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
     </ProjectReference>
     <Lib>
-      <AdditionalDependencies>AkSoundEngine.lib;AkMusicEngine.lib;AkStreamMgr.lib;AkMemoryMgr.lib;AkVorbisDecoder.lib;dxguid.lib;AkRoomVerbFX.lib;AkPeakLimiterFX.lib;AkStereoDelayFX.lib;CommunicationCentral.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>AkSoundEngine.lib;AkMusicEngine.lib;AkStreamMgr.lib;AkMemoryMgr.lib;AkVorbisDecoder.lib;AkMeterFX.lib;dxguid.lib;AkRoomVerbFX.lib;AkPeakLimiterFX.lib;AkStereoDelayFX.lib;CommunicationCentral.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(WWISE5533)\Win32_vc140\Debug\lib;$(DXSDK_DIR)\lib\x86;$(WWISE5533)\Win32_vc140\Profile\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>LIBCMTD;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Lib>
@@ -88,7 +88,7 @@
       <AdditionalIncludeDirectories>SDK\include\;$(WWISE5533)\samples\SoundEngine\Common;$(WWISE5533)\samples\SoundEngine\Win32;$(WWISE5533)\Win32_vc140\Debug\lib;$(WWISE5533)\include\AK\Plugin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Lib>
-      <AdditionalDependencies>AkSoundEngine.lib;AkMusicEngine.lib;AkStreamMgr.lib;AkMemoryMgr.lib;AkVorbisDecoder.lib;dxguid.lib;AkRoomVerbFX.lib;AkPeakLimiterFX.lib;AkStereoDelayFX.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>AkSoundEngine.lib;AkMusicEngine.lib;AkStreamMgr.lib;AkMemoryMgr.lib;AkVorbisDecoder.lib;dxguid.lib;AkRoomVerbFX.lib;AkPeakLimiterFX.lib;AkStereoDelayFX.lib;AkMeterFX.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(DXSDK_DIR)\lib\x86;SDK\Win32_vc140\Release\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Lib>

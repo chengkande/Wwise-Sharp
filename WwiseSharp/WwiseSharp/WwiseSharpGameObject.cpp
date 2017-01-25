@@ -216,3 +216,21 @@ WwiseSharpMusicInfo^ WwiseSharpGameObject::GetPlayingSegmentInfo(unsigned long i
 	
 	return musicInfo;
 }
+void WwiseSharpGameObject::SetTearBusSend1()
+{
+	AkAuxSendValue value;
+	value.auxBusID = AK::AUX_BUSSES::TEAR_MUSIC_1;
+	value.fControlValue = 1.0f;
+	engine->SetAuxBus(objectId, &value, 1);
+}
+void WwiseSharpGameObject::SetTearBusSend2()
+{
+	AkAuxSendValue value;
+	value.auxBusID = AK::AUX_BUSSES::TEAR_MUSIC_2;
+	value.fControlValue = 1.0f;
+	engine->SetAuxBus(objectId, &value, 1);
+}
+void WwiseSharpGameObject::RemoveTearReverbSend()
+{
+	engine->SetAuxBus(objectId, NULL, 0);
+}

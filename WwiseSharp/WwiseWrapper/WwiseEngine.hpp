@@ -84,6 +84,8 @@ namespace WwiseWrapper
 		AkSegmentInfo GetPlayingSegmentInfo(AkPlayingID in_playingID);
 		void SetLanguage(const wchar_t* in_pLanguage);
 		void SeekOnEvent(const wchar_t * in_pszEventName, AkGameObjectID in_gameObjectID, AkTimeMs in_iPosition);
+
+		void SetAuxBus(AkGameObjectID gameObjectId, AkAuxSendValue* values, AkUInt16 numValues);
 	};
 }
 

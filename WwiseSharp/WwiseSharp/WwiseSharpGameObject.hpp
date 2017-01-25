@@ -6,6 +6,7 @@
 
 #include "WwiseSharpTransform.h"
 #include "WwiseSharpMusicInfo.h"
+#include "Wwise_IDs.h"
 
 using namespace WwiseWrapper;
 //typedef void(*AkCallbackFuncS)(AkCallbackType in_Type, AkCallbackInfo *in_pCallbackInfo);
@@ -72,6 +73,10 @@ namespace WwiseSharp
 
 		unsigned long^ GetSourcePlayPosition(unsigned long in_PlayingID);
 		WwiseSharpMusicInfo^ GetPlayingSegmentInfo(unsigned long in_PlayingID);
+
+		void SetTearBusSend1();
+		void SetTearBusSend2();
+		void RemoveTearReverbSend();
 	};
 }
 
