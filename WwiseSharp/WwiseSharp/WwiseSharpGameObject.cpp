@@ -105,7 +105,7 @@ void WwiseSharpGameObject::PostMusicSyncEvent_Bar(System::String^ eventName)
 {
 	//void WwiseEngine::PostCallbackEvent(AkUniqueID eventId, AkGameObjectID gameObject, AkUInt32 uFlags = 0, AkCallbackFunc callback, void* pCookie)
 	System::IntPtr p = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(eventName);
-	syncPlayingID = static_cast<unsigned long>(engine->PostMusicSyncEvent(static_cast<LPCWSTR>(static_cast<void *>(p)), objectId, AK_MusicSyncBar | AK_EnableGetMusicPlayPosition, mCallback, thisPtr));
+	syncPlayingID = static_cast<unsigned long>(engine->PostMusicSyncEvent(static_cast<LPCWSTR>(static_cast<void *>(p)), objectId,  AK_EnableGetMusicPlayPosition));
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }
 

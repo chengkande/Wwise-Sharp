@@ -8,11 +8,11 @@ C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WindowsFormsApplication1\W
 C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
 C:\Users\Miles\Documents\GitHub\WwiseSharp\wwisesharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb
 C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe.config
-C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
-C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb
 C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
 C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
 C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
 C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
 C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
+C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb
