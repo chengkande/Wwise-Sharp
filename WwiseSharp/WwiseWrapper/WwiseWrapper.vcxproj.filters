@@ -41,5 +41,8 @@
     <ClInclude Include="WwiseEngine.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SDK\include\AK\Tools\Win32\ThreadEmulation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

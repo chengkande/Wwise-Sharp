@@ -203,7 +203,7 @@ void WwiseSharpEngine::SetPanType(bool type)
 	{ 
 		akengine->SetPanningRule(AkPanningRule_Headphones);
 	}
-	if (!type)
+	else
 	{
 		akengine->SetPanningRule(AkPanningRule_Speakers);
 	}

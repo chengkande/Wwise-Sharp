@@ -5,7 +5,7 @@ using namespace WwiseSharp;
 //#pragma unmanaged
 //typedef void(__stdcall AkCallbackFunc)(AkCallbackType in_eType, AkCallbackInfo* in_pCallbackInfo);
 
-delegate void DCallbackFunc(AkCallbackType in_eType, AkCallbackInfo* in_pCallbackInfo);
+//public delegate void DCallbackFunc(AkCallbackType in_eType, AkCallbackInfo* in_pCallbackInfo);
 
 WwiseSharpGameObject::WwiseSharpGameObject(unsigned int wwiseObjectId, System::String^ wwiseLabel, WwiseEngine* engine)
 {
@@ -51,7 +51,7 @@ void WwiseSharpGameObject::ActivateMarker()
 }
 bool WwiseSharpGameObject::GetMarkerStatus()
 {
-	tempMarkerStatus = hasHitMarker;
+	bool tempMarkerStatus = hasHitMarker;
 	hasHitMarker = false;
 	return tempMarkerStatus;
 	//return hasHitMarker;
@@ -157,11 +157,12 @@ void WwiseSharpGameObject::SetObjectRTPCValue(System::String^ rtpcName, float va
 	engine->SetObjectRTPCValue(static_cast<LPCWSTR>(static_cast<void *>(p)), static_cast<AkRtpcValue>(value), objectId);
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }
-
+/*
 void WwiseSharpGameObject::SetSwitch(unsigned long switchGroupId, unsigned long switchId)
 {
 	engine->SetSwitch(static_cast<AkSwitchGroupID>(switchGroupId), static_cast<AkSwitchStateID>(switchId), objectId);
 }
+*/
 void WwiseSharpGameObject::SetSwitch(System::String^ switchGroupName, System::String^ switchName)
 {
 	System::IntPtr p1 = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(switchGroupName);

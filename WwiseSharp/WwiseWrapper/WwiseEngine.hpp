@@ -67,13 +67,13 @@ namespace WwiseWrapper
 		void SetState(AkStateGroupID stateGroupId, AkStateID stateId);
 
 		void SetSwitch(const wchar_t* switchGroupName, const wchar_t* switchName, AkGameObjectID gameObjectId);
-		void SetSwitch(AkStateGroupID switchGroupId, AkStateID switchId, AkGameObjectID gameObjectId);
+		//void SetSwitch(AkStateGroupID switchGroupId, AkStateID switchId, AkGameObjectID gameObjectId);
 
 		void SetListenerPosition(AkListenerPosition& akPosition);
 		void SetListenerPosition(int listenerIndex, AkListenerPosition& akPosition);
 
 		void SetPosition(AkGameObjectID gameObjectId, AkSoundPosition& position);
-		void SetPosition(AkGameObjectID gameObjectId, AkSoundPosition& position, int listenerIndex);
+		//void SetPosition(AkGameObjectID gameObjectId, AkSoundPosition& position, int listenerIndex);
 		void SetMultiplePositions(AkGameObjectID gameObjectId, AkSoundPosition* akPositions, AkUInt16 numPositions);
 
 		void SetActiveListeners(AkGameObjectID gameObjectId, AkUInt32 listenerMask);

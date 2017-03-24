@@ -325,11 +325,12 @@ void WwiseEngine::SetSwitch(const wchar_t* switchGroupName, const wchar_t* switc
 {
 	AK::SoundEngine::SetSwitch(switchGroupName, switchName, gameObjectId);
 }
+/*
 void WwiseEngine::SetSwitch(AkSwitchGroupID switchGroupId, AkSwitchStateID switchId, AkGameObjectID gameObjectId)
 {
 	AK::SoundEngine::SetSwitch(switchGroupId, switchId, gameObjectId);
 }
-
+*/
 void WwiseEngine::SetListenerPosition(AkListenerPosition& akPosition)
 {
 	AK::SoundEngine::SetListenerPosition(akPosition);

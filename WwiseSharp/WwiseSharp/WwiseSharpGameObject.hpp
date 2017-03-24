@@ -21,7 +21,6 @@ namespace WwiseSharp
 		AkGameObjectID objectId;
 		char* label;
 		bool hasHitMarker;
-		bool tempMarkerStatus;
 		//MusicSyncCallbackInfo = new AkCallbackInfo(null, objectId);
 		//AkCallbackFunc MusicSyncCallbackFunc = new AkCallbackFunc(AK_MusicSyncUserCue, *MusicSyncCallbackInfo);
 
@@ -66,7 +65,7 @@ namespace WwiseSharp
 		void SetObjectRTPCValue(unsigned long rtpcId, float value);
 		void SetObjectRTPCValue(System::String^ rtpcName, float value);
 
-		void SetSwitch(unsigned long switchGroupId, unsigned long switchId);
+		//void SetSwitch(unsigned long switchGroupId, unsigned long switchId);
 		void SetSwitch(System::String^ switchGroupName, System::String^ switchName);
 
 		void Seek(System::String^ eventName, unsigned long position); //Position is in Ms
