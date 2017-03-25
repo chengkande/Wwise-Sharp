@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1372b213-6234-4a11-97a3-c71ec7b4fbb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{92920a89-5daa-4c5d-b292-ebc0cd6ea455}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\WwiseWrapper\WwiseEngine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\include\AK\Tools\Win32\ThreadEmulation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\samples\SoundEngine\Common\AkFilePackageLUT.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\samples\SoundEngine\Common\AkFileLocationBase.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\samples\SoundEngine\Common\AkFilePackage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\WwiseWrapper\WwiseEngine.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\include\AK\Tools\Win32\ThreadEmulation.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\samples\SoundEngine\Common\AkFilePackageLUT.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\samples\SoundEngine\Common\AkFileLocationBase.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\samples\SoundEngine\Common\AkFilePackage.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

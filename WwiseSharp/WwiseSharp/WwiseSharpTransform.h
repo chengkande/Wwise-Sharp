@@ -13,18 +13,31 @@
 #ifndef WWISESHARP_WWISESHARPTRANSFORM_HPP
 #define WWISESHARP_WWISESHARPTRANSFORM_HPP
 
+#ifndef WWISE_UWP
 namespace WwiseSharp
 {
 	public ref struct WwiseSharpTransform
 	{
 	public:
 		float Xposition, Yposition, Zposition;
-		float XorientationFront, YorientationFront, ZorientationFront;
-		float XorientationTop, YorientationTop, ZorientationTop;
 
 		WwiseSharpTransform(float x, float y, float z);
-		WwiseSharpTransform(float x, float y, float z, float xF, float yF, float zF, float xT, float yT, float zT);
+		void SetPosition(float x, float y);
 	};
 }
 
+#else
+namespace WwiseSharp
+{
+public ref struct WwiseSharpTransform sealed
+{
+internal:
+	float32 Xposition, Yposition, Zposition;
+public:
+	WwiseSharpTransform(float x, float y, float z);
+
+	void SetPosition(float x, float y);
+};
+}
+#endif
 #endif

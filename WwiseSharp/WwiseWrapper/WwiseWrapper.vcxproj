@@ -43,8 +43,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UWP_Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v140</PlatformToolset>
+    <WindowsAppContainer>true</WindowsAppContainer>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -64,7 +65,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\$(Configuration)\</OutDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='UWP_Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='UWP_Debug|Win32'">$(Configuration)\</IntDir>
@@ -106,27 +107,31 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalIncludeDirectories>SDK\include\;$(WWISE5533)\samples\SoundEngine\Common;$(WWISE5533)\samples\SoundEngine\Win32;$(WWISE5533)\Win32_vc140\Debug\lib;$(WWISE5533)\include\AK\Plugin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SDK\include\;$(SolutionDir)\SDK\samples\SoundEngine\Common;$(SolutionDir)\SDK\samples\SoundEngine\Win32;$(SolutionDir)\SDK\Win32_vc140\Debug\lib;$(SolutionDir)\SDK\include\AK\Plugin;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ProjectReference>
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
     </ProjectReference>
     <Lib>
       <AdditionalDependencies>AkSoundEngine.lib;AkMusicEngine.lib;AkStreamMgr.lib;AkMemoryMgr.lib;AkVorbisDecoder.lib;AkMeterFX.lib;dxguid.lib;AkRoomVerbFX.lib;AkPeakLimiterFX.lib;AkStereoDelayFX.lib;CommunicationCentral.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(WWISE5533)\Win32_vc140\Debug\lib;$(DXSDK_DIR)\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SDK\Win32_vc140\Debug\lib;$(DXSDK_DIR)\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>LIBCMTD;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UWP_Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;WWISESHARP_VORBIS;_ITERATOR_DEBUG_LEVEL=2;DEBUG;AK_USE_METRO_API;AK_USE_THREAD_EMULATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <MinimalRebuild>true</MinimalRebuild>
+      <PreprocessorDefinitions>DEBUG;WIN32;WWISE_UWP;WIN32_LEAN_AND_MEAN;_ITERATOR_DEBUG_LEVEL=2;WINAPI_FAMILY;AK_USE_THREAD_EMULATION;AK_USE_METRO_API;AK_IMPLEMENT_THREAD_EMULATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalIncludeDirectories>SDK\include\;SDK\samples\SoundEngine\Common;SDK\samples\SoundEngine\Win32;SDK\Metro_Win32_vc140\Debug\lib;SDK\include\AK\Plugin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>SDK;SDK/include/;SDK\Metro_Win32_vc140\Debug\lib;SDK\include\AK\Plugin;SDK/include/AK/Tools/Win32;SDK\samples\SoundEngine\Common;SDK\samples\SoundEngine\Win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/ZW /AI "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages" /AI "C:\Program Files (x86)\Windows Kits\10\UnionMetadata" /FU Windows.winmd /FU Platform.winmd</AdditionalOptions>
     </ClCompile>
     <ProjectReference>
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
@@ -146,11 +151,11 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>SDK\include\;$(WWISE5533)\samples\SoundEngine\Common;$(WWISE5533)\samples\SoundEngine\Win32;$(WWISE5533)\Metro_Win32_vc140\Debug\lib;$(WWISE5533)\include\AK\Plugin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SDK\include\;$(SolutionDir)\SDK\samples\SoundEngine\Common;$(SolutionDir)\SDK\samples\SoundEngine\Win32;$(SolutionDir)\SDK\Win32_vc140\Release\lib;$(SolutionDir)\SDK\include\AK\Plugin;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Lib>
       <AdditionalDependencies>AkSoundEngine.lib;AkMusicEngine.lib;AkStreamMgr.lib;AkMemoryMgr.lib;AkVorbisDecoder.lib;dxguid.lib;AkRoomVerbFX.lib;AkPeakLimiterFX.lib;AkStereoDelayFX.lib;AkMeterFX.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(DXSDK_DIR)\lib\x86;SDK\Win32_vc140\Release\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SDK\Win32_vc140\Release\lib;$(DXSDK_DIR)\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Lib>
   </ItemDefinitionGroup>
@@ -172,17 +177,19 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.cpp" />
-    <ClCompile Include="AKAdditions\SampleLowLevelIO\Common\AkFileLocationBase.cpp" />
-    <ClCompile Include="AKAdditions\SampleLowLevelIO\Common\AkFilePackage.cpp" />
-    <ClCompile Include="AKAdditions\SampleLowLevelIO\Common\AkFilePackageLUT.cpp" />
-    <ClCompile Include="WwiseEngine.cpp" />
+    <ClInclude Include="..\AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.h" />
+    <ClInclude Include="..\SDK\include\AK\Tools\Win32\ThreadEmulation.h" />
+    <ClInclude Include="..\SDK\samples\SoundEngine\Common\AkFileLocationBase.h" />
+    <ClInclude Include="..\SDK\samples\SoundEngine\Common\AkFilePackageLUT.h" />
+    <ClInclude Include="WwiseEngine.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.h" />
-    <ClInclude Include="SDK\include\AK\Tools\Win32\ThreadEmulation.h" />
-    <ClInclude Include="SDK\samples\SoundEngine\Win32\AkFileHelpers.h" />
-    <ClInclude Include="WwiseEngine.hpp" />
+    <ClCompile Include="..\AKAdditions\SampleLowLevelIO\Common\AkFilePackage.cpp" />
+    <ClCompile Include="..\AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.cpp" />
+    <ClCompile Include="..\SDK\include\AK\Tools\Win32\ThreadEmulation.cpp" />
+    <ClCompile Include="..\SDK\samples\SoundEngine\Common\AkFileLocationBase.cpp" />
+    <ClCompile Include="..\SDK\samples\SoundEngine\Common\AkFilePackageLUT.cpp" />
+    <ClCompile Include="WwiseEngine.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,34 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AKAdditions\SampleLowLevelIO\Common\AkFileLocationBase.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AKAdditions\SampleLowLevelIO\Common\AkFilePackage.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AKAdditions\SampleLowLevelIO\Common\AkFilePackageLUT.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WwiseEngine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SDK\samples\SoundEngine\Win32\AkFileHelpers.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="WwiseEngine.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SDK\include\AK\Tools\Win32\ThreadEmulation.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="..\AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\SDK\samples\SoundEngine\Common\AkFileLocationBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\samples\SoundEngine\Common\AkFilePackageLUT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDK\include\AK\Tools\Win32\ThreadEmulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WwiseEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\samples\SoundEngine\Common\AkFileLocationBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\samples\SoundEngine\Common\AkFilePackageLUT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDK\include\AK\Tools\Win32\ThreadEmulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AKAdditions\SampleLowLevelIO\Common\AkFilePackage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

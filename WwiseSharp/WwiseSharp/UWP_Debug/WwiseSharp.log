@@ -1,16 +1,1 @@
-﻿  WwiseSharpEngine.cpp
-  WwiseSharpGameObject.cpp
-  Generating Code...
-WwiseWrapper.lib(WwiseEngine.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
-     Creating library C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\UWP_Debug\WwiseSharp.lib and object C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\UWP_Debug\WwiseSharp.exp
-WwiseWrapper.lib(AkAudioLib.obj) : error LNK2019: unresolved external symbol "void __stdcall AK::ThreadEmulation::Sleep(unsigned long)" (?Sleep@ThreadEmulation@AK@@YGXK@Z) referenced in function "void __cdecl AKPLATFORM::AkSleep(unsigned long)" (?AkSleep@AKPLATFORM@@YAXK@Z)
-WwiseWrapper.lib(AkAudioMgr.obj) : error LNK2001: unresolved external symbol "void __stdcall AK::ThreadEmulation::Sleep(unsigned long)" (?Sleep@ThreadEmulation@AK@@YGXK@Z)
-WwiseWrapper.lib(AkOutputMgr.obj) : error LNK2001: unresolved external symbol "void __stdcall AK::ThreadEmulation::Sleep(unsigned long)" (?Sleep@ThreadEmulation@AK@@YGXK@Z)
-WwiseWrapper.lib(AkIOThread.obj) : error LNK2019: unresolved external symbol "void * __stdcall AK::ThreadEmulation::CreateThread(unsigned long (__stdcall*)(void *),void *,unsigned long)" (?CreateThread@ThreadEmulation@AK@@YGPAXP6GKPAX@Z0K@Z) referenced in function "public: void __thiscall AK::StreamMgr::CAkIOThread::DecrementIOCount(void)" (?DecrementIOCount@CAkIOThread@StreamMgr@AK@@QAEXXZ)
-WwiseWrapper.lib(AkAudioThread.obj) : error LNK2001: unresolved external symbol "void * __stdcall AK::ThreadEmulation::CreateThread(unsigned long (__stdcall*)(void *),void *,unsigned long)" (?CreateThread@ThreadEmulation@AK@@YGPAXP6GKPAX@Z0K@Z)
-WwiseWrapper.lib(AkMonitor.obj) : error LNK2001: unresolved external symbol "void * __stdcall AK::ThreadEmulation::CreateThread(unsigned long (__stdcall*)(void *),void *,unsigned long)" (?CreateThread@ThreadEmulation@AK@@YGPAXP6GKPAX@Z0K@Z)
-WwiseWrapper.lib(AkOutputMgr.obj) : error LNK2001: unresolved external symbol "void * __stdcall AK::ThreadEmulation::CreateThread(unsigned long (__stdcall*)(void *),void *,unsigned long)" (?CreateThread@ThreadEmulation@AK@@YGPAXP6GKPAX@Z0K@Z)
-WwiseWrapper.lib(AkThreadedBankMgr.obj) : error LNK2001: unresolved external symbol "void * __stdcall AK::ThreadEmulation::CreateThread(unsigned long (__stdcall*)(void *),void *,unsigned long)" (?CreateThread@ThreadEmulation@AK@@YGPAXP6GKPAX@Z0K@Z)
-WwiseWrapper.lib(AkIOThread.obj) : error LNK2019: unresolved external symbol "void __stdcall AK::ThreadEmulation::SleepEx(unsigned long,int)" (?SleepEx@ThreadEmulation@AK@@YGXKH@Z) referenced in function "protected: static unsigned long __stdcall AK::StreamMgr::CAkIOThread::IOSchedThread(void *)" (?IOSchedThread@CAkIOThread@StreamMgr@AK@@KGKPAX@Z)
-WwiseWrapper.lib(AkSinkXAudio2.obj) : error LNK2019: unresolved external symbol __imp__XAudio2Create@12 referenced in function "public: long __thiscall CXAudio2Base::Init(struct IXAudio2 *)" (?Init@CXAudio2Base@@QAEJPAUIXAudio2@@@Z)
-C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\UWP_Debug\WwiseSharp.dll : fatal error LNK1120: 4 unresolved externals
+﻿C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(2049,5): error MSB3843: Project "WwiseSharp" targets platform "Windows", but references SDK "Visual C++ 2015 Runtime for Universal Windows Platform Apps v14.0" which targets platform "UAP".

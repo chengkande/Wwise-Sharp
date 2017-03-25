@@ -3,6 +3,7 @@
 
 namespace WwiseSharp
 {
+#ifndef WWISE_UWP
 	public ref struct WwiseSharpMusicInfo
 	{
 	public:
@@ -11,6 +12,12 @@ namespace WwiseSharp
 		unsigned long playingID, beatDuration, barDuration, gridDuration, gridOffset;
 
 	};
+#else //UWP
+	public value struct WwiseSharpMusicInfo sealed
+	{
+		uint32 currentPosition, preEntryDuration, activeDuration, postExitDuration, remainingLookAheadTime;
+		uint32 playingID, beatDuration, barDuration, gridDuration, gridOffset;
+	};
+#endif
 }
-
 #endif

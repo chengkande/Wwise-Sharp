@@ -6,18 +6,13 @@ Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934
 Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
 Class WwiseSharp.WwiseSharpTransform: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-    Void .ctor(Single, Single, Single, Single, Single, Single, Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
     Void .ctor(Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
     Single Xposition : Public
     Single Yposition : Public
     Single Zposition : Public
-    Single XorientationFront : Public
-    Single YorientationFront : Public
-    Single ZorientationFront : Public
-    Single XorientationTop : Public
-    Single YorientationTop : Public
-    Single ZorientationTop : Public
+  Methods:
+    SetPosition(Single, Single): PrivateScope, Public, HideBySig
 Class WwiseSharp.WwiseSharpMusicInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
