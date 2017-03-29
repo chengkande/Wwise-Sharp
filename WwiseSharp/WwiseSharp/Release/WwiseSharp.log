@@ -1,8 +1,14 @@
-﻿     Creating library C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\WwiseSharp.lib and object C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\WwiseSharp.exp
+﻿  WwiseSharpTransform.cpp
+  WwiseSharpEngine.cpp
+  WwiseSharpGameObject.cpp
+  WwiseSharpMusicInfo.cpp
+  Generating Code...
+  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+     Creating library C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\WwiseSharp.lib and object C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\WwiseSharp.exp
   Generating code
-  78 of 127 functions (61.4%) were compiled, the rest were copied from previous compilation.
-    1 functions were new in current compilation
-    2 functions had inline decision re-evaluated but remain unchanged
+  0 of 127 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 WwiseWrapper.lib(InitAkMeterFX.obj) : warning LNK4099: PDB 'AkMeterFX.pdb' was not found with 'WwiseWrapper.lib(InitAkMeterFX.obj)' or at 'C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\AkMeterFX.pdb'; linking object as if no debug info
 WwiseWrapper.lib(AkMeterManager.obj) : warning LNK4099: PDB 'AkMeterFX.pdb' was not found with 'WwiseWrapper.lib(AkMeterManager.obj)' or at 'C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\Release\AkMeterFX.pdb'; linking object as if no debug info
