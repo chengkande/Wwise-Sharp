@@ -126,7 +126,7 @@ namespace WindowsFormsApplication1
         
         private void button1_Click(object sender, EventArgs e)
         {
-            WwiseObject.PostEvent("ambience_princess_room_play"); 
+            Wwise.SetGlobalRTPCValue("Music_Volume",0); 
         }
 
         private void button2_Click(object sender, EventArgs e)

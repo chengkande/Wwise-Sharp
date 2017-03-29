@@ -19,7 +19,7 @@ WwiseSharpEngine::WwiseSharpEngine()
 {
 	akengine = new WwiseEngine();
 	listenerPos = new AkTransform;
-	listenerPos->Set(0,0,0,0,1,0,0,0,1);
+	listenerPos->Set(0,0,0,0,1,0,0,0,-1);
 	//pStringToLPCWSTR = gcnew Array::Converter<System::String^, LPCWSTR>(StringToLPCWSTRMethod);
 }
 
@@ -155,13 +155,13 @@ void WwiseSharpEngine::SetGlobalRTPCValue(System::String^ rtpcName, float value)
 
 void WwiseSharpEngine::SetListenerPosition(WwiseSharpTransform^ listenerPosition)
 {
-	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition,0,1,0,0,0,1);
+	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition,0,1,0,0,0,-1);
 
 	akengine->SetListenerPosition(*listenerPos);
 }
 void WwiseSharpEngine::SetListenerPosition(int listenerIndex, WwiseSharpTransform^ listenerPosition)
 {
-	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition, 0, 1, 0, 0, 0, 1);
+	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition, 0, 1, 0, 0, 0, -1);
 
 	akengine->SetListenerPosition(listenerIndex, *listenerPos);
 }
@@ -231,7 +231,7 @@ WwiseSharpEngine::WwiseSharpEngine()
 {
 	akengine = new WwiseEngine();
 	listenerPos = new AkTransform;
-	listenerPos->Set(0, 0, 0, 0, 1, 0, 0, 0, 1);
+	listenerPos->Set(0, 0, 0, 0, 1, 0, 0, 0, -1);
 	//pStringToLPCWSTR = gcnew Array::Converter<Platform::String^, LPCWSTR>(StringToLPCWSTRMethod);
 }
 
@@ -361,14 +361,14 @@ void WwiseSharpEngine::SetGlobalRTPCValue(uint32 rtpcId, float32 value)
 void WwiseSharpEngine::SetListenerPosition(WwiseSharpTransform^ listenerPosition)
 {
 
-	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition, 0, 1, 0, 0, 0, 1);
+	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition, 0, 1, 0, 0, 0, -1);
 
 	akengine->SetListenerPosition(*listenerPos);
 }
 void WwiseSharpEngine::SetListenerPosition(uint16 listenerIndex, WwiseSharpTransform^ listenerPosition)
 {
 
-	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition, 0, 1, 0, 0, 0, 1);
+	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition, 0, 1, 0, 0, 0, -1);
 
 	akengine->SetListenerPosition(listenerIndex, *listenerPos);
 }
