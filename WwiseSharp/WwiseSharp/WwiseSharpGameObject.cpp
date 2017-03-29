@@ -10,11 +10,8 @@ using namespace WwiseSharp;
 #ifndef WWISE_UWP
 WwiseSharpGameObject::WwiseSharpGameObject(unsigned int wwiseObjectId, System::String^ wwiseLabel, WwiseEngine* engine)
 {
-	pos = new AkVector{ 0,0,0 };
-	front = new AkVector{ 0,0,1 };
-	top = new AkVector{ 0,1,0 };
-	thisPosition->SetPosition(*pos);
-	thisPosition->SetOrientation(*front, *top);
+	thisPosition = new AkTransform;
+	thisPosition->Set(0,0,0,0,1,0,0,0,1);
 
 
 	label = static_cast<char *>(System::Runtime::InteropServices::Marshal::StringToHGlobalAnsi(wwiseLabel).ToPointer());
@@ -119,11 +116,7 @@ void WwiseSharpGameObject::PostMusicSyncEvent_Bar(System::String^ eventName)
 
 void WwiseSharpGameObject::SetSinglePosition(WwiseSharpTransform^ position)
 {
-	pos->X = position->Xposition;
-	pos->Y = position->Yposition;
-	pos->Z = position->Zposition;
-
-	thisPosition->SetPosition(*pos);
+	thisPosition->Set(position->Xposition, position->Yposition, position->Zposition, 0, 1, 0, 0, 0, 1);
 
 	engine->SetPosition(objectId, *thisPosition);
 }
@@ -133,13 +126,7 @@ void WwiseSharpGameObject::SetMultiplePositions(array<WwiseSharpTransform^>^ pos
 	//Fucking ignore orientation completely and normalize it so the profiler shuts up
 	for (unsigned short x = 0; x < numPositions; x++)
 	{
-		AkVector akVectorPosition;
-		akVectorPosition.X = positions[x]->Xposition;
-		akVectorPosition.Y = positions[x]->Yposition;
-		akVectorPosition.Z = positions[x]->Zposition;
-
-		akSoundPositions[x].SetPosition(akVectorPosition);
-		akSoundPositions[x].SetOrientation(*front, *top);
+		akSoundPositions[x].Set(positions[x]->Xposition, positions[x]->Yposition, positions[x]->Zposition, 0, 1, 0, 0, 0, 1);
 	}
 
 	engine->SetMultiplePositions(objectId, akSoundPositions, static_cast<AkUInt16>(numPositions));
@@ -241,12 +228,8 @@ void WwiseSharpGameObject::RemoveTearReverbSend()
 
 WwiseSharpGameObject::WwiseSharpGameObject(uint32 wwiseObjectId, Platform::String^ wwiseLabel, WwiseEngine* engine)
 {
-	pos = new AkVector{ 0,0,0 };
-	front = new AkVector{ 0,0,1 };
-	top = new AkVector{ 0,1,0 };
-	thisPosition->SetPosition(*pos);
-	thisPosition->SetOrientation(*front, *top);
-
+	thisPosition = new AkTransform;
+	thisPosition->Set(0, 0, 0, 0, 1, 0, 0, 0, 1);
 
 	const wchar_t* w = wwiseLabel->Data();
 	size_t i;
@@ -352,11 +335,7 @@ void WwiseSharpGameObject::PostMusicSyncEvent_Bar(Platform::String^ eventName)
 
 void WwiseSharpGameObject::SetSinglePosition(WwiseSharpTransform^ position)
 {
-	pos->X = position->Xposition;
-	pos->Y = position->Yposition;
-	pos->Z = position->Zposition;
-
-	thisPosition->SetPosition(*pos);
+	thisPosition->Set(position->Xposition, position->Yposition, position->Zposition, 0, 1, 0, 0, 0, 1);
 
 	engine->SetPosition(objectId, *thisPosition);
 }
@@ -366,13 +345,7 @@ void WwiseSharpGameObject::SetMultiplePositions(const Platform::Array<WwiseSharp
 	//Fucking ignore orientation completely and normalize it so the profiler shuts up
 	for (unsigned short x = 0; x < numPositions; x++)
 	{
-		AkVector akVectorPosition;
-		akVectorPosition.X = positions[x]->Xposition;
-		akVectorPosition.Y = positions[x]->Yposition;
-		akVectorPosition.Z = positions[x]->Zposition;
-
-		akSoundPositions[x].SetPosition(akVectorPosition);
-		akSoundPositions[x].SetOrientation(*front, *top);
+		akSoundPositions[x].Set(positions[x]->Xposition, positions[x]->Yposition, positions[x]->Zposition, 0, 1, 0, 0, 0, 1);
 	}
 
 	engine->SetMultiplePositions(objectId, akSoundPositions, static_cast<AkUInt16>(numPositions));

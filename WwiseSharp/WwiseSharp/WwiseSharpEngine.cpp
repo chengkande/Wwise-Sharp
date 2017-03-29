@@ -18,11 +18,8 @@ using namespace WwiseSharp;
 WwiseSharpEngine::WwiseSharpEngine()
 {
 	akengine = new WwiseEngine();
-	pos = new AkVector{ 0,0,0 };
-	front = new AkVector{ 0,0,0 };
-	top = new AkVector{ 0,0,0 };
-	listenerPos->SetPosition(*pos);
-	listenerPos->SetOrientation(*front, *top);
+	listenerPos = new AkTransform;
+	listenerPos->Set(0,0,0,0,1,0,0,0,1);
 	//pStringToLPCWSTR = gcnew Array::Converter<System::String^, LPCWSTR>(StringToLPCWSTRMethod);
 }
 
@@ -158,21 +155,13 @@ void WwiseSharpEngine::SetGlobalRTPCValue(System::String^ rtpcName, float value)
 
 void WwiseSharpEngine::SetListenerPosition(WwiseSharpTransform^ listenerPosition)
 {
-	pos->X = listenerPosition->Xposition;
-	pos->Y = listenerPosition->Yposition;
-	pos->Z = listenerPosition->Zposition;
-
-	listenerPos->SetPosition(*pos);
+	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition,0,1,0,0,0,1);
 
 	akengine->SetListenerPosition(*listenerPos);
 }
 void WwiseSharpEngine::SetListenerPosition(int listenerIndex, WwiseSharpTransform^ listenerPosition)
 {
-	pos->X = listenerPosition->Xposition;
-	pos->Y = listenerPosition->Yposition;
-	pos->Z = listenerPosition->Zposition;
-
-	listenerPos->SetPosition(*pos);
+	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition, 0, 1, 0, 0, 0, 1);
 
 	akengine->SetListenerPosition(listenerIndex, *listenerPos);
 }
@@ -241,11 +230,8 @@ void WwiseSharpEngine::SetLanguage(System::String^ language)
 WwiseSharpEngine::WwiseSharpEngine()
 {
 	akengine = new WwiseEngine();
-	pos = new AkVector{ 0,0,0 };
-	front = new AkVector{ 0,0,0 };
-	top = new AkVector{ 0,0,0 };
-	listenerPos->SetPosition(*pos);
-	listenerPos->SetOrientation(*front, *top);
+	listenerPos = new AkTransform;
+	listenerPos->Set(0, 0, 0, 0, 1, 0, 0, 0, 1);
 	//pStringToLPCWSTR = gcnew Array::Converter<Platform::String^, LPCWSTR>(StringToLPCWSTRMethod);
 }
 
@@ -374,21 +360,15 @@ void WwiseSharpEngine::SetGlobalRTPCValue(uint32 rtpcId, float32 value)
 
 void WwiseSharpEngine::SetListenerPosition(WwiseSharpTransform^ listenerPosition)
 {
-	pos->X = listenerPosition->Xposition;
-	pos->Y = listenerPosition->Yposition;
-	pos->Z = listenerPosition->Zposition;
 
-	listenerPos->SetPosition(*pos);
+	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition, 0, 1, 0, 0, 0, 1);
 
 	akengine->SetListenerPosition(*listenerPos);
 }
 void WwiseSharpEngine::SetListenerPosition(uint16 listenerIndex, WwiseSharpTransform^ listenerPosition)
 {
-	pos->X = listenerPosition->Xposition;
-	pos->Y = listenerPosition->Yposition;
-	pos->Z = listenerPosition->Zposition;
 
-	listenerPos->SetPosition(*pos);
+	listenerPos->Set(listenerPosition->Xposition, listenerPosition->Yposition, listenerPosition->Zposition, 0, 1, 0, 0, 0, 1);
 
 	akengine->SetListenerPosition(listenerIndex, *listenerPos);
 }

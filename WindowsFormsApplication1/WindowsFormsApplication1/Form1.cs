@@ -37,7 +37,7 @@ namespace WindowsFormsApplication1
             InitializeComponent();
             Wwise.Init();
             Console.WriteLine(path);
-            Wwise.SetBasePath(path+"Wwise/Banks/");
+            Wwise.SetBasePath("C:/Users/Miles/Desktop/JUSTINCASE/SuperDarylDeluxe/GeneratedSoundBanks/Windows");
             //Wwise.SetAudioSrcPath("C:/Users/Miles/Documents/GitHub/WwiseSharp/wwisesharp/WindowsFormsApplication1/WindowsFormsApplication1/Wwise/Banks/"); //only for external sources
             //Wwise.InitReverb();
             Wwise.LoadBank("Init.bnk");
@@ -54,7 +54,7 @@ namespace WindowsFormsApplication1
             WwiseObject.PostEvent("Enable_Reverb");
 
             //set Listener back 50 so we can hear the left/right
-            WwiseSharpTransform listenerPos = new WwiseSharpTransform(0,0,-50,0,0,1,0,1,0);
+            WwiseSharpTransform listenerPos = new WwiseSharpTransform(0,0,-50);
 
             Wwise.SetListenerPosition(listenerPos);
             stopwatch.Restart();
@@ -174,7 +174,7 @@ namespace WindowsFormsApplication1
         {
             //change to - play music sync event
             
-            WwiseSharpTransform objPos = new WwiseSharpTransform(-10,0,0,0,0,1,0,1,0);
+            WwiseSharpTransform objPos = new WwiseSharpTransform(-10,0,0);
 
             WwiseObject2.SetSinglePosition(objPos);
             
@@ -186,7 +186,7 @@ namespace WindowsFormsApplication1
         {
             //change to updateRTPC for tempo
             
-            WwiseSharpTransform objPos = new WwiseSharpTransform(0,0,0,0,0,1,0,1,0);
+            WwiseSharpTransform objPos = new WwiseSharpTransform(0,0,0);
 
             WwiseObject2.SetSinglePosition(objPos);
             
@@ -197,7 +197,7 @@ namespace WindowsFormsApplication1
         {
             //change to Update Game Parameter event
             
-            WwiseSharpTransform objPos = new WwiseSharpTransform(10,0,0,0,0,1,0,1,0);
+            WwiseSharpTransform objPos = new WwiseSharpTransform(10,0,0);
 
             WwiseObject2.SetSinglePosition(objPos);
             

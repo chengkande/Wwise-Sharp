@@ -20,7 +20,6 @@ namespace WwiseSharp
 		WwiseEngine* engine;
 
 		AkTransform* thisPosition;
-		AkVector *pos, *top, *front;
 
 		AkGameObjectID objectId;
 		char* label;

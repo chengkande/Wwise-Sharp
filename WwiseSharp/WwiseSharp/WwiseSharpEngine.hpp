@@ -29,7 +29,6 @@ namespace WwiseSharp
 	{
 	private:
 		AkTransform *listenerPos;
-		AkVector *pos, *top, *front;
 	protected:
 		WwiseWrapper::WwiseEngine* akengine;
 

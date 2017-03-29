@@ -1,8 +1,20 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\\UWP\Release\) contains files shared from another project (WwiseWrapperUWP.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  WwiseSharpEngine.cpp
+  WwiseSharpGameObject.cpp
+C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\SDK\include\AK/SoundEngine/Platforms/Windows/AkTypes.h(60): warning C4005: 'AK_USE_METRO_API': macro redefinition (compiling source file ..\WwiseSharp\WwiseSharpGameObject.cpp)
+  C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\SDK\include\AK/SoundEngine/Platforms/Windows/AkTypes.h(60): note: command-line arguments:  see previous definition of 'AK_USE_METRO_API' (compiling source file ..\WwiseSharp\WwiseSharpGameObject.cpp)
+C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\SDK\include\AK/SoundEngine/Platforms/Windows/AkTypes.h(61): warning C4005: 'AK_USE_THREAD_EMULATION': macro redefinition (compiling source file ..\WwiseSharp\WwiseSharpGameObject.cpp)
+  C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\SDK\include\AK/SoundEngine/Platforms/Windows/AkTypes.h(61): note: command-line arguments:  see previous definition of 'AK_USE_THREAD_EMULATION' (compiling source file ..\WwiseSharp\WwiseSharpGameObject.cpp)
+C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\SDK\include\AK/SoundEngine/Platforms/Windows/AkTypes.h(60): warning C4005: 'AK_USE_METRO_API': macro redefinition (compiling source file ..\WwiseSharp\WwiseSharpEngine.cpp)
+  C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\SDK\include\AK/SoundEngine/Platforms/Windows/AkTypes.h(60): note: command-line arguments:  see previous definition of 'AK_USE_METRO_API' (compiling source file ..\WwiseSharp\WwiseSharpEngine.cpp)
+C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\SDK\include\AK/SoundEngine/Platforms/Windows/AkTypes.h(61): warning C4005: 'AK_USE_THREAD_EMULATION': macro redefinition (compiling source file ..\WwiseSharp\WwiseSharpEngine.cpp)
+  C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\SDK\include\AK/SoundEngine/Platforms/Windows/AkTypes.h(61): note: command-line arguments:  see previous definition of 'AK_USE_THREAD_EMULATION' (compiling source file ..\WwiseSharp\WwiseSharpEngine.cpp)
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
      Creating library C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\\UWP\Release\WwiseSharp.lib and object C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\\UWP\Release\WwiseSharp.exp
   Generating code
-  All 1116 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  13 of 1115 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 WwiseWrapper.lib(InitAkStereoDelayFX.obj) : warning LNK4099: PDB 'AkStereoDelayFX.pdb' was not found with 'WwiseWrapper.lib(InitAkStereoDelayFX.obj)' or at 'C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\UWP\Release\AkStereoDelayFX.pdb'; linking object as if no debug info
 WwiseWrapper.lib(AkStereoDelayLine.obj) : warning LNK4099: PDB 'AkStereoDelayFX.pdb' was not found with 'WwiseWrapper.lib(AkStereoDelayLine.obj)' or at 'C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\UWP\Release\AkStereoDelayFX.pdb'; linking object as if no debug info
