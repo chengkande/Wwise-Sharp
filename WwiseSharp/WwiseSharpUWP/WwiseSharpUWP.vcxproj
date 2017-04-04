@@ -155,7 +155,7 @@
       <SubSystem>Console</SubSystem>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <AdditionalLibraryDirectories>SDK/;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <WindowsMetadataFile>$(OutDir)WwiseSharp.winmd.winmd</WindowsMetadataFile>
+      <WindowsMetadataFile>$(OutDir)WwiseSharp.winmd</WindowsMetadataFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
