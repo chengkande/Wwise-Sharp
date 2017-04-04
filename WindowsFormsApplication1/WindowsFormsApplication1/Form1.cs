@@ -9,8 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using WwiseSharp;
+using AK;
 namespace WindowsFormsApplication1
 {
+
     public partial class Form1 : Form
     {
         WwiseSharpEngine Wwise = new WwiseSharpEngine();
@@ -18,6 +20,8 @@ namespace WindowsFormsApplication1
         WwiseSharpGameObject WwiseObject2;
         WwiseSharpGameObject TearMusic1;
         WwiseSharpGameObject TearMusic2;
+        WwiseSharpTransform Object1Pos;
+
         private uint globalObjectID = 100;
         private bool isCallbackEnabled = false;
         private bool cptSaxHasStarted = false;
@@ -32,6 +36,9 @@ namespace WindowsFormsApplication1
         float targetVolume = 100f;
         float currentVolume = 100f;
         string currentTrack;
+
+        const ulong CAPTAIN_SAX_ATTACK_STATE = 635726887U;
+
         public Form1()
         {
             InitializeComponent();
@@ -55,6 +62,7 @@ namespace WindowsFormsApplication1
 
             //set Listener back 50 so we can hear the left/right
             WwiseSharpTransform listenerPos = new WwiseSharpTransform(0,0,-50);
+            Object1Pos = new WwiseSharpTransform(0,0,0);
 
             Wwise.SetListenerPosition(listenerPos);
             stopwatch.Restart();
@@ -101,7 +109,7 @@ namespace WindowsFormsApplication1
                        // }
                     }
                 //}
-                 
+                WwiseObject.SetSinglePosition(Object1Pos);
                 Wwise.Update();
             }
         }
@@ -169,14 +177,12 @@ namespace WindowsFormsApplication1
             //weapon
             WwiseObject2.PostEvent("fowl_mouth_use");
         }
-
+        //left
         private void button9_Click(object sender, EventArgs e)
         {
             //change to - play music sync event
-            
-            WwiseSharpTransform objPos = new WwiseSharpTransform(-10,0,0);
 
-            WwiseObject2.SetSinglePosition(objPos);
+            Object1Pos.SetPosition(-10,0);
             
 
             //WwiseObject2.PostMusicSyncEvent_Bar("test_music_01");
@@ -185,22 +191,18 @@ namespace WindowsFormsApplication1
         private void button10_Click(object sender, EventArgs e)
         {
             //change to updateRTPC for tempo
-            
-            WwiseSharpTransform objPos = new WwiseSharpTransform(0,0,0);
 
-            WwiseObject2.SetSinglePosition(objPos);
-            
+            Object1Pos.SetPosition(0, 0);
+
             //WwiseObject2.PostEvent("set_tempo_180");
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
             //change to Update Game Parameter event
-            
-            WwiseSharpTransform objPos = new WwiseSharpTransform(10,0,0);
 
-            WwiseObject2.SetSinglePosition(objPos);
-            
+            Object1Pos.SetPosition(10, 0);
+
             //Wwise.SetGlobalRTPCValue("Captain_Sax_Tempo", 64f);
         }
 
@@ -403,7 +405,7 @@ namespace WindowsFormsApplication1
 
         private void button32_Click(object sender, EventArgs e)
         {
-            WwiseObject2.PostEvent("object_dj_booth_test_stop");
+            WwiseObject2.PostEvent('a');
         }
 
         //setup tear music objects
@@ -418,8 +420,8 @@ namespace WindowsFormsApplication1
 
         //enable tear music busses
         private void button34_Click(object sender, EventArgs e)
-        {
-            TearMusic1.PostEvent("Enable_Tear_Music");
+        {   //Enable_Tear_Music
+            TearMusic1.PostEvent(AK.id.EVENTS.ENABLE_TEAR_MUSIC);
         }
 
         //disable tear music busses

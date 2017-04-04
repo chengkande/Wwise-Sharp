@@ -6,18 +6,13 @@ Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934
 Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
 Class WwiseSharp.WwiseSharpTransform: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-    Void .ctor(Single, Single, Single, Single, Single, Single, Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
     Void .ctor(Single, Single, Single): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
     Single Xposition : Public
     Single Yposition : Public
     Single Zposition : Public
-    Single XorientationFront : Public
-    Single YorientationFront : Public
-    Single ZorientationFront : Public
-    Single XorientationTop : Public
-    Single YorientationTop : Public
-    Single ZorientationTop : Public
+  Methods:
+    SetPosition(Single, Single): PrivateScope, Public, HideBySig
 Class WwiseSharp.WwiseSharpMusicInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
@@ -64,9 +59,12 @@ Class WwiseSharp.WwiseSharpGameObject: AutoLayout, AnsiClass, Class, Public, Bef
     SetObjectRTPCValue(String, Single): PrivateScope, Public, HideBySig
     SetObjectRTPCValue(UInt32 IsLong, Single): PrivateScope, Public, HideBySig
     SetSwitch(String, String): PrivateScope, Public, HideBySig
-    SetSwitch(UInt32 IsLong, UInt32 IsLong): PrivateScope, Public, HideBySig
+    Seek(String, UInt32 IsLong): PrivateScope, Public, HideBySig
     GetSourcePlayPosition(UInt32 IsLong): PrivateScope, Public, HideBySig
     GetPlayingSegmentInfo(UInt32 IsLong): PrivateScope, Public, HideBySig
+    SetTearBusSend1(): PrivateScope, Public, HideBySig
+    SetTearBusSend2(): PrivateScope, Public, HideBySig
+    RemoveTearReverbSend(): PrivateScope, Public, HideBySig
     Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
 Class WwiseSharp.WwiseSharpGameObject+DCallbackFunc: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
   :System.MulticastDelegate
@@ -99,7 +97,9 @@ Class WwiseSharp.WwiseSharpEngine: AutoLayout, AnsiClass, Class, Public, BeforeF
     SetListenerPosition(WwiseSharpTransform): PrivateScope, Public, HideBySig
     SetPanType(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
     SetBusEffect(UInt32): PrivateScope, Public, HideBySig
+    SetBusEffect2(UInt32): PrivateScope, Public, HideBySig
     InitReverb(): PrivateScope, Public, HideBySig
+    SetLanguage(String): PrivateScope, Public, HideBySig
     Update(): PrivateScope, Public, HideBySig
     UnregisterGameObject(WwiseSharpGameObject): PrivateScope, Public, HideBySig
     UnregisterAllGameObject(): PrivateScope, Public, HideBySig

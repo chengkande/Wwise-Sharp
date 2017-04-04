@@ -16,6 +16,8 @@ WwiseSharpGameObject::WwiseSharpGameObject(unsigned int wwiseObjectId, System::S
 
 	label = static_cast<char *>(System::Runtime::InteropServices::Marshal::StringToHGlobalAnsi(wwiseLabel).ToPointer());
 	objectId = static_cast<AkGameObjectID>(wwiseObjectId);
+
+	//this is all music-only stuff
 	hasHitMarker = false;
 	out_puPosition = 0;
 	syncPlayingID = 0;
@@ -25,6 +27,7 @@ WwiseSharpGameObject::WwiseSharpGameObject(unsigned int wwiseObjectId, System::S
 	musicGridDuration = 0;
 	musicGridOffset = 0;
 
+	//this can be cleaned up a bit. not every object needs a music callback function allocation, just 1 or 2.
 	pDCallbackFunc = gcnew DCallbackFunc(this, &WwiseSharpGameObject::MusicSyncCallback);
 	gch = System::Runtime::InteropServices::GCHandle::Alloc(pDCallbackFunc);
 	System::IntPtr ip = System::Runtime::InteropServices::Marshal::GetFunctionPointerForDelegate(pDCallbackFunc);
@@ -133,6 +136,7 @@ void WwiseSharpGameObject::SetMultiplePositions(array<WwiseSharpTransform^>^ pos
 }
 
 //Update RTPC value for individual objects - doesn't work on Busses, will break SetGameParameter events
+//Can we start using ID's? would be much more efficient per frame
 void WwiseSharpGameObject::SetObjectRTPCValue(unsigned long rtpcId, float value)
 {
 	engine->SetObjectRTPCValue(static_cast<AkRtpcID>(rtpcId), static_cast<AkRtpcValue>(value), objectId);
@@ -143,12 +147,12 @@ void WwiseSharpGameObject::SetObjectRTPCValue(System::String^ rtpcName, float va
 	engine->SetObjectRTPCValue(static_cast<LPCWSTR>(static_cast<void *>(p)), static_cast<AkRtpcValue>(value), objectId);
 	System::Runtime::InteropServices::Marshal::FreeHGlobal(p);
 }
-/*
+
 void WwiseSharpGameObject::SetSwitch(unsigned long switchGroupId, unsigned long switchId)
 {
 	engine->SetSwitch(static_cast<AkSwitchGroupID>(switchGroupId), static_cast<AkSwitchStateID>(switchId), objectId);
 }
-*/
+
 void WwiseSharpGameObject::SetSwitch(System::String^ switchGroupName, System::String^ switchName)
 {
 	System::IntPtr p1 = System::Runtime::InteropServices::Marshal::StringToHGlobalUni(switchGroupName);
@@ -360,12 +364,12 @@ void WwiseSharpGameObject::SetObjectRTPCValue(Platform::String^ rtpcName, float3
 {
 	engine->SetObjectRTPCValue(rtpcName->Data(), static_cast<AkRtpcValue>(value), objectId);
 }
-/*
+
 void WwiseSharpGameObject::SetSwitch(uint32 switchGroupId, uint32 switchId)
 {
 engine->SetSwitch(static_cast<AkSwitchGroupID>(switchGroupId), static_cast<AkSwitchStateID>(switchId), objectId);
 }
-*/
+
 void WwiseSharpGameObject::SetSwitch(Platform::String^ switchGroupName, Platform::String^ switchName)
 {
 	engine->SetSwitch(switchGroupName->Data(), switchName->Data(), objectId);

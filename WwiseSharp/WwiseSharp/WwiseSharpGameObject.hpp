@@ -68,7 +68,7 @@ namespace WwiseSharp
 		void SetObjectRTPCValue(unsigned long rtpcId, float value);
 		void SetObjectRTPCValue(System::String^ rtpcName, float value);
 
-		//void SetSwitch(unsigned long switchGroupId, unsigned long switchId);
+		void SetSwitch(unsigned long switchGroupId, unsigned long switchId);
 		void SetSwitch(System::String^ switchGroupName, System::String^ switchName);
 
 		void Seek(System::String^ eventName, unsigned long position); //Position is in Ms
@@ -76,6 +76,7 @@ namespace WwiseSharp
 		unsigned long^ GetSourcePlayPosition(unsigned long in_PlayingID);
 		WwiseSharpMusicInfo^ GetPlayingSegmentInfo(unsigned long in_PlayingID);
 
+		//these are extremely specific methods
 		void SetTearBusSend1();
 		void SetTearBusSend2();
 		void RemoveTearReverbSend();
@@ -145,7 +146,7 @@ namespace WwiseSharp
 		void SetObjectRTPCValue(uint32 rtpcId, float32 value);
 
 
-		//void SetSwitch(uint32 switchGroupId, uint32 switchId);
+		void SetSwitch(uint32 switchGroupId, uint32 switchId);
 		void SetSwitch(Platform::String^ switchGroupName, Platform::String^ switchName);
 
 		void Seek(Platform::String^ eventName, uint32 position); //Position is in Ms

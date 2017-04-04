@@ -16,3 +16,4 @@ C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsForm
 C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
 C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
 C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb
+C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WwiseSharp.pdb

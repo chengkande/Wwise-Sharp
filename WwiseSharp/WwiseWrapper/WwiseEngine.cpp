@@ -109,6 +109,7 @@ bool WwiseEngine::Init()
 	AK::SoundEngine::GetDefaultPlatformInitSettings( platformInitSettings );
 
 	initSettings.uPrepareEventMemoryPoolID = AK::MemoryMgr::CreatePool(NULL, 16 * 1024 * 1024, 1024, AkMalloc);
+	platformInitSettings.eAudioAPI = AkAPI_Wasapi;
 	AK::MemoryMgr::SetPoolName(initSettings.uPrepareEventMemoryPoolID, L"PrepareEventPool");
 
 	if ( AK::SoundEngine::Init( &initSettings, &platformInitSettings ) != AK_Success )
@@ -325,12 +326,12 @@ void WwiseEngine::SetSwitch(const wchar_t* switchGroupName, const wchar_t* switc
 {
 	AK::SoundEngine::SetSwitch(switchGroupName, switchName, gameObjectId);
 }
-/*
+
 void WwiseEngine::SetSwitch(AkSwitchGroupID switchGroupId, AkSwitchStateID switchId, AkGameObjectID gameObjectId)
 {
 	AK::SoundEngine::SetSwitch(switchGroupId, switchId, gameObjectId);
 }
-*/
+
 void WwiseEngine::SetListenerPosition(AkListenerPosition& akPosition)
 {
 	AK::SoundEngine::SetListenerPosition(akPosition);
@@ -347,7 +348,7 @@ void WwiseEngine::SetPosition(AkGameObjectID gameObjectId, AkSoundPosition& posi
 
 void WwiseEngine::SetMultiplePositions(AkGameObjectID gameObjectId, AkSoundPosition* akPositions, AkUInt16 numPositions)
 {
-	AK::SoundEngine::SetMultiplePositions(gameObjectId, akPositions, numPositions, AK::SoundEngine::MultiPositionType_SingleSource); 
+	AK::SoundEngine::SetMultiplePositions(gameObjectId, akPositions, numPositions, AK::SoundEngine::MultiPositionType_MultiSources); 
 }
 
 void WwiseEngine::SetActiveListeners(AkGameObjectID gameObjectId, AkUInt32 listenerMask)
