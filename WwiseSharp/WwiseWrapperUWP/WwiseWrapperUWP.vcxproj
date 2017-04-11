@@ -117,9 +117,15 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)\UWP\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\UWP\$(Configuration)\</IntDir>
+    <TargetName>WwiseWrapper</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <GenerateManifest>false</GenerateManifest>
+    <TargetName>WwiseWrapper</TargetName>
+    <OutDir>$(SolutionDir)\UWP\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\UWP\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -191,27 +197,41 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SDK\;$(SolutionDir)\SDK\include/;$(SolutionDir)\SDK\Metro_x64_vc140\Debug\lib;$(SolutionDir)\SDK\include\AK\Plugin;$(SolutionDir)\SDK\include/AK/Tools/Win32;$(SolutionDir)\SDK\samples\SoundEngine\Common;$(SolutionDir)\SDK\samples\SoundEngine\Win32;$(SolutionDir);$(SolutionDir)\SDK\include\AK\SoundEngine\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;WWISE_UWP;WIN32_LEAN_AND_MEAN;_ITERATOR_DEBUG_LEVEL=2;WINAPI_FAMILY;AK_USE_THREAD_EMULATION;AK_USE_METRO_API;AK_IMPLEMENT_THREAD_EMULATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/ZW /AI "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages" /AI "C:\Program Files (x86)\Windows Kits\10\UnionMetadata" /FU Windows.winmd /FU Platform.winmd</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
     </Link>
+    <Lib>
+      <AdditionalDependencies>AkSoundEngine.lib;AkMusicEngine.lib;AkStreamMgr.lib;AkMemoryMgr.lib;AkVorbisDecoder.lib;AkMeterFX.lib;dxguid.lib;AkRoomVerbFX.lib;AkPeakLimiterFX.lib;AkStereoDelayFX.lib;CommunicationCentral.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SDK\Metro_x64_vc140\Debug\lib;$(DXSDK_DIR)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WWISE_UWP;WIN32_LEAN_AND_MEAN;WINAPI_FAMILY;AK_USE_THREAD_EMULATION;AK_USE_METRO_API;AK_IMPLEMENT_THREAD_EMULATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SDK\;$(SolutionDir)\SDK\include/;$(SolutionDir)\SDK\Metro_x64_vc140\Debug\lib;$(SolutionDir)\SDK\include\AK\Plugin;$(SolutionDir)\SDK\include/AK/Tools/Win32;$(SolutionDir)\SDK\samples\SoundEngine\Common;$(SolutionDir)\SDK\samples\SoundEngine\Win32;$(SolutionDir);$(SolutionDir)\SDK\include\AK\SoundEngine\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/ZW /AI "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages" /AI "C:\Program Files (x86)\Windows Kits\10\UnionMetadata" /FU Windows.winmd /FU Platform.winmd</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
     </Link>
+    <Lib>
+      <AdditionalDependencies>AkSoundEngine.lib;AkMusicEngine.lib;AkStreamMgr.lib;AkMemoryMgr.lib;AkVorbisDecoder.lib;AkMeterFX.lib;dxguid.lib;AkRoomVerbFX.lib;AkPeakLimiterFX.lib;AkStereoDelayFX.lib;CommunicationCentral.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SDK\Metro_x64_vc140\Debug\lib;$(DXSDK_DIR)\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\AKAdditions\SampleLowLevelIO\Windows\AkDefaultIOHookBlocking.h" />

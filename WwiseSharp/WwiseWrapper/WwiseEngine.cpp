@@ -11,7 +11,7 @@ using namespace WwiseWrapper;
 // and MUST be defined by the game developer.
 namespace AK
 {
-#ifdef WIN32
+
 	void * AllocHook( size_t in_size )
 	{
 		return malloc( in_size );
@@ -43,7 +43,7 @@ namespace AK
 		VirtualFree( in_pMemAddress, in_size, in_dwFreeType );
 	}
 	
-#endif
+
 }
 
 bool WwiseEngine::Init()

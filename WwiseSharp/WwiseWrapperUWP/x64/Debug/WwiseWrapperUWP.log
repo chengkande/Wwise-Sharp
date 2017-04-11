@@ -1,0 +1,14 @@
+﻿  AkDefaultIOHookBlocking.cpp
+  ThreadEmulation.cpp
+  AkFileLocationBase.cpp
+  AkFilePackage.cpp
+  AkFilePackageLUT.cpp
+  WwiseEngine.cpp
+c:\users\miles\documents\github\wwise-sharp\wwisesharp\wwisewrapper\wwiseengine.cpp(418): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\miles\documents\github\wwise-sharp\wwisesharp\akadditions\samplelowlevelio\windows\akdefaultiohookblocking.cpp(331): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\miles\documents\github\wwise-sharp\wwisesharp\sdk\samples\soundengine\common\akfilelocationbase.cpp(301): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\miles\documents\github\wwise-sharp\wwisesharp\sdk\samples\soundengine\common\akfilepackagelut.cpp(48): warning C4005: 'AK_STATIC_ASSERT': macro redefinition
+  c:\users\miles\documents\github\wwise-sharp\wwisesharp\sdk\samples\soundengine\common\akfilepackagelut.cpp(46): note: see previous definition of 'AK_STATIC_ASSERT'
+c:\users\miles\documents\github\wwise-sharp\wwisesharp\sdk\samples\soundengine\common\akfilepackagelut.cpp(284): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\miles\documents\github\wwise-sharp\wwisesharp\sdk\include\ak\tools\win32\threademulation.cpp(261): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+c:\users\miles\documents\github\wwise-sharp\wwisesharp\sdk\samples\soundengine\common\akfilepackage.cpp(74): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?

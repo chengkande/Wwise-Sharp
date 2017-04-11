@@ -118,9 +118,16 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)\UWP\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\UWP\$(Configuration)\</IntDir>
+    <TargetName>WwiseSharp</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <GenerateManifest>false</GenerateManifest>
+    <OutDir>$(SolutionDir)\UWP\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\UWP\$(Configuration)\</IntDir>
+    <TargetName>WwiseSharp</TargetName>
+    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -132,6 +139,7 @@
       <AdditionalOptions> /bigobj /ZW /AI "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages" /AI "C:\Program Files (x86)\Windows Kits\10\UnionMetadata"</AdditionalOptions>
       <DisableSpecificWarnings>28204</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>$(SolutionDir)\SDK\;$(SolutionDir)\SDK\include/;$(SolutionDir)\SDK\Metro_Win32_vc140\Debug\lib;$(SolutionDir)\SDK\include\AK\Plugin;$(SolutionDir)\SDK\include/AK/Tools/Win32;$(SolutionDir)\SDK\samples\SoundEngine\Common;$(SolutionDir)\SDK\samples\SoundEngine\Win32;$(SolutionDir);%(AdditionalIncludeDirectories)$(SolutionDir)/WwiseWrapper/;$(SolutionDir)/AKAdditions/SampleLowLevelIO/Windows/</AdditionalIncludeDirectories>
+      <CompileAsWinRT>false</CompileAsWinRT>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -190,32 +198,39 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PreprocessorDefinitions>_WINRT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>WINRT_DLL;WWISE_UWP;DEBUG;WIN32_LEAN_AND_MEAN;WWISESHARP_VORBIS;WINAPI_FAMILY;AK_USE_THREAD_EMULATION;AK_IMPLEMENT_THREAD_EMULATION;AK_USE_METRO_API;_ITERATOR_DEBUG_LEVEL=2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
       <AdditionalUsingDirectories>$(WindowsSDK_WindowsMetadata);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
-      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions> /bigobj /ZW /AI "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages" /AI "C:\Program Files (x86)\Windows Kits\10\UnionMetadata"</AdditionalOptions>
       <DisableSpecificWarnings>28204</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SDK\;$(SolutionDir)\SDK\include/;$(SolutionDir)\SDK\Metro_x64_vc140\Debug\lib;$(SolutionDir)\SDK\include\AK\Plugin;$(SolutionDir)\SDK\include/AK/Tools/Win32;$(SolutionDir)\SDK\samples\SoundEngine\Common;$(SolutionDir)\SDK\samples\SoundEngine\Win32;$(SolutionDir);%(AdditionalIncludeDirectories)$(SolutionDir)/WwiseWrapper/;$(SolutionDir)/AKAdditions/SampleLowLevelIO/Windows/</AdditionalIncludeDirectories>
+      <CompileAsWinRT>false</CompileAsWinRT>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>SDK/;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <WindowsMetadataFile>$(OutDir)WwiseSharp.winmd</WindowsMetadataFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PreprocessorDefinitions>_WINRT_DLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>WINRT_DLL;WWISE_UWP;WIN32_LEAN_AND_MEAN;WWISESHARP_VORBIS;WINAPI_FAMILY;AK_USE_THREAD_EMULATION;AK_IMPLEMENT_THREAD_EMULATION;AK_USE_METRO_API;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
       <AdditionalUsingDirectories>$(WindowsSDK_WindowsMetadata);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
-      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions> /bigobj /ZW /AI "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages" /AI "C:\Program Files (x86)\Windows Kits\10\UnionMetadata"</AdditionalOptions>
       <DisableSpecificWarnings>28204</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SDK\;$(SolutionDir)\SDK\include/;$(SolutionDir)\SDK\Metro_x64_vc140\Release\lib;$(SolutionDir)\SDK\include\AK\Plugin;$(SolutionDir)\SDK\include/AK/Tools/Win32;$(SolutionDir)\SDK\samples\SoundEngine\Common;$(SolutionDir)\SDK\samples\SoundEngine\Win32;$(SolutionDir);%(AdditionalIncludeDirectories)$(SolutionDir)/WwiseWrapper/;$(SolutionDir)/AKAdditions/SampleLowLevelIO/Windows/</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>SDK/;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <WindowsMetadataFile>$(OutDir)WwiseSharp.winmd</WindowsMetadataFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
