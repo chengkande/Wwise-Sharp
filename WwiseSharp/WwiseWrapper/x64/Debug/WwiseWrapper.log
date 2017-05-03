@@ -1,0 +1,16 @@
+﻿  AkFilePackage.cpp
+  AkDefaultIOHookBlocking.cpp
+  ThreadEmulation.cpp
+  AkFileLocationBase.cpp
+  AkFilePackageLUT.cpp
+  WwiseEngine.cpp
+  Generating Code...
+AkSoundEngine.lib(AkActiveParent.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+AkStereoDelayFX.lib(Mix2Interp.obj) : warning LNK4006: "void __cdecl DSP::Mix2Interp(float * __restrict,float * __restrict,float * __restrict,float,float,float,float,unsigned long)" (?Mix2Interp@DSP@@YAXPEIAM00MMMMK@Z) already defined in AkRoomVerbFX.lib(Mix2Interp.obj); second definition ignored
+AkStereoDelayFX.lib(Mix2Interp.obj) : warning LNK4006: "void __cdecl DSP::Mix2Interp(float * __restrict,float * __restrict,float,float,float,float,unsigned long)" (?Mix2Interp@DSP@@YAXPEIAM0MMMMK@Z) already defined in AkRoomVerbFX.lib(Mix2Interp.obj); second definition ignored
+AkStereoDelayFX.lib(Mix2Interp.obj) : warning LNK4006: "void __cdecl DSP::Mix2Interp(float * __restrict,float * __restrict,float,float,unsigned long)" (?Mix2Interp@DSP@@YAXPEIAM0MMK@Z) already defined in AkRoomVerbFX.lib(Mix2Interp.obj); second definition ignored
+AkStereoDelayFX.lib(Mix2Interp.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+AkStereoDelayFX.lib(Mix3Interp.obj) : warning LNK4006: "void __cdecl DSP::Mix3Interp(float * __restrict,float * __restrict,float * __restrict,float * __restrict,float,float,float,float,float,float,unsigned long)" (?Mix3Interp@DSP@@YAXPEIAM000MMMMMMK@Z) already defined in AkRoomVerbFX.lib(Mix3Interp.obj); second definition ignored
+AkStereoDelayFX.lib(Mix3Interp.obj) : warning LNK4006: "void __cdecl DSP::Mix3Interp(float * __restrict,float * __restrict,float * __restrict,float,float,float,float,float,float,unsigned long)" (?Mix3Interp@DSP@@YAXPEIAM00MMMMMMK@Z) already defined in AkRoomVerbFX.lib(Mix3Interp.obj); second definition ignored
+AkStereoDelayFX.lib(Mix3Interp.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  WwiseWrapper.vcxproj -> C:\Users\Miles\Documents\GitHub\Wwise-Sharp\WwiseSharp\x64\Debug\WwiseWrapper.lib

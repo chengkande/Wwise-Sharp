@@ -274,7 +274,8 @@ void WwiseSharpEngine::SetAudioSrcPath(Platform::String^ basePath)
 
 void WwiseSharpEngine::LoadBank(Platform::String^ bankName)
 {
-	akengine->LoadBank(bankName->Data());
+	const wchar_t* w_bankname = bankName->Data();
+	akengine->LoadBank(w_bankname);
 }
 void WwiseSharpEngine::UnloadBank(Platform::String^ bankName)
 {

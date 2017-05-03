@@ -210,8 +210,12 @@ void WwiseEngine::SetLooseMediaBasePath(const wchar_t* basepath)
 void WwiseEngine::LoadBank(const wchar_t *bankName)
 {
 	AkBankID bankID; // Not used. These banks can be unloaded with their file name.
-	if (AK::SoundEngine::LoadBank( bankName, AK_DEFAULT_POOL_ID, bankID ) != AK_Success)
-		throw std::exception("Failed at loading soundbank.");
+	AKRESULT result = AK::SoundEngine::LoadBank(bankName, AK_DEFAULT_POOL_ID, bankID);
+	if (result != AK_Success)
+	{
+		//throw std::exception("Failed at loading soundbank.");
+	}
+
 }
 
 void WwiseEngine::UnloadBank(const wchar_t *bankName)
