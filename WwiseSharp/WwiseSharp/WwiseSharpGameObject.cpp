@@ -124,7 +124,7 @@ void WwiseSharpGameObject::SetSinglePosition(WwiseSharpTransform^ position)
 	engine->SetPosition(objectId, *thisPosition);
 }
 void WwiseSharpGameObject::SetMultiplePositions(array<WwiseSharpTransform^>^ positions, unsigned short numPositions)
-{
+{	
 	AkTransform* akSoundPositions = new AkTransform[numPositions];
 	//Fucking ignore orientation completely and normalize it so the profiler shuts up
 	for (unsigned short x = 0; x < numPositions; x++)
@@ -133,6 +133,7 @@ void WwiseSharpGameObject::SetMultiplePositions(array<WwiseSharpTransform^>^ pos
 	}
 
 	engine->SetMultiplePositions(objectId, akSoundPositions, static_cast<AkUInt16>(numPositions));
+	delete akSoundPositions;
 }
 
 //Update RTPC value for individual objects - doesn't work on Busses, will break SetGameParameter events
@@ -353,6 +354,7 @@ void WwiseSharpGameObject::SetMultiplePositions(const Platform::Array<WwiseSharp
 	}
 
 	engine->SetMultiplePositions(objectId, akSoundPositions, static_cast<AkUInt16>(numPositions));
+	delete akSoundPositions;
 }
 
 //Update RTPC value for individual objects - doesn't work on Busses, will break SetGameParameter events

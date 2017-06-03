@@ -66,6 +66,9 @@
             this.button36 = new System.Windows.Forms.Button();
             this.button37 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
+            this.CreateTorches = new System.Windows.Forms.Button();
+            this.PlayTorches = new System.Windows.Forms.Button();
+            this.StopTorches = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -448,11 +451,44 @@
             this.button38.UseVisualStyleBackColor = true;
             this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
+            // CreateTorches
+            // 
+            this.CreateTorches.Location = new System.Drawing.Point(363, 406);
+            this.CreateTorches.Name = "CreateTorches";
+            this.CreateTorches.Size = new System.Drawing.Size(114, 42);
+            this.CreateTorches.TabIndex = 41;
+            this.CreateTorches.Text = "Create Torches";
+            this.CreateTorches.UseVisualStyleBackColor = true;
+            this.CreateTorches.Click += new System.EventHandler(this.CreateTorches_Click);
+            // 
+            // PlayTorches
+            // 
+            this.PlayTorches.Location = new System.Drawing.Point(484, 406);
+            this.PlayTorches.Name = "PlayTorches";
+            this.PlayTorches.Size = new System.Drawing.Size(97, 42);
+            this.PlayTorches.TabIndex = 42;
+            this.PlayTorches.Text = "Play Torches";
+            this.PlayTorches.UseVisualStyleBackColor = true;
+            this.PlayTorches.Click += new System.EventHandler(this.PlayTorches_Click);
+            // 
+            // StopTorches
+            // 
+            this.StopTorches.Location = new System.Drawing.Point(588, 406);
+            this.StopTorches.Name = "StopTorches";
+            this.StopTorches.Size = new System.Drawing.Size(91, 42);
+            this.StopTorches.TabIndex = 43;
+            this.StopTorches.Text = "Stop Torches";
+            this.StopTorches.UseVisualStyleBackColor = true;
+            this.StopTorches.Click += new System.EventHandler(this.StopTorches_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1031, 518);
+            this.Controls.Add(this.StopTorches);
+            this.Controls.Add(this.PlayTorches);
+            this.Controls.Add(this.CreateTorches);
             this.Controls.Add(this.button38);
             this.Controls.Add(this.button37);
             this.Controls.Add(this.button36);
@@ -538,6 +574,9 @@
         private System.Windows.Forms.Button button36;
         private System.Windows.Forms.Button button37;
         private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button CreateTorches;
+        private System.Windows.Forms.Button PlayTorches;
+        private System.Windows.Forms.Button StopTorches;
     }
 }
 

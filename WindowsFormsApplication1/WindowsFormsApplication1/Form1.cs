@@ -16,16 +16,19 @@ namespace WindowsFormsApplication1
     public partial class Form1 : Form
     {
         WwiseSharpEngine Wwise = new WwiseSharpEngine();
+        WwiseSharpGameObject torches;
         WwiseSharpGameObject WwiseObject;
         WwiseSharpGameObject WwiseObject2;
         WwiseSharpGameObject TearMusic1;
         WwiseSharpGameObject TearMusic2;
         WwiseSharpTransform Object1Pos;
+        WwiseSharpTransform[] torchpositions;
 
         private uint globalObjectID = 100;
         private bool isCallbackEnabled = false;
         private bool cptSaxHasStarted = false;
         private bool cptSaxCanStart = false;
+        private bool bTorchesAreAlive = false;
         long timer = 1000/60;
         long time = 0;
         long latency = 0;
@@ -58,6 +61,8 @@ namespace WindowsFormsApplication1
            
             WwiseObject = Wwise.RegisterGameObject(globalObjectID, "global");
             WwiseObject2 = Wwise.RegisterGameObject((uint)1, "local");
+            torches = Wwise.RegisterGameObject((uint)2, "torches");
+            torchpositions = new WwiseSharpTransform[32];
             WwiseObject.PostEvent("Enable_Reverb");
 
             //set Listener back 50 so we can hear the left/right
@@ -73,6 +78,10 @@ namespace WindowsFormsApplication1
         {
             while (IsApplicationIdle())
             {
+                if(bTorchesAreAlive)
+                {
+                    torches.SetMultiplePositions(torchpositions, 32);
+                }
                 if (timer <= stopwatch.ElapsedMilliseconds)
                 {
                     if (targetVolume > currentVolume)
@@ -443,6 +452,30 @@ namespace WindowsFormsApplication1
         private void button38_Click(object sender, EventArgs e)
         {
             TearMusic1.PostEvent("Stop_Music");
+        }
+
+        private void CreateTorches_Click(object sender, EventArgs e)
+        {
+
+            for(int x = 0; x < 32; x++)
+            {
+                torchpositions[x] = new WwiseSharpTransform(0, 50 * x, 0);
+            }
+            torches.SetMultiplePositions(torchpositions, 32);
+            
+            Wwise.PrepareBank("objects.bnk");
+            Wwise.LoadEvents(new string[] {"object_torch_play","object_torch_stop" }, 2);
+        }
+
+        private void PlayTorches_Click(object sender, EventArgs e)
+        {
+            bTorchesAreAlive = true;
+            torches.PostEvent(AK.id.EVENTS.OBJECT_TORCH_PLAY);
+        }
+
+        private void StopTorches_Click(object sender, EventArgs e)
+        {
+            torches.PostEvent(AK.id.EVENTS.OBJECT_TORCH_STOP);
         }
     }
 }
